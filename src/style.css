@@ -5,6 +5,32 @@
   box-sizing: border-box;
 }
 
+
+/* Loading */
+
+/* HACK:? loading in elements from javascript causes a sort of flickering
+ * as they load in and reposition, this is meant to hide some of it */
+
+body {
+  -webkit-animation-name: fadebody;
+  -webkit-animation-duration: 0.3s;
+  animation-name: fadebody;
+  animation-duration: 0.3s
+}
+
+@-webkit-keyframes fadebody {
+  from { opacity: 0 } 
+  to { opacity: 1 }
+}
+
+@keyframes fadebody { 
+  from { opacity: 0 } 
+  to { opacity: 1 }
+}
+
+
+/* General styling */
+
 body {
   background-color: #24273a;
   color: #cad3f5;
