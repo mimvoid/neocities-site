@@ -1,0 +1,157 @@
+/* Import fonts from Bunny Fonts, privacy-friendly alternative to Google Fonts */
+@import url(https://fonts.bunny.net/css?family=karla:400,400i,600|fira-code:700);
+
+body {
+  background-color: #24273a;
+  color: #cad3f5;
+  
+  font-family: Karla, sans-serif;
+  font-size: 1.1em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Fira Code', serif;
+}
+
+
+/* Link colors */
+
+a {
+  text-decoration: none;
+  color: #f5bde6;
+}
+
+/* Only change color for links in main content */
+.main a:visited {
+  color: #c6a0f6;
+}
+
+
+/* Date stats */
+
+hr {
+  margin: 1.5em 0;
+}
+
+.dates {
+  text-align: right;
+  font-size: 0.9em;
+}
+
+
+/* Header & footer */
+.header, .footer {
+  text-align: center;
+}
+
+.header {
+  margin: 4em 0 1em 0;
+}
+
+.footer {
+  margin: 4em 0 2.5em 0;
+  font-size: 0.9em;
+}
+
+
+/* Body & sidebar positions */
+
+.wrapper {
+  padding: 0 8%;
+}
+
+.wrapper-body {
+  display: flex;
+}
+
+.sidebar {
+  flex: 20%;
+}
+
+.main {
+  flex: 80%;
+}
+
+.wrapper-sidebar {
+  position: sticky;
+  top: 1.5em;
+}
+
+/* Content boxes */
+.box {
+  border: 2px solid #f5bde6;
+  border-radius: 4px;
+  margin: 0.75em;
+}
+
+.sidebar .wrapper-sidebar > .box {
+  padding: 1em;
+}
+
+.main > .box {
+ padding: 1em 2em;
+}
+
+
+/* Different screen ratios */
+@media(max-width: 940px) {
+  .wrapper {
+    padding: 4% 6% 0 6%;
+  }
+}
+
+@media(max-width: 840px) {
+ .wrapper {
+   padding: 4%;
+   padding-bottom: 0;
+ }
+}
+
+@media(max-width: 700px) {
+  .wrapper {
+    padding: 4% 1% 0 1%;
+  }
+}
+
+@media(orientation: portrait), (max-width:440px) {
+  .wrapper {
+    padding: 0;
+    padding-top: 2%;
+  }
+  
+  .wrapper-body {    
+    display: inline;
+  }
+  
+  .box {
+    margin: 0.4em;
+  }
+  
+  .sidebar {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrapper-sidebar {
+    position: static;
+    border: 2px solid #f5bde6;
+    border-radius: 4px;
+    margin: 0.75em 0.4em;
+    padding: 1em;
+    columns: 2;
+  }
+  
+  .wrapper-sidebar > .box {
+    display: contents; /* makes text behave as if they have no .box parent */
+    text-align: center;
+  }
+  
+  /* HACK: work out how to properly make columns or a button to hide or show links */
+  .wrapper-sidebar h4 {
+    display: none; 
+  }
+  
+  .main > .box {
+    padding: 1em;
+  }
+}
