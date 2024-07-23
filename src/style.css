@@ -1,6 +1,10 @@
 /* Import fonts from Bunny Fonts, privacy-friendly alternative to Google Fonts */
 @import url(https://fonts.bunny.net/css?family=karla:400,400i,600|fira-code:700);
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #24273a;
   color: #cad3f5;
@@ -60,7 +64,7 @@ hr {
   padding: 0 8%;
 }
 
-.wrapper-body {
+.body {
   display: flex;
 }
 
@@ -72,7 +76,7 @@ hr {
   flex: 80%;
 }
 
-.wrapper-sidebar {
+nav {
   position: sticky;
   top: 1.5em;
 }
@@ -84,7 +88,7 @@ hr {
   margin: 0.75em;
 }
 
-.sidebar .wrapper-sidebar > .box {
+.sidebar nav > .box {
   padding: 1em;
 }
 
@@ -119,7 +123,7 @@ hr {
     padding-top: 2%;
   }
   
-  .wrapper-body {    
+  .body {    
     display: inline;
   }
   
@@ -132,7 +136,7 @@ hr {
     justify-content: center;
   }
   
-  .wrapper-sidebar {
+  nav {
     position: static;
     border: 2px solid #f5bde6;
     border-radius: 4px;
@@ -141,13 +145,13 @@ hr {
     columns: 2;
   }
   
-  .wrapper-sidebar > .box {
+  nav > .box {
     display: contents; /* makes text behave as if they have no .box parent */
     text-align: center;
   }
   
   /* HACK: work out how to properly make columns or a button to hide or show links */
-  .wrapper-sidebar h4 {
+  nav h4 {
     display: none; 
   }
   
