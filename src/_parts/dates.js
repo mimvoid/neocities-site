@@ -1,3 +1,12 @@
+// Set values when undefined or null
+if(typeof(lastUpdated) === "undefined" || lastUpdated === null) {
+  lastUpdated = '?'
+}
+
+if(typeof(created) === "undefined" || created === null) {
+  created = '?'
+}
+
 const content = document.querySelector('#content')
 const dates = `
 <hr>
