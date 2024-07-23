@@ -9,3 +9,4 @@ function loadScript(url) {
 loadScript('/_parts/header.js');
 loadScript('/_parts/sidebar.js');
 loadScript('/_parts/footer.js');
+loadScript('/_parts/dates.js');
