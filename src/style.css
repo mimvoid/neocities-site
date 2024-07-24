@@ -1,6 +1,21 @@
 /* Import fonts from Bunny Fonts, privacy-friendly alternative to Google Fonts */
 @import url(https://fonts.bunny.net/css?family=karla:400,400i,600|fira-code:700);
 
+/* Define variables */
+:root {
+  /* Colors */
+  --bg: #24273a;
+  --fg: #cad3f5;
+  --main-accent: #f5bde6;
+  --sec-accent: #c6a0f6;
+  --border-color: var(--main-accent);
+  --link-color: var(--main-accent);
+  --link-color-old: var(--sec-accent);
+  /* Fonts */
+  --body-font: 'Karla', sans-serif;
+  --header-font: 'Fira Code', serif;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -32,15 +47,15 @@ body {
 /* General styling */
 
 body {
-  background-color: #24273a;
-  color: #cad3f5;
+  background-color: var(--bg);
+  color: var(--fg);
   
-  font-family: Karla, sans-serif;
+  font-family: var(--body-font);
   font-size: 1.1em;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Fira Code', serif;
+  font-family: var(--header-font);
 }
 
 
@@ -48,20 +63,20 @@ h1, h2, h3, h4 {
 
 a {
   text-decoration: none;
-  color: #f5bde6;
+  color: var(--link-color);
 }
 
 /* "> Link name" appears when hovered or focused */ 
 .sidebar a:hover:before, .sidebar a:focus:before {
   content: "> ";
-  color: #cad3f5;
+  color: var(--fg);
   left: 0;
   top: 0;
 }
 
 /* Only change color for links in main content */
 .main a:visited {
-  color: #c6a0f6;
+  color: var(--link-color-old);
 }
 
 
@@ -117,7 +132,7 @@ nav {
 
 /* Content boxes */
 .box {
-  border: 2px solid #f5bde6;
+  border: 2px solid var(--border-color);
   border-radius: 4px;
   margin: 0.75em 0.6em;
 }
@@ -172,7 +187,7 @@ nav {
   
   nav {
     position: static;
-    border: 2px solid #f5bde6;
+    border: 2px solid var(--border-color);
     border-radius: 4px;
     margin: 0.75em 0.4em;
     padding: 1em;
