@@ -51,6 +51,14 @@ a {
   color: #f5bde6;
 }
 
+/* "> Link name" appears when hovered or focused */ 
+.sidebar a:hover:before, .sidebar a:focus:before {
+  content: "> ";
+  color: #cad3f5;
+  left: 0;
+  top: 0;
+}
+
 /* Only change color for links in main content */
 .main a:visited {
   color: #c6a0f6;
@@ -111,11 +119,11 @@ nav {
 .box {
   border: 2px solid #f5bde6;
   border-radius: 4px;
-  margin: 0.75em;
+  margin: 0.75em 0.6em;
 }
 
 .sidebar nav > .box {
-  padding: 1em;
+  padding: 0.85em;
 }
 
 .main > .box {
