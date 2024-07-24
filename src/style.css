@@ -14,6 +14,8 @@
   /* Fonts */
   --body-font: 'Karla', sans-serif;
   --header-font: 'Fira Code', serif;
+  /* Images */
+  --bg-img: url('/_assets/bck-grid_sadgrl.webp');
 }
 
 * {
@@ -47,6 +49,7 @@ body {
 /* General styling */
 
 body {
+  background-image: var(--bg-img);
   background-color: var(--bg);
   color: var(--fg);
   
@@ -135,6 +138,7 @@ nav {
   border: 2px solid var(--border-color);
   border-radius: 4px;
   margin: 0.75em 0.6em;
+  background-color: var(--bg);
 }
 
 .sidebar nav > .box {
