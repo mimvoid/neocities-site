@@ -83,6 +83,40 @@ a {
 }
 
 
+/* Details (toggle lists) */
+
+/* hide the default triangle */
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  display: block;
+  position: relative;
+  left: 0.9rem;
+  padding: 0.5rem 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* replace the triangle */
+summary:before {
+  content: '> ';
+  color: var(--main-accent);
+  font-weight: bold;
+  position: absolute;
+  left: -0.9rem;
+  transform: rotate(0);
+  transform-origin: 0.3rem 50%;
+  transition: 0.1s transform;
+}
+
+/* triangle animation */
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+
 /* Date stats */
 
 hr {
