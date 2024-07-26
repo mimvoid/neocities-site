@@ -83,6 +83,18 @@ a {
 }
 
 
+/* Lists */
+
+li {
+  padding: 0.25rem 0;
+}
+
+/* color the bullets */
+li::marker {
+  color: var(--main-accent);
+}
+
+
 /* Details (toggle lists) */
 
 /* hide the default triangle */
