@@ -1,11 +1,17 @@
-/* Import fonts from Bunny Fonts, privacy-friendly alternative to Google Fonts */
+/* Fonts from Bunny Fonts, privacy-friendly alternative to Google Fonts */
 @import url(https://fonts.bunny.net/css?family=karla:400,400i,600|fira-code:700);
+/* Font Awesome icons */
+@import url('/_fontawesome/css/fontawesome.min.css');
+@import url('/_fontawesome/css/solid.min.css');
+@import url('/_fontawesome/css/regular.min.css');
+@import url('/_fontawesome/css/brands.min.css');
 
 /* Define variables */
 :root {
   /* Colors */
   --bg: #24273a;
   --fg: #cad3f5;
+  --overlay: #494d6450;
   --main-accent: #f5bde6;
   --sec-accent: #c6a0f6;
   --border-color: var(--main-accent);
@@ -49,6 +55,7 @@ body {
 /* General styling */
 
 body {
+  margin: 0;
   background-image: var(--bg-img);
   background-color: var(--bg);
   color: var(--fg);
@@ -59,6 +66,14 @@ body {
 
 h1, h2, h3, h4 {
   font-family: var(--header-font);
+}
+
+i {
+  position: relative;
+  bottom: 0.08em; /* move up to align with text */
+  margin-right: 0.5em;
+  font-size: 0.75em;
+  color: var(--fg);
 }
 
 
@@ -133,6 +148,8 @@ details[open] > summary:before {
 
 hr {
   margin: 1.5em 0;
+  color: var(--fg);
+  opacity: 0.25;
 }
 
 .dates {
@@ -142,17 +159,92 @@ hr {
 
 
 /* Header & footer */
-.header, .footer {
-  text-align: center;
-}
 
 .header {
-  margin: 4em 0 1em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.75em;
+  padding: 0.5em 5em 0 5em;
+  background-color: var(--bg);
+
+  .tab {
+    display: inline-block;
+    padding: 0 1em;
+    background-image: var(--bg-img);
+  }
+
+  .tab a * {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: inline-block;
+  }
+
+  .actions {
+    opacity: 0.8;
+  }
+
+  p {
+    font-weight: bold;
+    color: var(--fg);
+  }
+
+  .fa-folder-open {
+    color: var(--main-accent);
+  }
+
+  .fa-window-restore {
+    font-size: 0.65em;
+  }
+
+  .fa-xmark {
+    bottom: 0;
+    font-size: 0.85em;
+  }
 }
 
 .footer {
-  margin: 4em 0 2.5em 0;
-  font-size: 0.9em;
+  margin: 3em 0 2.5em 0;
+  font-size: 0.95em;
+  background-color: var(--bg);
+}
+
+.footer .bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25em 0;
+
+  * {
+    padding: 0;
+    display: inline-block;
+  }
+
+  /* Make them be on one line */
+  .left p, .right p {
+    padding: 0.25em 0.5em;
+    display: inline;
+  }
+}
+
+.footer .bar {
+  /* Accented background, dark text */
+  #mode, #mode i, #top, #top * {
+    color: var(--bg);
+    background-color: var(--main-accent);
+  }
+
+  #source-code, #credits {
+    color: var(--main-accent);
+    background-color: var(--overlay);
+  }
+
+  #source-code i {
+    color: var(--main-accent);
+  }
+
+  #author, #filetype {
+    opacity: 0.75;
+  }
 }
 
 
