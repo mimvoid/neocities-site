@@ -1,0 +1,81 @@
+#HCB_comment_box {
+  padding: 0 4em;
+}
+
+/* Set font */
+#HCB_comment_box * {
+  font-family: var(--body-font) !important;
+  font-size: 1em !important;
+}
+
+#HCB_comment_box h3 {
+  font-family: var(--header-font) !important;
+  font-size: 32px !important;
+}
+
+.date, #replying_to_container {
+  color: var(--fg) !important;
+  opacity: 0.5;
+}
+
+/* Text boxes */
+#HCB_comment_box #hcb_form_content,
+#HCB_comment_box #hcb_form_email,
+#HCB_comment_box #hcb_form_name,
+#HCB_comment_box #hcb_form_website,
+#HCB_comment_box #comments_list blockquote {
+  box-shadow: none;
+  border: 2px solid var(--main-accent);
+  color: var(--fg);
+  background-color: var(--bg);
+}
+
+
+#HCB_comment_box #comments_list blockquote {
+  border-radius: 3px;
+  padding: 0.75em 0.5em;
+
+  .date {
+    font-size: 0.8em !important;
+  }
+
+  .hcb-comment-body {
+    margin: 0.75em 0 0.5em 0;
+  }
+}
+
+#HCB_comment_box #comments_list .hcb-comment-tb {
+  text-align: right;
+
+  button {
+    color: var(--fg);
+    font-size: 0.8em !important;
+    font-weight: normal !important;
+    opacity: 0.75;
+  }
+}
+
+/* Misc */
+#HCB_comment_box .btn {
+  border-radius: 0;
+  padding: 0.5em 0.75em !important;
+  font-size: 0.9em !important;
+  background: none !important;
+  background-color: var(--overlay) !important;
+  color: var(--fg) !important;
+}
+
+#HCB_comment_box .btn:hover {
+  background-color: var(--main-accent) !important;
+  color: var(--bg) !important;
+  transition: all 0.2s;
+}
+
+#HCB_comment_box #hcb_form .home-desc {
+  font-size: 13px !important;
+
+  a:link, a:visited {
+    font-size: 13px !important;
+    color: var(--main-accent);
+  }
+}

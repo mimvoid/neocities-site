@@ -20,7 +20,7 @@ const sidebar = `
       </details>
     </div>
     <div class="box">
-      <p>Guestbook (TBA!)</p>
+      <p><a href="/guestbook">Guestbook</a></p>
     </div>
   </nav>
 </div>
