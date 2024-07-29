@@ -211,6 +211,8 @@ hr {
 
 .footer .bar {
   display: flex;
+  flex-flow: row wrap;
+  row-gap: 1em;
   justify-content: space-between;
   padding: 0.25em 0;
 
@@ -313,6 +315,11 @@ nav {
     padding: 0;
     padding-top: 2%;
   }
+
+  .header {
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+  }
   
   .body {    
     display: inline;
@@ -323,34 +330,30 @@ nav {
   }
   
   .sidebar {
-    align-items: center;
-    justify-content: center;
-  }
-  
-  nav {
-    position: static;
-    border: 2px solid var(--border-color);
-    border-radius: 4px;
-    margin: 0.75em 0.4em;
-    padding: 1em;
-    columns: 2;
-  }
-  
-  nav > .box {
-    display: contents; /* makes text behave as if they have no .box parent */
-    text-align: center;
-  }
-  
-  /* HACK: work out how to properly make columns or a button to hide or show links */
-  nav h4 {
-    display: none; 
-  }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: stretch;
+      position: static;
+      margin: 0.75em 0.4em;
+    }
 
-  .sidebar a:hover:before, .sidebar a:focus:before {
-    content: "";
+    nav .box {
+      flex-grow: 1;
+    }
+
+    /* Remove > prefix, which can be janky on mobile */
+    a:hover:before, a:focus:before {
+      content: "";
+    }
   }
 
   .main > .box {
     padding: 1em;
+  }
+
+  .footer .bar {
+    justify-content: center;
   }
 }
