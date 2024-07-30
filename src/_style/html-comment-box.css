@@ -79,3 +79,14 @@
     color: var(--main-accent);
   }
 }
+
+#HCB_comment_box #hcb_subscribe,
+#HCB_comment_box #hcb_settings {
+  padding-top: 1em;
+  color: var(--fg) !important;
+  opacity: 0.75;
+}
+
+#HCB_comment_box #hcb_settings .hcb-icon {
+  display: none;
+}
