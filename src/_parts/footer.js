@@ -23,7 +23,7 @@ const footer = `
         credits
         </a>
       </p>
-      <p id="top">
+      <p id="top_link">
         <a href="#top">
           <i class="fa fa-caret-up"></i>
           Top

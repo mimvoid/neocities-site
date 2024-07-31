@@ -257,7 +257,7 @@ hr {
 
 .footer .bar {
   /* Accented background, dark text */
-  #mode, #mode i, #top, #top * {
+  #mode, #mode i, #top_link, #top_link * {
     color: var(--bg);
     background-color: var(--main-accent);
   }
