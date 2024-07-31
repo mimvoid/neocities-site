@@ -23,6 +23,8 @@
   --header-font: 'Fira Code', serif;
   /* Images */
   --bg-img: url('/_assets/bck-grid_sadgrl.webp');
+  /* Transition */
+  --transition: all 0.2s ease-in-out;
 }
 
 * {
@@ -67,6 +69,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: var(--header-font);
+  color: var(--ter-accent);
 }
 
 i {
@@ -85,6 +88,12 @@ a {
   color: var(--link-color);
 }
 
+a:focus, a:hover,
+li:focus::marker, li:hover::marker {
+  color: var(--ter-accent);
+  transition: var(--transition);
+}
+
 /* "> Link name" appears when hovered or focused */ 
 .sidebar a:hover:before, .sidebar a:focus:before {
   content: "> ";
@@ -94,7 +103,7 @@ a {
 }
 
 /* Only change color for links in main content */
-.main a:visited {
+.main a:visited:not(:focus):not(:hover) {
   color: var(--link-color-old);
 }
 
@@ -139,6 +148,12 @@ summary:before {
   transition: 0.1s transform;
 }
 
+summary:hover:before, summary:focus:before {
+  color: var(--ter-accent);
+  transition: color 0.2s ease-in-out;
+  transition: 0.1s transform;
+}
+
 /* triangle animation */
 details[open] > summary:before {
   transform: rotate(90deg);
@@ -149,8 +164,8 @@ details[open] > summary:before {
 
 hr {
   margin: 1.5em 0;
-  color: var(--fg);
-  opacity: 0.25;
+  color: var(--sec-accent);
+  opacity: 0.35;
 }
 
 .dates {
@@ -198,9 +213,20 @@ hr {
     font-size: 0.65em;
   }
 
+  .fa-minus:focus, .fa-minus:hover,
+  .fa-window-restore:focus, .fa-window-restore:hover {
+    color: var(--sec-accent);
+    transition: var(--transition);
+  }
+
   .fa-xmark {
     bottom: 0;
     font-size: 0.85em;
+  }
+
+  .fa-xmark:focus, .fa-xmark:hover {
+    color: var(--ter-accent);
+    transition: var(--transition);
   }
 }
 
@@ -241,6 +267,11 @@ hr {
     background-color: var(--overlay);
   }
 
+  #source-code:focus i, #source-code:hover i {
+    color: var(--ter-accent);
+    transition: var(--transition);
+  }
+
   #source-code i {
     color: var(--main-accent);
   }
@@ -279,11 +310,28 @@ nav {
   border: 2px solid var(--inactive-border);
   border-radius: 4px;
   margin: 0.75em 0.6em;
+  background-color: rgba(from var(--bg) r g b / 0.5);
+  transition: var(--transition);
+}
+
+.box:hover, .box:has(*:focus) {
+  border-color: var(--active-border);
   background-color: var(--bg);
+  opacity: 1;
+  transition: var(--transition);
+}
+
+/* The content box always has the active border color */ 
+.box#content {
+  border-color: var(--active-border);
 }
 
 .sidebar nav > .box {
+  opacity: 0.9;
   padding: 0.85em;
+
+  /* Let children's hitboxes fill the box horizontally */
+  * { display: block; }
 }
 
 .main > .box {
