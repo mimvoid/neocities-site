@@ -220,6 +220,12 @@ hr {
 
   .fa-folder-open {
     color: var(--main-accent);
+    transition: var(--transition);
+  }
+
+  .tab:hover .fa-folder-open,
+  .tab:focus .fa-folder-open {
+    color: var(--ter-accent);
   }
 
   .fa-window-restore {
