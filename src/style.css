@@ -101,7 +101,7 @@ li:focus::marker, li:hover::marker {
 }
 
 /* "> Link name" appears when hovered or focused */ 
-.sidebar a:hover:before, .sidebar a:focus:before {
+nav a:hover:before, nav a:focus:before {
   content: "> ";
   color: var(--fg);
   left: 0;
