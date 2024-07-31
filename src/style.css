@@ -124,6 +124,12 @@ li::marker {
 
 /* Details (toggle lists) */
 
+details[open] {
+  padding-bottom: 0.1em;
+
+  summary { padding-bottom: 0.25em; }
+}
+
 /* hide the default triangle */
 details summary::-webkit-details-marker {
   display: none;
@@ -133,7 +139,6 @@ summary {
   display: block;
   position: relative;
   left: 0.9rem;
-  padding: 0.5rem 0;
   font-weight: bold;
   cursor: pointer;
 }
@@ -331,10 +336,13 @@ nav {
 }
 
 .sidebar nav > .box {
-  padding: 0.85em;
+  padding: 0.65em 0.85em;
 
   /* Let children's hitboxes fill the box horizontally */
-  * { display: block; }
+  * {
+    display: block;
+    margin: 0.8em 0;
+  }
 }
 
 .main > .box {
