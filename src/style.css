@@ -198,14 +198,21 @@ hr {
   background-color: var(--bg);
 
   .tab {
-    display: inline-block;
-    padding: 0 1em;
+    padding: 0.5em 1em;
   }
 
   .tab a * {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    display: inline-block;
+    display: inline;
+  }
+
+  .tab img {
+    margin-right: 0.5em;
+    transition: var(--transition);
+  }
+
+  /* Simulate the icon changing to ter-accent */
+  .tab:hover img, .tab:focus img {
+    filter: hue-rotate(-40deg) saturate(175%) brightness(0.95);
   }
 
   .actions {
@@ -216,11 +223,6 @@ hr {
   p {
     font-weight: bold;
     color: var(--fg);
-  }
-
-  .fa-folder-open {
-    color: var(--main-accent);
-    transition: var(--transition);
   }
 
   .tab:hover .fa-folder-open,

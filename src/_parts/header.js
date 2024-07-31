@@ -4,7 +4,10 @@ const header = `
 <div class="header">
   <div class="tab">
     <a href="/">
-      <i class="fa-regular fa-fw fa-folder-open"></i>
+      <img
+        src="/_assets/mimvoid_icon.svg"
+        height="16"
+        width="16"/>
       <p>mimvoid's little corner</p>
     </a>
   </div>
