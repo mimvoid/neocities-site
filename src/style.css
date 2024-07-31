@@ -22,7 +22,7 @@
   --body-font: 'Karla', sans-serif;
   --header-font: 'Fira Code', serif;
   /* Images */
-  --bg-img: url('/_assets/bck-grid_sadgrl.webp');
+  --bg-img: url('/_assets/mimvoid_cat-spades.webp') 0% -1% / 14%;
   /* Transition */
   --transition: all 0.2s ease-in-out;
 }
@@ -59,9 +59,10 @@ body {
 
 body {
   margin: 0;
-  background-image: var(--bg-img);
-  background-color: var(--bg);
   color: var(--fg);
+
+  background: var(--bg-img) var(--bg);
+  background-attachment: fixed;
   
   font-family: var(--body-font);
   font-size: 1.1em;
@@ -187,7 +188,6 @@ hr {
   .tab {
     display: inline-block;
     padding: 0 1em;
-    background-image: var(--bg-img);
   }
 
   .tab a * {
@@ -310,7 +310,10 @@ nav {
   border: 2px solid var(--inactive-border);
   border-radius: 4px;
   margin: 0.75em 0.6em;
-  background-color: rgba(from var(--bg) r g b / 0.5);
+
+  background-color: rgba(from var(--bg) r g b / 0.85);
+  backdrop-filter: blur(2px);
+  
   transition: var(--transition);
 }
 
@@ -321,13 +324,12 @@ nav {
   transition: var(--transition);
 }
 
-/* The content box always has the active border color */ 
+/* The content box always has the active border color */
 .box#content {
   border-color: var(--active-border);
 }
 
 .sidebar nav > .box {
-  opacity: 0.9;
   padding: 0.85em;
 
   /* Let children's hitboxes fill the box horizontally */
