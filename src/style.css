@@ -74,6 +74,10 @@ h1, h2, h3, h4 {
   color: var(--ter-accent);
 }
 
+/* Increase heading sizes */
+h2 { font-size: 1.65em; }
+h3 { font-size: 1.25em; }
+
 i {
   position: relative;
   bottom: 0.08em; /* move up to align with text */
