@@ -22,7 +22,7 @@
   --body-font: 'Karla', sans-serif;
   --header-font: 'Fira Code', serif;
   /* Images */
-  --bg-img: url('/_assets/mimvoid_cat-spades.webp') 0% -1% / 14%;
+  --bg-img: url('/_assets/mimvoid_cat-spades.webp') 0% -1.5%;
   /* Transition */
   --transition: all 0.2s ease-in-out;
 }
@@ -63,6 +63,7 @@ body {
 
   background: var(--bg-img) var(--bg);
   background-attachment: fixed;
+  background-size: 175px;
   
   font-family: var(--body-font);
   font-size: 1.1em;
@@ -420,5 +421,11 @@ nav {
 
   .footer .bar {
     justify-content: center;
+    overflow: scroll;
+    font-size: 0.85em;
+
+    * {
+      white-space: nowrap;
+    }
   }
 }
