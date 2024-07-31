@@ -8,12 +8,14 @@
 /* Define variables */
 :root {
   /* Colors */
-  --bg: #24273a;
-  --fg: #cad3f5;
-  --overlay: #494d6450;
-  --main-accent: #f5bde6;
-  --sec-accent: #c6a0f6;
-  --border-color: var(--main-accent);
+  --bg: rgb(36, 39, 59);
+  --fg: rgb(204, 213, 245);
+  --overlay: rgba(67, 72, 101, 0.35);
+  --main-accent: rgb(245, 188, 238);
+  --sec-accent: rgb(197, 163, 224);
+  --ter-accent: rgb(199, 164, 254);
+  --active-border: var(--main-accent);
+  --inactive-border: var(--sec-accent);
   --link-color: var(--main-accent);
   --link-color-old: var(--sec-accent);
   /* Fonts */
@@ -274,7 +276,7 @@ nav {
 
 /* Content boxes */
 .box {
-  border: 2px solid var(--border-color);
+  border: 2px solid var(--inactive-border);
   border-radius: 4px;
   margin: 0.75em 0.6em;
   background-color: var(--bg);
