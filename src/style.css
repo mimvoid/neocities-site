@@ -13,7 +13,7 @@
   --overlay: rgba(67, 72, 101, 0.35);
   --main-accent: rgb(245, 188, 238);
   --sec-accent: rgb(197, 163, 224);
-  --ter-accent: rgb(199, 164, 254);
+  --ter-accent: rgb(197, 165, 248);
   --active-border: var(--main-accent);
   --inactive-border: var(--sec-accent);
   --link-color: var(--main-accent);
