@@ -245,12 +245,15 @@ footer .bar {
 footer .bar {
   /* Accented background, dark text */
   #mode,
-  #mode i,
   #top_link,
   #top_link * {
     color: var(--bg);
-    fill: var(--bg);
     background-color: var(--main-accent);
+  }
+
+  #mode i,
+  #top_link i {
+    background-color: var(--bg);
   }
 
   #source-code,
@@ -260,13 +263,12 @@ footer .bar {
   }
 
   #source-code i {
-    color: var(--main-accent);
+    background-color: var(--main-accent);
     transition: var(--transition);
   }
-
   #source-code:focus i,
   #source-code:hover i {
-    color: var(--ter-accent);
+    background-color: var(--ter-accent);
   }
 
   #author,
