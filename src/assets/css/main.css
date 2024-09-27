@@ -338,9 +338,7 @@ article .box {
 .sidebar nav > .box {
   padding: 0.65em 0.85em;
 
-  /* Let children's hitboxes fill the box horizontally */
   * {
-    display: block;
     margin: 0.8em 0;
   }
 }
