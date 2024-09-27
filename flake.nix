@@ -14,7 +14,7 @@
       name = "neocities";
       packages = with pkgs; [ neocities-cli hugo ];
       shellHook = ''
-        alias ncp='neocities push --prune src'
+        alias ncp='neocities push --prune'
       '';
     };
   };
