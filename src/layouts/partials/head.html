@@ -1,0 +1,10 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+{{ block "title" }}
+<title>
+  {{ if not .IsHome }}{{ .Title | title }} &ndash; {{end}}{{ .Site.Title }}
+</title>
+{{ end }} {{ with resources.Get "css/main.css" | minify }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
+{{ end }}

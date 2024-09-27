@@ -1,0 +1,11 @@
+baseURL = 'https://mimvoid.neocities.org/'
+languageCode = 'en-us'
+title = "mimvoid's little corner"
+
+copyright = 'mimvoid © 2024'
+
+enableGitInfo = true
+
+[markup.highlight]
+  style = 'dracula'
+  tabWidth = 2

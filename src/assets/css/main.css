@@ -1,0 +1,471 @@
+@import url("./fonts.css");
+
+/* Define variables */
+:root {
+  /* Colors */
+  --bg: rgb(36, 39, 59);
+  --fg: rgb(204, 213, 245);
+  --overlay: rgba(67, 72, 101, 0.35);
+  --main-accent: rgb(245, 188, 238);
+  --sec-accent: rgb(197, 163, 224);
+  --ter-accent: rgb(197, 165, 248);
+  --active-border: var(--main-accent);
+  --inactive-border: var(--sec-accent);
+  --link-color: var(--main-accent);
+  --link-color-old: var(--sec-accent);
+  /* Fonts */
+  --body-font: "Karla", sans-serif;
+  --header-font: "Fira Code", serif;
+  /* Images */
+  --bg-img: url("/_assets/mimvoid_cat-spades.webp") 0% -1.5%;
+  /* Transition */
+  --transition: all 0.2s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Loading */
+
+/* HACK:? loading in elements from javascript causes a sort of flickering
+ * as they load in and reposition, this is meant to hide some of it */
+
+body {
+  -webkit-animation-name: fadebody;
+  -webkit-animation-duration: 0.3s;
+  animation-name: fadebody;
+  animation-duration: 0.3s;
+}
+
+@-webkit-keyframes fadebody {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadebody {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* General styling */
+
+body {
+  margin: 0;
+  color: var(--fg);
+
+  background: var(--bg-img) var(--bg);
+  background-attachment: fixed;
+  background-size: 175px;
+
+  font-family: var(--body-font);
+  font-size: 1.1em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--header-font);
+  color: var(--ter-accent);
+}
+
+/* Increase heading sizes */
+h2 {
+  font-size: 1.65em;
+}
+h3 {
+  font-size: 1.25em;
+}
+
+i {
+  position: relative;
+  bottom: 0.08em; /* move up to align with text */
+  margin-right: 0.5em;
+  font-size: 0.75em;
+  color: var(--fg);
+}
+
+/* Link colors */
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+  transition: var(--transition);
+}
+
+a:focus,
+a:hover,
+li:focus::marker,
+li:hover::marker {
+  color: var(--ter-accent);
+}
+
+/* "> Link name" appears when hovered or focused */
+nav a:hover:before,
+nav a:focus:before {
+  content: "> ";
+  color: var(--fg);
+  left: 0;
+  top: 0;
+}
+
+/* Only change color for links in main content */
+.main a:visited:not(:focus):not(:hover) {
+  color: var(--link-color-old);
+}
+
+/* Lists */
+
+li {
+  padding: 0.25rem 0;
+}
+
+/* color the bullets */
+li::marker {
+  color: var(--main-accent);
+  transition: var(--transition);
+}
+
+/* Details (toggle lists) */
+
+details[open] {
+  padding-bottom: 0.1em;
+
+  summary {
+    padding-bottom: 0.25em;
+  }
+}
+
+/* hide the default triangle */
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  display: block;
+  position: relative;
+  left: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* replace the triangle */
+summary:before {
+  content: "> ";
+  color: var(--main-accent);
+  font-weight: bold;
+  position: absolute;
+  left: -0.9rem;
+  transform: rotate(0);
+  transform-origin: 0.3rem 50%;
+  transition: 0.1s transform;
+  transition: color 0.2s ease-in-out;
+}
+
+summary:hover:before,
+summary:focus:before {
+  color: var(--ter-accent);
+  transition: 0.1s transform;
+  transition: color 0.2s ease-in-out;
+}
+
+/* triangle animation */
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+/* Date stats */
+
+hr {
+  margin: 1.5em 0;
+  color: var(--sec-accent);
+  opacity: 0.35;
+}
+
+.dates {
+  text-align: right;
+  font-size: 0.9em;
+}
+
+/* Header & footer */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.75em;
+  padding: 0.5em 5em 0 5em;
+  background-color: var(--bg);
+
+  .tab {
+    padding: 0.5em 1em;
+  }
+
+  .tab a * {
+    display: inline;
+  }
+
+  .tab img {
+    margin-right: 0.5em;
+    transition: var(--transition);
+  }
+
+  /* Simulate the icon changing to ter-accent */
+  .tab:hover img,
+  .tab:focus img {
+    filter: hue-rotate(-40deg) saturate(175%) brightness(0.95);
+  }
+
+  .actions {
+    opacity: 0.8;
+    transition: var(--transition);
+  }
+
+  p {
+    font-weight: bold;
+    color: var(--fg);
+  }
+
+  .tab:hover .fa-folder-open,
+  .tab:focus .fa-folder-open {
+    color: var(--ter-accent);
+  }
+
+  .fa-window-restore {
+    font-size: 0.65em;
+  }
+
+  .fa-minus:focus,
+  .fa-minus:hover,
+  .fa-window-restore:focus,
+  .fa-window-restore:hover {
+    color: var(--sec-accent);
+  }
+
+  .fa-xmark {
+    bottom: 0;
+    font-size: 0.85em;
+  }
+
+  .fa-xmark:focus,
+  .fa-xmark:hover {
+    color: var(--ter-accent);
+  }
+}
+
+.footer {
+  margin: 3em 0 2.5em 0;
+  font-size: 0.95em;
+  background-color: var(--bg);
+}
+
+.footer .bar {
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 1em;
+  justify-content: space-between;
+  padding: 0.25em 0;
+
+  * {
+    padding: 0;
+    display: inline-block;
+  }
+
+  /* Make them be on one line */
+  .left p,
+  .right p {
+    padding: 0.25em 0.5em;
+    display: inline;
+  }
+}
+
+.footer .bar {
+  /* Accented background, dark text */
+  #mode,
+  #mode i,
+  #top_link,
+  #top_link * {
+    color: var(--bg);
+    background-color: var(--main-accent);
+  }
+
+  #source-code,
+  #credits {
+    color: var(--main-accent);
+    background-color: var(--overlay);
+  }
+
+  #source-code i {
+    color: var(--main-accent);
+    transition: var(--transition);
+  }
+
+  #source-code:focus i,
+  #source-code:hover i {
+    color: var(--ter-accent);
+  }
+
+  #author,
+  #filetype {
+    opacity: 0.75;
+  }
+}
+
+/* Body & sidebar positions */
+
+.wrapper {
+  padding: 0 8%;
+}
+
+.body {
+  display: flex;
+}
+
+.sidebar {
+  flex: 20%;
+}
+
+.main {
+  flex: 80%;
+}
+
+nav {
+  position: sticky;
+  top: 1.5em;
+}
+
+/* Content boxes */
+.box {
+  border: 2px solid var(--inactive-border);
+  border-radius: 4px;
+  margin: 0.75em 0.6em;
+
+  background-color: rgba(from var(--bg) r g b / 0.85);
+  backdrop-filter: blur(2px);
+
+  transition: var(--transition);
+}
+
+.box:hover,
+.box:has(*:focus) {
+  border-color: var(--active-border);
+  background-color: var(--bg);
+  opacity: 1;
+}
+
+/* The content box always has the active border color */
+.box#content {
+  border-color: var(--active-border);
+}
+
+.sidebar nav > .box {
+  padding: 0.65em 0.85em;
+
+  /* Let children's hitboxes fill the box horizontally */
+  * {
+    display: block;
+    margin: 0.8em 0;
+  }
+}
+
+.main > .box {
+  margin-left: 0.3em;
+  padding: 1em 2em;
+}
+
+/* Different screen ratios */
+@media (max-width: 940px) {
+  .wrapper {
+    padding: 0 6%;
+  }
+
+  .header {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+}
+
+@media (max-width: 840px) {
+  .wrapper {
+    padding: 0 4%;
+  }
+
+  .header {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    padding: 0 1%;
+  }
+
+  .header {
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+  }
+}
+
+@media (orientation: portrait), (max-width: 440px) {
+  .wrapper {
+    padding: 0;
+  }
+
+  .header {
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+  }
+
+  .body {
+    display: inline;
+  }
+
+  .box {
+    margin: 0.4em;
+  }
+
+  .sidebar {
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: stretch;
+      position: static;
+      margin: 0.75em 0;
+    }
+
+    nav .box {
+      flex-grow: 1;
+    }
+
+    /* Remove > prefix, which can be janky on mobile */
+    a:hover:before,
+    a:focus:before {
+      content: "";
+    }
+  }
+
+  .main > .box {
+    padding: 1em;
+  }
+
+  .footer .bar {
+    justify-content: center;
+    overflow: scroll;
+    font-size: 0.85em;
+
+    * {
+      white-space: nowrap;
+    }
+  }
+}
