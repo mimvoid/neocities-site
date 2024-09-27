@@ -1,10 +1,18 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-{{ block "title" }}
 <title>
-  {{ if not .IsHome }}{{ .Title | title }} &ndash; {{end}}{{ .Site.Title }}
+  {{ block "title" . }}
+    {{ if not .IsHome }}{{ .Title | title }} &ndash; {{end}}{{ .Site.Title }}
+  {{ end }}
 </title>
-{{ end }} {{ with resources.Get "css/main.css" | minify }}
-<link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
+
+{{ with resources.Get "css/fonts.css" | minify }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
+{{ end }}
+{{ with resources.Get "css/phosphor-icons.css" | minify }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
+{{ end }}
+{{ with resources.Get "css/main.css" | minify }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
 {{ end }}

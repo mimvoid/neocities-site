@@ -9,3 +9,24 @@ enableGitInfo = true
 [markup.highlight]
   style = 'dracula'
   tabWidth = 2
+
+[menus]
+  [[menus.nav_first]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.nav_first]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 20
+  [[menus.nav_mid]]
+    name = 'Biology'
+    pageRef = '/biology'
+    weight = 10
+  [[menus.nav_mid]]
+    name = 'Design'
+    pageRef = '/design'
+    weight = 20
+  [[menus.end]]
+    name = 'Guestbook'
+    pageRef = '/guestbook'

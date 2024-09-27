@@ -1,7 +1,6 @@
 +++
 title = 'Credits'
 date = 2024-07-24T21:34:00-04:00
-menus = ''
 description = ''
 +++
 

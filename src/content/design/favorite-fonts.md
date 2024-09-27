@@ -1,7 +1,6 @@
 +++
 title = 'Favorite Fonts'
 date = 2024-09-24T21:28:02-04:00
-menus = 'pages'
 description = ''
 draft = true
 +++

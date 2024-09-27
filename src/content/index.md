@@ -1,7 +1,6 @@
 +++
 title = 'Home'
 date = 2024-07-22T21:27:02-04:00
-menus = 'main'
 description = ''
 +++
 

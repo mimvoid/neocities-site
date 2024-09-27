@@ -1,19 +1,19 @@
 <header>
   <div class="tab">
     <a href="/">
-      <img src="/_assets/mimvoid_icon.svg" height="16" width="16" />
+      <img src={{ resources.Get "images/mimvoid_icon.svg" }} height="16" width="16" />
       <p>{{ .Site.Title }}</p>
     </a>
   </div>
   <div class="actions">
     <a href="{{ .Site.Home.RelPermalink }}">
-      <i class="fa fa-fw fa-minus"></i>
+      <i class="ph-bold ph-minus"></i>
     </a>
     <a href="{{ .Site.Home.RelPermalink }}">
-      <i class="fa-regular fa-fw fa-window-restore"></i>
+      <i class="ph-bold ph-cards"></i>
     </a>
     <a href="https://neocities.org/">
-      <i class="fa fa-fw fa-xmark"></i>
+      <i class="ph-bold ph-x"></i>
     </a>
   </div>
 </header>
