@@ -6,6 +6,8 @@ copyright = 'mimvoid © 2024'
 
 enableGitInfo = true
 
+disableKinds = ['taxonomy', 'term']
+
 [markup.highlight]
   style = 'dracula'
   tabWidth = 2
