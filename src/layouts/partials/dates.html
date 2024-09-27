@@ -1,0 +1,7 @@
+<hr />
+<div class="dates">
+  {{ $format := "02 Jan 2006" }}
+
+  <p>Updated: {{ .Lastmod.Format $format }}</p>
+  <p>Created: {{ .Date.Format $format }}</p>
+</div>
