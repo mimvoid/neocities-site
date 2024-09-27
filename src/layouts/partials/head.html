@@ -10,9 +10,9 @@
 {{ with resources.Get "css/fonts.css" | minify }}
   <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
 {{ end }}
-{{ with resources.Get "css/phosphor-icons.css" | minify }}
+{{ with resources.Get "css/main.css" | minify }}
   <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
 {{ end }}
-{{ with resources.Get "css/main.css" | minify }}
+{{ with resources.Get "css/phosphor-icons.css" | minify }}
   <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
 {{ end }}

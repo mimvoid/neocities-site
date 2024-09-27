@@ -203,30 +203,16 @@ header {
     color: var(--fg);
   }
 
-  .tab:hover .fa-folder-open,
-  .tab:focus .fa-folder-open {
-    color: var(--ter-accent);
+  .ph-minus:focus,
+  .ph-minus:hover,
+  .ph-cards:focus,
+  .ph-cards:hover {
+    fill: var(--sec-accent);
   }
 
-  .fa-window-restore {
-    font-size: 0.65em;
-  }
-
-  .fa-minus:focus,
-  .fa-minus:hover,
-  .fa-window-restore:focus,
-  .fa-window-restore:hover {
-    color: var(--sec-accent);
-  }
-
-  .fa-xmark {
-    bottom: 0;
-    font-size: 0.85em;
-  }
-
-  .fa-xmark:focus,
-  .fa-xmark:hover {
-    color: var(--ter-accent);
+  .ph-x:focus,
+  .ph-x:hover {
+    fill: var(--ter-accent);
   }
 }
 
@@ -263,6 +249,7 @@ footer .bar {
   #top_link,
   #top_link * {
     color: var(--bg);
+    fill: var(--bg);
     background-color: var(--main-accent);
   }
 

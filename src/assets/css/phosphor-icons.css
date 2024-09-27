@@ -1,51 +1,32 @@
-/* Phosphor custom pack: 
- * minus bold
- * cards bold
- * x bold
- * code bold
- * compass fill
- * caret up fill
- */
-
-@font-face {
-  font-family: "Phosphor";
-  src: url("../fonts/phosphor-icons.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+.ph-bold::after,
+.ph-fill::after {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.25em;
+  fill: var(--fg);
 }
 
-.ph-bold,
-.ph-fill {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "Phosphor" !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.ph-minus::after {
+  content: url("../icons/ph-minus.svg");
 }
 
-.ph-bold.ph-cards:before {
-  content: "\e0f8";
+.ph-cards::after {
+  content: url("../icons/ph-cards.svg");
 }
-.ph-bold.ph-minus:before {
-  content: "\e32a";
+
+.ph-x::after {
+  content: url("../icons/ph-x.svg");
 }
-.ph-bold.ph-x:before {
-  content: "\e4f6";
+
+.ph-compass::after {
+  content: url("../icons/ph-compass.svg");
 }
-.ph-bold.ph-code:before {
-  content: "\e1bc";
+
+.ph-code::after {
+  content: url("../icons/ph-code.svg");
 }
-.ph-fill.ph-compass:before {
-  content: "\e1c8";
-}
-.ph-fill.ph-caret-up:before {
-  content: "\e13c";
+
+.ph-caret-up::after {
+  content: url("../icons/ph-caret-up.svg");
 }
