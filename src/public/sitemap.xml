@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/not_found.html</loc>
+    <lastmod>2024-09-29T13:29:12-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about.html</loc>
+    <lastmod>2024-09-27T01:33:13-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/credits.html</loc>
+    <lastmod>2024-09-27T01:33:13-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-09-27T17:43:50-04:00</lastmod>
+    <lastmod>2024-07-22T21:27:02-04:00</lastmod>
   </url>
 </urlset>

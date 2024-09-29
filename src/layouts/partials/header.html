@@ -1,10 +1,13 @@
 <header>
-  <div class="tab">
-    <a href="/">
+  <nav class="tabs">
+    <a id="nav_home" href="/">
       <img src="icons/mimvoid_icon.svg" height="16" width="16" />
       <p>{{ .Site.Title }}</p>
     </a>
-  </div>
+    {{ range .Site.Menus.tabs }}
+      <a href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
   <div class="actions">
     <a href="{{ .Site.Home.RelPermalink }}">
       <i class="ph-bold ph-minus"></i>

@@ -1,11 +1,10 @@
 baseURL = 'https://mimvoid.neocities.org/'
 languageCode = 'en-us'
 title = "mimvoid's little corner"
-
 copyright = 'mimvoid © 2024'
 
+uglyUrls = true
 enableGitInfo = true
-
 disableKinds = ['taxonomy', 'term']
 
 [markup.highlight]
@@ -13,22 +12,19 @@ disableKinds = ['taxonomy', 'term']
   tabWidth = 2
 
 [menus]
-  [[menus.nav_first]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
-  [[menus.nav_first]]
+  [[menus.tabs]]
     name = 'About'
-    pageRef = '/about'
-    weight = 20
-  [[menus.nav_mid]]
-    name = 'Biology'
-    pageRef = '/biology'
+    url = '/about'
     weight = 10
-  [[menus.nav_mid]]
-    name = 'Design'
-    pageRef = '/design'
-    weight = 20
-  [[menus.end]]
+  [[menus.tabs]]
     name = 'Guestbook'
-    pageRef = '/guestbook'
+    url = '/guestbook'
+    weight = 20
+  [[menus.sidebar]]
+    name = 'Biology'
+    url = '/biology'
+    weight = 10
+  [[menus.sidebar]]
+    name = 'Design'
+    url = '/design'
+    weight = 20

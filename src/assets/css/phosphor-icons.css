@@ -16,6 +16,10 @@
   background-color: currentColor;
 }
 
+.ph-folder {
+  --svg: url(../icons/ph-folder-simple.svg);
+}
+
 .ph-minus {
   --svg: url(../icons/ph-minus.svg);
 }

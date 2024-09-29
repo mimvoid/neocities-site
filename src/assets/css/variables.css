@@ -1,0 +1,24 @@
+:root {
+  /* Colors */
+  --bg: rgb(36, 39, 59);
+  --fg: rgb(204, 213, 245);
+  --overlay: rgba(67, 72, 101, 0.35);
+  --main-accent: rgb(245, 188, 238);
+  --sec-accent: rgb(197, 163, 224);
+  --ter-accent: rgb(197, 165, 248);
+
+  --active-border: var(--main-accent);
+  --inactive-border: var(--sec-accent);
+  --link-color: var(--main-accent);
+  --link-color-old: var(--sec-accent);
+
+  /* Fonts */
+  --body-font: "Karla", sans-serif;
+  --header-font: "iA Writer Duo", serif;
+
+  /* Images */
+  --bg-img: url("../images/mimvoid_cat-spades.webp") 0% -1.5%;
+
+  /* Transition */
+  --transition: all 0.2s ease-in-out;
+}

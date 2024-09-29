@@ -7,6 +7,27 @@
   {{ end }}
 </title>
 
+<link rel="canonical" href = "{{ .Permalink }}">
+
+<!-- Define the description -->
+{{ $description := "" -}}
+{{ if .Description -}}
+  {{ $description = .Description -}}
+{{ end -}}
+
+{{ if $description -}}
+  <meta name="description" content="{{ $description }}" />
+{{ end -}}
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{{ .Site.Title }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta name="author" content="mimvoid" />
+
+<!-- CSS links -->
+{{ with resources.Get "css/variables.css" | minify }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
+{{ end }}
 {{ with resources.Get "css/fonts.css" | minify }}
   <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
 {{ end }}

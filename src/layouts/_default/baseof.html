@@ -3,25 +3,30 @@
 
 <head>
   {{ partial "head.html" . }}
+  <!-- Any extra content for the head (e.g. custom styles) -->
+  {{ block "head-extra" . }}
+  {{ end }}
 </head>
 
 <body>
-  {{ partial "header.html" . }}
-  <div id="wrapper">
-    <div class="body">
-      {{ partial "nav.html" . }}
-      <main>
-        <article class="box">
-          {{ block "main" . }}
-          {{ end }}
+  {{ block "body" . }}
+    {{ partial "header.html" . }}
+    <div id="wrapper">
+      <div class="body">
+        {{ partial "nav.html" . }}
+        <main>
+          <article class="box">
+            {{ block "main" . }}
+            {{ end }}
 
-          {{ partial "dates.html" . }}
-        </article>
-      </main>
+            {{ partial "dates.html" . }}
+          </article>
+        </main>
+      </div>
+
+      {{ partial "footer.html" . }}
     </div>
-
-    {{ partial "footer.html" . }}
-  </div>
+  {{ end }}
 </body>
 
 </html>

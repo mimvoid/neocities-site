@@ -1,7 +1,7 @@
 +++
 title = 'Home'
 date = 2024-07-22T21:27:02-04:00
-description = ''
+description = "mimvoid's little corner, my space on the internet"
 +++
 
 # Welcome and Salutations!
