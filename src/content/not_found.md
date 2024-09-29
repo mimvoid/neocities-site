@@ -11,10 +11,3 @@ draft = false
 Uh oh!
 
 This page does not exist...
-<br />
-
-<nav>
-    <p>
-        <a href="{{ .Site.Home.RelPermalink }}">Go back home?</a>
-    </p>
-</nav>
