@@ -1,4 +1,4 @@
-baseURL = 'https://mimvoid.neocities.org/'
+basepageref = 'https://mimvoid.neocities.org/'
 languageCode = 'en-us'
 title = "mimvoid's little corner"
 copyright = 'mimvoid © 2024'
@@ -14,17 +14,17 @@ disableKinds = ['taxonomy', 'term']
 [menus]
   [[menus.tabs]]
     name = 'About'
-    url = '/about'
+    pageref = '/about'
     weight = 10
   [[menus.tabs]]
     name = 'Guestbook'
-    url = '/guestbook'
+    pageref = '/guestbook'
     weight = 20
   [[menus.sidebar]]
     name = 'Biology'
-    url = '/biology'
+    pageref = '/biology'
     weight = 10
   [[menus.sidebar]]
     name = 'Design'
-    url = '/design'
+    pageref = '/design'
     weight = 20
