@@ -166,10 +166,10 @@ header {
   background-color: var(--bg);
 
   .tabs {
-    padding: 0.5em 1em;
+    margin: 0.5em 1em;
   }
 
-  .tabs a * {
+  .tabs * {
     display: inline;
   }
 
@@ -191,7 +191,18 @@ header {
 
   #nav_home {
     font-weight: bold;
-    padding-right: 1rem;
+    margin-right: 1rem;
+  }
+
+  #nav_pages * {
+    margin-right: 0.25rem;
+  }
+
+  #nav_pages *:before {
+    content: "./";
+    font-family: var(--monospace-font);
+    color: var(--fg);
+    opacity: 0.6;
   }
 
   p,

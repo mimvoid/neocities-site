@@ -4,9 +4,11 @@
       <img src="icons/mimvoid_icon.svg" height="16" width="16" />
       <p>{{ .Site.Title }}</p>
     </a>
-    {{ range .Site.Menus.tabs }}
-      <a href="{{ with .Page }}{{ .RelPermalink }}{{ end }}" title="{{ .Title }}">{{ .Name }}</a>
-    {{ end }}
+    <div id="nav_pages">
+      {{ range .Site.Menus.tabs }}
+        <a href="{{ with .Page }}{{ .RelPermalink }}{{ end }}" title="{{ .Title }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
   </nav>
   <div class="actions">
     <a href="{{ .Site.Home.RelPermalink }}">

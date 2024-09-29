@@ -14,7 +14,8 @@
 
   /* Fonts */
   --body-font: "Karla", sans-serif;
-  --header-font: "iA Writer Duo", serif;
+  --header-font: "iA Writer Duo", monospace;
+  --monospace-font: "iA Writer Mono", monospace;
 
   /* Images */
   --bg-img: url("../images/mimvoid_cat-spades.webp") 0% -1.5%;
