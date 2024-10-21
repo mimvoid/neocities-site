@@ -21,6 +21,8 @@
 
             {{ partial "dates.html" . }}
           </article>
+          {{ block "body-extra" . }}
+          {{ end }}
         </main>
       </div>
 

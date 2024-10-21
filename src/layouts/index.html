@@ -3,3 +3,12 @@
 {{ .Content }}
 
 {{ end }}
+
+
+{{ define "body-extra" }}
+<aside class="box">
+  <div align="center">
+    {{ partial "badges.html" }}
+  </div>
+</aside>
+{{ end }}

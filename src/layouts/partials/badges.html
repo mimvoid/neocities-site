@@ -1,0 +1,16 @@
+{{
+  $badge := slice
+    (dict "logo" "html-FABCF0?logo=html5" "alt" "HTML5 Badge")
+    (dict "logo" "css-C8A3F0?logo=css3" "alt" "CSS3 Badge")
+    (dict "logo" "hugo-EEA9D0?logo=hugo" "alt" "Hugo Badge")
+    (dict "logo" "markdown-C9BBF9?logo=markdown" "alt" "Markdown Badge")
+    (dict "logo" "nix-B6AAF5?logo=nixos" "alt" "Nix Badge")
+}}
+
+{{ $extra := "&logoColor=20213A&style=for-the-badge" }}
+
+{{ range $badge }}
+  <img
+    src="https://img.shields.io/badge/{{ .logo }}{{ $extra }}"
+    alt="{{ .alt }}" />
+{{ end }}
