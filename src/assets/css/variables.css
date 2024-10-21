@@ -1,16 +1,16 @@
 :root {
   /* Colors */
-  --bg: rgb(36, 39, 59);
-  --fg: rgb(204, 213, 245);
+  --bg: rgb(31, 32, 57);
+  --fg: rgb(220, 210, 240);
   --overlay: rgba(67, 72, 101, 0.35);
-  --main-accent: rgb(245, 188, 238);
-  --sec-accent: rgb(197, 163, 224);
-  --ter-accent: rgb(197, 165, 248);
+  --primary: rgb(250, 188, 240);
+  --secondary: rgb(200, 163, 240);
+  --tertiary: rgb(182, 170, 245);
 
-  --active-border: var(--main-accent);
-  --inactive-border: var(--sec-accent);
-  --link-color: var(--main-accent);
-  --link-color-old: var(--sec-accent);
+  --active-border: var(--primary);
+  --inactive-border: var(--secondary);
+  --link-color: var(--primary);
+  --link-color-old: var(--secondary);
 
   /* Fonts */
   --body-font: "Karla", sans-serif;

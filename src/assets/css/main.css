@@ -24,16 +24,16 @@ h2,
 h3,
 h4 {
   font-family: var(--header-font);
-  color: var(--ter-accent);
+  color: var(--tertiary);
 }
 
 /* Increase heading sizes */
 h1 {
-  font-size: 1.75em;
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 h3 {
@@ -62,7 +62,7 @@ a:focus,
 a:hover,
 li:focus::marker,
 li:hover::marker {
-  color: var(--ter-accent);
+  color: var(--tertiary);
 }
 
 /* Only change color for links in main content */
@@ -79,7 +79,7 @@ li {
 
 /* color the bullets */
 li::marker {
-  color: var(--main-accent);
+  color: var(--primary);
   transition: var(--transition);
 }
 
@@ -114,12 +114,12 @@ summary i {
   left: -1.25rem;
   top: -0.25rem;
 
-  color: var(--main-accent);
+  color: var(--primary);
 }
 
 summary:hover i,
 summary:focus i {
-  color: var(--ter-accent);
+  color: var(--tertiary);
   transition: var(--transition);
 }
 
@@ -131,7 +131,7 @@ details[open] > summary i {
   position: relative;
   left: 0.4rem;
   box-sizing: content-box;
-  border-left: 1px var(--ter-accent) solid;
+  border-left: 1px var(--tertiary) solid;
 }
 
 .details-content p {
@@ -145,7 +145,7 @@ details[open] > summary i {
  *------------*/
 hr {
   margin: 1.5em 0;
-  color: var(--sec-accent);
+  color: var(--secondary);
   opacity: 0.35;
 }
 
@@ -178,7 +178,7 @@ header {
     transition: var(--transition);
   }
 
-  /* Simulate the icon changing to ter-accent */
+  /* Simulate the icon changing to tertiary */
   .tabs:hover img,
   .tabs:focus img {
     filter: hue-rotate(-40deg) saturate(175%) brightness(0.95);
@@ -194,12 +194,22 @@ header {
     margin-right: 1rem;
   }
 
+  #minimize {
+    color: var(--tertiary);
+  }
+  #resize {
+    color: var(--secondary);
+  }
+  #close {
+    color: var(--primary);
+  }
+
   #nav_pages * {
     margin-right: 0.25rem;
   }
 
   #nav_pages *:before {
-    content: "./";
+    content: "~/";
     font-family: var(--monospace-font);
     color: var(--fg);
     opacity: 0.6;
@@ -214,12 +224,12 @@ header {
   .ph-minus:hover,
   .ph-cards:focus,
   .ph-cards:hover {
-    background-color: var(--sec-accent);
+    background-color: var(--secondary);
   }
 
   .ph-x:focus,
   .ph-x:hover {
-    background-color: var(--ter-accent);
+    background-color: var(--tertiary);
   }
 }
 
@@ -260,7 +270,7 @@ footer .bar {
   #top_link,
   #top_link * {
     color: var(--bg);
-    background-color: var(--main-accent);
+    background-color: var(--primary);
   }
 
   #mode i,
@@ -270,17 +280,17 @@ footer .bar {
 
   #source-code,
   #credits {
-    color: var(--main-accent);
+    color: var(--primary);
     background-color: var(--overlay);
   }
 
   #source-code i {
-    background-color: var(--main-accent);
+    background-color: var(--primary);
     transition: var(--transition);
   }
   #source-code:focus i,
   #source-code:hover i {
-    background-color: var(--ter-accent);
+    background-color: var(--tertiary);
   }
 
   #author,
@@ -293,7 +303,7 @@ footer .bar {
  * Body & sidebar positions
  *--------------------------*/
 #wrapper {
-  padding: 0 6%;
+  padding: 0 5.5%;
 }
 
 .body {
@@ -349,7 +359,7 @@ article .box {
 
 main > .box {
   margin-left: 0.3em;
-  padding: 1em 2em;
+  padding: 1.5em 3em;
 }
 
 /*-------------------------
