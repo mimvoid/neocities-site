@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on mimvoid&#39;s little corner</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content in Home on mimvoid&#39;s little corner</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>mimvoid © 2024</copyright>
-    <lastBuildDate>Sun, 29 Sep 2024 15:26:15 -0400</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 16:24:04 -0400</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>404</title>
-      <link>//localhost:1313/not_found.html</link>
+      <link>/not_found.html</link>
       <pubDate>Sun, 29 Sep 2024 13:29:12 -0400</pubDate>
-      <guid>//localhost:1313/not_found.html</guid>
-      <description>Page Not Found Uh oh!&#xA;This page does not exist&amp;hellip;</description>
+      <guid>/not_found.html</guid>
+      <description>&lt;h1 id=&#34;page-not-found&#34;&gt;Page Not Found&lt;/h1&gt;&#xA;&lt;p&gt;Uh oh!&lt;/p&gt;&#xA;&lt;p&gt;This page does not exist&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>//localhost:1313/about.html</link>
+      <link>/about.html</link>
       <pubDate>Tue, 24 Sep 2024 21:27:07 -0400</pubDate>
-      <guid>//localhost:1313/about.html</guid>
-      <description>Hi! I&amp;rsquo;m mimvoid. Under Construction Coming soon!</description>
+      <guid>/about.html</guid>
+      <description>&lt;h1 id=&#34;hi-im-mimvoid&#34;&gt;Hi! I&amp;rsquo;m mimvoid.&lt;/h1&gt;&#xA;&lt;h3 id=&#34;under-construction&#34;&gt;Under Construction&lt;/h3&gt;&#xA;&lt;p&gt;Coming soon!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Credits</title>
-      <link>//localhost:1313/credits.html</link>
+      <link>/credits.html</link>
       <pubDate>Wed, 24 Jul 2024 21:34:00 -0400</pubDate>
-      <guid>//localhost:1313/credits.html</guid>
-      <description>Tools Of course, I can&amp;rsquo;t thank Neocities enough for providing people a way to host their website!&#xA;I used their built-in editor at first, but soon switched to my preferred editor. It&amp;rsquo;s thanks to the Neocities CLI that I can edit this website on my computer and upload the files later.&#xA;Speaking of my preferred editor, I like Neovim! Unlike Neocities&amp;rsquo; editor (as far as I know), it supports LSPs (language server protocols) that can spot errors in your code and provide suggestions.</description>
+      <guid>/credits.html</guid>
+      <description>&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;&#xA;&lt;p&gt;Of course, I can&amp;rsquo;t thank &lt;a href=&#34;https://neocities.org/&#34;&gt;Neocities&lt;/a&gt; enough for providing people a way to host their website!&lt;/p&gt;&#xA;&lt;p&gt;I used their built-in editor at first, but soon switched to my preferred editor. It&amp;rsquo;s thanks to the &lt;a href=&#34;https://neocities.org/cli&#34;&gt;Neocities CLI&lt;/a&gt; that I can edit this website on my computer and upload the files later.&lt;/p&gt;&#xA;&lt;p&gt;Speaking of my preferred editor, I like &lt;a href=&#34;https://github.com/neovim/neovim&#34;&gt;Neovim&lt;/a&gt;! Unlike Neocities&amp;rsquo; editor (as far as I know), it supports LSPs (language server protocols) that can spot errors in your code and provide suggestions. Neovim is based on Vim keybindings, so navigating text files with just the keyboard is quick and easy. There is a learning curve, but it&amp;rsquo;s fun once you get the hang of it. Plus, Neovim can be beautiful and very functional with the right plugins.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
