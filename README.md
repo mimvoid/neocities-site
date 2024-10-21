@@ -8,7 +8,7 @@
 
 </div>
 
-This is the source code for my [Neocities website](https://mimvoid.neocities.org).
+This is the source code for my [Neocities website][1].
 
 It includes code for neat little features like:
 
@@ -16,6 +16,9 @@ It includes code for neat little features like:
 - Importing fonts
 - How I include icons
 
-Further resources can be found on my [credits page](https://mimvoid.neocities.org/credits).
+Further resources can be found on my [credits page][2].
 
 I can't guarantee that the code will be pleasant to read, since this is a casual, work-in-process project with relatively loose standards. But I'll be happy if you still find it helpful!
+
+[1]: https://mimvoid.neocities.org
+[2]: https://mimvoid.neocities.org/credits
