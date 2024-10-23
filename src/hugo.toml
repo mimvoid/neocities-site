@@ -10,6 +10,8 @@ disableKinds = ['taxonomy', 'term']
 [markup.highlight]
   style = 'dracula'
   tabWidth = 2
+[markup.goldmark.renderer]
+  unsafe = true
 
 [menus]
   [[menus.tabs]]

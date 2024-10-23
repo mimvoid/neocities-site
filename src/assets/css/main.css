@@ -41,6 +41,18 @@ h3 {
 }
 
 /*-------
+ * Text
+ *-------*/
+
+strong {
+  color: var(--primary);
+}
+
+em {
+  color: var(--secondary);
+}
+
+/*-------
  * Icons
  *-------*/
 i {

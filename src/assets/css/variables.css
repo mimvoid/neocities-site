@@ -23,3 +23,16 @@
   /* Transition */
   --transition: all 0.2s ease-in-out;
 }
+
+/* Tags */
+pa {
+  color: var(--primary)
+}
+
+sa {
+  color: var(--secondary);
+}
+
+ta {
+  color: var(--tertiary);
+}
