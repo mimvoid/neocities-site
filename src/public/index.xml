@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on mimvoid&#39;s little corner</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content in Home on mimvoid&#39;s little corner</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>mimvoid © 2024</copyright>
     <lastBuildDate>Sun, 29 Sep 2024 16:24:04 -0400</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>404</title>
-      <link>/not_found.html</link>
+      <link>//localhost:1313/not_found.html</link>
       <pubDate>Sun, 29 Sep 2024 13:29:12 -0400</pubDate>
-      <guid>/not_found.html</guid>
+      <guid>//localhost:1313/not_found.html</guid>
       <description>&lt;h1 id=&#34;page-not-found&#34;&gt;Page Not Found&lt;/h1&gt;&#xA;&lt;p&gt;Uh oh!&lt;/p&gt;&#xA;&lt;p&gt;This page does not exist&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>/about.html</link>
+      <link>//localhost:1313/about.html</link>
       <pubDate>Tue, 24 Sep 2024 21:27:07 -0400</pubDate>
-      <guid>/about.html</guid>
-      <description>&lt;h1 id=&#34;hi-im-mimvoid&#34;&gt;Hi! I&amp;rsquo;m mimvoid.&lt;/h1&gt;&#xA;&lt;h3 id=&#34;under-construction&#34;&gt;Under Construction&lt;/h3&gt;&#xA;&lt;p&gt;Coming soon!&lt;/p&gt;</description>
+      <guid>//localhost:1313/about.html</guid>
+      <description>&lt;h1 id=&#34;hi-im-mimvoid&#34;&gt;Hi! I&amp;rsquo;m mimvoid&lt;/h1&gt;&#xA;&lt;p&gt;Artist &lt;pa&gt;/&lt;/pa&gt; Designer &lt;pa&gt;/&lt;/pa&gt; Beginner programmer &lt;pa&gt;/&lt;/pa&gt; Webmaster&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;sa&gt;Operating System&lt;/sa&gt;: Linux!&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;sa&gt;Distro&lt;/sa&gt;: NixOS&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;she/they&lt;/li&gt;&#xA;&lt;li&gt;AuDHD&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a busy college student with a knack for niche interests.&lt;/p&gt;&#xA;&lt;p&gt;I am a self-taught hobbyist artist, and I love my characters and worlds! I have a penchant for surrealism, character psychologies, and magic systems based on human perception.&lt;/p&gt;&#xA;&lt;p&gt;I also love design and all kinds of neat free and open-source software. Before moving to Linux, I decorated my Windows desktop with Rainmeter, and now I design some of my own widgets with AGS. Ricing is a rabbit hole that I am unfortunately &lt;em&gt;very&lt;/em&gt; prone to falling in. But hey, that means I can use my computer in a way that I enjoy, find new tools while I&amp;rsquo;m at it, and talk about it with all of you!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Credits</title>
-      <link>/credits.html</link>
+      <title>Website Credits</title>
+      <link>//localhost:1313/credits.html</link>
       <pubDate>Wed, 24 Jul 2024 21:34:00 -0400</pubDate>
-      <guid>/credits.html</guid>
-      <description>&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;&#xA;&lt;p&gt;Of course, I can&amp;rsquo;t thank &lt;a href=&#34;https://neocities.org/&#34;&gt;Neocities&lt;/a&gt; enough for providing people a way to host their website!&lt;/p&gt;&#xA;&lt;p&gt;I used their built-in editor at first, but soon switched to my preferred editor. It&amp;rsquo;s thanks to the &lt;a href=&#34;https://neocities.org/cli&#34;&gt;Neocities CLI&lt;/a&gt; that I can edit this website on my computer and upload the files later.&lt;/p&gt;&#xA;&lt;p&gt;Speaking of my preferred editor, I like &lt;a href=&#34;https://github.com/neovim/neovim&#34;&gt;Neovim&lt;/a&gt;! Unlike Neocities&amp;rsquo; editor (as far as I know), it supports LSPs (language server protocols) that can spot errors in your code and provide suggestions. Neovim is based on Vim keybindings, so navigating text files with just the keyboard is quick and easy. There is a learning curve, but it&amp;rsquo;s fun once you get the hang of it. Plus, Neovim can be beautiful and very functional with the right plugins.&lt;/p&gt;</description>
+      <guid>//localhost:1313/credits.html</guid>
+      <description>&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;&#xA;&lt;p&gt;Of course, I can&amp;rsquo;t thank &lt;a href=&#34;https://neocities.org&#34;&gt;Neocities&lt;/a&gt; enough for providing people a way to host their website!&lt;/p&gt;&#xA;&lt;p&gt;I used their built-in editor at first, but switched to my preferred editor. It&amp;rsquo;s thanks to the &lt;a href=&#34;https://neocities.org/cli&#34;&gt;Neocities CLI&lt;/a&gt; that I can edit this website on my computer and upload the files later.&lt;/p&gt;&#xA;&lt;p&gt;Speaking of my editor, I use &lt;a href=&#34;https://github.com/neovim/neovim&#34;&gt;Neovim&lt;/a&gt;! It supports LSPs that can spot errors in your code and provide suggestions. With Vim keybindings, navigating and editing files is quick and easy. There&amp;rsquo;s a learning curve, but it&amp;rsquo;s super fun once you get the hang of it. Plus, Neovim can be beautiful and very functional with the right plugins.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
