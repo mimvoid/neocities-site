@@ -6,8 +6,19 @@ layout = 'about'
 draft = false
 +++
 
-# Hi! I'm mimvoid.
+# Hi! I'm mimvoid
 
-### Under Construction
+Artist <pa>/</pa> Designer <pa>/</pa> Beginner programmer <pa>/</pa> Webmaster
 
-Coming soon!
+- <sa>Operating System</sa>: Linux!
+    - <sa>Distro</sa>: NixOS
+- she/they
+- AuDHD
+
+I'm a busy college student with a knack for niche interests.
+
+I am a self-taught hobbyist artist, and I love my characters and worlds! I have a penchant for surrealism, character psychologies, and magic systems based on human perception.
+
+I also love design and all kinds of neat free and open-source software. Before moving to Linux, I decorated my Windows desktop with Rainmeter, and now I design some of my own widgets with AGS. Ricing is a rabbit hole that I am unfortunately *very* prone to falling in. But hey, that means I can use my computer in a way that I enjoy, find new tools while I'm at it, and talk about it with all of you!
+
+And let's make this clear: along with the list above, I have chronic joint pain and a dissociative disorder. It's difficult to walk the tightrope of being open and wanting to hide from those who deride people like me. If you don't like these parts of me, then my personal space on the internet is not for you. Out, shoo, away with you! <sa>\\(>ᆺ<✿)</sa>
