@@ -1,23 +1,27 @@
 {
-  description = "Provides tools for developing my neocities site";
+  description = "Provides tools for developing a Neocities site";
 
-  inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-  };
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
 
   outputs = { self, nixpkgs }:
   let
-    pkgs = import nixpkgs { system = "x86_64-linux"; };
+    allSystems = nixpkgs.lib.genAttrs nixpkgs.lib.platforms.all;
+
+    toSystems = passPkgs: allSystems (system:
+      passPkgs (import nixpkgs { inherit system; })
+    );
   in
   {
-    devShells."x86_64-linux".default = pkgs.mkShell {
-      name = "neocities";
+    devShells = toSystems (pkgs: {
+      default = pkgs.mkShell {
+        name = "neocities";
 
-      packages = with pkgs; [
-        neocities-cli
-        hugo
-        prettier-plugin-go-template
-      ];
-    };
+        packages = with pkgs; [
+          neocities
+          hugo
+          prettier-plugin-go-template
+        ];
+      };
+    });
   };
 }
