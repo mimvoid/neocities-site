@@ -3,17 +3,22 @@
 
 <head>
   {{ partial "head.html" . }}
-  <!-- Any extra content for the head (e.g. custom styles) -->
+
+  <!-- Extra content for the head (e.g. custom styles) -->
   {{ block "head-extra" . }}
   {{ end }}
 </head>
 
 <body>
   {{ block "body" . }}
+
     {{ partial "header.html" . }}
+
     <div id="wrapper">
       <div class="body">
+
         {{ partial "nav.html" . }}
+
         <main>
           <article class="box">
             {{ block "main" . }}
@@ -21,13 +26,17 @@
 
             {{ partial "dates.html" . }}
           </article>
+
           {{ block "body-extra" . }}
           {{ end }}
+
         </main>
       </div>
 
       {{ partial "footer.html" . }}
+
     </div>
+
   {{ end }}
 </body>
 
