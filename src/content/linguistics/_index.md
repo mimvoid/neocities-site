@@ -1,6 +1,9 @@
 +++
-title = '_Index'
+title = 'Linguistics'
 description = ''
 date = 2024-09-29T14:00:23-04:00
-draft = true
 +++
+
+### Under Construction
+
+Coming soon!

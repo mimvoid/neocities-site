@@ -2,8 +2,11 @@
 title = 'Fungi Shoutouts'
 date = 2024-09-24T21:27:47-04:00
 description = ''
-draft = true
 +++
+
+## Under Construction
+
+Coming soon!
 
 ## Lichen
 
@@ -15,4 +18,4 @@ draft = true
 
 ### Rosette lichen
 
-### Chernobyl's radioactive mold
+## Chernobyl's radioactive mold

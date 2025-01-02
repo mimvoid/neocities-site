@@ -1,12 +1,16 @@
-{{ define "main" }}
+{{ define "main"  }}
 
-<h1>{{ .Title }}</h1>
+<h1>{{ .Title  }}</h1>
 
-{{ .Content -}}
+{{ .Content  }}
+
+{{ $paginator := .Paginate .Pages  }}
+
 <ul>
-  {{- range.Pages }}
-  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-  {{ end -}}
+  {{ range $paginator.Pages  }}
+    <li><a href="{{ .RelPermalink  }}">{{ .LinkTitle  }}</a></li>
+  {{ end }}
 </ul>
 
 {{ end }}
+

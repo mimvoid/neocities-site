@@ -1,10 +1,7 @@
 +++
-title = '_Index'
-description = ''
+title = 'Biology'
+description = 'Collections of cool organisms'
 date = 2024-09-29T14:00:12-04:00
-draft = true
 +++
 
-### Under Construction
-
-Coming soon!
+Collections of cool organisms!
