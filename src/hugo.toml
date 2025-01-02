@@ -7,6 +7,9 @@ uglyUrls = true
 enableGitInfo = true
 disableKinds = ['taxonomy', 'term']
 
+[minify]
+  minifyOutput = true
+
 [markup.highlight]
   style = 'dracula'
   tabWidth = 2
