@@ -7,6 +7,9 @@ uglyUrls = true
 enableGitInfo = true
 disableKinds = ['taxonomy', 'term']
 
+[frontmatter]
+  lastmod = ['lastmod', ':fileModTime', ':default']
+
 [minify]
   minifyOutput = true
 
