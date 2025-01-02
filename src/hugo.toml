@@ -1,42 +1,53 @@
 basepageref = 'https://mimvoid.neocities.org/'
 languageCode = 'en-us'
+
 title = "mimvoid's little corner"
 copyright = 'mimvoid © 2024'
 
-uglyUrls = true
-enableGitInfo = true
-disableKinds = ['taxonomy', 'term']
+uglyUrls = true  # allow .html extension
+enableGitInfo = true  # let Git be used for the Lastmod param
+disableKinds = ['taxonomy', 'term']  # I don't use these
+
 
 [frontmatter]
-  lastmod = ['lastmod', ':fileModTime', ':default']
+lastmod = ['lastmod', ':fileModTime', ':default']
 
 [minify]
-  minifyOutput = true
+minifyOutput = true
+
 
 [markup.highlight]
-  style = 'dracula'
-  tabWidth = 2
+style = 'dracula'
+tabWidth = 2
+
 [markup.goldmark.renderer]
-  unsafe = true
+unsafe = true
+
 
 [menus]
-  [[menus.tabs]]
-    name = 'About'
-    pageref = '/about'
-    weight = 10
-  [[menus.tabs]]
-    name = 'Guestbook'
-    pageref = '/guestbook'
-    weight = 20
-  [[menus.sidebar]]
-    name = 'Biology'
-    pageref = '/biology'
-    weight = 10
-  [[menus.sidebar]]
-    name = 'Design'
-    pageref = '/design'
-    weight = 20
-  [[menus.sidebar]]
-    name = 'Linguistics'
-    pageref = '/linguistics'
-    weight = 30
+
+[[menus.tabs]]
+name = 'About'
+pageref = '/about'
+weight = 10
+
+[[menus.tabs]]
+name = 'Guestbook'
+pageref = '/guestbook'
+weight = 20
+
+
+[[menus.sidebar]]
+name = 'Biology'
+pageref = '/biology'
+weight = 10
+
+[[menus.sidebar]]
+name = 'Design'
+pageref = '/design'
+weight = 20
+
+[[menus.sidebar]]
+name = 'Linguistics'
+pageref = '/linguistics'
+weight = 30
