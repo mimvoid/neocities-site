@@ -7,7 +7,7 @@
  *--------------------------*/
 
 #wrapper {
-  padding: 0 5.5%;
+  padding: 0 5%;
 }
 
 .body {
@@ -19,7 +19,7 @@
 
   nav {
     position: sticky;
-    top: 1.5em;
+    top: 1em;
   }
 }
 
@@ -49,7 +49,7 @@ main {
 }
 
 /* The content box always has the active border color */
-article .box {
+article.box {
   border-color: var(--active-border);
 }
 
@@ -58,6 +58,14 @@ article .box {
 
   * {
     margin: 0.5em 0;
+  }
+
+  p, a, summary {
+    font-size: 0.98rem;
+
+    i {
+      top: -0.17rem;
+    }
   }
 }
 

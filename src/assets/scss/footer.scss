@@ -6,7 +6,7 @@ footer {
   font-size: 0.95em;
   background-color: var(--bg);
 
-  // General styling
+  // Vim-plugin-like status bar
   .bar {
     display: flex;
     flex-flow: row wrap;
@@ -19,43 +19,51 @@ footer {
       display: inline-block;
     }
 
-    // Make them be on one line
     .left p,
     .right p {
       padding: 0.25em 0.5em;
-      display: inline;
+      display: inline; // Put them all on one line
     }
-
 
     // Specific footer elements
-    /* Accented background, dark text */
+
+    // Accented background, dark text
     #mode,
-    #top_link,
-    #top_link * {
+    #top_link {
       color: var(--bg);
       background-color: var(--primary);
+
+      // Make children visible against the background
+      a {
+        color: var(--bg);
+      }
+
+      i {
+        background-color: var(--bg);
+      }
     }
 
-    #mode i,
-    #top_link i {
-      background-color: var(--bg);
-    }
-
+    // Lighter background, accented text
     #source-code,
     #credits {
       color: var(--primary);
       background-color: var(--overlay);
     }
 
-    #source-code i {
-      @include looks.transition;
-      background-color: var(--primary);
+    // Style the source code section's icon
+    #source-code {
+      i {
+        @include looks.transition;
+        background-color: var(--primary);
+      }
 
-      &:focus i, &:hover i {
+      &:focus i,
+      &:hover i {
         background-color: var(--tertiary);
       }
     }
 
+    // Text in the middle section
     #author,
     #filetype {
       opacity: 0.75;

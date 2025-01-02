@@ -3,10 +3,6 @@
  *-------------------------*/
 
 @media (max-width: 940px) {
-  #wrapper {
-    padding: 0 6%;
-  }
-
   header {
     padding-left: 2.5em;
     padding-right: 2.5em;
@@ -41,8 +37,8 @@
   }
 
   header {
-    padding-left: 0.25em;
-    padding-right: 0.25em;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .body {
@@ -54,6 +50,10 @@
   }
 
   .sidebar {
+    #home-link {
+      display: none;
+    }
+
     nav {
       display: flex;
       flex-wrap: wrap;
@@ -61,10 +61,10 @@
       align-items: stretch;
       position: static;
       margin: 0.75em 0;
-    }
 
-    nav .box {
-      flex-grow: 1;
+      .box {
+        flex-grow: 1;
+      }
     }
   }
 

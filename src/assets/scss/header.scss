@@ -17,61 +17,56 @@ header {
       display: inline;
     }
 
-    img {
+    #nav_home {
       @include looks.transition;
-      margin-right: 0.5em;
+
+      margin-right: 1rem;
+      font-weight: bold;
+      color: var(--fg);
+
+      img {
+        margin-right: 0.5em;
+      }
+
+      &:focus, &:hover {
+        color: var(--tertiary);
+        img {
+          // Simulate the icon changing to tertiary
+          filter: hue-rotate(-40deg) saturate(175%) brightness(0.9);
+        }
+      }
     }
 
-    // Simulate the icon changing to tertiary
-    &:focus img, &:hover img {
-      filter: hue-rotate(-40deg) saturate(175%) brightness(0.95);
+    #nav_pages * {
+      margin-right: 0.25rem;
+
+      &:before {
+        content: "~/";
+        font-family: fonts.$monospace;
+        color: var(--fg);
+        opacity: 0.6;
+      }
     }
   }
 
   .actions {
-    @include looks.transition;
-    opacity: 0.8;
-  }
+    i {
+      @include looks.transition;
+      opacity: 0.85;
 
-  #nav_home {
-    font-weight: bold;
-    margin-right: 1rem;
-  }
-
-  #minimize {
-    color: var(--tertiary);
-  }
-  #resize {
-    color: var(--secondary);
-  }
-  #close {
-    color: var(--primary);
-  }
-
-  #nav_pages * {
-    margin-right: 0.25rem;
-
-    &:before {
-      content: "~/";
-      font-family: fonts.$monospace;
-      color: var(--fg);
-      opacity: 0.6;
+      &:focus, &:hover {
+        opacity: 1;
+      }
     }
-  }
 
-  p, i {
-    color: var(--fg);
-  }
-
-  .ph-minus:focus,
-  .ph-minus:hover,
-  .ph-cards:focus,
-  .ph-cards:hover {
-    background-color: var(--secondary);
-  }
-
-  .ph-x:focus,
-  .ph-x:hover {
-    background-color: var(--tertiary);
+    #minimize {
+      color: var(--primary);
+    }
+    #resize {
+      color: var(--secondary);
+    }
+    #close {
+      color: var(--tertiary);
+    }
   }
 }

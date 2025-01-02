@@ -17,7 +17,7 @@ body {
   background-attachment: fixed;
 
   font-family: fonts.$body;
-  font-size: 1.05em;
+  font-size: 1.025em;
   line-height: 1.4;
 }
 
@@ -58,6 +58,7 @@ em {
 /*-------
  * Links
  *-------*/
+
 a {
   @include looks.transition;
 
@@ -70,15 +71,23 @@ a {
 }
 
 // Only change color for links in main content
-main a:visited:not(:focus):not(:hover) {
+main a {
+  @include looks.transition;
+
+  text-decoration: underline 1px var(--tertiary);
   color: var(--link-color-old);
+
+  &:not(:visited) {
+    color: var(--link-color);
+  }
 }
 
 /*-------
  * Lists 
  *-------*/
+
 li {
-  padding: 0.25rem 0;
+  padding: 0.2rem 0;
 
   // color the bullet points
   &::marker {
@@ -92,8 +101,9 @@ li {
 }
 
 /*------------------------
- * Details (toggle lists)
+ * Details (toggle blocks)
  *------------------------*/
+
 details[open] {
   padding-bottom: 0.1em;
 
@@ -102,7 +112,7 @@ details[open] {
   }
 }
 
-// hide the default triangle marker
+// replace the default triangle marker
 details summary::-webkit-details-marker {
   display: none;
 }
