@@ -42,7 +42,6 @@ header {
 
       &:before {
         content: "~/";
-        font-family: fonts.$monospace;
         color: var(--fg);
         opacity: 0.6;
       }
