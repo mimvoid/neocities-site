@@ -36,3 +36,7 @@ disableKinds = ['taxonomy', 'term']
     name = 'Design'
     pageref = '/design'
     weight = 20
+  [[menus.sidebar]]
+    name = 'Linguistics'
+    pageref = '/linguistics'
+    weight = 30

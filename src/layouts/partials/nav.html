@@ -6,16 +6,16 @@
     <div class="box">
 
       <!-- Iterate over first-level sections -->
-      {{ range site.Sections }}
+      {{ range .Site.Menus.sidebar }}
       <details>
         <summary>
           <i class="ph-bold ph-folder"></i>
-          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          <a href="{{ .Page.RelPermalink }}" title="{{ .Title }}">{{ .Name }}</a>
         </summary>
         <div class="details-content">
 
           <!-- Go down another level -->
-          {{ range .Sections }}
+          {{ range .Page.Sections }}
             <details class="nested">
               <summary>
                 <i class="ph-bold ph-folder"></i>
@@ -31,7 +31,7 @@
           {{ end }}
 
           <!-- And list the pages -->
-          {{ range .RegularPages }}
+          {{ range .Page.RegularPages }}
             <p><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
           {{ end }}
 
