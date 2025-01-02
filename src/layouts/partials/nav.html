@@ -4,26 +4,41 @@
       <p><a href="/">Home</a></p>
     </div>
     <div class="box">
+
+      <!-- Iterate over first-level sections -->
+      {{ range site.Sections }}
       <details>
         <summary>
           <i class="ph-bold ph-folder"></i>
-          Biology
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
         </summary>
         <div class="details-content">
-          <p><a href="/biology/critter-shoutouts">Critter Shoutouts</a></p>
-          <p><a href="/biology/flora-shoutouts">Flora Shoutouts</a></p>
-          <p><a href="/biology/fungi-shoutouts">Fungi Shoutouts</a></p>
+
+          <!-- Go down another level -->
+          {{ range .Sections }}
+            <details class="nested">
+              <summary>
+                <i class="ph-bold ph-folder"></i>
+                <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+              </summary>
+
+              <div class="details-content">
+                {{ range .Pages }}
+                  <p><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
+                {{ end }}
+              </div>
+            </details>
+          {{ end }}
+
+          <!-- And list the pages -->
+          {{ range .RegularPages }}
+            <p><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
+          {{ end }}
+
         </div>
       </details>
-      <details>
-        <summary>
-          <i class="ph-bold ph-folder"></i>
-          Design
-        </summary>
-        <div class="details-content">
-          <p><a href="/design/my-favorite-fonts">My Favorite Fonts</a></p>
-        </div>
-      </details>
+      {{ end }}
+
     </div>
   </nav>
 </div>

@@ -104,14 +104,6 @@ li {
  * Details (toggle blocks)
  *------------------------*/
 
-details[open] {
-  padding-bottom: 0.1em;
-
-  summary {
-    padding-bottom: 0.25em;
-  }
-}
-
 // replace the default triangle marker
 details summary::-webkit-details-marker {
   display: none;
@@ -120,19 +112,11 @@ details summary::-webkit-details-marker {
 summary {
   display: block;
   position: relative;
-  left: 1.25rem;
   font-weight: bold;
   cursor: pointer;
 
   i {
     @include looks.transition;
-
-    display: inline-block;
-    width: 1.25em;
-    position: absolute;
-    left: -1.25rem;
-    top: -0.25rem;
-
     color: var(--primary);
   }
 
@@ -144,6 +128,7 @@ summary {
 .details-content {
   position: relative;
   left: 0.4rem;
+
   box-sizing: content-box;
   border-left: 1px var(--tertiary) solid;
 
@@ -151,6 +136,19 @@ summary {
     text-indent: 0.75em;
     white-space: nowrap;
     text-overflow: ellipsis;
+  }
+}
+
+details.nested {
+  summary {
+    left: 0.75rem;
+  }
+
+  .details-content {
+    left: 1.2rem;
+    p {
+      text-indent: 0.85em;
+    }
   }
 }
 
