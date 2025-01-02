@@ -1,0 +1,38 @@
+:root {
+  --bg: rgb(31, 32, 57);
+  --fg: rgb(220, 210, 240);
+  --overlay: rgba(67, 72, 101, 0.35);
+
+  --primary: rgb(250, 188, 240);
+  --secondary: rgb(200, 163, 240);
+  --tertiary: rgb(182, 170, 245);
+
+  --active-border: var(--primary);
+  --inactive-border: var(--secondary);
+  --link-color: var(--primary);
+  --link-color-old: var(--secondary);
+
+  --bg-img: url(../images/mimvoid_cat-spades.webp);
+  --bg-size: 175px;
+}
+
+// TODO: replace the colors
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: rgb(31, 32, 57);
+    --fg: rgb(220, 210, 240);
+    --overlay: rgba(67, 72, 101, 0.35);
+
+    --primary: rgb(250, 188, 240);
+    --secondary: rgb(200, 163, 240);
+    --tertiary: rgb(182, 170, 245);
+
+    --active-border: var(--primary);
+    --inactive-border: var(--secondary);
+    --link-color: var(--primary);
+    --link-color-old: var(--secondary);
+
+    --bg-img: url(../images/mimvoid_cat-spades.webp);
+    --bg-size: 175px;
+  }
+}

@@ -1,0 +1,53 @@
+// woff2 support:
+// Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+
+
+@mixin font($family, $file, $weight: 400, $style: normal) {
+  @font-face {
+    font-display: swap;
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    src: url("../fonts/#{$file}") format("woff2");
+  }
+}
+
+// ia-writer-duospace bold
+@include font(
+  $family: "iA Writer Duo",
+  $file: "ia-writer-duos_bold.woff2",
+  $weight: 700
+);
+
+// ia-writer-monospace
+@include font(
+  $family: "iA Writer Mono",
+  $file: "ia-writer-monos_bold.woff2"
+);
+
+// karla-regular - latin
+@include font(
+  $family: "Karla",
+  $file: "karla_400.woff2"
+);
+
+// karla-italic - latin
+@include font(
+  $family: "Karla",
+  $file: "karla_400-italic.woff2",
+  $style: italic
+);
+
+// karla-600 - latin
+@include font(
+  $family: "Karla",
+  $file: "karla_600.woff2",
+  $weight: 600
+);
+
+// karla-600italic - latin
+@include font(
+  $family: "Karla",
+  $file: "karla_600-italic.woff2",
+  $weight: 600,
+  $style: italic
+);

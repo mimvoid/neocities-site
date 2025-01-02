@@ -1,0 +1,13 @@
+@use "./variables/palette";
+
+pa {
+  color: var(--primary);
+}
+
+sa {
+  color: var(--secondary);
+}
+
+ta {
+  color: var(--tertiary);
+}

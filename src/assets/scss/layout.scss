@@ -1,0 +1,67 @@
+@use "sass:color";
+@use "./variables/palette";
+@use "./variables/looks";
+
+/*--------------------------
+ * Body & sidebar positions
+ *--------------------------*/
+
+#wrapper {
+  padding: 0 5.5%;
+}
+
+.body {
+  display: flex;
+}
+
+.sidebar {
+  flex: 20%;
+
+  nav {
+    position: sticky;
+    top: 1.5em;
+  }
+}
+
+main {
+  flex: 80%;
+}
+
+/*---------------
+ * Content boxes
+ *---------------*/
+
+.box {
+  @include looks.transition;
+
+  border: 2px solid var(--inactive-border);
+  border-radius: 4px;
+  margin: 0.75em 0.5em;
+
+  background-color: rgba(from var(--bg) r g b / 0.85);
+  backdrop-filter: blur(4px);
+
+  &:hover, &:has(*:focus) {
+    border-color: var(--active-border);
+    background-color: var(--bg);
+    opacity: 1;
+  }
+}
+
+/* The content box always has the active border color */
+article .box {
+  border-color: var(--active-border);
+}
+
+.sidebar nav > .box {
+  padding: 0.6em 0.8em;
+
+  * {
+    margin: 0.5em 0;
+  }
+}
+
+main > .box {
+  margin-left: 0.3em;
+  padding: 1.5em 3em;
+}

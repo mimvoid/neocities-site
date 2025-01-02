@@ -1,0 +1,42 @@
+i {
+  position: relative;
+  margin-right: 0.5em;
+  font-size: 0.75em;
+}
+
+.ph-bold,
+.ph-fill {
+  display: inline-block;
+  width: 1.25em;
+  height: 1.25em;
+  vertical-align: -0.25em;
+
+  mask-image: var(--svg);
+  -webkit-mask-image: var(--svg);
+
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+  -webkit-mask-size: 100% 100%;
+
+  background-color: currentColor;
+}
+
+// Define each icon
+$ph-icons: minus, cards, x, compass, code, caret-up;
+
+@each $name in $ph-icons {
+  .ph-#{$name} {
+    --svg: url(../icons/ph-#{$name}.svg);
+  }
+}
+
+// this one's class and file name are different
+.ph-folder {
+  --svg: url(../icons/ph-folder-simple.svg);
+}
+
+// open toggle block icon
+details[open] > summary i {
+  --svg: url(../icons/ph-folder-open.svg);
+}

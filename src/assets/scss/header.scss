@@ -1,0 +1,77 @@
+@use "./variables/palette";
+@use "./variables/fonts";
+@use "./variables/looks";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.75em;
+  padding: 0.5em 2.5em 0 2.5em;
+  background-color: var(--bg);
+
+  .tabs {
+    margin: 0.5em 1em;
+
+    * {
+      display: inline;
+    }
+
+    img {
+      @include looks.transition;
+      margin-right: 0.5em;
+    }
+
+    // Simulate the icon changing to tertiary
+    &:focus img, &:hover img {
+      filter: hue-rotate(-40deg) saturate(175%) brightness(0.95);
+    }
+  }
+
+  .actions {
+    @include looks.transition;
+    opacity: 0.8;
+  }
+
+  #nav_home {
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+
+  #minimize {
+    color: var(--tertiary);
+  }
+  #resize {
+    color: var(--secondary);
+  }
+  #close {
+    color: var(--primary);
+  }
+
+  #nav_pages * {
+    margin-right: 0.25rem;
+
+    &:before {
+      content: "~/";
+      font-family: fonts.$monospace;
+      color: var(--fg);
+      opacity: 0.6;
+    }
+  }
+
+  p, i {
+    color: var(--fg);
+  }
+
+  .ph-minus:focus,
+  .ph-minus:hover,
+  .ph-cards:focus,
+  .ph-cards:hover {
+    background-color: var(--secondary);
+  }
+
+  .ph-x:focus,
+  .ph-x:hover {
+    background-color: var(--tertiary);
+  }
+}

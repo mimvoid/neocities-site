@@ -23,17 +23,3 @@
 <meta property="og:title" content="{{ .Site.Title }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta name="author" content="mimvoid" />
-
-<!-- CSS links -->
-{{ with resources.Get "css/variables.css" | minify }}
-  <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
-{{ end }}
-{{ with resources.Get "css/fonts.css" | minify }}
-  <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
-{{ end }}
-{{ with resources.Get "css/main.css" | minify }}
-  <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
-{{ end }}
-{{ with resources.Get "css/phosphor-icons.css" | minify }}
-  <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="all" />
-{{ end }}

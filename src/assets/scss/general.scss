@@ -1,0 +1,159 @@
+@use "hugo:vars" as h;
+@use "./variables/palette";
+@use "./variables/fonts";
+@use "./variables/looks";
+
+* {
+  box-sizing: border-box;
+}
+
+// Site-wide styling
+body {
+  margin: 0;
+  color: var(--fg);
+
+  background: var(--bg-img) var(--bg);
+  background-size: var(--bg-size);
+  background-attachment: fixed;
+
+  font-family: fonts.$body;
+  font-size: 1.05em;
+  line-height: 1.4;
+}
+
+/*---------
+ * Headings
+ *---------*/
+
+$headings: (
+  h1: 2em,
+  h2: 1.6em,
+  h3: 1.25em,
+  h4: 1em,
+  h5: 0.85em,
+  h6: 0.7em
+);
+
+@each $h, $size in $headings {
+  #{$h} {
+    font-family: fonts.$heading;
+    font-size: $size;
+
+    color: var(--tertiary);
+  }
+}
+
+/*-------
+ * Text
+ *-------*/
+
+strong {
+  color: var(--primary);
+}
+
+em {
+  color: var(--secondary);
+}
+
+/*-------
+ * Links
+ *-------*/
+a {
+  @include looks.transition;
+
+  text-decoration: none;
+  color: var(--link-color);
+
+  &:focus, &:hover {
+    color: var(--tertiary);
+  }
+}
+
+// Only change color for links in main content
+main a:visited:not(:focus):not(:hover) {
+  color: var(--link-color-old);
+}
+
+/*-------
+ * Lists 
+ *-------*/
+li {
+  padding: 0.25rem 0;
+
+  // color the bullet points
+  &::marker {
+    @include looks.transition;
+    color: var(--primary);
+  }
+
+  &:focus::marker, &:hover::marker {
+    color: var(--tertiary);
+  }
+}
+
+/*------------------------
+ * Details (toggle lists)
+ *------------------------*/
+details[open] {
+  padding-bottom: 0.1em;
+
+  summary {
+    padding-bottom: 0.25em;
+  }
+}
+
+// hide the default triangle marker
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  display: block;
+  position: relative;
+  left: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+
+  i {
+    @include looks.transition;
+
+    display: inline-block;
+    width: 1.25em;
+    position: absolute;
+    left: -1.25rem;
+    top: -0.25rem;
+
+    color: var(--primary);
+  }
+
+  &:focus i, &:hover i {
+    color: var(--tertiary);
+  }
+}
+
+.details-content {
+  position: relative;
+  left: 0.4rem;
+  box-sizing: content-box;
+  border-left: 1px var(--tertiary) solid;
+
+  p {
+    text-indent: 0.75em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+/*------------
+ * Date stats
+ *------------*/
+hr {
+  margin: 1.5em 0;
+  color: var(--secondary);
+  opacity: 0.35;
+}
+
+.dates {
+  text-align: right;
+  font-size: 0.9em;
+}

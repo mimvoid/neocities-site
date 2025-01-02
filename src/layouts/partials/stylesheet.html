@@ -1,0 +1,14 @@
+{{
+  $opts := dict
+  "transpiler" "dartsass"
+}}
+
+<!-- Convert to CSS and minify -->
+{{ with resources.Get "scss/style.scss" | toCSS $opts | minify }}
+  <link
+    rel="stylesheet"
+    href="{{ .RelPermalink }}"
+    type="text/css"
+    media="all"
+  />
+{{ end }}

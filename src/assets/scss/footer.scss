@@ -1,0 +1,64 @@
+@use "./variables/palette";
+@use "./variables/looks";
+
+footer {
+  margin: 3em 0 2em 0;
+  font-size: 0.95em;
+  background-color: var(--bg);
+
+  // General styling
+  .bar {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 1em;
+    justify-content: space-between;
+    padding: 0.25em 0;
+
+    * {
+      padding: 0;
+      display: inline-block;
+    }
+
+    // Make them be on one line
+    .left p,
+    .right p {
+      padding: 0.25em 0.5em;
+      display: inline;
+    }
+
+
+    // Specific footer elements
+    /* Accented background, dark text */
+    #mode,
+    #top_link,
+    #top_link * {
+      color: var(--bg);
+      background-color: var(--primary);
+    }
+
+    #mode i,
+    #top_link i {
+      background-color: var(--bg);
+    }
+
+    #source-code,
+    #credits {
+      color: var(--primary);
+      background-color: var(--overlay);
+    }
+
+    #source-code i {
+      @include looks.transition;
+      background-color: var(--primary);
+
+      &:focus i, &:hover i {
+        background-color: var(--tertiary);
+      }
+    }
+
+    #author,
+    #filetype {
+      opacity: 0.75;
+    }
+  }
+}
