@@ -20,7 +20,6 @@
           neocities
           hugo
           dart-sass
-          prettier-plugin-go-template
         ];
       };
     });
