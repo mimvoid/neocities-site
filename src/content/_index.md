@@ -6,7 +6,8 @@ description = "mimvoid's little corner, my space on the internet"
 
 # Welcome and Salutations!
 
-<sa>~ This site is under construction! ~</sa>
+~ This site is under construction! ~
+{.secondary}
 
 Hi there, I'm mimvoid!
 
