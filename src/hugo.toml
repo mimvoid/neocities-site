@@ -22,32 +22,3 @@ tabWidth = 2
 
 [markup.goldmark.parser.attribute]
 block = true
-
-
-[menus]
-
-[[menus.tabs]]
-name = 'About'
-pageref = '/about'
-weight = 10
-
-[[menus.tabs]]
-name = 'Guestbook'
-pageref = '/guestbook'
-weight = 20
-
-
-[[menus.sidebar]]
-name = 'Biology'
-pageref = '/biology'
-weight = 10
-
-[[menus.sidebar]]
-name = 'Design'
-pageref = '/design'
-weight = 20
-
-[[menus.sidebar]]
-name = 'Linguistics'
-pageref = '/linguistics'
-weight = 30

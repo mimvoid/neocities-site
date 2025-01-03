@@ -6,12 +6,12 @@
     <div class="box">
 
       <!-- Iterate over first-level sections -->
-      {{ range .Site.Menus.sidebar }}
+      {{ range site.Sections }}
       <details>
         <summary>
           <i class="ph-bold ph-folder"></i>
           <a href="{{ .Page.RelPermalink }}" title="{{ .Title }}" >
-            {{ .Name }}
+            {{ .LinkTitle }}
           </a>
         </summary>
         <div class="details-content">

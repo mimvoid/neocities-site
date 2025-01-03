@@ -1,8 +1,10 @@
 +++
 title = 'About'
-date = 2024-09-24T21:27:07-04:00
 description = 'About me'
+date = 2024-09-24T21:27:07-04:00
 layout = 'about'
+menus = 'tabs'
+weight = 10
 +++
 
 # Hi! I'm mimvoid
