@@ -1,5 +1,5 @@
 <div class="sidebar">
-  <nav>
+  <nav role="navigation">
     <div class="box" id="home-link">
       <p><a href="/">Home</a></p>
     </div>
@@ -10,7 +10,9 @@
       <details>
         <summary>
           <i class="ph-bold ph-folder"></i>
-          <a href="{{ .Page.RelPermalink }}" title="{{ .Title }}">{{ .Name }}</a>
+          <a href="{{ .Page.RelPermalink }}" title="{{ .Title }}" >
+            {{ .Name }}
+          </a>
         </summary>
         <div class="details-content">
 
@@ -19,12 +21,18 @@
             <details class="nested">
               <summary>
                 <i class="ph-bold ph-folder"></i>
-                <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                <a href="{{ .RelPermalink }}" title="{{ .Title }}" >
+                  {{ .LinkTitle }}
+              </a>
               </summary>
 
               <div class="details-content">
                 {{ range .Pages }}
-                  <p><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
+                  <p>
+                    <a href="{{ .RelPermalink }}" title="{{ .Title }}" >
+                      {{ .LinkTitle }}
+                    </a>
+                  </p>
                 {{ end }}
               </div>
             </details>
@@ -32,7 +40,11 @@
 
           <!-- And list the pages -->
           {{ range .Page.RegularPages }}
-            <p><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
+            <p>
+              <a href="{{ .RelPermalink }}" title="{{ .Title }}" >
+                {{ .LinkTitle }}
+              </a>
+            </p>
           {{ end }}
 
         </div>

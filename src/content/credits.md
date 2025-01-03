@@ -21,7 +21,7 @@ Speaking of my editor, I use [Neovim][t3]! It supports LSPs that can spot errors
 
 ## Design
 
-I drew the background myself! It was inspired by the patterns [here](https://nonexistentfandomsfandom.neocities.org/graphics/backgrounds), made using a base by [cairovercoat](https://cairovercoat.tumblr.com/tagged/pixel+pattern). The site icon and favicon are also by me. Can you tell I love cats?
+I drew the background myself! It was [inspired by these patterns](https://nonexistentfandomsfandom.neocities.org/graphics/backgrounds), made using [a base by cairovercoat](https://cairovercoat.tumblr.com/tagged/pixel+pattern). The site icon and favicon are also by me. Can you tell I love cats?
 
 **Fonts**
 
