@@ -10,6 +10,12 @@ Under Construction...
 
 ## EB Garamond
 
+[Homepage](https://googlefonts.github.io/ebgaramond-specimen)
+
+[Source](https://github.com/octaviopardo/EBGaramond12)
+
+{{% license "ofl" %}}
+
 {{% pangram font="EB Garamond" %}}
 
 ## Libre Baskerville
@@ -17,5 +23,7 @@ Under Construction...
 [Homepage](https://impallari.com/revivals/baskerville)
 
 [Source](https://github.com/impallari/Libre-Baskerville)
+
+{{% license "ofl" %}}
 
 {{% pangram font="Libre Baskerville" %}}

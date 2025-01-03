@@ -14,11 +14,15 @@ Under Construction...
 
 [Source](https://github.com/adobe-fonts/source-code-pro)
 
+{{% license "ofl" %}}
+
 {{% pangram font="Source Code Pro" %}}
 
 ## Office Code Pro
 
 [Homepage](https://github.com/nathco/Office-Code-Pro)
+
+{{% license "ofl" %}}
 
 {{% pangram font="Office Code Pro" %}}
 
@@ -26,11 +30,15 @@ Under Construction...
 
 [Homepage](https://github.com/tonsky/FiraCode)
 
+{{% license "ofl" %}}
+
 ## Victor Mono
 
 [Homepage](https://rubjo.github.io/victor-mono)
 
 [Source](https://github.com/rubjo/victor-mono)
+
+{{% license "ofl" %}}
 
 {{% pangram font="Victor Mono" %}}
 

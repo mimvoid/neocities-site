@@ -1,0 +1,22 @@
+{{- $license := .Get 0 -}}
+
+{{-
+  $links := dict
+  "OFL" "https://openfontlicense.org"
+-}}
+
+{{- with $license | strings.ToUpper -}}
+  <p>
+    License: {{ if $link := index $links . }}
+      <a
+        href="{{- $link -}}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {{- . -}}
+      </a>
+    {{ else }}
+      {{- . -}}
+    {{ end }}
+  </p>
+{{- end -}}

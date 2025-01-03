@@ -12,6 +12,8 @@ Under Construction...
 
 [Homepage](https://github.com/googlefonts/karla)
 
+{{% license "ofl" %}}
+
 {{% pangram font="Karla" %}}
 
 Karla is the body font of my website!
@@ -20,11 +22,15 @@ Karla is the body font of my website!
 
 [Homepage](https://github.com/googlefonts/nunito)
 
+{{% license "ofl" %}}
+
 {{% pangram font="Nunito" %}}
 
 ## Mulish
 
 [Homepage](https://github.com/googlefonts/mulish)
+
+{{% license "ofl" %}}
 
 {{% pangram font="Mulish" %}}
 
@@ -35,6 +41,8 @@ Mulish was originally called Muli, and was [changed in 2020](https://github.com/
 [Homepage](https://cantarell.gnome.org)
 
 [Source](https://gitlab.gnome.org/GNOME/cantarell-fonts)
+
+{{% license "ofl" %}}
 
 {{% pangram font="Cantarell" %}}
 

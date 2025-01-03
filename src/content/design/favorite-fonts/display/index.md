@@ -12,11 +12,15 @@ Under Construction...
 
 [Homepage](https://github.com/googlefonts/majormono)
 
+{{% license "ofl" %}}
+
 {{% pangram font="Major Mono Display" %}}
 
 ## DM Serif Display
 
 [Homepage](https://github.com/googlefonts/dm-fonts)
+
+{{% license "ofl" %}}
 
 {{% pangram font="DM Serif Display" %}}
 
@@ -24,13 +28,19 @@ Under Construction...
 
 [Homepage](https://github.com/googlefonts/OswaldFont)
 
+{{% license "ofl" %}}
+
 {{% pangram font="Oswald" %}}
 
 ## Baloo 2
 
+{{% license "ofl" %}}
+
 {{% pangram font="Baloo 2" %}}
 
 ## SoukouMincho
+
+{{% license "ofl" %}}
 
 {{% pangram font="SoukouMincho" %}}
 
@@ -38,10 +48,14 @@ Under Construction...
 
 [Homepage](http://mini-design.jp/font/mini-wakuwaku.html)
 
+License: See homepage
+
 {{% pangram font="mini-wakuwaku" punctuation=false %}}
 
 {{% pangram font="mini-wakuwaku" lang="hiragana" %}}
 
 ## Limelight
+
+{{% license "ofl" %}}
 
 {{% pangram font="Limelight" %}}
