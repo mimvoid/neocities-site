@@ -1,0 +1,8 @@
+{{- $opts := dict "transpiler" "dartsass" -}}
+
+{{- $u := urls.Parse (.Get "file") -}}
+{{- $file := .Page.Resources.Get $u.Path -}}
+
+{{ with resources.Minify (toCSS ($file)) }}
+  <link type="text/css" rel="stylesheet" href="{{ .RelPermalink }}">
+{{ end }}

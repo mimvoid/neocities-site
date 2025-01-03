@@ -1,0 +1,23 @@
+.large {
+  font-size: 2em;
+}
+
+@mixin font($family, $file, $ext: "woff2", $weight: 400, $style: normal) {
+  @font-face {
+    font-display: swap;
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    src: local(#{$family}), url("./fonts/#{$file}.#{$ext}") format("woff2");
+  }
+}
+
+@include font(
+  $family: "EB Garamond",
+  $file: "ebGaramond-rg"
+);
+
+@include font(
+  $family: "Libre Baskerville",
+  $file: "libreBaskerville-rg"
+);

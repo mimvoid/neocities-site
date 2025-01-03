@@ -1,0 +1,35 @@
+.large {
+  font-size: 2em;
+}
+
+@mixin font($family, $file, $ext: "woff2", $weight: 400, $style: normal) {
+  @font-face {
+    font-display: swap;
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    src: local(#{$family}), url("./fonts/#{$file}.#{$ext}") format("woff2");
+  }
+}
+
+@include font(
+  $family: "Office Code Pro",
+  $file: "officeCodePro-rg"
+);
+
+@include font(
+  $family: "Source Code Pro",
+  $file: "sourceCodePro-rg",
+  $ext: "ttf.woff2"
+);
+
+@include font(
+  $family: "Victor Mono",
+  $file: "victorMono-rg"
+);
+
+@include font(
+  $family: "Victor Mono",
+  $file: "victorMono-italic",
+  $style: italic
+);

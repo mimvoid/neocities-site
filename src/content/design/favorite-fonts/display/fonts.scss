@@ -1,0 +1,56 @@
+.large {
+  font-size: 2em;
+}
+
+@mixin font($family, $file, $ext: "woff2", $weight: 400, $style: normal) {
+  @font-face {
+    font-display: swap;
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    src: local(#{$family}), url("./fonts/#{$file}.#{$ext}") format("woff2");
+  }
+}
+
+@include font(
+  $family: "Baloo 2",
+  $file: "baloo2-700",
+  $weight: 700
+);
+
+@include font(
+  $family: "DM Serif Display",
+  $file: "dmSerifDisplay-rg"
+);
+
+@include font(
+  $family: "Limelight",
+  $file: "limelight-rg"
+);
+
+@include font(
+  $family: "Major Mono Display",
+  $file: "majorMonoDisplay-rg"
+);
+
+@include font(
+  $family: "Milton Burlesque",
+  $file: "miltonBurlesque-rg"
+);
+
+@include font(
+  $family: "mini-wakuwaku",
+  $file: "mini-wakuwaku",
+  $ext: "otf"
+);
+
+@include font(
+  $family: "Oswald",
+  $file: "oswald-rg"
+);
+
+@include font(
+  $family: "SoukouMincho",
+  $file: "soukouMincho",
+  $weight: normal
+);

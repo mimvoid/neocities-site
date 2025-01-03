@@ -20,5 +20,8 @@ minifyOutput = true
 style = 'dracula'
 tabWidth = 2
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [markup.goldmark.parser.attribute]
 block = true

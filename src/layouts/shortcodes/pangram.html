@@ -1,0 +1,50 @@
+{{- $font := .Get "font" -}}
+
+{{- $lang := "en"}}
+{{- if .Get "lang" -}}
+  {{- $lang = .Get "lang" -}}
+{{- end -}}
+
+{{- $punctuation := true -}}
+{{- if .Get "punctuation" -}}
+  {{- $punctuation = .Get "punctuation" -}}
+{{- end -}}
+
+<div class="large" style="font-family: '{{ $font }}'">
+  {{- with $lang -}}
+
+    {{- if eq . "en" -}}
+      <p>SPHINX OF BLACK QUARTZ, JUDGE MY VOW.</p>
+      <p>sphinx of black quartz, judge my vow.</p>
+    {{- end -}}
+
+    {{- if eq . "rs" -}}
+      <p>СЪЕШЬ ЕЩЁ ЭТИХ МЯГКИХ ФРАНЦУЗСКИХ БУЛОК, ДА ВЫПЕЙ ЖЕ ЧАЮ</p>
+      <p>съешь ещё этих мягких французских булок, да выпей же чаю</p>
+    {{- end -}}
+
+    {{- if eq . "cn" -}}
+      <p>天地玄黃，宇宙洪荒。</p>
+      <p>日月盈昃，辰宿列張。</p>
+      <p>寒來暑往，秋收冬藏。</p>
+      <p>閏餘成歲，律呂調陽。</p>
+      <p>雲騰致雨，露結為霜。</p>
+      <p>金生麗水，玉出崑岡。</p>
+    {{- end -}}
+
+    {{- if eq . "hiragana" -}}
+      <p>いろはにほへと</p>
+      <p>ちりぬるを</p>
+      <p>わかよたれそ</p>
+      <p>つねならむ</p>
+      <p>うゐのおくやま</p>
+      <p>けふこえて</p>
+      <p>あさきゆめみし</p>
+      <p>ゑひもせす</p>
+    {{- end -}}
+  {{- end -}}
+
+  {{- if $punctuation -}}
+    <p>0123456789 ?! ‘’ “” () [] {} / &@%*#$£€</p>
+  {{- end -}}
+</div>
