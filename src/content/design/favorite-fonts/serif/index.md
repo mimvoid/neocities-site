@@ -4,7 +4,7 @@ description = 'My collection of serif fonts'
 date = 2025-01-02T13:24:54-05:00
 +++
 
-{{% style file="fonts.scss" %}}
+{{% style "fonts.scss" %}}
 
 Under Construction...
 

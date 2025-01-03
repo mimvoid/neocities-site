@@ -1,5 +1,10 @@
 .large {
-  font-size: 2em;
+  margin: 1.25em 0;
+  font-size: 1.75em;
+
+  p {
+    margin: 0.5em 0;
+  }
 }
 
 @mixin font($family, $file, $ext: "woff2", $weight: 400, $style: normal) {

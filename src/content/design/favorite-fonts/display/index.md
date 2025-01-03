@@ -4,7 +4,7 @@ description = 'My collection of display fonts'
 date = 2025-01-02T13:25:05-05:00
 +++
 
-{{% style file="fonts.scss" %}}
+{{% style "fonts.scss" %}}
 
 Under Construction...
 

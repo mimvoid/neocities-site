@@ -1,6 +1,6 @@
 {{- $opts := dict "transpiler" "dartsass" -}}
 
-{{- $u := urls.Parse (.Get "file") -}}
+{{- $u := urls.Parse (.Get 0) -}}
 {{- $file := .Page.Resources.Get $u.Path -}}
 
 {{ with resources.Minify (toCSS ($file)) }}
