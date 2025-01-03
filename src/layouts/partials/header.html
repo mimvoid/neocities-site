@@ -1,7 +1,9 @@
 <header>
   <nav class="tabs">
     <a id="nav_home" href="/">
-      <img src="icons/mimvoid_icon.svg" height="16" width="16" />
+      {{ with resources.Get "icons/mimvoid_icon.svg" | minify }}
+        <img src="{{ .RelPermalink }}" height="16" width="16" />
+      {{ end }}
       <p>{{ .Site.Title }}</p>
     </a>
     <div id="nav_pages">
