@@ -7,7 +7,7 @@
     font-family: $family;
     font-style: $style;
     font-weight: $weight;
-    src: url("../fonts/#{$file}") format("woff2");
+    src: local(#{$family}), url("../fonts/#{$file}") format("woff2");
   }
 }
 
