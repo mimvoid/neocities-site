@@ -29,6 +29,11 @@
 );
 
 @include font(
+  $family: "Fira Code",
+  $file: "firaCode-rg"
+);
+
+@include font(
   $family: "Victor Mono",
   $file: "victorMono-rg"
 );

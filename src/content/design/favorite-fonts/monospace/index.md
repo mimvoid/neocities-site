@@ -32,6 +32,8 @@ Under Construction...
 
 {{% license "ofl" %}}
 
+{{% pangram font="Fira Code" %}}
+
 ## Victor Mono
 
 [Homepage](https://rubjo.github.io/victor-mono)
