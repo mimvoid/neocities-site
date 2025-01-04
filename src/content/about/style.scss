@@ -1,0 +1,74 @@
+.fetcher {
+  margin: 2.5em 2em;
+  padding: 1.5em;
+
+  border-radius: 4px;
+  background-color: var(--overlay);
+
+  p {
+    // Decrease paragraph spacing
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+    font-family: var(--monospace);
+    font-size: 0.9em;
+  }
+
+  .prompt {
+    margin-bottom: 1em;
+    &::before {
+      content: "> ";
+      font-style: bold;
+    }
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+  }
+
+  // TODO: fill in with avatar
+  .art {
+    margin: 1em;
+    margin-top: 0;
+    padding: 4.5em;
+
+    border-radius: 72px;
+    background-color: var(--primary);
+  }
+
+  .info {
+    display: flex;
+    align-items: flex-start;
+
+    .groups {
+      margin: 0 1em;
+      padding: 0.25em 0.75em;
+      border: 2px solid var(--primary);
+      border-radius: 6px;
+      color: var(--secondary);
+    }
+
+    .data {
+      border: 2px solid transparent;
+      padding-top: 0.25em;
+      padding-bottom: 0.25em;
+    }
+  }
+
+  .palette {
+    margin: 1em;
+    * {
+      padding: 0.025em 1.25em;
+    }
+    .primary {
+      background-color: var(--primary);
+    }
+    .secondary {
+      background-color: var(--secondary);
+    }
+    .tertiary {
+      background-color: var(--tertiary);
+    }
+  }
+}
