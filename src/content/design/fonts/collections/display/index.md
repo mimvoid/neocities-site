@@ -58,7 +58,7 @@ Like DM Serif Display, Oswald pairs well with a lot of sans serif body fonts.
 
 Baloo 2 is round and informal. This one is the 700 weight version.
 
-While its Latin writing system is nice, it primarily South Asian scripts
+While its Latin writing system is nice, it's primarily for South Asian scripts
 like Devanagari, Bengali, Malayam, Telugu, and more.
 
 Unfortunately, I haven't figured out how to display them yet. Please see the source
