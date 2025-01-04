@@ -20,6 +20,9 @@ Nerd Font variant: [SauceCodePro][nf]
 
 {{% pangram font="Source Code Pro" %}}
 
+Source Code Pro is one of widest I've found among monospace fonts,
+which gives it a nice round look.
+
 ## Office Code Pro
 
 [Homepage](https://github.com/nathco/Office-Code-Pro)
@@ -27,6 +30,9 @@ Nerd Font variant: [SauceCodePro][nf]
 {{% license "ofl" %}}
 
 {{% pangram font="Office Code Pro" %}}
+
+A derivative of Source Code Pro, Office Code Pro is slightly taller with
+a few different glyph styles.
 
 ## Fira Code
 
@@ -37,6 +43,9 @@ Nerd Font variant: [FiraCode][nf]
 {{% license "ofl" %}}
 
 {{% pangram font="Fira Code" %}}
+
+Fira Code is super popular among developers, particularly for its abundance
+of programming ligatures.
 
 ## Victor Mono
 
@@ -53,5 +62,11 @@ Nerd Font variant: [VictorMono][nf]
 <div style="font-style: italic">
     {{% pangram font="Victor Mono" %}}
 </div>
+
+Victor Mono is distinct for its cursive italics, which can make
+special keywords really stand out while programming.
+
+It's a nice alternative to fonts like
+[Operator Mono](https://www.typography.com/fonts/operator/overview).
 
 [nf]: https://www.nerdfonts.com/font-downloads

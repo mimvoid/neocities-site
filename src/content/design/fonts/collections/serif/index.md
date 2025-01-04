@@ -6,7 +6,12 @@ date: 2025-01-02T13:24:54-05:00
 
 {{% style "fonts.scss" %}}
 
-Under Construction...
+<p class="secondary">Under Construction...</p>
+
+I've never had much of a liking toward serif fonts, except for those that were
+first and foremost [display fonts]({{% relref "/design/fonts/collections/display/index" %}}).
+
+Nevertheless, there are a few that have won me over.
 
 ## EB Garamond
 
@@ -18,6 +23,8 @@ Under Construction...
 
 {{% pangram font="EB Garamond" %}}
 
+EB Garamond is one of my favorite serif body fonts. It's classy and gets the job done.
+
 ## Libre Baskerville
 
 [Homepage](https://impallari.com/revivals/baskerville)
@@ -27,3 +34,5 @@ Under Construction...
 {{% license "ofl" %}}
 
 {{% pangram font="Libre Baskerville" %}}
+
+Libre Baskerville my go-to font for a printed book feel.
