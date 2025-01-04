@@ -42,7 +42,7 @@ Under Construction...
 
 {{% license "ofl" %}}
 
-{{% pangram font="SoukouMincho" %}}
+{{% pangram font="SoukouMincho" punctuation=false %}}
 
 {{% pangram font="SoukouMincho" lang="ja" %}}
 

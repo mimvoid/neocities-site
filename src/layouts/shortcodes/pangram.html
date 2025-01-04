@@ -6,8 +6,10 @@
 {{- end -}}
 
 {{- $punctuation := true -}}
-{{- if .Get "punctuation" -}}
-  {{- $punctuation = .Get "punctuation" -}}
+{{- if in (slice "false" false 0) (.Get "punctuation")}}
+  {{- $punctuation = false -}}
+{{- else if in (slice "true" true 1) (.Get "punctuation")}}
+  {{- $punctuation = true -}}
 {{- end -}}
 
 <div class="large" style="font-family: '{{ $font }}'">
