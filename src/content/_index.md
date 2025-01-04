@@ -1,8 +1,8 @@
-+++
-title = 'Home'
-date = 2024-07-22T21:27:02-04:00
-description = "mimvoid's little corner, my space on the internet"
-+++
+---
+title: Home
+description: mimvoid's little corner, my space on the internet
+date: 2024-07-22T21:27:02-04:00
+---
 
 # Welcome and Salutations!
 

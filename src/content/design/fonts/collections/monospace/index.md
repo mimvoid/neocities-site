@@ -1,8 +1,8 @@
-+++
-title = 'Monospace'
-description = 'My collection of monospace fonts'
-date = 2025-01-02T13:24:59-05:00
-+++
+---
+title: Monospace
+description: My collection of monospace fonts
+date: 2025-01-02T13:24:59-05:00
+---
 
 {{% style "fonts.scss" %}}
 

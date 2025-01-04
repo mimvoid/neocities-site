@@ -1,8 +1,8 @@
-+++
-title = 'Website Credits'
-description = 'Resources I used for my website'
-date = 2024-07-24T21:34:00-04:00
-+++
+---
+title: Website Credits
+description: Resources I used for my website
+date: 2024-07-24T21:34:00-04:00
+---
 
 ## Tools
 
