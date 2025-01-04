@@ -6,24 +6,40 @@ date: 2024-07-22T21:27:02-04:00
 
 # Welcome and Salutations!
 
-~ This site is under construction! ~
-{.secondary}
+<div style="margin-bottom: 1.5em">
+    <span class="secondary">Artist</span>
+    / <span class="secondary">Designer</span>
+    / <span class="secondary">Programmer</span>
+    / <span class="secondary">Webmaster</span>
+</div>
 
-Hi there, I'm mimvoid!
+Hi there, I'm **mimvoid**!
 
-I made this little site as a casual project to have my own little space on the internet. You will find me talking about my many interests, from biology, art, software, and other such goodies:
+I made this website as my own little space on the internet.
 
+You will find me sharing my many interests:
+<span class="secondary">biology, art, design, software,</span>
+and other goodies:
+
+- [Font collections]({{% relref "/design/fonts/collections" %}})
+- [Media file formats]({{% relref "/design/formats" %}})
 - Interesting algae
 - Neat open-source software for different OSes
-- Image file formats
 - In a future update, maybe even my story ideas...?
 
 And so on, and so on...
 
-In the spirit of open source, I have [my website's source code](https://github.com/mimvoid/neocities-site) linked in the footer, and a list of resources I used to help create this website. Feel free to take a look if anything piques your interest, and use some of it for your own website as long as you abide by the license (i.e. also make it open source)!
+In the spirit of open source, linked in the footer is
+[my website's source code](https://github.com/mimvoid/neocities-site)
+and resources that helped to create this website. Feel free to
+take a look if anything piques your interest and use it for your own website!
 
-I also believe in citing sources and recording dates for my work. See anything without a citation? Or even have an interesting source you'd like me to check out? Please let me know!
+I believe in citing sources and recording dates. See anything without a citation?
+Or even have an interesting source you'd like me to check out? Please let me know!
 
-That's about it for this brief introduction. Click on any links that interest you. I hope you have fun!
+That's it for this introduction. Click on any links that interest you!
+
+I hope you have fun!
 
 ~ (More decorations coming soon) ~
+{.secondary}

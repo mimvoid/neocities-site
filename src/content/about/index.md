@@ -9,14 +9,6 @@ weight: 10
 
 # Hi! I'm mimvoid
 
-Artist
-<span class="primary">/</span>
-Designer
-<span class="primary">/</span>
-Beginner programmer
-<span class="primary">/</span>
-Webmaster
-
 - <span class="secondary">Operating System</span>: Linux!
     - <span class="secondary">Distro</span>: NixOS
 - she/they
