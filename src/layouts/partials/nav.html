@@ -15,7 +15,6 @@
           </a>
         </summary>
         <div class="details-content">
-
           <!-- Go down another level -->
           {{ range .Page.Sections }}
             <details class="nested">
@@ -27,7 +26,28 @@
               </summary>
 
               <div class="details-content">
-                {{ range .Pages }}
+                <!-- And one more -->
+                {{ range .Page.Sections }}
+                  <details class="nested">
+                    <summary>
+                      <i class="ph-bold ph-folder"></i>
+                      <a href="{{ .RelPermalink }}" title="{{ .Title }}" >
+                        {{ .LinkTitle }}
+                    </a>
+                    </summary>
+                    <div class="details-content">
+                      {{ range .Pages }}
+                        <p>
+                          <a href="{{ .RelPermalink }}" title="{{ .Title }}" >
+                            {{ .LinkTitle }}
+                          </a>
+                        </p>
+                      {{ end }}
+                    </div>
+                  </details>
+                {{ end }}
+
+                {{ range .RegularPages }}
                   <p>
                     <a href="{{ .RelPermalink }}" title="{{ .Title }}" >
                       {{ .LinkTitle }}
