@@ -44,6 +44,8 @@ Under Construction...
 
 {{% pangram font="SoukouMincho" %}}
 
+{{% pangram font="SoukouMincho" lang="ja" %}}
+
 ## mini-wakuwaku
 
 [Homepage](http://mini-design.jp/font/mini-wakuwaku.html)
