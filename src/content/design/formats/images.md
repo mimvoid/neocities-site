@@ -9,12 +9,12 @@ date: 2024-09-24T21:55:00-04:00
 
 Coming soon!
 
-## png
+## PNG
 
-## jpg
+## JPG
 
-## webp
+## WEBP
 
-## raw
+## RAW
 
-## tiff
+## TIFF
