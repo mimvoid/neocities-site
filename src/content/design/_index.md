@@ -6,3 +6,5 @@ weight = 20
 +++
 
 Cool things in graphic design, art, and media!
+
+<!--more-->
