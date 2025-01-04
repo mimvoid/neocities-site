@@ -18,9 +18,8 @@
     {{- if eq . "en" -}}
       <p>SPHINX OF BLACK QUARTZ, JUDGE MY VOW.</p>
       <p>sphinx of black quartz, judge my vow.</p>
-    {{- end -}}
 
-    {{- if eq . "hiragana" -}}
+    {{- else if eq . "hiragana" -}}
       <div style="display: inline flex">
         <div style="margin-right: 2.5em">
           <p>いろはにほへと</p>
@@ -35,25 +34,22 @@
           <p>ゑひもせす</p>
         </div>
       </div>
-    {{- end -}}
 
-    {{- if eq . "ja" -}}
+    {{- else if eq . "ja" -}}
       <p>鳥啼く声す 夢覚ませ</p>
       <p>見よ明け渡る 東を</p>
       <p>空色映えて 沖つ辺に</p>
       <p>帆船群れゐぬ 靄の中</p>
-    {{- end -}}
 
-    {{- if eq . "cn" -}}
+    {{- else if eq . "cn" -}}
       <p>天地玄黃，宇宙洪荒。</p>
       <p>日月盈昃，辰宿列張。</p>
       <p>寒來暑往，秋收冬藏。</p>
       <p>閏餘成歲，律呂調陽。</p>
       <p>雲騰致雨，露結為霜。</p>
       <p>金生麗水，玉出崑岡。</p>
-    {{- end -}}
 
-    {{- if eq . "rs" -}}
+    {{- else if eq . "rs" -}}
       <p>СЪЕШЬ ЕЩЁ ЭТИХ МЯГКИХ ФРАНЦУЗСКИХ БУЛОК, ДА ВЫПЕЙ ЖЕ ЧАЮ</p>
       <p>съешь ещё этих мягких французских булок, да выпей же чаю</p>
     {{- end -}}
