@@ -3,6 +3,12 @@
 {{- $u := urls.Parse (.Get 0) -}}
 {{- $file := .Page.Resources.Get $u.Path -}}
 
-{{ with resources.Minify (toCSS ($file)) }}
-  <link type="text/css" rel="stylesheet" href="{{ .RelPermalink }}">
+<!-- Fingerprint so the browser doesn't cache changed stylesheets -->
+{{ with $file | toCSS $opts | minify | fingerprint }}
+<link
+  type="text/css"
+  rel="stylesheet"
+  href="{{ .RelPermalink }}"
+  integrity="{{ .Data.Integrity }}"
+>
 {{ end }}

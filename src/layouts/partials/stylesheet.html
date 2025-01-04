@@ -1,14 +1,11 @@
-{{
-  $opts := dict
-  "transpiler" "dartsass"
-}}
+{{ $opts := dict "transpiler" "dartsass" }}
 
 <!-- Convert to CSS and minify -->
-{{ with resources.Get "scss/style.scss" | toCSS $opts | minify }}
+{{ with resources.Get "scss/style.scss" | toCSS $opts | minify | fingerprint }}
   <link
+    type="text/css"
     rel="stylesheet"
     href="{{ .RelPermalink }}"
-    type="text/css"
-    media="all"
+    integrity="{{ .Data.Integrity }}"
   />
 {{ end }}
