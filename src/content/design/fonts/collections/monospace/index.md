@@ -14,6 +14,8 @@ Under Construction...
 
 [Source](https://github.com/adobe-fonts/source-code-pro)
 
+Nerd Font variant: [SauceCodePro][nf]
+
 {{% license "ofl" %}}
 
 {{% pangram font="Source Code Pro" %}}
@@ -30,6 +32,8 @@ Under Construction...
 
 [Homepage](https://github.com/tonsky/FiraCode)
 
+Nerd Font variant: [FiraCode][nf]
+
 {{% license "ofl" %}}
 
 {{% pangram font="Fira Code" %}}
@@ -40,6 +44,8 @@ Under Construction...
 
 [Source](https://github.com/rubjo/victor-mono)
 
+Nerd Font variant: [VictorMono][nf]
+
 {{% license "ofl" %}}
 
 {{% pangram font="Victor Mono" %}}
@@ -47,3 +53,5 @@ Under Construction...
 <div style="font-style: italic">
     {{% pangram font="Victor Mono" %}}
 </div>
+
+[nf]: https://www.nerdfonts.com/font-downloads

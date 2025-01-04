@@ -10,7 +10,9 @@ Under Construction...
 
 ## Karla
 
-[Homepage](https://github.com/googlefonts/karla)
+[Homepage](https://fonts.google.com/specimen/Karla)
+
+[Source](https://github.com/googlefonts/karla)
 
 {{% license "ofl" %}}
 
@@ -20,7 +22,9 @@ Karla is the body font of my website!
 
 ## Nunito
 
-[Homepage](https://github.com/googlefonts/nunito)
+[Homepage](https://fonts.google.com/specimen/Nunito)
+
+[Source](https://github.com/googlefonts/nunito)
 
 {{% license "ofl" %}}
 
@@ -28,7 +32,9 @@ Karla is the body font of my website!
 
 ## Mulish
 
-[Homepage](https://github.com/googlefonts/mulish)
+[Homepage](https://fonts.google.com/specimen/Mulish)
+
+[Source](https://github.com/googlefonts/mulish)
 
 {{% license "ofl" %}}
 

@@ -10,7 +10,9 @@ Under Construction...
 
 ## Major Mono Display
 
-[Homepage](https://github.com/googlefonts/majormono)
+[Homepage](https://fonts.google.com/specimen/Major+Mono+Display)
+
+[Source](https://github.com/googlefonts/majormono)
 
 {{% license "ofl" %}}
 
@@ -18,7 +20,9 @@ Under Construction...
 
 ## DM Serif Display
 
-[Homepage](https://github.com/googlefonts/dm-fonts)
+[Homepage](https://fonts.google.com/specimen/DM+Serif+Display)
+
+[Source](https://github.com/googlefonts/dm-fonts)
 
 {{% license "ofl" %}}
 
@@ -26,7 +30,9 @@ Under Construction...
 
 ## Oswald
 
-[Homepage](https://github.com/googlefonts/OswaldFont)
+[Homepage](https://fonts.google.com/specimen/Oswald)
+
+[Source](https://github.com/googlefonts/OswaldFont)
 
 {{% license "ofl" %}}
 
@@ -34,11 +40,17 @@ Under Construction...
 
 ## Baloo 2
 
+[Homepage](https://fonts.google.com/specimen/Baloo+2)
+
+[Source](https://github.com/EkType/Baloo2)
+
 {{% license "ofl" %}}
 
 {{% pangram font="Baloo 2" %}}
 
 ## SoukouMincho
+
+[Homepage](https://web.archive.org/web/20220320201742/https://flopdesign.com/blog/font/5228)
 
 {{% license "ofl" %}}
 
@@ -57,6 +69,10 @@ License: See homepage
 {{% pangram font="mini-wakuwaku" lang="hiragana" %}}
 
 ## Limelight
+
+[Homepage](https://fonts.google.com/specimen/Limelight)
+
+[Source](https://github.com/google/fonts/tree/main/ofl/limelight)
 
 {{% license "ofl" %}}
 
