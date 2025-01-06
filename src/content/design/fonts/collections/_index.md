@@ -17,7 +17,7 @@ This is both for speed and for archival reasons. There's no dependency on a remo
 to serve the fonts. If they go down, update the files, or get redirected, these collections
 will remain as they are. It's especially important to me for the more obscure fonts out there.
 
-The fonts are in [WOFF2 format]({{% relref "/design/formats/fonts.md" %}})
+The fonts are in [WOFF2 format]({{% relref "/design/formats/fonts#woff2" %}})
 or the most lightweight alternative (sorry if your browser doesn't support it, that's not my priority).
 You can get the files for yourself if you were to inspect the website and find the path
 to the font file.
