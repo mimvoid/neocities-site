@@ -9,6 +9,9 @@ enableGitInfo = true  # let Git be used for the Lastmod param
 disableKinds = ['taxonomy', 'term']  # I don't use these
 
 
+[security]
+enableInlineShortcodes = true
+
 [frontmatter]
 lastmod = ['lastmod', ':fileModTime', ':default']
 
@@ -22,6 +25,4 @@ tabWidth = 2
 
 [markup.goldmark.renderer]
 unsafe = true
-
-[markup.goldmark.parser.attribute]
-block = true
+parser.attribute.block = true
