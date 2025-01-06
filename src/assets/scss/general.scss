@@ -67,6 +67,15 @@ em {
   color: var(--tertiary);
 }
 
+.large {
+  margin: 1.25em 0;
+  font-size: 1.75em;
+
+  p {
+    margin: 0.5em 0;
+  }
+}
+
 /*-------
  * Links
  *-------*/
