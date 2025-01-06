@@ -39,13 +39,7 @@ If you'd like the files in [WOFF2 format]({{% relref "/design/formats/fonts#woff
 here are some options:
 
 - [The last working archive on the Wayback Machine](https://web.archive.org/web/20240911192441/https://typodermicfonts.com/public-domain)
-- {{< zip.inline >}}
-    {{- with .Page.Resources.Get "typodermic-public-domain-webfonts-2024-04.zip" -}}
-        <a href="{{ .RelPermalink }}">
-            My copy, with font families sorted into folders (~18 MB)
-        </a>
-    {{- end -}}
-{{< /zip.inline >}}
+- [My copy, with font families sorted into folders](https://github.com/mimvoid/neocities-site/blob/main/src/content/design/fonts/collections/typodermic/typodermic-public-domain-webfonts-2024-04.zip)
 
 ## Adriator
 
