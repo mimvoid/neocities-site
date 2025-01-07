@@ -25,4 +25,6 @@ tabWidth = 2
 
 [markup.goldmark.renderer]
 unsafe = true
-parser.attribute.block = true
+
+[markup.goldmark.parser.attribute]
+block = true

@@ -6,7 +6,8 @@ date: 2025-01-02T13:24:59-05:00
 
 {{% style "fonts.scss" %}}
 
-<p class="secondary">Under Construction...</p>
+Under Construction...
+{.secondary}
 
 Monospace fonts are quintessential to programming and life in the terminal,
 where their fixed width allows text to be displayed and aligned correctly.
