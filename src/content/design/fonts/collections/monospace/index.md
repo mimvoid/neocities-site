@@ -6,7 +6,12 @@ date: 2025-01-02T13:24:59-05:00
 
 {{% style "fonts.scss" %}}
 
-Under Construction...
+<p class="secondary">Under Construction...</p>
+
+Monospace fonts are quintessential to programming and life in the terminal,
+where their fixed width allows text to be displayed and aligned correctly.
+
+Some are typewriter style fonts, great for well-formatted screenplays and the like.
 
 ## Source Code Pro
 
