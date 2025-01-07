@@ -6,14 +6,14 @@
   <p>
     <span class="primary">Updated</span>: 
     <time datetime="{{ .Lastmod.Format $machineFmt }}">
-      {{ .Lastmod.Format $humanFmt }}
+      {{ .Lastmod.Format $humanFmt -}}
     </time>
   </p>
 
   <p>
     <span class="primary">Created</span>:
     <time datetime="{{ .Date.Format $machineFmt }}">
-      {{ .Date.Format $humanFmt }}
+      {{ .Date.Format $humanFmt -}}
     </time>
   </p>
 </div>

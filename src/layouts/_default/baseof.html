@@ -13,32 +13,30 @@
 <body>
   {{ block "body" . }}
 
-    {{ partial "header.html" . }}
+    {{- partial "header.html" . -}}
 
     <div id="wrapper">
       <div class="body">
 
-        {{ partial "nav.html" . }}
+        {{- partial "nav.html" . -}}
 
         <main>
           <article class="box">
-            {{ block "main" . }}
-            {{ end }}
+            {{- block "main" . -}}
+            {{- end -}}
 
-            {{ partial "dates.html" . }}
+            {{- partial "dates.html" . -}}
           </article>
 
-          {{ block "body-extra" . }}
-          {{ end }}
+          {{- block "body-extra" . -}}
+          {{- end -}}
 
         </main>
       </div>
-
-      {{ partial "footer.html" . }}
-
+      {{- partial "footer.html" . -}}
     </div>
 
-  {{ end }}
+  {{- end -}}
 </body>
 
 </html>

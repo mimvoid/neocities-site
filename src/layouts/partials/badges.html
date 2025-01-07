@@ -12,6 +12,6 @@
 {{ range $badge }}
   <img
     src="https://img.shields.io/badge/{{ .logo }}{{ $extra }}"
-    alt="{{ .alt }}"
+    alt="{{- .alt -}}"
   />
 {{ end }}

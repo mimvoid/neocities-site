@@ -3,7 +3,7 @@
 
 <title>
   {{ block "title" . }}
-    {{ if not .IsHome }}{{ .Title | title }} &ndash; {{end}}{{ .Site.Title }}
+    {{ if not .IsHome }}{{- .Title | title }} &ndash; {{end}}{{ .Site.Title }}
   {{ end }}
 </title>
 
