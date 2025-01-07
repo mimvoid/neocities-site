@@ -18,9 +18,10 @@ contact Mr. Larabie for permission to use these fonts. Anything goes!
 ### Sources
 
 Typodermic Font's catalogue includes many other wonderful fonts under a
-[desktop license](https://typodermicfonts.com/license), so I can't have them on my website
-without paying for a web license. However, you can still use them to make graphics for
-personal *and* commercial use. I encourage anyone interested to check them out!
+[desktop license](https://typodermicfonts.com/end-user-license-agreement),
+so I can't have them on my website without paying for a web license. However, you can
+still use them to make graphics for personal *and* commercial use. I encourage anyone
+interested to check them out!
 
 ##### Catalogs
 
