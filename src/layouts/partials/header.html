@@ -1,10 +1,15 @@
 <header>
-  <nav role="navigation" class="tabs">
+  <nav class="tabs">
     <a id="nav_home" href="/">
       {{ with resources.Get "icons/mimvoid_icon.svg" | minify }}
-        <img src="{{ .RelPermalink }}" height="16" width="16" />
+        <img
+          src="{{ .RelPermalink }}"
+          height="16"
+          width="16"
+          alt="The website icon, pixel art of a happy pink cat"
+        />
       {{ end }}
-      <p>{{ .Site.Title }}</p>
+      {{ .Site.Title }}
     </a>
     <div id="nav_pages">
       {{ range .Site.Menus.tabs }}

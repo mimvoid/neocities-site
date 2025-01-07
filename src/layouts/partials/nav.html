@@ -1,5 +1,5 @@
 <div class="sidebar">
-  <nav role="navigation">
+  <nav>
     <div class="box" id="home-link">
       <p><a href="/">Home</a></p>
     </div>
@@ -10,7 +10,12 @@
       <details>
         <summary>
           <i class="ph-bold ph-folder"></i>
-          <a href="{{ .Page.RelPermalink }}" title="{{ .Title }}" >
+          <a
+            href="{{ .Page.RelPermalink }}"
+            {{ if not (eq .Title .LinkTitle) }}
+              title="{{ .Title }}"
+            {{ end }}
+          >
             {{ .LinkTitle }}
           </a>
         </summary>
@@ -20,7 +25,12 @@
             <details class="nested">
               <summary>
                 <i class="ph-bold ph-folder"></i>
-                <a href="{{ .RelPermalink }}" title="{{ .Title }}" >
+                <a
+                  href="{{ .RelPermalink }}"
+                  {{ if not (eq .Title .LinkTitle) }}
+                    title="{{ .Title }}"
+                  {{ end }}
+                >
                   {{ .LinkTitle }}
               </a>
               </summary>
@@ -31,14 +41,24 @@
                   <details class="nested">
                     <summary>
                       <i class="ph-bold ph-folder"></i>
-                      <a href="{{ .RelPermalink }}" title="{{ .Title }}" >
+                      <a
+                        href="{{ .RelPermalink }}"
+                        {{ if not (eq .Title .LinkTitle) }}
+                          title="{{ .Title }}"
+                        {{ end }}
+                      >
                         {{ .LinkTitle }}
-                    </a>
+                      </a>
                     </summary>
                     <div class="details-content">
                       {{ range .Pages }}
                         <p>
-                          <a href="{{ .RelPermalink }}" title="{{ .Title }}" >
+                          <a
+                            href="{{ .RelPermalink }}"
+                            {{ if not (eq .Title .LinkTitle) }}
+                              title="{{ .Title }}"
+                            {{ end }}
+                          >
                             {{ .LinkTitle }}
                           </a>
                         </p>
@@ -49,7 +69,12 @@
 
                 {{ range .RegularPages }}
                   <p>
-                    <a href="{{ .RelPermalink }}" title="{{ .Title }}" >
+                    <a
+                      href="{{ .RelPermalink }}"
+                      {{ if not (eq .Title .LinkTitle) }}
+                        title="{{ .Title }}"
+                      {{ end }}
+                    >
                       {{ .LinkTitle }}
                     </a>
                   </p>
