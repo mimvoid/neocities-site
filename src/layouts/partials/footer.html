@@ -18,11 +18,15 @@
       <p id="credits">
         <a href="/credits">credits</a>
       </p>
-      <p id="top_link">
-        <a href="#top">
-          <i class="ph-fill ph-caret-up"></i>
-          Top
-        </a>
+      <p id="site_lastmod">
+        <i class="ph-fill ph-calendar-heart"></i>
+        {{ with .Site.Lastmod }}
+          {{ $machineFmt := "2006-01-02T15:04:05-07:00" }}
+          {{ $humanFmt := "02.01.06" }}
+          <time datetime="{{ .Format $machineFmt }}">
+            Mod: {{ .Format $humanFmt }}
+          </time>
+        {{ end }}
       </p>
     </div>
   </div>

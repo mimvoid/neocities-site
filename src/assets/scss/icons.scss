@@ -23,7 +23,7 @@ i {
 }
 
 // Define each icon
-$ph-icons: minus, cards, x, compass, code, caret-up;
+$ph-icons: minus, cards, x, compass, code, calendar-heart;
 
 @each $name in $ph-icons {
   .ph-#{$name} {
