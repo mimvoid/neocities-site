@@ -44,6 +44,8 @@ Nerd Font variant: [FiraCode][nf]
 
 {{% pangram font="Fira Code" %}}
 
+{{% pangram font="Fira Code" lang="ligatures" punctuation=false %}}
+
 Fira Code is super popular among developers, particularly for its abundance
 of programming ligatures.
 
@@ -58,6 +60,8 @@ Nerd Font variant: [VictorMono][nf]
 {{% license "ofl" %}}
 
 {{% pangram font="Victor Mono" %}}
+
+{{% pangram font="Victor Mono" lang="ligatures" punctuation=false %}}
 
 <div style="font-style: italic">
     {{% pangram font="Victor Mono" %}}
