@@ -9,6 +9,13 @@ enableGitInfo = true  # let Git be used for the Lastmod param
 disableKinds = ['taxonomy', 'term']  # I don't use these
 
 
+[module]
+[[module.mounts]]
+source = 'content'
+target = 'content'
+excludeFiles = '**/*.zip'
+
+
 [security]
 enableInlineShortcodes = true
 
