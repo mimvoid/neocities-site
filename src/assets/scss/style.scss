@@ -8,5 +8,6 @@
 @use "./header";
 @use "./footer";
 
-// For different screen ratios
+// Misc
+@use "./animations";
 @use "./screen-ratios";

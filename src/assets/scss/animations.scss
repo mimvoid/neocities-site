@@ -1,0 +1,30 @@
+@keyframes pop {
+  from {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+  }
+  80% {
+    transform: scale(1.02); // overshoot
+    -webkit-transform: scale(1.02);
+  }
+  to {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+
+.pop:hover {
+  animation-name: pop;
+  animation-duration: 0.25s;
+  animation-timing-function: ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pop:hover {
+    animation-duration: 0;
+  }
+}

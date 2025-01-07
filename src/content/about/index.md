@@ -14,7 +14,7 @@ weight: 10
 <div class="fetcher">
     <p class="prompt tertiary">about-fetch</p>
     <div class="content">
-        <div class="art">
+        <div class="art pop">
             <span></span> <!-- Fill in with an avatar later -->
         </div>
         <div class="text">
