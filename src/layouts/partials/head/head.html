@@ -1,0 +1,28 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+<title>
+  {{ block "title" . }}
+    {{ if not .IsHome }}{{- .Title | title }} &ndash; {{ end }}{{ .Site.Title }}
+  {{ end }}
+</title>
+
+<!-- Define the description -->
+{{ $description := "" -}}
+{{ if .Description -}}
+  {{ $description = .Description -}}
+{{ end -}}
+
+{{ if $description -}}
+  <meta name="description" content="{{ $description }}" />
+  <meta property="og:description" content="{{ $description }}" />
+{{ end -}}
+
+<link rel="canonical" href="{{ .Permalink }}">
+
+<meta property="og:type" content="article" />
+<meta property="site_name" content="{{ .Site.Title }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:locale" content="en_US" />
+<meta name="author" content="mimvoid" />

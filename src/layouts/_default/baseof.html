@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="{{ .Site.Language }}">
+<html lang="{{ .Site.Language }}" dir="ltr">
 
 <head>
-  {{ partial "head.html" . }}
-  {{ partial "stylesheet.html" . }}
+  {{ partial "head/head.html" . }}
+  {{ partial "head/stylesheet.html" . }}
 
   <!-- Extra content for the head (e.g. custom styles) -->
   {{ block "head-extra" . }}
