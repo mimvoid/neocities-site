@@ -18,14 +18,21 @@
 }
 
 @include font(
-  $family: "Office Code Pro",
-  $file: "officeCodePro-rg"
-);
-
-@include font(
   $family: "Source Code Pro",
   $file: "sourceCodePro-rg",
   $ext: "ttf.woff2"
+);
+
+@include font(
+  $family: "Hasklig",
+  $file: "hasklig-rg",
+  $ext: "otf",
+  $fmt: "opentype"
+);
+
+@include font(
+  $family: "Office Code Pro",
+  $file: "officeCodePro-rg"
 );
 
 @include font(

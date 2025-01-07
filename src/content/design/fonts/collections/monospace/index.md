@@ -20,8 +20,25 @@ Nerd Font variant: [SauceCodePro][nf]
 
 {{% pangram font="Source Code Pro" %}}
 
+{{% pangram font="Source Code Pro" lang="ligatures" punctuation=false %}}
+
 Source Code Pro is one of widest I've found among monospace fonts,
 which gives it a nice round look.
+
+## Hasklig
+
+[Homepage](https://github.com/i-tu/Hasklig)
+
+Nerd Font variant: [Hasklug][nf]
+
+{{% license "ofl" %}}
+
+{{% pangram font="Hasklig" lang="ligatures" punctuation=false %}}
+
+Hasklig is Source Code Pro with programming ligatures.
+It was specifically geared toward [Haskell](https://www.haskell.org),
+but can be seen in many other languages like JavaScript, Typescript,
+[Rust](https://www.rust-lang.org), [Gleam](https://gleam.run), and [OCaml](https://ocaml.org).
 
 ## Office Code Pro
 
