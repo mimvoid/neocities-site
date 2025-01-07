@@ -25,11 +25,8 @@ footer {
       display: inline; // Put them all on one line
     }
 
-    // Specific footer elements
-
     // Accented background, dark text
-    #mode,
-    #site_lastmod {
+    .status-high {
       color: var(--bg);
       background-color: var(--primary);
 
@@ -44,14 +41,11 @@ footer {
     }
 
     // Lighter background, accented text
-    #source-code,
-    #credits {
+    .status-mid {
       color: var(--primary);
       background-color: var(--overlay);
-    }
 
-    // Style the source code section's icon
-    #source-code {
+      // Style the source code section's icon
       i {
         @include looks.transition;
         background-color: var(--primary);
@@ -63,9 +57,7 @@ footer {
       }
     }
 
-    // Text in the middle section
-    #author,
-    #filetype {
+    .status-low {
       opacity: 0.75;
     }
   }

@@ -1,24 +1,24 @@
 <footer>
   <div class="bar">
     <div class="left">
-      <p id="mode">
+      <p class="status-high">
         <i class="ph-fill ph-compass"></i>
         NORMAL
       </p>
-      <p id="source-code">
+      <p class="status-mid">
         <a href="https://github.com/mimvoid/neocities-site">
           <i class="ph-bold ph-code"></i>
           source code
         </a>
       </p>
-      <p id="author">{{ .Site.Copyright }}</p>
+      <p class="status-low">{{ .Site.Copyright }}</p>
     </div>
     <div class="right">
-      <p id="filetype">html</p>
-      <p id="credits">
+      <p class="status-low">html</p>
+      <p class="status-mid">
         <a href="/credits">credits</a>
       </p>
-      <p id="site_lastmod">
+      <p class="status-high">
         <i class="ph-fill ph-calendar-heart"></i>
         {{ with .Site.Lastmod }}
           {{ $machineFmt := "2006-01-02T15:04:05-07:00" }}
