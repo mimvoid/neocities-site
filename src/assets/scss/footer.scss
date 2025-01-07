@@ -34,22 +34,12 @@ footer {
       a {
         color: var(--bg);
       }
-
-      i {
-        background-color: var(--bg);
-      }
     }
 
     // Lighter background, accented text
     .status-mid {
       color: var(--primary);
       background-color: var(--overlay);
-
-      // Style the source code section's icon
-      i {
-        @include looks.transition;
-        background-color: var(--primary);
-      }
 
       &:focus i,
       &:hover i {

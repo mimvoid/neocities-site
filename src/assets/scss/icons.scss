@@ -1,3 +1,12 @@
+svg:not(.mimvoid_icon-icon) {
+  position: relative;
+  display: inline-block;
+  vertical-align: -0.12em;
+  margin-right: 0.25em;
+
+  font-size: 0.925em;
+}
+
 i {
   position: relative;
   margin-right: 0.25em;
@@ -22,21 +31,10 @@ i {
   background-color: currentColor;
 }
 
-// Define each icon
-$ph-icons: minus, cards, x, compass, code, calendar-heart;
-
-@each $name in $ph-icons {
-  .ph-#{$name} {
-    --svg: url(../icons/ph-#{$name}.svg);
-  }
-}
-
-// this one's class and file name are different
+// toggle block icons
 .ph-folder {
   --svg: url(../icons/ph-folder-simple.svg);
 }
-
-// open toggle block icon
 details[open] > summary i {
   --svg: url(../icons/ph-folder-open.svg);
 }

@@ -1,14 +1,7 @@
 <header>
   <nav class="tabs">
     <a id="nav_home" href="/">
-      {{ with resources.Get "icons/mimvoid_icon.svg" | minify }}
-        <img
-          src="{{ .RelPermalink }}"
-          height="16"
-          width="16"
-          alt="The website icon, pixel art of a happy pink cat"
-        />
-      {{ end }}
+      {{ partial "svg" "mimvoid_icon" }}
       {{ .Site.Title }}
     </a>
     <div id="nav_pages">
@@ -21,13 +14,13 @@
   </nav>
   <div class="actions">
     <a href="https://neocities.org/site/mimvoid">
-      <i id="minimize" class="ph-bold ph-minus"></i>
+      {{ partial "svg" "ph-minus" }}
     </a>
     <a href="https://neocities.org/site/mimvoid">
-      <i id="resize" class="ph-bold ph-cards"></i>
+      {{ partial "svg" "ph-cards" }}
     </a>
     <a href="https://neocities.org">
-      <i id="close" class="ph-bold ph-x"></i>
+      {{ partial "svg" "ph-x" }}
     </a>
   </div>
 </header>

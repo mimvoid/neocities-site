@@ -24,15 +24,19 @@ header {
       font-weight: bold;
       color: var(--fg);
 
-      img {
+      svg {
+        @include looks.transition;
+        height: 16px;
+        width: 16px;
         margin-right: 0.5em;
+
+        color: var(--primary);
       }
 
       &:focus, &:hover {
         color: var(--tertiary);
-        img {
-          // Simulate the icon changing to tertiary
-          filter: hue-rotate(-40deg) saturate(175%) brightness(0.9);
+        svg {
+          color: var(--tertiary);
         }
       }
     }
@@ -49,7 +53,7 @@ header {
   }
 
   .actions {
-    i {
+    svg {
       @include looks.transition;
       opacity: 0.85;
 
@@ -58,13 +62,13 @@ header {
       }
     }
 
-    #minimize {
+    .ph-minus-icon {
       color: var(--primary);
     }
-    #resize {
+    .ph-cards-icon {
       color: var(--secondary);
     }
-    #close {
+    .ph-x-icon {
       color: var(--tertiary);
     }
   }
