@@ -15,7 +15,27 @@ weight: 10
     <p class="prompt tertiary">about-fetch</p>
     <div class="content">
         <div class="art pop">
-            <span></span> <!-- Fill in with an avatar later -->
+            {{< avatar.inline >}}
+                {{ $alt := "A headshot of mimvoid's persona, with expressions drawn on a piece of paper covering their real face." }}
+                {{ with .Page.Resources.Get "avatar-1.webp" }}
+                    <img
+                        class="not-hover"
+                        src="{{ .RelPermalink }}"
+                        width="200px"
+                        height="200px"
+                        alt={{ $alt }}
+                    />
+                {{ end }}
+                {{ with .Page.Resources.Get "avatar-2.webp" }}
+                    <img
+                        class="hover"
+                        src="{{ .RelPermalink }}"
+                        width="200px"
+                        height="200px"
+                        alt={{ $alt }}
+                    />
+                {{ end }}
+            {{< /avatar.inline >}}
         </div>
         <div class="text">
             <div class="info">

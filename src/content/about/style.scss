@@ -27,16 +27,32 @@
     align-items: center;
   }
 
-  // TODO: fill in with avatar
   .art {
     margin: 1em;
     margin-top: 0;
-    padding: 4.5em;
 
-    border-radius: 72px;
-    background-color: var(--primary);
+    img {
+      filter: drop-shadow(0 0 1px var(--primary));
+    }
+
+    .not-hover {
+      display: block;
+    }
+    .hover {
+      display: none;
+    }
+
+    &:hover {
+      .not-hover {
+        display: none;
+      }
+      .hover {
+        display: block;
+      }
+    }
   }
 
+  // TODO: display text below art on mobile
   .info {
     display: flex;
     align-items: flex-start;
