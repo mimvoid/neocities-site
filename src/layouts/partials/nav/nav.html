@@ -4,14 +4,15 @@
       <p><a href="/">Home</a></p>
     </div>
     <div class="box">
+      {{- $currentPage := . -}}
 
       <!-- Iterate over first-level sections -->
       {{ range site.Sections }}
-        <details>
+        <details {{ if .IsAncestor $currentPage }}open{{ end }}>
           {{ partial "nav/summary.html" . }}
           <div class="details-content">
             <!-- Recurse -->
-            {{ partial "nav/recurse-sections.html" . }}
+            {{ partial "nav/recurse-sections.html" (dict "context" . "currentPage" $currentPage) }}
             {{ partial "nav/pages.html" .RegularPages }}
           </div>
         </details>

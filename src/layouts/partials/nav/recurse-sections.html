@@ -1,9 +1,11 @@
-{{ range .Page.Sections }}
-<details class="nested">
+{{- $currentPage := .currentPage -}}
+
+{{ range .context.Page.Sections }}
+<details class="nested" {{ if .IsAncestor $currentPage }}open{{ end }}>
   {{ partial "nav/summary.html" . }}
 
   <div class="details-content">
-    {{ partial "nav/recurse-sections.html" . }}
+    {{ partial "nav/recurse-sections.html" (dict "context" . "currentPage" $currentPage) }}
     {{ partial "nav/pages.html" .RegularPages }}
   </div>
 </details>
