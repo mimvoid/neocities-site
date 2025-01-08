@@ -50,3 +50,25 @@
   $file: "victorMono-italic",
   $style: italic
 );
+
+@include font(
+  $family: "Courier Prime",
+  $file: "courierPrime-rg"
+);
+
+@include font(
+  $family: "Courier Prime",
+  $file: "courierPrime-italic",
+  $style: italic
+);
+
+@include font(
+  $family: "Courier Prime Sans",
+  $file: "courierPrimeSans"
+);
+
+@include font(
+  $family: "Courier Prime Sans",
+  $file: "courierPrimeSans-italic",
+  $style: italic
+);

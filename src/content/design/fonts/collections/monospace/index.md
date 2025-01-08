@@ -97,3 +97,36 @@ It's a nice alternative to fonts like
 [Operator Mono](https://www.typography.com/fonts/operator/overview).
 
 [nf]: https://www.nerdfonts.com/font-downloads
+
+## Courier Prime
+
+[Homepage](https://quoteunquoteapps.com/courierprime)
+
+[Source](https://github.com/quoteunquoteapps/CourierPrime)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Courier Prime" %}}
+
+<div style="font-style: italic">
+    {{% pangram font="Courier Prime" %}}
+</div>
+
+<span class="primary">Variant</span>: Courier Prime Sans
+
+[Source](https://github.com/quoteunquoteapps/CourierPrimeSans)
+
+{{% pangram font="Courier Prime Sans" %}}
+
+<div style="font-style: italic">
+    {{% pangram font="Courier Prime Sans" %}}
+</div>
+
+Oh, a screenplay font this time!
+
+[Courier Prime was made to improve upon Courier](https://johnaugust.com/2013/introducing-courier-prime),
+which was designed in 1955 for IBM and became the standard for screenwriting (A repository of
+[the original Courier's digital forms can be found here](https://github.com/dse/font-og-courier)).
+
+Courier Prime is my favorite typewriter style font, and I love its italics. There is also
+Courier Prime Code, which is Courier Prime Sans but code-optimized.
