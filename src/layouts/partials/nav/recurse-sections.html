@@ -1,0 +1,10 @@
+{{ range .Page.Sections }}
+<details class="nested">
+  {{ partial "nav/summary.html" . }}
+
+  <div class="details-content">
+    {{ partial "nav/recurse-sections.html" . }}
+    {{ partial "nav/pages.html" .RegularPages }}
+  </div>
+</details>
+{{ end }}

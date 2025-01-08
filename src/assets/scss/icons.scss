@@ -7,34 +7,21 @@ svg:not(.mimvoid_icon-icon) {
   font-size: 0.925em;
 }
 
-i {
-  position: relative;
-  margin-right: 0.25em;
-  font-size: 0.75em;
+// Sidebar navigation folders
+details > summary {
+  .ph-folder-simple-icon {
+    display: inline-block;
+  }
+  .ph-folder-open-icon {
+    display: none;
+  }
 }
 
-.ph-bold,
-.ph-fill {
-  display: inline-block;
-  width: 1.25em;
-  height: 1.25em;
-  vertical-align: -0.25em;
-
-  mask-image: var(--svg);
-  -webkit-mask-image: var(--svg);
-
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-size: 100% 100%;
-  -webkit-mask-size: 100% 100%;
-
-  background-color: currentColor;
-}
-
-// toggle block icons
-.ph-folder {
-  --svg: url(../icons/ph-folder-simple.svg);
-}
-details[open] > summary i {
-  --svg: url(../icons/ph-folder-open.svg);
+details[open] > summary {
+  .ph-folder-simple-icon {
+    display: none;
+  }
+  .ph-folder-open-icon {
+    display: inline-block;
+  }
 }

@@ -140,12 +140,12 @@ summary {
   font-weight: bold;
   cursor: pointer;
 
-  i {
+  svg {
     @include looks.transition;
     color: var(--primary);
   }
 
-  &:focus i, &:hover i {
+  &:focus svg, &:hover svg {
     color: var(--tertiary);
   }
 }

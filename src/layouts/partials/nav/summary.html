@@ -1,0 +1,12 @@
+<summary>
+  {{ partial "svg" "ph-folder-simple" }}
+  {{ partial "svg" "ph-folder-open" }}
+  <a
+    href="{{ .Page.RelPermalink }}"
+    {{ if ne .LinkTitle .Title }}
+      title="{{ .Title }}"
+    {{ end }}
+  >
+    {{ .LinkTitle }}
+  </a>
+</summary>
