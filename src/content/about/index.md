@@ -64,7 +64,7 @@ weight: 10
 </div>
 
 > *An extra-dimensional being on a plane of unreality.*
-> *Their lonesome thoughts spark new universes in their wake.*
+> *Their lonesome thoughts spark new universes in wake and in sleep.*
 
 I'm a busy college student with a knack for niche interests.
 
