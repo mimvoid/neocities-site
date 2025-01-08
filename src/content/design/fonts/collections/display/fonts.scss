@@ -44,19 +44,6 @@
 );
 
 @include font(
-  $family: "mini-wakuwaku",
-  $file: "mini-wakuwaku",
-  $ext: "otf",
-  $fmt: "opentype"
-);
-
-@include font(
   $family: "Oswald",
   $file: "oswald-rg"
-);
-
-@include font(
-  $family: "SoukouMincho",
-  $file: "soukouMincho",
-  $weight: normal
 );
