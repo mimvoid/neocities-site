@@ -157,10 +157,12 @@ summary {
   box-sizing: content-box;
   border-left: 1px var(--tertiary) solid;
 
+  overflow: hidden;
+  white-space: nowrap;
+
   p {
     text-indent: 0.75em;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis ellipsis;
   }
 }
 
