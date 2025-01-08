@@ -12,7 +12,7 @@ Under Construction...
 Monospace fonts are quintessential to programming and life in the terminal,
 where their fixed width allows text to be displayed and aligned correctly.
 
-Some are typewriter style fonts, great for well-formatted screenplays and the like.
+Some are typewriter style fonts, great for formatting screenplays and the like.
 
 ## Source Code Pro
 
@@ -43,7 +43,7 @@ Nerd Font variant: [Hasklug][nf]
 
 Hasklig is Source Code Pro with programming ligatures.
 It was specifically geared toward [Haskell](https://www.haskell.org),
-but can be seen in many other languages like JavaScript, Typescript,
+but can be seen with many other languages like JavaScript, Typescript,
 [Rust](https://www.rust-lang.org), [Gleam](https://gleam.run), and [OCaml](https://ocaml.org).
 
 ## Office Code Pro
