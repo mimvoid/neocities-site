@@ -63,6 +63,9 @@ weight: 10
     </div>
 </div>
 
+> *An extra-dimensional being on a plane of unreality.*
+> *Their lonesome thoughts spark new universes in their wake.*
+
 I'm a busy college student with a knack for niche interests.
 
 I am a self-taught hobbyist artist, and I love my characters and worlds! I have a penchant for surrealism, character psychologies, and magic systems based on human perception.

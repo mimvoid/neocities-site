@@ -177,6 +177,20 @@ details.nested {
   }
 }
 
+/*-------------
+ * Blockquotes
+ *-------------*/
+
+blockquote {
+  margin: 2em 0;
+  padding: 0.5em 1.5em;
+
+  border-radius: 0 4px 4px 0;
+  border-left: 4px solid var(--primary);
+
+  background-color: var(--overlay-dim);
+}
+
 /*------------
  * Date stats
  *------------*/
