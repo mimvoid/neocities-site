@@ -16,15 +16,13 @@
 {{ end }}
 
 {{ define "body" }}
-
 <div class="wrapper">
   <div id="not_found" class="box">
     {{ .Content -}}
     <br />
     <nav>
-      <p><a href="{{ .Site.Home.RelPermalink }}">Go back home?</a></p>
+      <p><a href="{{ site.Home.RelPermalink }}">Go back home?</a></p>
     </nav>
   </div>
 </div>
-
 {{ end }}

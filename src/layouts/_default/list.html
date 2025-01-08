@@ -1,4 +1,4 @@
-{{ define "main"  }}
+{{ define "main" }}
 
 <h1>{{- .Title -}}</h1>
 
@@ -14,19 +14,19 @@
 
         <ul>
           {{- range .Pages -}}
-            <li><a href="{{ .RelPermalink  }}">{{ .LinkTitle  }}</a></li>
+            <li><a href="{{ .RelPermalink  }}">{{ .LinkTitle }}</a></li>
           {{- end -}}
         </ul>
       {{- end -}}
 
       {{- range .RegularPages -}}
-        <li><a href="{{ .RelPermalink  }}">{{ .LinkTitle  }}</a></li>
+        <li><a href="{{ .RelPermalink  }}">{{ .LinkTitle }}</a></li>
       {{- end -}}
     </ul>
   {{- end -}}
 
   {{- range .RegularPages -}}
-    <li><a href="{{ .RelPermalink  }}">{{ .LinkTitle  }}</a></li>
+    <li><a href="{{ .RelPermalink  }}">{{ .LinkTitle }}</a></li>
   {{- end -}}
 </ul>
 

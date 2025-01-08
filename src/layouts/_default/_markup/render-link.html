@@ -1,9 +1,9 @@
 <a
   href="{{- .Destination | safeURL -}}"
-  {{- if .Title -}}
-    title="{{- .Title -}}"
+  {{- with .Title -}}
+    title="{{- . -}}"
   {{- end -}}
-  {{- if strings.HasPrefix .Destination "http" -}}
+  {{- if (urls.Parse .Destination).IsAbs -}}
     target="_blank"
     rel="noopener noreferrer"
   {{- end -}}

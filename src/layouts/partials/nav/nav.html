@@ -12,7 +12,7 @@
           <i class="ph-bold ph-folder"></i>
           <a
             href="{{ .Page.RelPermalink }}"
-            {{ if not (eq .Title .LinkTitle) }}
+            {{ if ne .Title .LinkTitle }}
               title="{{ .Title }}"
             {{ end }}
           >
@@ -27,7 +27,7 @@
                 <i class="ph-bold ph-folder"></i>
                 <a
                   href="{{ .RelPermalink }}"
-                  {{ if not (eq .Title .LinkTitle) }}
+                  {{ if ne .Title .LinkTitle }}
                     title="{{ .Title }}"
                   {{ end }}
                 >
@@ -43,7 +43,7 @@
                       <i class="ph-bold ph-folder"></i>
                       <a
                         href="{{ .RelPermalink }}"
-                        {{ if not (eq .Title .LinkTitle) }}
+                        {{ if ne .Title .LinkTitle }}
                           title="{{ .Title }}"
                         {{ end }}
                       >
@@ -55,7 +55,7 @@
                         <p>
                           <a
                             href="{{ .RelPermalink }}"
-                            {{ if not (eq .Title .LinkTitle) }}
+                            {{ if ne .Title .LinkTitle }}
                               title="{{ .Title }}"
                             {{ end }}
                           >
@@ -71,7 +71,7 @@
                   <p>
                     <a
                       href="{{ .RelPermalink }}"
-                      {{ if not (eq .Title .LinkTitle) }}
+                      {{ if ne .Title .LinkTitle }}
                         title="{{ .Title }}"
                       {{ end }}
                     >
@@ -86,7 +86,7 @@
           <!-- And list the pages -->
           {{ range .Page.RegularPages }}
             <p>
-              <a href="{{ .RelPermalink }}" title="{{ .Title }}" >
+              <a href="{{ .RelPermalink }}" {{ if ne .Title .LinkTitle }}title="{{ .Title }}"{{ end }} >
                 {{ .LinkTitle }}
               </a>
             </p>

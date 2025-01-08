@@ -1,13 +1,12 @@
 <!doctype html>
-<html lang="{{ .Site.Language }}" dir="ltr">
+<html lang="{{ site.Language }}" dir="ltr">
 
 <head>
   {{ partial "head/head.html" . }}
   {{ partial "head/stylesheet.html" . }}
 
   <!-- Extra content for the head (e.g. custom styles) -->
-  {{ block "head-extra" . }}
-  {{ end }}
+  {{ block "head-extra" . }}{{ end }}
 </head>
 
 <body>
@@ -17,21 +16,16 @@
 
     <div id="wrapper">
       <div class="body">
-
-        {{- partial "nav.html" . -}}
+        {{- partial "nav/nav.html" . -}}
 
         <main>
           <article class="box">
-            {{- block "main" . -}}
-            {{- end -}}
-
+            {{- block "main" . -}}{{- end -}}
             {{- partial "dates.html" . -}}
           </article>
-
-          {{- block "body-extra" . -}}
-          {{- end -}}
-
+          {{- block "body-extra" . -}}{{- end -}}
         </main>
+
       </div>
       {{- partial "footer.html" . -}}
     </div>

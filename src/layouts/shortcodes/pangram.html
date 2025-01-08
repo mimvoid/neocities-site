@@ -1,8 +1,6 @@
-{{- $font := .Get "font" -}}
-
 {{- $lang := "en"}}
-{{- if .Get "lang" -}}
-  {{- $lang = .Get "lang" -}}
+{{- with .Get "lang" -}}
+  {{- $lang = . -}}
 {{- end -}}
 
 {{- $punctuation := true -}}
@@ -12,7 +10,7 @@
   {{- $punctuation = true -}}
 {{- end -}}
 
-<div class="large" style="font-family: '{{ $font }}'">
+<div class="large" style="font-family: '{{ .Get "font" }}'">
   {{- with $lang -}}
 
     {{- if eq . "en" -}}
