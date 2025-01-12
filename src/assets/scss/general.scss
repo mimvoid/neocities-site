@@ -103,6 +103,22 @@ main a {
   }
 }
 
+a.footnote-ref, a.footnote-backref {
+  text-decoration: none;
+}
+
+.footnotes {
+  font-size: 0.9em;
+
+  li p {
+    margin: 0.5em 0;
+  }
+
+  strong, em {
+    color: var(--fg);
+  }
+}
+
 /*-------
  * Lists 
  *-------*/
