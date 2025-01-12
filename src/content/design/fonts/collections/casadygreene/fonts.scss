@@ -1,0 +1,130 @@
+@mixin font(
+  $family,
+  $file,
+  $ext: "woff2",
+  $fmt: "woff2",
+  $weight: 400,
+  $style: normal
+) {
+  @font-face {
+    font-display: swap;
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    src:
+      local(#{$family}),
+      url("./fonts/#{$file}.#{$ext}") format(#{$fmt});
+  }
+}
+
+@include font(
+  $family: "Bodoni FLF",
+  $file: "BodoniFLF-Bold",
+  $weight: bold
+);
+
+@include font(
+  $family: "Bodoni FLF",
+  $file: "BodoniFLF-BoldItalic",
+  $weight: bold,
+  $style: italic
+);
+
+@include font(
+  $family: "Bodoni Ultra FLF",
+  $file: "BodoniUltraFLF"
+);
+
+@include font(
+  $family: "Bodoni Ultra FLF",
+  $file: "BodoniUltraFLF-Italic",
+  $style: italic
+);
+
+@include font(
+  $family: "Button Plain FLF",
+  $file: "ButtonPlainFLF"
+);
+
+@include font(
+  $family: "Collegiate FLF",
+  $file: "CollegiateFLF"
+);
+
+@include font(
+  $family: "Galileo FLF",
+  $file: "GalileoFLF-Bold",
+  $weight: bold
+);
+
+@include font(
+  $family: "Galileo FLF",
+  $file: "GalileoFLF-BoldItalic",
+  $weight: bold,
+  $style: italic
+);
+
+@include font(
+  $family: "Gatsby FLF",
+  $file: "GatsbyFLF-Bold",
+  $weight: bold
+);
+
+@include font(
+  $family: "Jott FLF",
+  $file: "JottFLF-Casual"
+);
+
+@include font(
+  $family: "Jott FLF",
+  $file: "JottFLF-Bold",
+  $weight: bold
+);
+
+@include font(
+  $family: "Michelle FLF",
+  $file: "MichelleFLF-Bold",
+  $weight: bold
+);
+
+@include font(
+  $family: "Monterey FLF",
+  $file: "MontereyFLF"
+);
+
+@include font(
+  $family: "Paladin FLF",
+  $file: "PaladinFLF"
+);
+
+@include font(
+  $family: "Pendragon FLF",
+  $file: "PendragonFLF"
+);
+
+@include font(
+  $family: "Right Bank FLF",
+  $file: "RightBankFLF"
+);
+
+@include font(
+  $family: "Ritz FLF",
+  $file: "RitzFLF",
+  $ext: "ttf",
+  $fmt: "truetype"
+);
+
+@include font(
+  $family: "Rocko Ultra FLF",
+  $file: "RockoUltraFLF"
+);
+
+@include font(
+  $family: "Vertigo FLF",
+  $file: "VertigoFLF"
+);
+
+@include font(
+  $family: "Vertigo Plus FLF",
+  $file: "VertigoPlusFLF"
+);
