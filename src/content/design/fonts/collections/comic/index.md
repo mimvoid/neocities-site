@@ -155,7 +155,7 @@ Komika Parch
 
 {{% license "ofl" %}}
 
-Many of [Sara Linsey](https://sara.pizza)'s have a lovely cute and soft feeling to them,
+Many of [Sara Linsley](https://sara.pizza)'s have a lovely cute and soft feeling to them,
 great for lighthearted comics!
 
 Check out the fonts' homepages for a better preview, the presentation is wonderful!
