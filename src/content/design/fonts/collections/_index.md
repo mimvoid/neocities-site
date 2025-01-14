@@ -34,6 +34,7 @@ Sources I used to display the fonts:
     - Hiragana: [いろは歌 (Iroha)](https://en.wikipedia.org/wiki/Iroha)
 - Simplified Chinese: [千字文 (Thousand Character Classic)](https://web.archive.org/web/20190403231106/http://www.oocities.org/npsturman/tce.html)
 - Kazakh: [Universal Declaration of Human Rights](https://www.omniglot.com/writing/kazakh.htm)
+- Czech: [Wikipedia Pangram page](https://en.wikipedia.org/wiki/Pangram)
 
 ## Special Thanks
 
