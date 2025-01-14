@@ -85,12 +85,6 @@ What a goldmine! Designer and comic letterer Jakub D. Kočí made these fonts
 
 {{% pangram font="JDK Vindil Unreadable" lang="cz" %}}
 
-### JDK Croo Ella
-
-[Homepage](https://jdkfonty.mozellosite.com/pisma/jdk-croo-ella)
-
-{{% pangram font="JDK Croo Ella" lang="cz" %}}
-
 ## Komika
 
 [License](https://st.1001fonts.net/license/komika/readme.txt)
