@@ -20,10 +20,14 @@ let currentTheme = getPreferredTheme(localStorageTheme, prefersLight)
 
 // Configure the theme switcher button
 const button = document.querySelector("button[name=theme_toggle]");
+const cord = document.getElementById("cord");
 
 button.addEventListener("click", () => {
   const newTheme = currentTheme === "dark" ? "light" : "dark";
   const newText = `Change to ${newTheme === "dark" ? "light" : "dark"} theme`
+
+  // Trigger lampshape-style animation
+  cord.classList.add("pull-down");
 
   // Update theme settings
   button.setAttribute("aria-label", newText)
@@ -31,3 +35,6 @@ button.addEventListener("click", () => {
   localStorage.setItem("theme", newTheme);
   currentTheme = newTheme;
 })
+
+// Reset animation
+cord.addEventListener("animationend", () => cord.classList.remove("pull-down"))

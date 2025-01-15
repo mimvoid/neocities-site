@@ -23,8 +23,29 @@
   animation-timing-function: ease-in-out;
 }
 
+@keyframes pull-down {
+  from { top: -0.5em; }
+  60% {
+    top: 0.45em;
+  }
+  65% {
+    top: 0.5em;
+  }
+  70% {
+    top: 0.45em;
+  }
+  85% { top: -0.65em; }
+  to { top: -0.5em; }
+}
+
+.pull-down {
+  animation-name: pull-down;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .pop:hover {
+  .pop:hover, .pull-down {
     animation-duration: 0;
   }
 }

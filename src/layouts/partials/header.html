@@ -14,8 +14,18 @@
   </nav>
   <div class="right">
     <button type="button" name="theme_toggle" aria-label="Change to light theme">
-      {{ partial "svg" "ph-sun" }}
-      {{ partial "svg" "ph-moon" }}
+      <div class="icon-box">
+        {{ partial "svg" "ph-sun" }}
+        {{ partial "svg" "ph-moon" }}
+      </div>
+      <div id="cord">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="knob"></div>
+      </div>
     </button>
     <div class="actions">
       <a href="https://neocities.org/site/mimvoid">
