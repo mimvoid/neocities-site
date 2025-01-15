@@ -1,6 +1,6 @@
 ---
 title: Typodermic Fonts
-description: ""
+description: A showcase of public domain fonts by Typodermic Fonts
 date: 2025-01-06T13:43:34-05:00
 ---
 

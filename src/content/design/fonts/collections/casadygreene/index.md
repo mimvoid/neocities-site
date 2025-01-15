@@ -1,6 +1,6 @@
 ---
 title: Casady & Greene
-description: ""
+description: A showcase of fonts by Casady & Greene
 date: 2025-01-12T12:19:28-05:00
 ---
 
