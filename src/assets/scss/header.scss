@@ -24,16 +24,13 @@ header {
     #nav_home {
       @include looks.transition;
 
-      margin-right: 1rem;
+      margin-right: 1.25rem;
       font-weight: bold;
       color: var(--fg);
 
       svg {
         @include looks.transition;
-        height: 16px;
-        width: 16px;
-        margin-right: 0.5em;
-
+        margin-right: 0.35em;
         color: var(--primary);
       }
 
@@ -46,7 +43,7 @@ header {
     }
 
     #nav_pages * {
-      margin-right: 0.25rem;
+      margin-right: 0.35rem;
 
       &:before {
         content: "~/";
@@ -66,7 +63,7 @@ header {
   }
 
   button {
-    margin-right: 1em;
+    margin-right: 1.25em;
     cursor: pointer;
 
     border: none;
