@@ -12,23 +12,33 @@ Under construction...
 
 To be honest, this could be a section by itself.
 
-## Extra Options
+## Extra Resources
 
 Many excellent fonts don't allow website embedding, which is a shame, but understandable!
-Instead, here are several links for further reading:
+Instead, here are several options for further browsing:
 
-- [Blambot](https://blambot.com), which has many popular comic style fonts you've likely seen before
-    - [Anime Ace](https://blambot.com/collections/all-fonts/products/anime-ace-3)
-    - [Crimefighter](https://blambot.com/collections/all-fonts/products/crime-fighter)
-    - [Digital Strip](https://blambot.com/collections/all-fonts/products/digital-strip)
-    - [Kid Kosmic](https://blambot.com/collections/all-fonts/products/kid-kosmic)
-    - [Chewed Pen](https://blambot.com/collections/all-fonts/products/chewed-pen)
-    - [Mumble Grumble](https://blambot.com/collections/all-fonts/products/mumble-grumble)
+### Blambot
 
-And here are some resources for comic lettering:
+[Blambot](https://blambot.com) is a popular foundry with many popular comic style fonts you've
+likely seen before. Their free fonts allow **commercial use for indie comics**. To my understanding,
+unless you're operating under a big publisher, you can use those fonts for free even if
+you're making money off your comics!
+
+Some of my favorite fonts of theirs include:
+
+- [Anime Ace](https://blambot.com/collections/all-fonts/products/anime-ace-3)
+- [Crimefighter](https://blambot.com/collections/all-fonts/products/crime-fighter)
+- [Digital Strip](https://blambot.com/collections/all-fonts/products/digital-strip)
+- [Kid Kosmic](https://blambot.com/collections/all-fonts/products/kid-kosmic)
+- [Chewed Pen](https://blambot.com/collections/all-fonts/products/chewed-pen)
+- [Mumble Grumble](https://blambot.com/collections/all-fonts/products/mumble-grumble)
+
+### Comic Lettering
 
 - [Pen Lettering for Comics by Todd Klein](https://kleinletters.com/Blog/pen-lettering-for-comics)
 - [Scanlation Font Sheets](https://imgur.com/a/scanlation-font-sheets-UmEpOL1)
+
+***
 
 ## Balpaq
 
