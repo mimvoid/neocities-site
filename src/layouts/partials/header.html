@@ -12,15 +12,21 @@
       {{ end }}
     </div>
   </nav>
-  <div class="actions">
-    <a href="https://neocities.org/site/mimvoid">
-      {{ partial "svg" "ph-minus" }}
-    </a>
-    <a href="https://neocities.org/site/mimvoid">
-      {{ partial "svg" "ph-cards" }}
-    </a>
-    <a href="https://neocities.org">
-      {{ partial "svg" "ph-x" }}
-    </a>
+  <div class="right">
+    <button type="button" name="theme_toggle" aria-label="Change to light theme">
+      {{ partial "svg" "ph-sun" }}
+      {{ partial "svg" "ph-moon" }}
+    </button>
+    <div class="actions">
+      <a href="https://neocities.org/site/mimvoid">
+        {{ partial "svg" "ph-minus" }}
+      </a>
+      <a href="https://neocities.org/site/mimvoid">
+        {{ partial "svg" "ph-cards" }}
+      </a>
+      <a href="https://neocities.org">
+        {{ partial "svg" "ph-x" }}
+      </a>
+    </div>
   </div>
 </header>

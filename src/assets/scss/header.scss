@@ -10,6 +10,10 @@ header {
   padding: 0.5em 2.5em 0 2.5em;
   background-color: var(--bg);
 
+  .right {
+    display: flex;
+  }
+
   .tabs {
     margin: 0.5em 1em;
 
@@ -52,16 +56,25 @@ header {
     }
   }
 
-  .actions {
-    svg {
-      @include looks.transition;
-      opacity: 0.85;
+  svg {
+    @include looks.transition;
+    opacity: 0.85;
 
-      &:focus, &:hover {
-        opacity: 1;
-      }
+    &:focus, &:hover {
+      opacity: 1;
     }
+  }
 
+  button {
+    margin-right: 1em;
+    cursor: pointer;
+
+    border: none;
+    background-color: transparent;
+    color: var(--fg-dim);
+  }
+
+  .actions {
     .ph-minus-icon {
       color: var(--primary);
     }

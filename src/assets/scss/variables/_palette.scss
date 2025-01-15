@@ -1,6 +1,11 @@
-:root {
+[data-theme="dark"] {
+  .ph-sun-icon {
+    display: none;
+  }
+
   --bg: rgb(31, 30, 55);
   --fg: rgb(232, 223, 221);
+  --fg-dim: rgb(195, 182, 197);
   --overlay: rgb(44, 43, 68);
   --overlay-dim: rgb(40, 38, 64);
 
@@ -13,27 +18,30 @@
   --link-color: var(--primary);
   --link-color-old: var(--secondary);
 
-  --bg-img: url(../images/mimvoid_cat-spades.webp);
+  --bg-img: url(../images/mimvoid_cat-spades_dark.webp);
   --bg-size: 165px;
 }
 
-// TODO: replace the colors
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg: rgb(31, 30, 55);
-    --fg: rgb(232, 223, 221);
-    --overlay: rgba(68, 65, 91, 0.35);
-
-    --primary: rgb(250, 180, 220);
-    --secondary: rgb(222, 140, 230);
-    --tertiary: rgb(175, 128, 250);
-
-    --active-border: var(--primary);
-    --inactive-border: var(--secondary);
-    --link-color: var(--primary);
-    --link-color-old: var(--secondary);
-
-    --bg-img: url(../images/mimvoid_cat-spades.webp);
-    --bg-size: 160px;
+[data-theme="light"] {
+  .ph-moon-icon {
+    display: none;
   }
+
+  --bg: rgb(255, 238, 240);
+  --fg: rgb(36, 28, 52);
+  --fg-dim: rgb(64, 48, 80);
+  --overlay: rgb(246, 212, 232);
+  --overlay-dim: rgb(246, 220, 232);
+
+  --primary: rgb(192, 42, 112);
+  --secondary: rgb(165, 42, 168);
+  --tertiary: rgb(92, 48, 154);
+
+  --active-border: var(--primary);
+  --inactive-border: var(--secondary);
+  --link-color: var(--primary);
+  --link-color-old: var(--secondary);
+
+  --bg-img: url(../images/mimvoid_cat-spades_light.webp);
+  --bg-size: 165px;
 }
