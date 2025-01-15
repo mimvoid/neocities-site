@@ -149,6 +149,17 @@ Komika Parch
 
 {{% pangram font="Komika Parch" %}}
 
+## Obscurient
+
+[Homepage](https://ko-fi.com/s/b5fa3d5ed2)
+
+{{% license "ofl" %}}
+
+{{% pangram font="CQ Obscurient" %}}
+
+CQ Obscurient is a pretty angular font by Aidan Clarke.
+It has a variety of weights (Light, Regular, Bold, and Heavy), ligatures, and alternates!
+
 ## Sara's Fonts
 
 [Full listing](https://ko-fi.com/salinsley/shop)

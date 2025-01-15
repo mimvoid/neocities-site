@@ -39,6 +39,11 @@
   $file: "Balpaq"
 );
 
+@include font(
+  $family: "CQ Obscurient",
+  $file: "CQObscurient-Regular"
+);
+
 // JDK fonts
 
 @include font(
