@@ -1,0 +1,36 @@
+@use "sass:list";
+@use "sass:map";
+
+$path: "../fonts" !default;
+
+$formats: (
+  "woff2": "woff2",
+  "otf": "opentype",
+  "ttf": "truetype"
+);
+
+@mixin font(
+  $family,
+  $file,
+  $weight: 400,
+  $style: normal,
+  $ext: "woff2",
+  $local: "",
+  $path: $path
+) {
+  // Evaluate the src
+  $fmt: map.get($formats, $ext);
+  $src: local(#{$family}), url("#{$path}/#{$file}.#{$ext}") format($fmt);
+
+  @if $local != "" {
+    $src: list.join(local(#{$local}), $src);
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+  }
+}
