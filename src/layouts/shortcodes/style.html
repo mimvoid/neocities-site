@@ -1,8 +1,13 @@
-{{- $u := urls.Parse (.Get 0) -}}
-{{- $file := .Page.Resources.Get $u.Path -}}
+{{- $file := "style.scss" -}}
+
+{{ with .Get 0 }}
+  {{- $file = . -}}
+{{ end }}
+
+{{- $style := .Page.Resources.Get $file -}}
 
 <!-- Fingerprint so the browser doesn't cache changed stylesheets -->
-{{ with $file | toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
+{{ with $style | toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
 <link
   type="text/css"
   rel="stylesheet"

@@ -7,7 +7,7 @@ menus: tabs
 weight: 10
 ---
 
-{{% style "style.scss" %}}
+{{% style %}}
 
 # Hi! I'm mimvoid
 
