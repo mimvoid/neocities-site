@@ -1,123 +1,21 @@
-@mixin font(
-  $family,
-  $file,
-  $ext: "woff2",
-  $fmt: "woff2",
-  $weight: 400,
-  $style: normal
-) {
-  @font-face {
-    font-display: swap;
-    font-family: $family;
-    font-style: $style;
-    font-weight: $weight;
-    src:
-      local(#{$family}),
-      url("./fonts/#{$file}.#{$ext}") format(#{$fmt});
-  }
-}
-
-@include font(
-  $family: "Adriator",
-  $file: "adriator"
-);
-
-@include font(
-  $family: "Arnprior",
-  $file: "arnprior"
-);
-
-@include font(
-  $family: "Dendritic Voltage",
-  $file: "dendriticVoltage"
-);
-
-@include font(
-  $family: "Engebrechtre",
-  $file: "engebrechtre-rg"
-);
-
-@include font(
-  $family: "Heart Sweet Heart",
-  $file: "heartSweetHeart"
-);
-
-@include font(
-  $family: "Home Sweet Home",
-  $file: "homeSweetHome"
-);
-
-@include font(
-  $family: "Iomanoid Front",
-  $file: "iomanoidFront"
-);
-
-@include font(
-  $family: "Kilsonburg",
-  $file: "kilsonburg"
-);
-
-@include font(
-  $family: "Mai Tai",
-  $file: "maiTai"
-);
-
-@include font(
-  $family: "Manbow Solid",
-  $file: "manbow-solid"
-);
-
-@include font(
-  $family: "Pretender",
-  $file: "pretender"
-);
-
-@include font(
-  $family: "Primer Print",
-  $file: "primerPrint-bold"
-);
-
-@include font(
-  $family: "Stentiga",
-  $file: "stentiga"
-);
-
-@include font(
-  $family: "Stormfaze",
-  $file: "stormfaze"
-);
-
-@include font(
-  $family: "Thiamine",
-  $file: "thiamine"
-);
-
-@include font(
-  $family: "Vanilla Whale",
-  $file: "vanillaWhale"
-);
-
-@include font(
-  $family: "V Dub",
-  $file: "vDub"
-);
-
-@include font(
-  $family: "Velvenda",
-  $file: "velvenda-megablack"
-);
-
-@include font(
-  $family: "Y2K Bug",
-  $file: "y2kBug"
-);
-
-@include font(
-  $family: "Youre Gone",
-  $file: "youreGone"
-);
-
-@include font(
-  $family: "Zorque",
-  $file: "zorque"
-);
+@include font(Adriator);
+@include font(Arnprior);
+@include font("Dendritic Voltage", DendriticVoltage);
+@include font(Engebrechtre, "Engebrechtre-Regular");
+@include font("Heart Sweet Heart", "HeartSweetHeart");
+@include font("Home Sweet Home", "HomeSweetHome");
+@include font("Iomanoid Front", "IomanoidFront");
+@include font(Kilsonburg);
+@include font("Mai Tai", "MaiTai");
+@include font("Manbow Solid", "Manbow-Solid");
+@include font(Pretender);
+@include font("Primer Print", "PrimerPrint-Bold", $weight: bold);
+@include font(Stentiga);
+@include font(Stormfaze);
+@include font(Thiamine);
+@include font("Vanilla Whale", "VanillaWhale");
+@include font(VDub);
+@include font("Velvenda", "Velvenda-MegaBlack");
+@include font("Y2K Bug", "Y2KBug");
+@include font("Youre Gone", "YoureGone");
+@include font(Zorque);

@@ -5,7 +5,7 @@ description: My collection of CJK fonts
 date: 2025-01-08T16:30:28-05:00
 ---
 
-{{% style "fonts.scss" %}}
+{{% load_fonts %}}
 
 Under Construction...
 {.secondary}

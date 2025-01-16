@@ -4,7 +4,7 @@ description: A showcase of public domain fonts by Typodermic Fonts
 date: 2025-01-06T13:43:34-05:00
 ---
 
-{{% style "fonts.scss" %}}
+{{% load_fonts %}}
 
 **Typodermic Fonts** is a foundry based in Nagoya, Japan with a treasure trove of cool
 [display fonts]({{% relref "/design/fonts/collections/display/index" %}})!
@@ -106,9 +106,9 @@ here are some options:
 
 {{% pangram font="Vanilla Whale" %}}
 
-## V Dub
+## VDub
 
-{{% pangram font="V Dub" %}}
+{{% pangram font="VDub" %}}
 
 ## Velvenda
 

@@ -4,7 +4,7 @@ description: A showcase of fonts by Casady & Greene
 date: 2025-01-12T12:19:28-05:00
 ---
 
-{{% style "fonts.scss" %}}
+{{% load_fonts %}}
 
 Casady & Greene first got on my radar in my search for a higher contrast alternative to
 [Limelight]({{% relref "/design/fonts/collections/display#limelight" %}}). I arrived at

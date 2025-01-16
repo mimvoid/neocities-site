@@ -1,33 +1,3 @@
-@mixin font(
-  $family,
-  $file,
-  $ext: "woff2",
-  $fmt: "woff2",
-  $weight: 400,
-  $style: normal
-) {
-  @font-face {
-    font-display: swap;
-    font-family: $family;
-    font-style: $style;
-    font-weight: $weight;
-    src:
-      local(#{$family}),
-      url("./fonts/#{$file}.#{$ext}") format(#{$fmt});
-  }
-}
-
-@include font(
-  $family: "Cantarell",
-  $file: "cantarell-vf"
-);
-
-@include font(
-  $family: "Mulish",
-  $file: "mulish-rg"
-);
-
-@include font(
-  $family: "Nunito",
-  $file: "nunito-rg"
-);
+@include font("Cantarell", "Cantarell-VF");
+@include font("Mulish", "Mulish-Regular");
+@include font("Nunito", "Nunito-Regular");

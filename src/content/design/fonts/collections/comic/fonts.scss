@@ -3,192 +3,57 @@
   font-size: 1.25em;
 }
 
-@mixin font(
-  $family,
-  $file,
-  $ext: "woff2",
-  $fmt: "woff2",
-  $weight: 400,
-  $style: normal
-) {
-  @font-face {
-    font-display: swap;
-    font-family: $family;
-    font-style: $style;
-    font-weight: $weight;
-    src:
-      local(#{$family}),
-      url("./fonts/#{$file}.#{$ext}") format(#{$fmt});
-  }
-}
-
-@include font(
-  $family: "xkcd",
-  $file: "xkcd-Regular",
-  $ext: "otf",
-  $fmt: "opentype"
-);
-
-@include font(
-  $family: "SF Arch Rival",
-  $file: "SFArchRival",
-);
-
-@include font(
-  $family: "Balpaq",
-  $file: "Balpaq"
-);
-
-@include font(
-  $family: "CQ Obscurient",
-  $file: "CQObscurient-Regular"
-);
+@include font(xkcd, "xkcd-Regular", $ext: otf);
+@include font("SF Arch Rival", SFArchRival);
+@include font(Balpaq);
+@include font("CQ Obscurient", "CQObscurient-Regular");
 
 // JDK fonts
 
-@include font(
-  $family: "JDK Bushidoo",
-  $file: "jdk/JDKBushidoo"
-);
-@include font(
-  $family: "JDK Bushidoo Outline",
-  $file: "jdk/JDKBushidoo-Outline"
-);
+@mixin jdk($name, $file: $name, $weight: normal) {
+  @include font("JDK #{$name}", "jdk/JDK#{$file}", $weight: $weight);
+}
 
-@include font(
-  $family: "JDK Comics Hand",
-  $file: "jdk/JDKComicsHand"
-);
-@include font(
-  $family: "JDK Comics Hand",
-  $file: "jdk/JDKComicsHand-Bold",
-  $weight: bold
-);
-
-@include font(
-  $family: "JDK Croo Ella",
-  $file: "jdk/JDKCrooElla"
-);
-
-@include font(
-  $family: "JDK Vindil",
-  $file: "jdk/JDKVindil"
-);
-@include font(
-  $family: "JDK Vindil Unreadable",
-  $file: "jdk/JDKVindil-Unreadable"
-);
+@include jdk(Bushidoo);
+@include jdk("Bushidoo Outline", "Bushidoo-Outline");
+@include jdk("Comics Hand", ComicsHand);
+@include jdk("Comics Hand", "ComicsHand-Bold", bold);
+@include jdk("Croo Ella", CrooElla);
+@include jdk(Vindil);
+@include jdk("Vindil Unreadable", "Vindil-Unreadable");
 
 // Komika
 
-@include font(
-  $family: "Komika Hand",
-  $file: "komika/Hand",
-  $ext: "ttf",
-  $fmt: "truetype"
-);
-@include font(
-  $family: "Komika Jam",
-  $file: "komika/Jam",
-  $ext: "ttf",
-  $fmt: "truetype"
-);
-@include font(
-  $family: "Komika Slick",
-  $file: "komika/Slick",
-  $ext: "ttf",
-  $fmt: "truetype"
-);
-@include font(
-  $family: "Komika Slim",
-  $file: "komika/Slim",
-  $ext: "ttf",
-  $fmt: "truetype"
-);
+@mixin komika($name, $file: $name) {
+  @include font("Komika #{$name}", "komika/#{$file}", $ext: ttf);
+}
 
-@include font(
-  $family: "Komika Display",
-  $file: "komika/Display",
-  $ext: "ttf",
-  $fmt: "truetype"
-);
-@include font(
-  $family: "Komika Display Tight",
-  $file: "komika/Display-Tight",
-  $ext: "ttf",
-  $fmt: "truetype"
-);
-@include font(
-  $family: "Komika Display Kaps",
-  $file: "komika/Display-Kaps",
-  $ext: "ttf",
-  $fmt: "truetype"
-);
-@include font(
-  $family: "Komika Display Shadow",
-  $file: "komika/Display-Shadow",
-  $ext: "ttf",
-  $fmt: "truetype"
-);
+@include komika(Hand);
+@include komika(Jam);
+@include komika(Slick);
+@include komika(Slim);
 
-@include font(
-  $family: "Komika Axis",
-  $file: "komika/Axis",
-  $ext: "ttf",
-  $fmt: "truetype"
-);
-@include font(
-  $family: "Komika Boo",
-  $file: "komika/Boo",
-  $ext: "ttf",
-  $fmt: "truetype"
-);
-@include font(
-  $family: "Komika Boogie",
-  $file: "komika/Boogie",
-  $ext: "ttf",
-  $fmt: "truetype"
-);
-@include font(
-  $family: "Komika Boss",
-  $file: "komika/Boss",
-  $ext: "ttf",
-  $fmt: "truetype"
-);
-@include font(
-  $family: "Komika Parch",
-  $file: "komika/Parch",
-  $ext: "ttf",
-  $fmt: "truetype"
-);
+@include komika(Display);
+@include komika("Display Tight", "Display-Tight");
+@include komika("Display Kaps", "Display-Kaps");
+@include komika("Display Shadow", "Display-Shadow");
+
+@include komika(Axis);
+@include komika(Boo);
+@include komika(Boogie);
+@include komika(Boss);
+@include komika(Parch);
 
 // Sara's fonts
 
-@include font(
-  $family: "Bean Burrito",
-  $file: "ss/BeanBurrito"
-);
-@include font(
-  $family: "Boba Date",
-  $file: "ss/BobaDate"
-);
-@include font(
-  $family: "Cryptid",
-  $file: "ss/Cryptid"
-);
-@include font(
-  $family: "Pancake Pen",
-  $file: "ss/PancakePen"
-);
-@include font(
-  $family: "SS Girl Kisser",
-  $file: "ss/SSGirlKisser-Regular"
-);
-@include font(
-  $family: "SS Pretzel",
-  $file: "ss/SSPretzel"
-);
-@include font(
-  $family: "SS Soapy Hands",
-  $file: "ss/SSSoapyHands-Regular"
-);
+@mixin ss($name, $file: $name) {
+  @include font(#{$name}, "ss/#{$file}");
+}
+
+@include ss("Bean Burrito", "BeanBurrito");
+@include ss("Boba Date", "BobaDate");
+@include ss(Cryptid);
+@include ss("Pancake Pen", "PancakePen");
+@include ss("SS Girl Kisser", "SSGirlKisser-Regular");
+@include ss("SS Pretzel", "SSPretzel");
+@include ss("SS Soapy Hands", "SSSoapyHands-Regular");

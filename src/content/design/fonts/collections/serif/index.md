@@ -4,7 +4,7 @@ description: My collection of serif fonts
 date: 2025-01-02T13:24:54-05:00
 ---
 
-{{% style "fonts.scss" %}}
+{{% load_fonts %}}
 
 <p class="secondary">Under Construction...</p>
 

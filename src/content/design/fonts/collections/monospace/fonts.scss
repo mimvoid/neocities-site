@@ -1,74 +1,14 @@
-@mixin font(
-  $family,
-  $file,
-  $ext: "woff2",
-  $fmt: "woff2",
-  $weight: 400,
-  $style: normal
-) {
-  @font-face {
-    font-display: swap;
-    font-family: $family;
-    font-style: $style;
-    font-weight: $weight;
-    src:
-      local(#{$family}),
-      url("./fonts/#{$file}.#{$ext}") format(#{$fmt});
-  }
-}
+@include font("Source Code Pro", "SourceCodePro-Regular.ttf");
+@include font("Hasklig", "Hasklig-Regular", $ext: otf);
+@include font("Office Code Pro", "OfficeCodePro-Regular");
 
-@include font(
-  $family: "Source Code Pro",
-  $file: "sourceCodePro-rg",
-  $ext: "ttf.woff2"
-);
+@include font("Fira Code", "FiraCode-Regular");
 
-@include font(
-  $family: "Hasklig",
-  $file: "hasklig-rg",
-  $ext: "otf",
-  $fmt: "opentype"
-);
+@include font("Victor Mono", "VictorMono-Regular");
+@include font("Victor Mono", "VictorMono-Italic", $style: italic);
 
-@include font(
-  $family: "Office Code Pro",
-  $file: "officeCodePro-rg"
-);
+@include font("Courier Prime", "CourierPrime-Regular");
+@include font("Courier Prime", "CourierPrime-Italic", $style: italic);
 
-@include font(
-  $family: "Fira Code",
-  $file: "firaCode-rg"
-);
-
-@include font(
-  $family: "Victor Mono",
-  $file: "victorMono-rg"
-);
-
-@include font(
-  $family: "Victor Mono",
-  $file: "victorMono-italic",
-  $style: italic
-);
-
-@include font(
-  $family: "Courier Prime",
-  $file: "courierPrime-rg"
-);
-
-@include font(
-  $family: "Courier Prime",
-  $file: "courierPrime-italic",
-  $style: italic
-);
-
-@include font(
-  $family: "Courier Prime Sans",
-  $file: "courierPrimeSans"
-);
-
-@include font(
-  $family: "Courier Prime Sans",
-  $file: "courierPrimeSans-italic",
-  $style: italic
-);
+@include font("Courier Prime Sans", "CourierPrimeSans");
+@include font("Courier Prime Sans", "CourierPrimeSans-Italic", $style: italic);

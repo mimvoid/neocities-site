@@ -1,4 +1,4 @@
-@use "partials/font-face" as *;
+@use "partials/font-face" as * with ($path: "../fonts");
 
 // ia-writer-duospace bold
 @include font(
@@ -10,8 +10,7 @@
 // ia-writer-monospace
 @include font(
   $family: "iA Writer Mono",
-  $file: "ia-writer-monos_bold",
-  $local: "iA Writer Mono Bold"
+  $file: "ia-writer-monos_bold"
 );
 
 // karla-regular - latin
@@ -23,7 +22,6 @@
 // karla-italic - latin
 @include font(
   $family: Karla,
-  $local: "Karla Italic",
   $file: "karla_400-italic",
   $style: italic
 );
@@ -31,7 +29,6 @@
 // karla-600 - latin
 @include font(
   $family: Karla,
-  $local: "Karla Bold",
   $file: "karla_600",
   $weight: 600
 );
@@ -39,7 +36,6 @@
 // karla-600italic - latin
 @include font(
   $family: Karla,
-  $local: "Karla Bold Italic",
   $file: "karla_600-italic",
   $weight: 600,
   $style: italic

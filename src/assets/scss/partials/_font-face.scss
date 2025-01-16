@@ -1,7 +1,7 @@
 @use "sass:list";
 @use "sass:map";
 
-$path: "../fonts" !default;
+$path: "./fonts" !default;
 
 $formats: (
   "woff2": "woff2",
@@ -11,19 +11,30 @@ $formats: (
 
 @mixin font(
   $family,
-  $file,
+  $file: $family,
   $weight: 400,
   $style: normal,
   $ext: "woff2",
-  $local: "",
   $path: $path
 ) {
   // Evaluate the src
   $fmt: map.get($formats, $ext);
   $src: local(#{$family}), url("#{$path}/#{$file}.#{$ext}") format($fmt);
 
+  // Search locally for non-variable fonts
+  $local-bold: "";
+  $local-italic: "";
+
+  @if $style == italic {
+    $local-italic: " Italic";
+  }
+  @if $weight == bold {
+    $local-bold: " Bold";
+  }
+
+  $local: $local-bold + $local-italic;
   @if $local != "" {
-    $src: list.join(local(#{$local}), $src);
+    $src: list.join(local("#{$family}#{$local}"), $src);
   }
 
   @font-face {
