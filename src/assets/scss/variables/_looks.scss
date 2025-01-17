@@ -1,3 +1,13 @@
 @mixin transition() {
   transition: all 0.2s ease-in-out;
 }
+
+$border-radius: 4px;
+
+@mixin border-radius() {
+  border-radius: var(--border-radius);
+}
+
+:root {
+  --border-radius: #{$border-radius};
+}

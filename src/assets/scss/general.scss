@@ -16,7 +16,7 @@ body {
   background-size: var(--bg-size);
   background-attachment: fixed;
 
-  font-family: fonts.$body;
+  font-family: var(--body);
   font-size: 1.025em;
   line-height: 1.4;
 }
@@ -36,7 +36,7 @@ $headings: (
 
 @each $h, $size in $headings {
   #{$h} {
-    font-family: fonts.$heading;
+    font-family: var(--heading);
     font-size: $size;
 
     color: var(--tertiary);
@@ -47,18 +47,12 @@ $headings: (
  * Text
  *-------*/
 
-strong {
-  color: var(--primary);
-}
-
-em {
-  color: var(--secondary);
-}
-
+strong,
 .primary {
   color: var(--primary);
 }
 
+em,
 .secondary {
   color: var(--secondary);
 }
@@ -74,6 +68,10 @@ em {
   p {
     margin: 0.5em 0;
   }
+}
+
+.small {
+  font-size: 0.9em;
 }
 
 /*-------
@@ -93,8 +91,6 @@ a {
 
 // Only change color for links in main content
 main a {
-  @include looks.transition;
-
   text-decoration: underline 1px var(--tertiary);
   color: var(--link-color-old);
 
@@ -203,8 +199,8 @@ blockquote {
   margin: 2em 0;
   padding: 0.5em 1.5em;
 
-  border-radius: 0 4px 4px 0;
-  border-left: 4px solid var(--primary);
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  border-left: 4px solid var(--active-border);
 
   background-color: var(--overlay-dim);
 }

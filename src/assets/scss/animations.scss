@@ -1,47 +1,49 @@
+@use "./partials/mixins";
+
 @keyframes pop {
   from {
-    transform: scale(1);
-    -webkit-transform: scale(1);
+    @include mixins.scale(1);
   }
   50% {
-    transform: scale(0.95);
-    -webkit-transform: scale(0.95);
+    @include mixins.scale(0.95);
   }
   80% {
-    transform: scale(1.02); // overshoot
-    -webkit-transform: scale(1.02);
+    @include mixins.scale(1.02); // overshoot
   }
   to {
-    transform: scale(1);
-    -webkit-transform: scale(1);
+    @include mixins.scale(1);
+  }
+}
+
+@keyframes pull-down {
+  $base: -0.5em;
+
+  from {
+    top: $base;
+  }
+  60% {
+    top: $base + 0.95em;
+  }
+  65% {
+    top: $base + 1em;
+  }
+  70% {
+    top: $base + 0.95em;
+  }
+  85% {
+    top: $base - 0.15em; // overshoot
+  }
+  to {
+    top: $base;
   }
 }
 
 .pop:hover {
-  animation-name: pop;
-  animation-duration: 0.25s;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes pull-down {
-  from { top: -0.5em; }
-  60% {
-    top: 0.45em;
-  }
-  65% {
-    top: 0.5em;
-  }
-  70% {
-    top: 0.45em;
-  }
-  85% { top: -0.65em; }
-  to { top: -0.5em; }
+  animation: 0.25s ease-in-out pop;
 }
 
 .pull-down {
-  animation-name: pull-down;
-  animation-duration: 0.3s;
-  animation-timing-function: ease-in-out;
+  animation: 0.3s ease-in-out pull-down;
 }
 
 @media (prefers-reduced-motion: reduce) {

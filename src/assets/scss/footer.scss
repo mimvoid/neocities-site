@@ -6,23 +6,22 @@ footer {
   font-size: 0.95em;
   background-color: var(--bg);
 
-  // Vim-plugin-like status bar
+  // Vim-like status bar
   .bar {
     display: flex;
     flex-flow: row wrap;
     row-gap: 1em;
     justify-content: space-between;
-    padding: 0.25em 0;
+    padding: 0.15em 0;
 
-    * {
+    .left, .right {
       padding: 0;
       display: inline-block;
-    }
 
-    .left p,
-    .right p {
-      padding: 0.25em 0.5em;
-      display: inline; // Put them all on one line
+      p {
+        padding: 0.25em 0.5em;
+        display: inline; // Put them all on one line
+      }
     }
 
     // Accented background, dark text
@@ -40,11 +39,6 @@ footer {
     .status-mid {
       color: var(--primary);
       background-color: var(--overlay);
-
-      &:focus i,
-      &:hover i {
-        background-color: var(--tertiary);
-      }
     }
 
     .status-low {
