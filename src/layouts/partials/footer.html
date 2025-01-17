@@ -2,12 +2,12 @@
   <div class="bar">
     <div class="left">
       <p class="status-high">
-        {{ partial "svg" "ph-compass" }}
+        {{ partial "utils/svg" "ph-compass" }}
         NORMAL
       </p>
       <p class="status-mid">
         <a href="https://github.com/mimvoid/neocities-site">
-          {{ partial "svg" "ph-code" }}
+          {{ partial "utils/svg" "ph-code" }}
           source code
         </a>
       </p>
@@ -19,7 +19,7 @@
         <a href="/credits">credits</a>
       </p>
       <p class="status-high">
-        {{ partial "svg" "ph-calendar-heart" }}
+        {{ partial "utils/svg" "ph-calendar-heart" }}
         {{ with site.Lastmod }}
           {{ $machineFmt := "2006-01-02T15:04:05-07:00" }}
           {{ $humanFmt := "02.01.06" }}

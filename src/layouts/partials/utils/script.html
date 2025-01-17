@@ -1,5 +1,4 @@
-<!-- Theme switcher -->
-{{ with resources.Get "js/themeToggle.js" | minify | fingerprint }}
+{{ with resources.Get . | minify | fingerprint }}
 <script
   src="{{ .RelPermalink }}"
   integrity="{{ .Data.Integrity }}"
