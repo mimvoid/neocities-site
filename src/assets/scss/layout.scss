@@ -34,7 +34,7 @@
   @include looks.transition;
   @include looks.border-radius;
 
-  border: 2px solid var(--inactive-border);
+  border: var(--border-size) solid var(--inactive-border);
   margin: 0.75em 0.5em;
 
   background-color: rgba(from var(--bg) r g b / 0.9);

@@ -12,7 +12,7 @@ body {
   margin: 0;
   color: var(--fg);
 
-  background: var(--bg-img) var(--bg);
+  background: var(--bg-img) var(--bg-color);
   background-size: var(--bg-size);
   background-attachment: fixed;
 
@@ -38,8 +38,7 @@ $headings: (
   #{$h} {
     font-family: var(--heading);
     font-size: $size;
-
-    color: var(--tertiary);
+    color: var(--heading-color);
   }
 }
 

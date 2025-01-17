@@ -13,13 +13,8 @@
   --secondary: rgb(225, 142, 234);
   --tertiary: rgb(178, 129, 250);
 
-  --active-border: var(--primary);
-  --inactive-border: var(--secondary);
-  --link-color: var(--primary);
-  --link-color-old: var(--secondary);
-
   --bg-img: url(../images/mimvoid_cat-spades_dark.webp);
-  --bg-size: 165px;
+  --bg-color: var(--bg);
 }
 
 [data-theme="light"] {
@@ -37,11 +32,19 @@
   --secondary: rgb(165, 42, 168);
   --tertiary: rgb(92, 48, 154);
 
+  --bg-img: url(../images/mimvoid_cat-spades_light.webp);
+  --bg-color: var(--bg);
+}
+
+:root {
+  --heading-color: var(--tertiary);
+
+  --border-size: 2px;
   --active-border: var(--primary);
   --inactive-border: var(--secondary);
+
   --link-color: var(--primary);
   --link-color-old: var(--secondary);
 
-  --bg-img: url(../images/mimvoid_cat-spades_light.webp);
   --bg-size: 165px;
 }
