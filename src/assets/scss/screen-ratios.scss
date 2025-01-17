@@ -1,71 +1,62 @@
+@mixin header-pad($scale) {
+  header {
+    padding-left: $scale;
+    padding-right: $scale;
+  }
+}
+
+@mixin wrapper-pad($scale) {
+  #wrapper {
+    padding: 0 $scale;
+  }
+}
+
 /*-------------------------
  * Different screen ratios
  *-------------------------*/
 
 @media (max-width: 940px) {
-  header {
-    padding-left: 2.5em;
-    padding-right: 2.5em;
-  }
+  @include header-pad(2.5em);
 }
 
 @media (max-width: 840px) {
-  #wrapper {
-    padding: 0 4%;
-  }
-
-  header {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
+  @include wrapper-pad(4%);
+  @include header-pad(1em);
 }
 
 @media (max-width: 700px) {
-  #wrapper {
-    padding: 0 1%;
-  }
-
-  header {
-    padding-left: 0.75em;
-    padding-right: 0.75em;
-  }
+  @include wrapper-pad(1%);
+  @include header-pad(0.75em);
 }
 
 @media (orientation: portrait), (max-width: 440px) {
-  #wrapper {
-    padding: 0;
-  }
+  @include wrapper-pad(0);
+  @include header-pad(0);
 
   header {
-    padding-left: 0;
-    padding-right: 0;
+    #nav_home, #nav_pages {
+      display: block;
+    }
+    #nav_home {
+      margin-bottom: 0.25em;
+    }
+    .actions {
+      display: none;
+    }
   }
 
   .body {
-    display: inline;
+    display: block;
   }
 
   .box {
     margin: 0.4em;
   }
 
-  .sidebar {
-    #home-link {
-      display: none;
-    }
-
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: stretch;
-      position: static;
-      margin: 0.75em 0;
-
-      .box {
-        flex-grow: 1;
-      }
-    }
+  .sidebar nav {
+    position: static;
+    margin: 0.75em 0;
+    font-size: 1.025em;
   }
 
   main > .box {
@@ -74,7 +65,6 @@
 
   footer .bar {
     justify-content: center;
-    overflow: scroll;
     font-size: 0.85em;
 
     * {
