@@ -55,7 +55,7 @@ header {
     }
   }
 
-  button[name="theme_toggle"] {
+  #theme_toggle {
     cursor: pointer;
 
     display: flex;
@@ -74,7 +74,7 @@ header {
       margin: 0;
     }
 
-    #cord {
+    #theme_toggle_cord {
       display: flex;
       flex-direction: column;
       align-items: center;

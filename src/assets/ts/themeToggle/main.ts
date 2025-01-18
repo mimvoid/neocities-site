@@ -3,8 +3,8 @@ import noTransition from "./noTransition";
 
 // Based on https://whitep4nth3r.com/blog/best-light-dark-mode-theme-toggle-javascript
 
-const button = document.querySelector("button[name=theme_toggle]");
-const cord = document.getElementById("cord");
+const button = document.getElementById("theme_toggle");
+const cord = document.getElementById("theme_toggle_cord");
 
 // Find the preferred theme
 const localStorageTheme = localStorage.getItem("theme");
