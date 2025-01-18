@@ -13,6 +13,13 @@
   $file: "ia-writer-monos_regular"
 );
 
+// ia-writer-monospace bold
+@include font(
+  $family: "iA Writer Mono",
+  $file: "ia-writer-monos_bold",
+  $weight: bold
+);
+
 // karla-regular - latin
 @include font(
   $family: Karla,
