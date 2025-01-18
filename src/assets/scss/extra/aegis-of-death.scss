@@ -1,9 +1,4 @@
-@use "../partials/font-face" with ($path: "../../fonts/page");
-
-@include font-face.font("Courier Prime", "CourierPrime-Regular");
-@include font-face.font("Courier Prime", "CourierPrime-Italic", $style: italic);
-@include font-face.font("Courier Prime", "CourierPrime-Bold", $weight: bold);
-@include font-face.font("Courier Prime", "CourierPrime-BoldItalic", $weight: bold, $style: italic);
+@use "../partials/courier-prime";
 
 $body: "Courier Prime", "Courier New", "Courier", monospace;
 

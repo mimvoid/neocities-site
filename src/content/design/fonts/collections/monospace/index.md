@@ -4,6 +4,10 @@ description: My collection of monospace fonts
 date: 2025-01-02T13:24:59-05:00
 ---
 
+{{< courier_prime.inline >}}
+    {{ partial "utils/style" "scss/partials/_courier-prime.scss" }}
+{{< /courier_prime.inline >}}
+
 {{% load_fonts %}}
 
 Under Construction...

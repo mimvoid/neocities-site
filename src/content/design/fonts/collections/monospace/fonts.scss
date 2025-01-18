@@ -7,8 +7,5 @@
 @include font("Victor Mono", "VictorMono-Regular");
 @include font("Victor Mono", "VictorMono-Italic", $style: italic);
 
-@include font("Courier Prime", "CourierPrime-Regular");
-@include font("Courier Prime", "CourierPrime-Italic", $style: italic);
-
 @include font("Courier Prime Sans", "CourierPrimeSans");
 @include font("Courier Prime Sans", "CourierPrimeSans-Italic", $style: italic);
