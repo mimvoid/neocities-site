@@ -204,6 +204,46 @@ blockquote {
   background-color: var(--overlay-dim);
 }
 
+/*--------
+ * Tables
+ *--------*/
+
+table {
+  @include looks.border-radius;
+
+  border-collapse: collapse;
+  border: 1px solid var(--active-border);
+
+  background-color: var(--overlay);
+
+  thead {
+    font-weight: bold;
+    color: var(--secondary);
+  }
+
+  td {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.headless table, table.headless {
+  thead {
+    display: none;
+  }
+}
+
+.plain table, table.plain {
+  background-color: transparent;
+  border: none;
+
+  thead, tbody, tr, td {
+    border: none;
+  }
+  td {
+    padding: 0.25em 0.5em;
+  }
+}
+
 /*------------
  * Date stats
  *------------*/
