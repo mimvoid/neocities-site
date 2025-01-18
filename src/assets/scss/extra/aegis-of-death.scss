@@ -27,8 +27,12 @@ h2.section {
   font-size: 1.25em;
   text-transform: none;
 }
-h3 a {
+main h3 a {
   color: var(--heading-color);
+
+  &:not(:visited) {
+    color: var(--heading-color);
+  }
 }
 
 [data-theme="dark"] {
