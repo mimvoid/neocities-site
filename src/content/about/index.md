@@ -2,14 +2,13 @@
 title: About
 description: About me
 date: 2024-09-24T21:27:07-04:00
-layout: about
 menus: tabs
 weight: 10
+params:
+    customTitle: Hi! I'm mimvoid
 ---
 
 {{% style %}}
-
-# Hi! I'm mimvoid
 
 <div class="fetcher">
     <p class="prompt tertiary">about-fetch</p>

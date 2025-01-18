@@ -2,9 +2,9 @@
 title: Home
 description: mimvoid's little corner, my space on the internet
 date: 2024-07-22T21:27:02-04:00
+params:
+    customTitle: Welcome and Salutations!
 ---
-
-# Welcome and Salutations!
 
 <div style="margin-bottom: 1.5em">
     <span class="secondary">Artist</span>
