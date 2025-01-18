@@ -1,0 +1,89 @@
+@use "../partials/font-face" with ($path: "../../fonts/page");
+
+@include font-face.font("Courier Prime", "CourierPrime-Regular");
+@include font-face.font("Courier Prime", "CourierPrime-Italic", $style: italic);
+@include font-face.font("Courier Prime", "CourierPrime-Bold", $weight: bold);
+@include font-face.font("Courier Prime", "CourierPrime-BoldItalic", $weight: bold, $style: italic);
+
+$body: "Courier Prime", "Courier New", "Courier", monospace;
+
+:root {
+  --body: #{$body};
+  --border-radius: 0;
+  --border-size: 1px;
+  --active-border: var(--fg);
+  --inactive-border: var(--fg-dim);
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+h1 {
+  text-decoration: 0.05em underline;
+  text-underline-offset: 0.25em;
+}
+h3, h4, h5, h6 {
+  font-variant: small-caps;
+}
+
+h2.section {
+  margin-top: 2em;
+  font-family: var(--body);
+  font-size: 1.25em;
+  text-transform: none;
+}
+h3 a {
+  color: var(--heading-color);
+}
+
+[data-theme="dark"] {
+  --bg: rgb(35, 30, 54);
+  --fg: rgb(232, 223, 221);
+  --fg-dim: rgb(195, 182, 197);
+  --overlay: rgb(48, 43, 62);
+  --overlay-dim: rgb(45, 38, 62);
+
+  --primary: rgb(170, 160, 222);
+  --secondary: rgb(220, 178, 250);
+  --tertiary: rgb(205, 78, 132);
+
+  --bg-img: none;
+}
+
+[data-theme="light"] {
+  --bg: rgb(222, 192, 188);
+  --fg: rgb(31, 30, 55);
+  --fg-dim: rgb(64, 48, 80);
+  --overlay: rgb(230, 192, 190);
+  --overlay-dim: rgb(220, 188, 185);
+
+  --primary: rgb(75, 52, 96);
+  --secondary: rgb(98, 58, 98);
+  --tertiary: rgb(165, 52, 85);
+
+  --bg-img: url(../../images/0509.webp);
+}
+
+.card {
+  border: 1px solid var(--fg-dim);
+  background-color: var(--bg) !important;
+}
+
+blockquote {
+  padding: 1em;
+  border: 1px solid var(--fg-dim);
+  background-color: var(--bg);
+
+  p {
+    margin: 0;
+  }
+}
+
+table {
+  background-color: var(--overlay-dim);
+  border-color: var(--fg-dim);
+
+  td {
+    border-top: 1px solid var(--fg-dim);
+  }
+}

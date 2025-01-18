@@ -1,0 +1,15 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+
+  margin: 2.5em 0;
+}
+
+.card {
+  flex-grow: 1;
+  padding: 0.5em 1em;
+
+  border-radius: var(--border-radius);
+  background-color: var(--overlay-dim);
+}
