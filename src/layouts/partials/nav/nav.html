@@ -6,11 +6,11 @@
       <!-- Iterate over first-level sections -->
       {{ range site.Sections }}
         <details {{ if .IsAncestor $currentPage }}open{{ end }}>
-          {{ partial "nav/summary.html" . }}
+          {{ partial "nav/summary" . }}
           <div class="details-content">
             <!-- Recurse -->
-            {{ partial "nav/recurse-sections.html" (dict "context" . "currentPage" $currentPage) }}
-            {{ partial "nav/pages.html" .RegularPages }}
+            {{ partial "nav/recurse-sections" (dict "context" . "currentPage" $currentPage) }}
+            {{ partial "nav/pages" .RegularPages }}
           </div>
         </details>
       {{ end }}

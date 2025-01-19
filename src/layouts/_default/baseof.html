@@ -2,7 +2,7 @@
 <html lang="{{ site.Language }}" dir="ltr" data-theme="dark">
 
 <head>
-  {{ partial "head.html" . }}
+  {{ partial "head" . }}
   <!-- Extra content for the head (e.g. custom styles) -->
   {{ block "head-extra" . }}{{ end }}
 </head>
@@ -10,11 +10,11 @@
 <body>
   {{ block "body" . }}
 
-    {{- partial "header.html" . -}}
+    {{- partial "header" . -}}
 
     <div id="wrapper">
       <div class="body">
-        {{- partial "nav/nav.html" . -}}
+        {{- partial "nav/nav" . -}}
 
         <main>
           <article class="box">
@@ -35,13 +35,13 @@
               {{ .Content -}}
             {{- end -}}
 
-            {{- partial "dates.html" . -}}
+            {{- partial "dates" . -}}
           </article>
           {{- block "body-extra" . -}}{{- end -}}
         </main>
 
       </div>
-      {{- partial "footer.html" . -}}
+      {{- partial "footer" . -}}
     </div>
 
   {{- end -}}
