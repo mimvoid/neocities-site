@@ -1,13 +1,12 @@
 {{- $font_face := resources.Get "scss/partials/_font-face.scss" -}}
 
-{{- $fonts := .Page.Resources.Get "fonts.scss" -}}
-
-{{- if (.Get 0) -}}
-  {{- $u := urls.Parse (.Get 0) -}}
-  {{- $fonts = .Page.Resources.Get $u.Path -}}
+{{- $path := "fonts.scss" -}}
+{{- with .Get 0 -}}
+  {{- $path = urls.Parse . | urls.Path -}}
 {{- end -}}
 
-{{- $result_path := delimit (slice .Page.Path "fonts.scss") "/" -}}
+{{- $fonts := .Page.Resources.Get $path -}}
+{{- $result_path := urls.JoinPath .Page.Path $path -}}
 
 {{- $style := slice $font_face $fonts | resources.Concat $result_path -}}
 

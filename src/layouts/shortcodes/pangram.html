@@ -1,18 +1,14 @@
-{{- $lang := "en"}}
-{{- with .Get "lang" -}}
-  {{- $lang = . -}}
-{{- end -}}
+{{- $lang := default "en" (.Get "lang") -}}
 
 {{- $punctuation := true -}}
-{{- if in (slice "false" false 0) (.Get "punctuation")}}
-  {{- $punctuation = false -}}
-{{- else if in (slice "true" true 1) (.Get "punctuation")}}
-  {{- $punctuation = true -}}
+{{- with .Get "punctuation" -}}
+  {{- if in (slice "false" false 0) . -}}
+    {{- $punctuation = false -}}
+  {{- end -}}
 {{- end -}}
 
 <div class="large" style="font-family: '{{ .Get "font" }}'">
   {{- with $lang -}}
-
     {{- if eq . "en" -}}
       <p>SPHINX OF BLACK QUARTZ, JUDGE MY VOW.</p>
       <p>sphinx of black quartz, judge my vow.</p>
@@ -66,7 +62,6 @@
         .. ... :: -< >- -<< >>- ++
       </p>
     {{- end -}}
-
   {{- end -}}
 
   {{- if $punctuation -}}

@@ -2,21 +2,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 
 <title>
-  {{ block "title" . }}
-    {{ if not .IsHome }}{{- .Title | title }} &ndash; {{ end }}{{ site.Title }}
-  {{ end }}
+  {{ if not .IsHome }}{{- .Title }} &ndash; {{ end }}{{ site.Title }}
 </title>
 
-<!-- Define the description -->
-{{ $description := "" -}}
-{{ if .Description -}}
-  {{ $description = .Description -}}
-{{ end -}}
-
-{{ if $description -}}
-  <meta name="description" content="{{ $description }}" />
-  <meta property="og:description" content="{{ $description }}" />
-{{ end -}}
+<meta name="description" content="{{ .Description }}" />
+<meta property="og:description" content="{{ .Description }}" />
 
 <link rel="canonical" href="{{ .Permalink }}">
 

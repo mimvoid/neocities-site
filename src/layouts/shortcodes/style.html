@@ -1,9 +1,4 @@
-{{- $file := "style.scss" -}}
-
-{{ with .Get 0 }}
-  {{- $file = . -}}
-{{ end }}
-
+{{- $file := default "style.scss" (.Get 0) -}}
 {{- $style := .Page.Resources.Get $file -}}
 
 <!-- Fingerprint so the browser doesn't cache changed stylesheets -->
