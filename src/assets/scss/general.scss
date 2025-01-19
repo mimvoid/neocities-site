@@ -114,6 +114,10 @@ a.footnote-ref, a.footnote-backref {
   }
 }
 
+a:has(img) {
+  text-decoration: none;
+}
+
 /*-------
  * Lists 
  *-------*/
