@@ -2,31 +2,7 @@
 
 {{ .Summary -}}
 
-<ul>
-  {{- range .Sections -}}
-    <li><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a></li>
-
-    <ul>
-      {{- range .Sections -}}
-        <li><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a></li>
-
-        <ul>
-          {{- range .Pages -}}
-            <li><a href="{{ .RelPermalink  }}">{{ .LinkTitle }}</a></li>
-          {{- end -}}
-        </ul>
-      {{- end -}}
-
-      {{- range .RegularPages -}}
-        <li><a href="{{ .RelPermalink  }}">{{ .LinkTitle }}</a></li>
-      {{- end -}}
-    </ul>
-  {{- end -}}
-
-  {{- range .RegularPages -}}
-    <li><a href="{{ .RelPermalink  }}">{{ .LinkTitle }}</a></li>
-  {{- end -}}
-</ul>
+{{ partial "utils/recurse-list-pages" . }}
 
 {{ .ContentWithoutSummary -}}
 

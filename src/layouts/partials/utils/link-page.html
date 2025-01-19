@@ -1,0 +1,8 @@
+<a
+  href="{{ .RelPermalink }}"
+  {{ if ne .LinkTitle .Title }}
+    title="{{ .Title }}"
+  {{ end }}
+>
+  {{ .LinkTitle }}
+</a>

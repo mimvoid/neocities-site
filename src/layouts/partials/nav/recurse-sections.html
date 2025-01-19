@@ -4,7 +4,9 @@
 
   <div class="details-content">
     {{ partial "nav/recurse-sections" . }}
-    {{ partial "nav/pages" .RegularPages }}
+    {{ range .RegularPages }}
+      <p>{{ partial "utils/link-page" . }}</p>
+    {{ end }}
   </div>
 </details>
 {{ end }}
