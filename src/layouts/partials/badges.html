@@ -7,11 +7,9 @@
     (dict "logo" "nix-B6AAF5?logo=nixos" "alt" "Nix Badge")
 }}
 
-{{ $extra := "&logoColor=20213A&style=for-the-badge" }}
-
 {{ range $badge }}
-  <img
-    src="https://img.shields.io/badge/{{ .logo }}{{ $extra }}"
-    alt="{{- .alt -}}"
-  />
+  {{ $link := printf "https://img.shields.io/badge/%s&logoColor=20213A&style=for-the-badge" .logo }}
+  <a href="{{ $link }}" target="_blank" rel="noopener noreferrer">
+    <img src="{{ $link }}" alt="{{- .alt -}}" />
+  </a>
 {{ end }}
