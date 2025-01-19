@@ -1,20 +1,16 @@
 <div class="sidebar">
   <nav>
     <div class="box">
-      {{- $currentPage := . -}}
-
-      <!-- Iterate over first-level sections -->
       {{ range site.Sections }}
-        <details {{ if .IsAncestor $currentPage }}open{{ end }}>
+        <details {{ if .IsAncestor page }}open{{ end }}>
           {{ partial "nav/summary" . }}
           <div class="details-content">
             <!-- Recurse -->
-            {{ partial "nav/recurse-sections" (dict "context" . "currentPage" $currentPage) }}
+            {{ partial "nav/recurse-sections" . }}
             {{ partial "nav/pages" .RegularPages }}
           </div>
         </details>
       {{ end }}
-
     </div>
   </nav>
 </div>
