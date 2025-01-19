@@ -24,22 +24,18 @@ and other goodies:
 - [Font collections]({{% relref "/design/fonts/collections" %}})
 - [Media file formats]({{% relref "/design/formats" %}})
 - Interesting algae
-- Neat open-source software for different OSes
-- In a future update, maybe even my story ideas...?
+- Neat open-source software
+- [My story ideas and worlds]({{% relref "/worlds" %}})!
 
-And so on, and so on...
+Linked in the footer are [my website's source code](https://github.com/mimvoid/neocities-site)
+and [useful resources]({{% relref "/credits" %}}).
+Feel free to take a look if anything piques your interest
+and use them for your own website!
 
-In the spirit of open source, linked in the footer is
-[my website's source code](https://github.com/mimvoid/neocities-site)
-and resources that helped to create this website. Feel free to
-take a look if anything piques your interest and use it for your own website!
-
-I believe in citing sources and recording dates. See anything without a citation?
+I believe in recording sources and dates. See anything without a citation?
 Or even have an interesting source you'd like me to check out? Please let me know!
 
 That's it for this introduction. Click on any links that interest you!
 
-I hope you have fun!
-
-~ (More decorations coming soon) ~
+I hope you have fun~!
 {.secondary}
