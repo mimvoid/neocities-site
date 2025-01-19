@@ -69,3 +69,22 @@ main > .box {
   margin-left: 0.3em;
   padding: 1.5em 3em;
 }
+
+.row-direction {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.extra-box {
+  padding: 1.5em;
+  text-align: center;
+  align-content: center;
+
+  h2 {
+    font-size: 1.5em;
+  }
+}
+
