@@ -8,6 +8,8 @@
 
 {{ define "article-head" }}
   {{ if .IsPage }}
-  <a class="breadcrumb" href="/worlds/aegis-of-death">Aegis of Death</a>
+    {{ with site.GetPage "/worlds/aegis-of-death" }}
+      <a class="breadcrumb" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ end }}
   {{ end }}
 {{ end }}

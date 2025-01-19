@@ -16,7 +16,9 @@
     <div class="right">
       <p class="status-low">html</p>
       <p class="status-mid">
-        <a href="/credits">credits</a>
+        {{ with site.GetPage "/credits" }}
+          <a href="{{ .RelPermalink }}">credits</a>
+        {{ end }}
       </p>
       <p class="status-high">
         {{ partial "utils/svg" "ph-calendar-heart" }}
