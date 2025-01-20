@@ -4,6 +4,7 @@ description: About me
 date: 2024-09-24T21:27:07-04:00
 menus: tabs
 weight: 10
+layout: about
 params:
     customTitle: Hi! I'm mimvoid
 ---

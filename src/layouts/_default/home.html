@@ -1,7 +1,3 @@
-{{ define "head-extra" }}
-<style>.stamp-row { margin: 1em 0; }</style>
-{{ end }}
-
 {{ define "title" }}
   {{- with .Params.customTitle -}}
     <h1>{{- . -}}</h1>
@@ -12,16 +8,8 @@
 
 {{ define "body-extra" }}
 <aside>
-  <div class="row-direction">
-    <div class="box extra-box badges">
-      {{ partial "home/badges" }}
-    </div>
-    <div class="box extra-box buttons">
-      {{ partial "home/buttons" }}
-    </div>
-  </div>
-  <div class="box extra-box stamps">
-    {{ partial "home/stamps" }}
+  <div class="box extra-box badges">
+    {{ partial "home/badges" }}
   </div>
   <div class="box extra-box sites">
     <h2>Other Corners of the Internet</h2>
