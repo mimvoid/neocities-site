@@ -24,9 +24,9 @@ You can download the fonts in multiple formats, subsetted so they only need to
 support the characters you require.
 
 It was a huge aid for me to download Google Fonts in
-[WOFF2 format]({{% relref "design/formats/fonts#woff2" %}}),
+[WOFF2 format]({{% relref "formats/fonts#woff2" %}}),
 which I used to showcase many fonts in
-[my font collections]({{% relref "design/fonts/collections" %}}).
+[my font collections]({{% relref "fonts/collections" %}}).
 
 ### FontSquirrel's Webfont Generator
 

@@ -7,7 +7,7 @@ date: 2025-01-12T12:19:28-05:00
 {{% load_fonts %}}
 
 Casady & Greene first got on my radar in my search for a higher contrast alternative to
-[Limelight]({{% relref "/design/fonts/collections/display#limelight" %}}). I arrived at
+[Limelight]({{% relref "fonts/collections/display#limelight" %}}). I arrived at
 <a href="#ritz-flf">Ritz FLF</a> and sought to find the original source so I could package
 and install it with Nix. However, I hit a roadblock: the earliest source I could find was
 [a page on typOasis](https://moorstation.org/typoasis/designers/casady_greene/index.htm)

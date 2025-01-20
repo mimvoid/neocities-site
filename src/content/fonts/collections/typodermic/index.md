@@ -7,7 +7,7 @@ date: 2025-01-06T13:43:34-05:00
 {{% load_fonts %}}
 
 **Typodermic Fonts** is a foundry based in Nagoya, Japan with a treasure trove of cool
-[display fonts]({{% relref "/design/fonts/collections/display/index" %}})!
+[display fonts]({{% relref "fonts/collections/display" %}})!
 It was founded in 2001 by talented Canadian designer Raymond Larabie.
 
 All of the following fonts are by Raymond Larabie and are under the
@@ -36,7 +36,7 @@ interested to check them out!
 
 <span class="tertiary">NOTE</span>:
 As of 06 Jan 2025, it seems the webfonts download link no longer works.
-If you'd like the files in [WOFF2 format]({{% relref "/design/formats/fonts#woff2" %}}),
+If you'd like the files in [WOFF2 format]({{% relref "formats/fonts#woff2" %}}),
 here are some options:
 
 - [The last working archive on the Wayback Machine](https://web.archive.org/web/20240911192441/https://typodermicfonts.com/public-domain)

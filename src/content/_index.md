@@ -21,8 +21,8 @@ You will find me sharing my many interests:
 <span class="secondary">biology, art, design, software,</span>
 and other goodies:
 
-- [Font collections]({{% relref "/design/fonts/collections" %}})
-- [Media file formats]({{% relref "/design/formats" %}})
+- [Font collections]({{% relref "fonts/collections" %}})
+- [Media file formats]({{% relref "formats" %}})
 - Interesting algae
 - Neat open-source software
 - [My story ideas and worlds]({{% relref "/worlds" %}})!

@@ -9,7 +9,7 @@ date: 2025-01-02T13:24:54-05:00
 <p class="secondary">Under Construction...</p>
 
 I've never had much of a liking toward serif fonts, except for those that were
-first and foremost [display fonts]({{% relref "/design/fonts/collections/display/index" %}}).
+first and foremost [display fonts]({{% relref "fonts/collections/display" %}}).
 
 Nevertheless, there are a few that have won me over.
 
