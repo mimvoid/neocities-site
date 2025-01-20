@@ -6,6 +6,25 @@
   {{- end -}}
 {{ end }}
 
+{{ define "sidebar-extra" }}
+<div class="box extra-box site-buttons">
+  {{ $buttons := slice (dict "ver" "1" "color" "Dark") (dict "ver" "2" "color" "Light") }}
+  {{ range $buttons }}
+      <a
+        {{ with site.GetPage "site-buttons" }}href="{{ .RelPermalink }}"{{ end }}
+        title="mimvoid's little corner"
+      >
+      <img
+        {{ with resources.Get (printf "images/site-button/mimvoid_button%s.gif" .ver) }}
+        src="{{ .RelPermalink }}"
+        {{ end }}
+        alt="{{ .color }} animated site button for mimvoid's little corner"
+      />
+    </a>
+  {{ end }}
+</div>
+{{ end }}
+
 {{ define "body-extra" }}
 <aside>
   <div class="box extra-box badges">
