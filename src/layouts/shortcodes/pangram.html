@@ -1,10 +1,8 @@
 {{- $lang := default "en" (.Get "lang") -}}
 
 {{- $punctuation := true -}}
-{{- with .Get "punctuation" -}}
-  {{- if in (slice "false" false 0) . -}}
-    {{- $punctuation = false -}}
-  {{- end -}}
+{{- if in (slice "false" false 0) (.Get "punctuation") -}}
+  {{- $punctuation = false -}}
 {{- end -}}
 
 <div class="large" style="font-family: '{{ .Get "font" }}'">
