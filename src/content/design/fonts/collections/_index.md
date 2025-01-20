@@ -35,9 +35,3 @@ Sources I used to display the fonts:
 - Simplified Chinese: [千字文 (Thousand Character Classic)](https://web.archive.org/web/20190403231106/http://www.oocities.org/npsturman/tce.html)
 - Kazakh: [Universal Declaration of Human Rights](https://www.omniglot.com/writing/kazakh.htm)
 - Czech: [Wikipedia Pangram page](https://en.wikipedia.org/wiki/Pangram)
-
-## Special Thanks
-
-- [google-webfonts-helper](https://gwfh.mranftl.com/fonts) was a huge aid for me to
-download Google Fonts in WOFF2 format.
-    - You can see [its source code here](https://github.com/majodev/google-webfonts-helper).
