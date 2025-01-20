@@ -50,7 +50,7 @@ Some of my favorite fonts of theirs include:
 
 {{% pangram font="Balpaq" lang="kazakh" %}}
 
-Balpaq is among several comic fonts by Abay Emes, a designer from Kazakhstan who founded
+Balpaq is among several comic fonts by Abay Emes, a designer from Kazakhstan who started
 the foundry QR Type in 2024. I think it has a cute vibe! Abay Emes has several other
 [great comic fonts free for personal use and paid on Gumroad](https://abayemes.gumroad.com).
 
@@ -59,7 +59,7 @@ the foundry QR Type in 2024. I think it has a cute vibe! Abay Emes has several o
 [Full listing](https://jdkfonty.mozellosite.com/fonts)
 
 What a goldmine! Designer and comic letterer Jakub D. Kočí made these fonts
-**free for commerical use**. They were made with Czech in mind.
+**free for commerical use**. They created made with Czech in mind.
 
 ### JDK Bushidoo
 
@@ -101,11 +101,13 @@ What a goldmine! Designer and comic letterer Jakub D. Kočí made these fonts
 
 [License](https://st.1001fonts.net/license/komika/readme.txt)
 
-Komika's honestly a classic comic book font free for commerical use.
+Komika's honestly a classic free for commerical use comic book font.
 
-The original homepages from Apostrophic Lab are gone, but
+The original website for Apostrophic Lab is gone, but
 [typOasis's Lab collection](https://moorstation.org/typoasis/designers/lab/index.htm)
 has download links for all of their fonts.
+
+Komika can also be found on many font aggregator websites.
 
 ### Komika Hand
 
@@ -178,7 +180,7 @@ It has a variety of weights (Light, Regular, Bold, and Heavy), ligatures, and al
 
 {{% license "ofl" %}}
 
-Many of [Sara Linsley](https://sara.pizza)'s have a lovely cute and soft feeling to them,
+Many of [Sara Linsley](https://sara.pizza)'s comic fonts have a lovely, cute, and soft feeling,
 great for lighthearted comics!
 
 Check out the fonts' homepages for a better preview, the presentation is wonderful!

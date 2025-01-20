@@ -6,7 +6,7 @@ date: 2025-01-12T12:19:28-05:00
 
 {{% load_fonts %}}
 
-Casady & Greene first got on my radar in my search for a higher contrast alternative to
+**Casady & Greene** first got on my radar in my search for a higher contrast alternative to
 [Limelight]({{% relref "fonts/collections/display#limelight" %}}). I arrived at
 <a href="#ritz-flf">Ritz FLF</a> and sought to find the original source so I could package
 and install it with Nix. However, I hit a roadblock: the earliest source I could find was
@@ -16,15 +16,15 @@ from 2004.[^1] There was little to no information on Ritz FLF itself or its lice
 And so began my curiosity.
 
 Robin Casady founded Casady Company in 1984, later renamed to CasadyWare.[^2]
-Mike Greene founded Greene, Inc. in 1986,[^3] which seemed to produce software.[^2]
+Mike Greene founded Greene, Inc. in 1986[^3] to make software.[^2]
 The two merged on August 1988 into Casady & Greene, producing both fonts and entertainment software.[^3]
 
 CasadyWare made bitmapped typefaces for the Macintosh called Fluent Fonts. They went on to produce
-the first downloadable PostScript fonts, beating the creator of PostScript, Adobe. These fonts were
+the first downloadable PostScript fonts, beating the very creator of PostScript, Adobe. They were
 called Fluent Laser Fonts, abbreviated as FLF. Richard Ware digitized many of these fonts.[^4]
 
 Unfortunately, Casady & Greene struggled to stay afloat in the years leading up to 2003,
-and they closed their doors on 3 July 2003. Their many fonts can still be found on various font
+and they closed their doors on 3 July 2003. Their many fonts can still be found on various
 websites today. [Luc Devroye's page on Casady & Greene](https://luc.devroye.org/fonts-27509.html)
 holds a great image collection of their fonts.
 

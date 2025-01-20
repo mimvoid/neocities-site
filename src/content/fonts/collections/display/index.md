@@ -18,8 +18,7 @@ Under Construction...
 
 {{% pangram font="Major Mono Display" %}}
 
-Major Mono Display is among my all-time favorites. It's just so unique,
-interesting, and esoteric!
+Major Mono Display is among my all-time favorites. It's unique, interesting, and esoteric!
 
 ## DM Serif Display
 
@@ -31,7 +30,7 @@ interesting, and esoteric!
 
 {{% pangram font="DM Serif Display" %}}
 
-I really like the contrast of this display variant.
+I really like the contrast and class of this DM Serif variant.
 It's become a habit of mine to use it for formal-ish college essays.
 
 ## Oswald
@@ -54,15 +53,17 @@ Like DM Serif Display, Oswald pairs well with a lot of sans serif body fonts.
 
 {{% license "ofl" %}}
 
+<span class="primary">Variant</span>: 700 weight
+
 {{% pangram font="Baloo 2" %}}
 
-Baloo 2 is round and informal. This one is the 700 weight version.
+Baloo 2 is round and informal.
 
-While its Latin writing system is nice, it's primarily for South Asian scripts
-like Devanagari, Bengali, Malayam, Telugu, and more.
+Its Latin writing system is nice, but it's actually primarily for South Asian scripts
+like Devanagari, Bengali, Malayam, Telugu, and more!
 
 Unfortunately, I haven't figured out how to display them yet. Please see the source
-for previews!
+for previews.
 
 ## Limelight
 

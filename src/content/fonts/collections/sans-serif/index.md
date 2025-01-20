@@ -70,9 +70,9 @@ which was also how I was introduced to it.
 
 As a humanist font, it has a warm feel to it.
 
-Cantarell has a different version that can be found on Google Fonts. It hasn't been updated
-there due to one of Cantarell's main drawbacks, a lack of an explicit italic variant.
+Cantarell has a different version on Google Fonts. However, it hasn't been updated
+there due to one of Cantarell's main drawbacks, the lack of an explicit italic variant.
 
-Since then, GNOME has been working to
+GNOME has since been working to
 [replace their default UI font](https://gitlab.gnome.org/Teams/Design/initiatives/-/issues/152)
 with [Inter](https://rsms.me/inter).

@@ -20,10 +20,10 @@ contact Mr. Larabie for permission to use these fonts. Anything goes!
 Typodermic Font's catalogue includes many other wonderful fonts under a
 [desktop license](https://typodermicfonts.com/end-user-license-agreement),
 so I can't have them on my website without paying for a web license. However, you can
-still use them to make graphics for personal *and* commercial use. I encourage anyone
+still use some of them to make graphics for personal *and* commercial use. I encourage anyone
 interested to check them out!
 
-##### Catalogs
+##### Catalogues
 
 - [Free Commercial Use (Desktop License) Catalog](https://typodermicfonts.com/wp-content/uploads/2024/06/typodermic-free-fonts-2024a.pdf)
 - [Public Domain Catalog](https://typodermicfonts.com/wp-content/uploads/2024/06/typodermic-public-domain-2024-04.pdf)
