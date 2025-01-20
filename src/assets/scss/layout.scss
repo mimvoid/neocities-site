@@ -17,7 +17,7 @@
   .sidebar {
     flex: 20%;
     position: sticky;
-    top: 1em;
+    top: 0.5em;
   }
 
   main {
@@ -34,7 +34,7 @@
   @include looks.border-radius;
 
   border: var(--border-size) solid var(--inactive-border);
-  margin: 0.75em 0.5em;
+  margin: 0.75em 0.35em;
 
   background-color: rgba(from var(--bg) r g b / 0.9);
   backdrop-filter: blur(4px);
@@ -65,7 +65,6 @@ article.box {
 }
 
 main > .box {
-  margin-left: 0.3em;
   padding: 1.5em 3em;
 }
 
