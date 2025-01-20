@@ -12,6 +12,8 @@ Under construction...
 
 To be honest, this could be a section by itself.
 
+These fonts are best viewed in *light mode*!
+
 ## Extra Resources
 
 Many excellent fonts don't allow website embedding, which is a shame, but understandable!
