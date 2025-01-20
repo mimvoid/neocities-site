@@ -248,6 +248,16 @@ table {
   }
 }
 
+/*-------------
+ * Code blocks
+ *-------------*/
+
+pre {
+  @include looks.border-radius;
+  padding: 1em;
+  font-family: var(--monospace);
+}
+
 /*------------
  * Date stats
  *------------*/
