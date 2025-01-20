@@ -6,10 +6,9 @@
     </a>
     <div id="nav_pages">
       {{ range site.Menus.tabs }}
-        <a href="{{ .Page.RelPermalink }}">
-          {{ .Name }}
-        </a>
+        <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
       {{ end }}
+      <a href="https://mimvoid.atabook.org">Guestbook</a>
     </div>
   </nav>
   <div class="right">
