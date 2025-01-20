@@ -20,27 +20,29 @@
         </div>
 
         <main>
-          <article class="box">
-            {{- block "article-head" . -}}
-            {{- end -}}
+          {{- block "main-box" . -}}
+            <article class="box">
+              {{- block "article-head" . -}}
+              {{- end -}}
 
-            {{- block "title" . -}}
-              {{- if not .Params.noTitle -}}
-                {{- with .Params.customTitle -}}
-                  <h1>{{- . -}}</h1>
-                {{- else -}}
-                  <h1>{{- .Title -}}</h1>
+              {{- block "title" . -}}
+                {{- if not .Params.noTitle -}}
+                  {{- with .Params.customTitle -}}
+                    <h1>{{- . -}}</h1>
+                  {{- else -}}
+                    <h1>{{- .Title -}}</h1>
+                  {{- end -}}
                 {{- end -}}
               {{- end -}}
-            {{- end -}}
 
-            {{- block "main" . -}}
-              {{ .Content -}}
-            {{- end -}}
+              {{- block "main" . -}}
+                {{ .Content -}}
+              {{- end -}}
 
-            {{- partial "dates" . -}}
-          </article>
-          {{- block "body-extra" . -}}{{- end -}}
+              {{- partial "dates" . -}}
+            </article>
+            {{- block "body-extra" . -}}{{- end -}}
+          {{- end -}}
         </main>
 
       </div>
