@@ -51,13 +51,24 @@ Subject ψ-01
 | Lead Researcher | **Anastasia Xie**           |
 {.headless}
 
+***
+
 ## File 1: Behavior {.section}
 
+**Traits**
+
+- Loves warm meals, especially soup.
+- Thinks modern-day smartphones look weird and alien.
+
 TBA
+
+***
 
 ## File 2: History {.section}
 
 TBA
+
+***
 
 ## File 3: Relationships {.section}
 

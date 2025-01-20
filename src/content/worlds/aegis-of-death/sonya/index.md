@@ -21,13 +21,33 @@ Entity ω-673
 | Occupation    | **Field operative**            |
 {.headless}
 
+***
+
 ## File 1: Behavior {.section}
 
+**Traits**
+
+- Often stands contrapposto (very much not straight).
+- Loves caramel boba tea.
+
 TBA
+
+***
 
 ## File 2: History {.section}
 
+### Case NO. ????????
+
+The longtime friend of Sonya and Halle, █████ ███████, died by ███████ following
+years of social ostracization.
+
+### Incident δ-XXXX-M
+
+**Date**: JUN. 10. 20XX
+
 TBA
+
+***
 
 ## File 3: Relationships {.section}
 

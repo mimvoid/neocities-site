@@ -21,13 +21,29 @@ Entity ω-186
 | Occupation    | **Assistant Journalist** |
 {.headless}
 
+***
+
 ## File 1: Behavior {.section}
 
+**Traits**
+
+- Has a habit of talking to himself. <s>I wonder why that is?</s>
+- Obsessed with stationery. Frequently keeps his favorite black gel pen behind his ear.
+- Uses Arch (btw).
+
 TBA
+
+***
 
 ## File 2: History {.section}
 
+### Incident δ-XXXX-M
+
+**Date**: JUN. 10. 20XX
+
 TBA
+
+***
 
 ## File 3: Relationships {.section}
 

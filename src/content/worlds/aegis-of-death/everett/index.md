@@ -29,13 +29,13 @@ Entity β-994
 | Cause of Death | **████████ ███████**             |
 {.headless}
 
-## Ability
+### Ability
 
 **Name**: Refraction
 
 **Description**
 
-Subject can transfer wounds to the last entity with which they had physical contact.
+Everett can transfer wounds to the last entity with which they had physical contact.
 Such entities have only found to be humans, shadows, and parasites.
 
 Activation can be triggered manually or automatically after death.
@@ -43,7 +43,7 @@ Activation can be triggered manually or automatically after death.
 An indication leading up to ability activation is the formation of a floating
 ring of blood above their head, reminiscent of a halo.
 
-After activation, subject's transferred wounds heal at an abnormally fast pace.
+After activation, Everett's transferred wounds heal at an abnormally fast pace.
 No blood is recovered and no foreign bodies removed.
 
 **Reported Words from The Herald**
@@ -52,13 +52,26 @@ No blood is recovered and no foreign bodies removed.
 
 ██████████████████████████████████████████████
 
+***
+
 ## File 1: Behavior {.section}
 
+**Traits**
+
+- Terrible at shouting. They often have to try several times before they're loud enough.
+- Frequently spaces out. May not respond to their name when called.
+- Fiddles with parts of his clothes (e.g. neck tie) when nervous.
+- Has an interest in human anatomy and injuries.
+
 TBA
+
+***
 
 ## File 2: History {.section}
 
 TBA
+
+***
 
 ## File 3: Relationships {.section}
 
