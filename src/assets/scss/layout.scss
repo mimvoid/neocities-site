@@ -12,13 +12,12 @@
 
 .body {
   display: flex;
+  align-items: flex-start;
 
   .sidebar {
     flex: 20%;
-    nav {
-      position: sticky;
-      top: 1em;
-    }
+    position: sticky;
+    top: 1em;
   }
 
   main {

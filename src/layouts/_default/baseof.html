@@ -14,7 +14,10 @@
 
     <div id="wrapper">
       <div class="body">
-        {{- partial "nav/nav" . -}}
+        <div class="sidebar">
+          {{- partial "nav/nav" . -}}
+          {{ block "sidebar-extra" . }}{{ end }}
+        </div>
 
         <main>
           <article class="box">

@@ -1,18 +1,16 @@
-<div class="sidebar">
-  <nav>
-    <div class="box">
-      {{ range site.Sections }}
-        <details {{ if .IsAncestor page }}open{{ end }}>
-          {{ partial "nav/summary" . }}
-          <div class="details-content">
-            <!-- Recurse -->
-            {{ partial "nav/recurse-sections" . }}
-            {{ range .RegularPages }}
-              <p>{{ partial "utils/link-page" . }}</p>
-            {{ end }}
-          </div>
-        </details>
-      {{ end }}
-    </div>
-  </nav>
-</div>
+<nav>
+  <div class="box">
+    {{ range site.Sections }}
+      <details {{ if .IsAncestor page }}open{{ end }}>
+        {{ partial "nav/summary" . }}
+        <div class="details-content">
+          <!-- Recurse -->
+          {{ partial "nav/recurse-sections" . }}
+          {{ range .RegularPages }}
+            <p>{{ partial "utils/link-page" . }}</p>
+          {{ end }}
+        </div>
+      </details>
+    {{ end }}
+  </div>
+</nav>
