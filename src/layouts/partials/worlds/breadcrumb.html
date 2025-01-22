@@ -1,0 +1,7 @@
+{{ $world := print "worlds/" .world }}
+
+{{ if .context.IsPage }}
+  {{ with site.GetPage .world }}
+    <a class="breadcrumb" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{ end }}
+{{ end }}

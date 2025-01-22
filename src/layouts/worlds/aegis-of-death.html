@@ -7,9 +7,5 @@
 {{ end }}
 
 {{ define "article-head" }}
-  {{ if .IsPage }}
-    {{ with site.GetPage "/worlds/aegis-of-death" }}
-      <a class="breadcrumb" href="{{ .RelPermalink }}">{{ .Title }}</a>
-    {{ end }}
-  {{ end }}
+  {{ partial "worlds/breadcrumb" (dict "context" . "world" "aegis-of-death") }}
 {{ end }}
