@@ -19,13 +19,9 @@ Under Construction...
 {{% license "ofl" %}}
 
 {{% pangram font="KN Bobohei" lang="sc" punctuation=false %}}
-
 {{% pangram font="KN Bobohei" lang="tc" punctuation=false %}}
-
 {{% pangram font="KN Bobohei" lang="hiragana" punctuation=false %}}
-
 {{% pangram font="KN Bobohei" lang="katakana" punctuation=false %}}
-
 {{% pangram font="KN Bobohei" %}}
 
 KN Bobohei is a truly outstanding font with support for Simplified Chinese,
@@ -51,9 +47,7 @@ TBA
 License: See homepage
 
 {{% pangram font="mini-wakuwaku" lang="hiragana" punctuation=false %}}
-
 {{% pangram font="mini-wakuwaku" lang="katakana" punctuation=false %}}
-
 {{% pangram font="mini-wakuwaku" %}}
 
 ### Yuji Syuku
@@ -65,9 +59,7 @@ License: See homepage
 {{% license "ofl" %}}
 
 {{% pangram font="Yuji Syuku" lang="ja" punctuation=false %}}
-
 {{% pangram font="Yuji Syuku" lang="katakana" punctuation=false %}}
-
 {{% pangram font="Yuji Syuku" %}}
 
 Yuji Syuku is part of a series of typefaces based on the writing of calligrapher
@@ -82,9 +74,7 @@ All three versions have the same kanji, but different kana styles.
 {{% license "ofl" %}}
 
 {{% pangram font="SoukouMincho" lang="ja" punctuation=false %}}
-
 {{% pangram font="SoukouMincho" lang="katakana" punctuation=false %}}
-
 {{% pangram font="SoukouMincho" %}}
 
 Designer Kato Masashi (加藤雅士) from Flop Design derived SoukouMincho (装甲明朝)

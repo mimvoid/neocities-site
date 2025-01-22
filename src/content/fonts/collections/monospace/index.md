@@ -26,7 +26,6 @@ Nerd Font variant: [SauceCodePro][nf]
 {{% license "ofl" %}}
 
 {{% pangram font="Source Code Pro" %}}
-
 {{% pangram font="Source Code Pro" lang="ligatures" punctuation=false %}}
 
 Source Code Pro is one of widest I've found among monospace fonts,
@@ -67,7 +66,6 @@ Nerd Font variant: [FiraCode][nf]
 {{% license "ofl" %}}
 
 {{% pangram font="Fira Code" %}}
-
 {{% pangram font="Fira Code" lang="ligatures" punctuation=false %}}
 
 Fira Code is super popular among developers, particularly for its abundance
@@ -84,7 +82,6 @@ Nerd Font variant: [VictorMono][nf]
 {{% license "ofl" %}}
 
 {{% pangram font="Victor Mono" %}}
-
 {{% pangram font="Victor Mono" lang="ligatures" punctuation=false %}}
 
 <div style="font-style: italic">
