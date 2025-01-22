@@ -74,3 +74,13 @@ for previews.
 {{% license "ofl" %}}
 
 {{% pangram font="Limelight" %}}
+
+## Plaster
+
+[Homepage](https://fonts.google.com/specimen/Plaster)
+
+[Source](https://github.com/google/fonts/tree/main/ofl/plaster)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Plaster" %}}
