@@ -56,6 +56,25 @@ License: See homepage
 
 {{% pangram font="mini-wakuwaku" %}}
 
+### Yuji Syuku
+
+[Homepage](https://fonts.google.com/specimen/Yuji+Syuku)
+
+[Source](https://github.com/Kinutafontfactory/Yuji)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Yuji Syuku" lang="ja" punctuation=false %}}
+
+{{% pangram font="Yuji Syuku" lang="katakana" punctuation=false %}}
+
+{{% pangram font="Yuji Syuku" %}}
+
+Yuji Syuku is part of a series of typefaces based on the writing of calligrapher
+Yuji Kataoka!
+
+All three versions have the same kanji, but different kana styles.
+
 ### SoukouMincho
 
 [Homepage](https://web.archive.org/web/20220320201742/https://flopdesign.com/blog/font/5228)
