@@ -16,9 +16,9 @@ Under Construction...
 
 License: See homepage
 
-{{% pangram font="mini-wakuwaku" punctuation=false %}}
+{{% pangram font="mini-wakuwaku" lang="hiragana" punctuation=false %}}
 
-{{% pangram font="mini-wakuwaku" lang="hiragana" %}}
+{{% pangram font="mini-wakuwaku" %}}
 
 ## SoukouMincho
 
@@ -26,9 +26,9 @@ License: See homepage
 
 {{% license "ofl" %}}
 
-{{% pangram font="SoukouMincho" punctuation=false %}}
+{{% pangram font="SoukouMincho" lang="ja" punctuation=false %}}
 
-{{% pangram font="SoukouMincho" lang="ja" %}}
+{{% pangram font="SoukouMincho" %}}
 
 Designer Kato Masashi (加藤雅士) from Flop Design derived SoukouMincho (装甲明朝)
 from Source Han Serif.
