@@ -10,7 +10,19 @@ date: 2025-01-08T16:30:28-05:00
 Under Construction...
 {.secondary}
 
-## mini-wakuwaku
+## Multiple Support
+
+## Simplified Chinese
+
+TBA
+
+## Traditional Chinese
+
+TBA
+
+## Japanese
+
+### mini-wakuwaku
 
 [Homepage](http://mini-design.jp/font/mini-wakuwaku.html)
 
@@ -22,7 +34,7 @@ License: See homepage
 
 {{% pangram font="mini-wakuwaku" %}}
 
-## SoukouMincho
+### SoukouMincho
 
 [Homepage](https://web.archive.org/web/20220320201742/https://flopdesign.com/blog/font/5228)
 
@@ -41,3 +53,7 @@ I love this font for its contrast!
 
 Sometime between 20 March and 15 May 2022, the original website went down. The linked
 homepage is the latest working version from the Internet Archive's Wayback Machine.
+
+## Korean
+
+TBA
