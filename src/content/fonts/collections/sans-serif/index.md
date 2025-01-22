@@ -86,3 +86,13 @@ with [Inter](https://rsms.me/inter).
 {{% license "ofl" %}}
 
 {{% pangram font="Finlandica" %}}
+
+## Telex
+
+[Homepage](https://fonts.google.com/specimen/Telex)
+
+[Source](https://github.com/m4rc1e/Telex)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Telex" %}}
