@@ -1,15 +1,14 @@
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-
   margin: 2.5em 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+  column-gap: 0.5em;
+  row-gap: 0.5em;
 }
 
 .card {
-  flex-grow: 1;
   padding: 0.5em 1em;
-
   border-radius: var(--border-radius);
   background-color: var(--overlay-dim);
 }
