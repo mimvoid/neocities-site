@@ -3,7 +3,6 @@ title: Everett Dayal
 linkTitle: Everett
 description: Character page for Everett Dayal, deuteragonist of Aegis of Death.
 date: 2024-09-24T21:39:46-04:00
-layout: aegis-of-death
 ---
 
 **Classification**

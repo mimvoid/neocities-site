@@ -3,7 +3,6 @@ title: Sofiya Antonovna Sokolova
 linkTitle: Sonya
 description: Character page for Sonya Antonovna Sokolova, a main character in Aegis of Death.
 date: 2024-09-24T21:39:50-04:00
-layout: aegis-of-death
 ---
 
 **Classification**

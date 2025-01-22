@@ -3,7 +3,6 @@ title: Felix Antonovich Sokolov
 linkTitle: Felix
 description: Character page of Felix Antonovich Sokolov, a main character in Aegis of Death
 date: 2024-09-24T21:39:56-04:00
-layout: aegis-of-death
 ---
 
 **Classification**
