@@ -76,3 +76,13 @@ there due to one of Cantarell's main drawbacks, the lack of an explicit italic v
 GNOME has since been working to
 [replace their default UI font](https://gitlab.gnome.org/Teams/Design/initiatives/-/issues/152)
 with [Inter](https://rsms.me/inter).
+
+## Finlandica
+
+[Homepage](https://fonts.google.com/specimen/Finlandica)
+
+[Source](https://github.com/HelsinkiTypeStudio/Finlandica)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Finlandica" %}}
