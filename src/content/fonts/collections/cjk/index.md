@@ -18,6 +18,8 @@ License: See homepage
 
 {{% pangram font="mini-wakuwaku" lang="hiragana" punctuation=false %}}
 
+{{% pangram font="mini-wakuwaku" lang="katakana" punctuation=false %}}
+
 {{% pangram font="mini-wakuwaku" %}}
 
 ## SoukouMincho
@@ -27,6 +29,8 @@ License: See homepage
 {{% license "ofl" %}}
 
 {{% pangram font="SoukouMincho" lang="ja" punctuation=false %}}
+
+{{% pangram font="SoukouMincho" lang="katakana" punctuation=false %}}
 
 {{% pangram font="SoukouMincho" %}}
 

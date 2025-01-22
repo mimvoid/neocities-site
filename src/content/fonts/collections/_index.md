@@ -31,7 +31,7 @@ Sources I used to display the fonts:
 
 - English "Sphinx of black quartz": [The Pan-Alphabet Chief](https://chroniclingamerica.loc.gov/lccn/sn83030272/1913-09-30/ed-1/seq-6)
 - Japanese: [鳥啼歌 (Tori Naku)](https://www.worldfolksong.com/songbook/japan/torinaku)
-    - Hiragana: [いろは歌 (Iroha)](https://en.wikipedia.org/wiki/Iroha)
+    - Hiragana & Katakana: [いろは歌 (Iroha)](https://en.wikipedia.org/wiki/Iroha)
 - Simplified Chinese: [千字文 (Thousand Character Classic)](https://web.archive.org/web/20190403231106/http://www.oocities.org/npsturman/tce.html)
 - Kazakh: [Universal Declaration of Human Rights](https://www.omniglot.com/writing/kazakh.htm)
 - Czech: [Wikipedia Pangram page](https://en.wikipedia.org/wiki/Pangram)
