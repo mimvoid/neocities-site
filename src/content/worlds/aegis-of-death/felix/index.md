@@ -6,6 +6,7 @@ date: 2024-09-24T21:39:56-04:00
 weight: 40
 params:
     character: true
+    classification: Entity ω-186
 ---
 
 An assistant journalist with an interest in shadows.
@@ -15,7 +16,7 @@ An assistant journalist with an interest in shadows.
 
 **Classification**
 
-Entity ω-186
+{{% param "classification" %}}
 
 ## File 0: General Profile {.section}
 

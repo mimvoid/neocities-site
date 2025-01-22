@@ -34,48 +34,9 @@ How breathtaking is it?
 
 How breathtaking.
 
+{{% list_characters extra="classification" %}}
+
 <div class="cards">
-<div class="card">
-
-### [Malachi]({{% relref "worlds/aegis-of-death/malachi" %}})
-
-Subject ψ-01
-{.primary}
-
-A fugitive wanted by the AOD.
-
-</div>
-<div class="card">
-
-### [Everett]({{% relref "worlds/aegis-of-death/everett" %}})
-
-Entity β-994
-{.primary}
-
-A softspoken field operative of Myr Division 02.
-
-</div>
-<div class="card">
-
-### [Sonya]({{% relref "worlds/aegis-of-death/sonya" %}})
-
-Entity ω-673
-{.primary}
-
-One of the only human field operatives in the AOD. Stands out for her bright demeanor.
-
-</div>
-<div class="card">
-
-### [Felix]({{% relref "worlds/aegis-of-death/felix" %}})
-
-Entity ω-186
-{.primary}
-
-An assistant journalist with an interest in shadows.<br>
-Has an obsession with stationery.
-
-</div>
 <div class="card">
 
 ### Halle

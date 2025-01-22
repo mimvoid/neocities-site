@@ -1,0 +1,23 @@
+{{- $extraParam := .Get "extra" -}}
+{{- $extraClass := default "primary" (.Get "extra-style") -}}
+
+<div class="cards">
+  {{- range .Page.Pages -}}
+    {{- if .Params.character -}}
+      <div class="card">
+        <a
+          href="{{ .RelPermalink }}"
+          {{- if ne .LinkTitle .Title -}}title="{{- .Title -}}"{{- end -}}
+        >
+          <h3>{{ .LinkTitle -}}</h3>
+        </a>
+
+        {{- with index .Params $extraParam -}}
+          <p class="{{- $extraClass -}}">{{ . -}}</p>
+        {{- end -}}
+
+        <p>{{ .Summary -}}</p>
+      </div>
+    {{- end -}}
+  {{- end -}}
+</div>

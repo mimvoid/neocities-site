@@ -6,6 +6,7 @@ date: 2024-09-24T21:39:50-04:00
 weight: 30
 params:
     character: true
+    classification: Entity ω-673
 ---
 
 One of the AOD's only human field operatives.
@@ -15,7 +16,7 @@ One of the AOD's only human field operatives.
 
 **Classification**
 
-Entity ω-673
+{{% param "classification" %}}
 
 ## File 0: General Profile {.section}
 

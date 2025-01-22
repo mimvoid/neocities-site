@@ -6,6 +6,7 @@ date: 2024-09-24T21:39:53-04:00
 weight: 10
 params:
     character: true
+    classification: Subject ψ-01
 ---
 
 A fugitive wanted by the AOD, unsure of his own identity.
@@ -15,7 +16,7 @@ A fugitive wanted by the AOD, unsure of his own identity.
 
 **Classification**
 
-Subject ψ-01
+{{% param "classification" %}}
 
 ## File 0: Host Profile {.section}
 
