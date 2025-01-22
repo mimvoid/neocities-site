@@ -15,6 +15,7 @@ $formats: (
   $weight: 400,
   $style: normal,
   $ext: "woff2",
+  $local: "",
   $path: $path
 ) {
   // Evaluate the src
@@ -31,10 +32,12 @@ $formats: (
   @if $weight == bold {
     $local-bold: " Bold";
   }
+  $pieced-local: $local-bold + $local-italic;
 
-  $local: $local-bold + $local-italic;
   @if $local != "" {
-    $src: list.join(local("#{$family}#{$local}"), $src);
+    $src: list.join(local($local), $src);
+  } @else if $pieced-local != "" {
+    $src: list.join(local("#{$family}#{$pieced-local}"), $src);
   }
 
   @font-face {

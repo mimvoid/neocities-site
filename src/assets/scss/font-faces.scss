@@ -23,7 +23,8 @@
 // karla-regular - latin
 @include font(
   $family: Karla,
-  $file: "karla_400"
+  $file: "karla_400",
+  $local: "Karla Regular"
 );
 
 // karla-italic - latin
@@ -37,13 +38,12 @@
 @include font(
   $family: Karla,
   $file: "karla_600",
-  $weight: 600
+  $weight: bold
 );
 
 // karla-600italic - latin
 @include font(
   $family: Karla,
   $file: "karla_600-italic",
-  $weight: 600,
-  $style: italic
+  $weight: bold
 );
