@@ -9,7 +9,9 @@
 
 {{ with site.GetPage "worlds" }}
   {{ range .Sections }}
-    <h2>{{ .Title -}}</h2>
+    <a href="{{ .RelPermalink }}">
+      <h2>{{ .Title -}}</h2>
+    </a>
 
     <div class="cards">
       {{ range (where .Pages "Params.character" true) }}
