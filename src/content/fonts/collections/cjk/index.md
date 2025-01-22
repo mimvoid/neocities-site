@@ -36,6 +36,22 @@ TBA
 
 ## Traditional Chinese
 
+### cwTeX Q
+
+[Source](https://github.com/l10n-tw/cwtex-q-fonts)
+
+[TTF Downloads](https://github.com/l10n-tw/cwtex-q-fonts-TTFs)
+
+{{% license "ofl" %}}
+
+License (version 0.2 or below): [GNU GPL v2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
+<span class="primary">Variant</span>: cwTeX Q Kai
+{{% pangram font="cwTeX Q Kai" lang="tc" punctuation=false %}}
+<span class="primary">Variant</span>: cwTeX Q Fangsong
+{{% pangram font="cwTeX Q Fangsong" lang="tc" punctuation=false %}}
+{{% pangram font="cwTeX Q Fangsong" %}}
+
 ### Wang Fonts
 
 [Homepage](https://code.google.com/archive/p/wangfonts)
