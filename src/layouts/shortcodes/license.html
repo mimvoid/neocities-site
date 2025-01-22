@@ -1,15 +1,16 @@
 {{-
-  $links := dict
-  "OFL" "https://openfontlicense.org"
-  "CC BY-NC 3.0" "https://creativecommons.org/licenses/by-nc/3.0"
-  "GNU GPL v2" "http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+  $licenses := dict
+  "OFL" (dict "link" "https://openfontlicense.org")
+  "CC BY-NC 3.0" (dict "link" "https://creativecommons.org/licenses/by-nc/3.0")
+  "GNU GPL V2" (dict "name" "GNU GPL v2" "link" "http://www.gnu.org/licenses/old-licenses/gpl-2.0.html")
 -}}
 
-{{- with .Get 0 | strings.ToUpper -}}
+{{- with .Get 0 -}}
   <p>
-    License: {{ if $link := index $links . }}
-      <a href="{{- $link -}}" target="_blank" rel="noopener noreferrer" >
-        {{- . -}}
+    {{- $upperName := strings.ToUpper . -}}
+    License: {{ with index $licenses $upperName }}
+      <a href="{{- .link -}}" target="_blank" rel="noopener noreferrer">
+        {{- default $upperName .name -}}
       </a>
     {{ else }}
       {{- . -}}
