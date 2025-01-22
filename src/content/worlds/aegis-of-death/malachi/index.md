@@ -8,7 +8,7 @@ params:
     character: true
 ---
 
-A fugitive wanted by the AOD.
+A fugitive wanted by the AOD, unsure of his own identity.
 {.summary}
 
 <!--more-->

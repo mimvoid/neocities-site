@@ -1,6 +1,15 @@
 ---
 title: Sou Xianmin
-description: ''
+description: Character page for Sou Xianmin, a main character in Sacrificial
 date: 2024-09-24T21:41:08-04:00
-draft: true
+weight: 40
+params:
+    character: true
+    customTitle: 飕弦敏
 ---
+
+A healer prone to losing themselves in threads and patchwork.
+
+<!--more-->
+
+## Sōu Xiánmǐn

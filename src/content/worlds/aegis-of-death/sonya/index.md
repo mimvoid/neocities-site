@@ -8,7 +8,7 @@ params:
     character: true
 ---
 
-One of the only human field operatives in the AOD.
+One of the AOD's only human field operatives.
 {.summary}
 
 <!--more-->

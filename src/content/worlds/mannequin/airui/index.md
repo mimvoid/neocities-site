@@ -1,6 +1,14 @@
 ---
-title: Airui
-description: ""
+title: Xin Airui
+description: Character page for Xin Airui, deuteragonist of Are You A Mannequin?
 date: 2024-09-24T21:41:39-04:00
-draft: true
+params:
+    character: true
+    customTitle: 辛叆睿
 ---
+
+A quiet girl assumed missing, who unexpectedly joins the school play.
+
+<!--more-->
+
+## Xīn Àiruì

@@ -2,6 +2,7 @@
 title: Aegis of Death
 description: A page dedicated to Aegis of Death, a story about living and personhood.
 date: 2024-09-24T21:39:39-04:00
+weight: 10
 params:
     cards: true
 cascade:
