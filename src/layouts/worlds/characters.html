@@ -1,0 +1,34 @@
+{{ define "head-extra" }}
+  {{ partial "utils/style" "scss/extra/cards.scss" }}
+  {{ partial "utils/style" "scss/extra/characters.scss" }}
+{{ end }}
+
+{{ define "main" }}
+
+{{ .Content -}}
+
+{{ with site.GetPage "worlds" }}
+  {{ range .Sections }}
+    <h2>{{ .Title -}}</h2>
+
+    <div class="cards">
+      {{ range (where .Pages "Params.character" true) }}
+        <div class="card">
+          <a href="{{ .RelPermalink }}">
+            {{ $name := .Title }}
+            {{ with .Resources.GetMatch "avatar" }}
+              <img src="{{ .RelPermalink }}" class="avatar" alt="Character avatar of {{ $name }}" />
+            {{ else }}
+              <div class="placeholder"></div>
+            {{ end }}
+
+            <h3>{{ .LinkTitle -}}</h3>
+          </a>
+          <p>{{ .Summary -}}</p>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}
+
+{{ end }}

@@ -3,7 +3,15 @@ title: Felix Antonovich Sokolov
 linkTitle: Felix
 description: Character page of Felix Antonovich Sokolov, a main character in Aegis of Death
 date: 2024-09-24T21:39:56-04:00
+weight: 40
+params:
+    character: true
 ---
+
+An assistant journalist with an interest in shadows.
+{.summary}
+
+<!--more-->
 
 **Classification**
 

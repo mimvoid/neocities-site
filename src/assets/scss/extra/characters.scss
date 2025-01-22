@@ -1,0 +1,20 @@
+.cards {
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+}
+
+.card {
+  text-align: center;
+
+  h3 {
+    font-size: 1.25em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
+
+.placeholder {
+  padding: 4em;
+  background-color: var(--overlay);
+}

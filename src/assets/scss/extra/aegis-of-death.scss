@@ -35,6 +35,10 @@ main h3 a {
   }
 }
 
+.summary {
+  margin-bottom: 2em;
+}
+
 [data-theme="dark"] {
   --bg: rgb(35, 30, 54);
   --fg: rgb(232, 223, 221);

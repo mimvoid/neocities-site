@@ -3,7 +3,15 @@ title: Malachi Xie
 linkTitle: Malachi
 description: Character page for Malachi Xie, the protagonist of Aegis of Death
 date: 2024-09-24T21:39:53-04:00
+weight: 10
+params:
+    character: true
 ---
+
+A fugitive wanted by the AOD.
+{.summary}
+
+<!--more-->
 
 **Classification**
 

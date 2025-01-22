@@ -3,7 +3,15 @@ title: Sofiya Antonovna Sokolova
 linkTitle: Sonya
 description: Character page for Sonya Antonovna Sokolova, a main character in Aegis of Death.
 date: 2024-09-24T21:39:50-04:00
+weight: 30
+params:
+    character: true
 ---
+
+One of the only human field operatives in the AOD.
+{.summary}
+
+<!--more-->
 
 **Classification**
 
