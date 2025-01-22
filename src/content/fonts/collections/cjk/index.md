@@ -12,6 +12,28 @@ Under Construction...
 
 ## Multiple Support
 
+### Kingnam Bobohei
+
+[Source](https://github.com/maoken-fonts/KNBobohei)
+
+{{% license "ofl" %}}
+
+{{% pangram font="KN Bobohei" lang="sc" punctuation=false %}}
+
+{{% pangram font="KN Bobohei" lang="tc" punctuation=false %}}
+
+{{% pangram font="KN Bobohei" lang="hiragana" punctuation=false %}}
+
+{{% pangram font="KN Bobohei" lang="katakana" punctuation=false %}}
+
+{{% pangram font="KN Bobohei" %}}
+
+KN Bobohei is a truly outstanding font with support for Simplified Chinese,
+Traditional Chinese, and Hiragana and Katakana!
+
+Apparently it was authorized for redistribution on Google Fonts, but that does not
+seem to have happened.
+
 ## Simplified Chinese
 
 TBA
