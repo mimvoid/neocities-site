@@ -35,9 +35,21 @@ which I used to showcase many fonts in
 Many fonts aren't available in WOFF2 format, but rather TTF or OTF format.
 They're great for general use on the computer, but a little big for use on the web.
 
-I found FontSquirrel's Webfont Generator the easiest and most reliable choice so far.
-In addition to converting to multiple font file formats, it can subset
-fonts, adjust metrics and rendering, flatten Opentype features, and more.
+I found FontSquirrel's Webfont Generator the easily accessible choice, functional and
+usable in the browser. In addition to converting to multiple font file formats,
+it can subset fonts, adjust metrics and rendering, flatten Opentype features, and more.
+
+### Webfont Kit Generator
+
+[Homepage](https://apps.gnome.org/WebfontKitGenerator)
+
+[Source code](https://github.com/rafaelmardojai/webfont-kit-generator)
+
+Like FontSquirrel's generator, Webfont Kit Generator converts fonts to WOFF or
+WOFF2 format.
+
+It's not as feature rich, but it's an offline tool and so far has felt much more
+reliable. It should be fine for most use cases.
 
 ## Font Creation
 
