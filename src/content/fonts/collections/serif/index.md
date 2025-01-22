@@ -36,3 +36,15 @@ EB Garamond is one of my favorite serif body fonts. It's classy and gets the job
 {{% pangram font="Libre Baskerville" %}}
 
 Libre Baskerville my go-to font for a printed book feel.
+
+## Cambo
+
+[Homepage](https://www.huertatipografica.com/en/fonts/cambo-ht)
+
+[Source](https://github.com/google/fonts/tree/main/ofl/cambo)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Cambo" %}}
+
+Look at those beautiful numbers and terminals!
