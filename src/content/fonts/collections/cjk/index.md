@@ -143,6 +143,19 @@ I love this font for its contrast!
 Sometime between 20 March and 15 May 2022, the original website went down. The linked
 homepage is the latest working version from the Internet Archive's Wayback Machine.
 
+
+### Train One
+
+[Homepage](https://fonts.google.com/specimen/Train+One)
+
+[Source](https://github.com/fontworks-fonts/Train)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Train One" lang="ja" punctuation=false %}}
+{{% pangram font="Train One" lang="katakana" punctuation=false %}}
+{{% pangram font="Train One" %}}
+
 ## Korean
 
 TBA
