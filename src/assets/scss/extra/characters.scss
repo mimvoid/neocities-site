@@ -1,8 +1,9 @@
 .cards {
-  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
 }
 
 .card {
+  padding: 1em 1em 0.6em 1em;
   text-align: center;
 
   h3 {
@@ -15,6 +16,7 @@
 }
 
 .placeholder {
-  padding: 4em;
+  height: 10em;
+  weight: 10em;
   background-color: var(--overlay);
 }
