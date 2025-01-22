@@ -36,7 +36,49 @@ TBA
 
 ## Traditional Chinese
 
-TBA
+### Wang Fonts
+
+[Homepage](https://code.google.com/archive/p/wangfonts)
+
+[Source](https://code.google.com/archive/p/wangfonts/source/default/source)
+
+{{% license "gnu gpl v2" %}}
+
+<span class="primary">Variant</span>: Han Wang Yen Heavy (wt009)
+
+{{% pangram font="HanWangYenHeavy" lang="tc" punctuation=false %}}
+{{% pangram font="HanWangYenHeavy" %}}
+
+<span class="primary">Variant</span>: Han Wang Li Su Medium (wt021)
+
+{{% pangram font="HanWanLiSuMedium" lang="tc" punctuation=false %}}
+{{% pangram font="HanWanLiSuMedium" %}}
+
+<span class="primary">Variant</span>: Han Wang Kan Da Yan (wt028)
+
+{{% pangram font="HanWangKanDaYan" lang="tc" punctuation=false %}}
+{{% pangram font="HanWangKanDaYan" %}}
+
+<span class="primary">Variant</span>: Han Wang Kan Tan (wt028)
+
+{{% pangram font="HanWangKanTan" lang="tc" punctuation=false %}}
+{{% pangram font="HanWangKanTan" %}}
+
+<details><summary>Full samples</summary>
+{{< images.inline >}}
+    {{ with .Page.Resources.Get "samples/wt-1.png" }}
+        <img src="{{ .RelPermalink }}" alt="Sample 1 of Wang Fonts">
+    {{ end }}
+    {{ with .Page.Resources.Get "samples/wt-2.webp" }}
+        <img src="{{ .RelPermalink }}" alt="Sample 2 of Wang Fonts">
+    {{ end }}
+{{< /images.inline >}}
+</details>
+
+This is a huge family of fonts donated by Taiwanese Professor Wang Hann-Tzong (王汉宗)!
+
+There were so many nice fonts that I could only display the ones I found the most
+interesting. The full sample images can be found above.
 
 ## Japanese
 

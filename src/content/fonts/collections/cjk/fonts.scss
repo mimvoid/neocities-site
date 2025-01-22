@@ -1,3 +1,8 @@
+@include font("HanWangYenHeavy");
+@include font("HanWangLiSuMedium");
+@include font("HanWangKanDaYan");
+@include font("HanWangKanTan");
+
 @include font("KN Bobohei", "KNBobohei-Bold");
 @include font(mini-wakuwaku, $ext: otf);
 @include font(SoukouMincho);
