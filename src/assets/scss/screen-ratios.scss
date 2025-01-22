@@ -47,16 +47,16 @@
 
   .body {
     display: block;
+
+    .sidebar {
+      position: static;
+      margin: 0.75em 0;
+      font-size: 1.025em;
+    }
   }
 
   .box {
     margin: 0.4em;
-  }
-
-  .sidebar nav {
-    position: static;
-    margin: 0.75em 0;
-    font-size: 1.025em;
   }
 
   main > .box {
