@@ -36,49 +36,6 @@ How breathtaking.
 
 {{% list_characters extra="classification" %}}
 
-<div class="cards">
-<div class="card">
-
-### Halle
-
-Entity β-422
-{.primary}
-
-Responder of Myr Division 02 and Everett and Sonya's coworker.
-
-</div>
-<div class="card">
-
-### Deuce
-
-Entity β-58
-{.primary}
-
-Leader of Myr Division 02.
-
-</div>
-<div class="card">
-
-### Anastasia
-
-Entity ω-219
-{.primary}
-
-The researcher who assigned herself to Subject ψ-01.
-
-</div>
-<div class="card">
-
-### Aisling
-
-Entity β-855
-{.primary}
-
-The youngest member of the AOD Myr Branch.
-
-</div>
-</div>
-
 ***
 
 ## The AOD
