@@ -1,40 +1,29 @@
-@use "./partials/mixins";
-
 @keyframes pop {
-  from {
-    @include mixins.scale(1);
+  from, to {
+    transform: scale(1);
   }
   50% {
-    @include mixins.scale(0.95);
+    transform: scale(0.95);
   }
   80% {
-    @include mixins.scale(1.02); // overshoot
-  }
-  to {
-    @include mixins.scale(1);
+    transform: scale(1.02);
   }
 }
 
 @keyframes pull-down {
   $base: -0.5em;
 
-  from {
+  from, to {
     top: $base;
   }
-  60% {
+  60%, 70% {
     top: $base + 0.95em;
   }
   65% {
-    top: $base + 1em;
-  }
-  70% {
-    top: $base + 0.95em;
+    top: $base + 1em; // peak
   }
   85% {
     top: $base - 0.15em; // overshoot
-  }
-  to {
-    top: $base;
   }
 }
 

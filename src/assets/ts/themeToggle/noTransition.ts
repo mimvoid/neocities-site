@@ -14,7 +14,6 @@ export default function withoutTransition(action: () => any) {
   const css = document.createTextNode(
     `* {
        -webkit-transition: none !important;
-       -moz-transition: none !important;
        -o-transition: none !important;
        -ms-transition: none !important;
        transition: none !important;

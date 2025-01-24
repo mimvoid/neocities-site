@@ -1,9 +1,7 @@
 @use "../partials/courier-prime";
 
-$body: "Courier Prime", "Courier New", "Courier", monospace;
-
 :root {
-  --body: #{$body};
+  --body: "Courier Prime", "Courier New", "Courier", monospace;
   --border-radius: 0;
   --border-size: 1px;
   --active-border: var(--fg);
