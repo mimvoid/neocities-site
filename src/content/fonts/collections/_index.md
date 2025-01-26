@@ -33,5 +33,6 @@ Sources I used to display the fonts:
 - Japanese: [鳥啼歌 (Tori Naku)](https://www.worldfolksong.com/songbook/japan/torinaku)
     - Hiragana & Katakana: [いろは歌 (Iroha)](https://en.wikipedia.org/wiki/Iroha)
 - Chinese: [千字文 (Thousand Character Classic)](https://web.archive.org/web/20190403231106/http://www.oocities.org/npsturman/tce.html)
+- Spanish: [Wikipedia Pangram page](https://es.wikipedia.org/wiki/Pangrama)
 - Kazakh: [Universal Declaration of Human Rights](https://www.omniglot.com/writing/kazakh.htm)
 - Czech: [Wikipedia Pangram page](https://en.wikipedia.org/wiki/Pangram)
