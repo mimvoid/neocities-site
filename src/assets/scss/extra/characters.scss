@@ -20,3 +20,7 @@
   weight: 10em;
   background-color: var(--overlay);
 }
+
+.avatar {
+  border-radius: calc(var(--border-radius) * 0.5)
+}

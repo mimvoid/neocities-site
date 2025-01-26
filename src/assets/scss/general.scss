@@ -260,6 +260,15 @@ pre {
   font-family: var(--monospace);
 }
 
+/*--------
+ * Images
+ *--------*/
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*------------
  * Date stats
  *------------*/
