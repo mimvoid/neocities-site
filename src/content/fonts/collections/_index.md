@@ -36,3 +36,4 @@ Sources I used to display the fonts:
 - Spanish: [Wikipedia Pangram page](https://es.wikipedia.org/wiki/Pangrama)
 - Kazakh: [Universal Declaration of Human Rights](https://www.omniglot.com/writing/kazakh.htm)
 - Czech: [Wikipedia Pangram page](https://en.wikipedia.org/wiki/Pangram)
+- Croatian: [Type Design Class](https://www.typedesignclass.com/resources/latin-pangram-list)
