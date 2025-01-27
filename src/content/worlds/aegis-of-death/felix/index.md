@@ -59,14 +59,14 @@ TBA
 
 **Relation**: Friends
 
-"This idiot is too naive for his own good, and can't even see what his own thoughts
-are telling him. It's a miracle he's lasted as long as he has. One day or another,
-he'll be gone.
+"This idiot is too naive for his own good, too easily provoked, and too clueless about
+something as simple as himself. It's a miracle he's lasted as long as he has. One day or
+another, he'll be gone.
 
 "In the meantime, I'll at least help him investigate everything. He might hold the
 best clue we have. Besides, it's the first time I've been able to bounce these sorts of
-ideas off an actual person. Even if he might mess everything up...I'll keep him for as
-long as I can."
+ideas off an actual person. Even if he might mess everything up...I'll keep him around for
+as long as I can."
 
 ### [Sonya Antonovna Sokolova]({{% relref "sonya" %}})
 
@@ -83,7 +83,7 @@ have to consider her feelings on top of everything else."
 
 **Relation**: Acquaintance
 
-"I only know Everett a little through Sonya. I don't really care about them. I just keep
+"I only know Everett a little through Sonya. They're intriguing, at least. I just keep
 wondering why Masha—that's our cat—liked them. She usually hates strangers."
 
 ### Nataliya Ivanovna Sokolova
@@ -97,4 +97,4 @@ wondering why Masha—that's our cat—liked them. She usually hates strangers."
 **Relation**: Father
 
 "What do you want me to say? That 'I'm grateful for him keeping a roof over our heads'
-and blah blah blah? Yeah, I'll give him that, but that's all from me."
+and blah blah blah? Yeah, tough luck buddy."
