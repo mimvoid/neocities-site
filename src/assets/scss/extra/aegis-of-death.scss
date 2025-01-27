@@ -52,7 +52,7 @@ main h3 a {
 }
 
 [data-theme="light"] {
-  --bg: rgb(222, 192, 188);
+  --bg: rgb(230, 197, 190);
   --fg: rgb(31, 30, 55);
   --fg-dim: rgb(64, 48, 80);
   --overlay: rgb(230, 192, 190);
@@ -62,7 +62,8 @@ main h3 a {
   --secondary: rgb(98, 58, 98);
   --tertiary: rgb(165, 52, 85);
 
-  --bg-img: url(../../images/0509.webp);
+  --bg-img: url(../../images/halftone-1.webp);
+  --bg-size: 400px;
 }
 
 .card {
