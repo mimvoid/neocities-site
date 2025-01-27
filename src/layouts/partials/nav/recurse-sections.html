@@ -1,5 +1,5 @@
 {{ range .Page.Sections }}
-<details class="nested" {{ if .IsAncestor page }}open{{ end }}>
+<details class="nested" {{ if or (.IsAncestor page) (.Eq page) }}open{{ end }}>
   {{ partial "nav/summary" . }}
 
   <div class="details-content">

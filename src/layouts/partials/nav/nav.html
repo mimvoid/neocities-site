@@ -1,7 +1,7 @@
 <nav>
   <div class="box">
     {{ range site.Sections }}
-      <details {{ if .IsAncestor page }}open{{ end }}>
+      <details {{ if or (.IsAncestor page) (.Eq page) }}open{{ end }}>
         {{ partial "nav/summary" . }}
         <div class="details-content">
           <!-- Recurse -->
