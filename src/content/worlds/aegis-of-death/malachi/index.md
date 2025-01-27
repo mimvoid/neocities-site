@@ -23,7 +23,7 @@ A fugitive wanted by the AOD, unsure of his own identity.
 |               |                   |
 | ------------- | ----------------- |
 | Role          | **Protagonist**   |
-| Age           | **18**            |
+| Age           | **19**            |
 | Date of Birth | **MAR. 04. 20XX** |
 | Affiliation   | **N/A**           |
 | Occupation    | **N/A**           |
@@ -84,32 +84,29 @@ TBA
 
 **Relation**: Harborer?
 
-"Everett? There's a lot I can say about them...
+"There's a lot I can say about Everett... They've given me a place to stay, even though
+they work for the AOD. I know it's risky. They've threatened me about stepping out of line
+and I've seen them slice a whole shadow into pieces. But they can also be so sympathetic
+and gentle that I really believe it, and I want to believe it.
 
-"Well, they're the one who's giving me a place to stay. But at the same time, they work for
-the AOD. They've threatened me before and I've seen them slice a whole shadow into pieces.
-But they can also be so sympathetic that I can almost believe they'd never hurt a fly.
+"Some days, I hardly see them around. I almost get the feeling they're scared of me in their
+own house...
 
-"Oh, and Everett sleeps on the couch a lot, and also hides themselves in their room for days.
-Sometimes, I get the feeling they're scared of me in their own house...
-
-"Basically, they're really tough to figure out. I can't tell what they're thinking, and it
-worries me. But I'll take any help I can get. I just need a plan in case they change their mind.
-For now, we're fine."
+"We both know I'm not telling the whole story. But if it keeps the truce, then that's that.
+I'll need any help I can get."
 
 ### [Felix Antonovich Sokolov]({{% relref "felix" %}})
 
-**Relation**: Friends?
-
-"When he found me, I thought I was caught for good.
+**Relation**: Ally
 
 "Felix is awfully smart, and he knows a lot about technology I had no idea existed.
-He's graduated from high school, has a job, *and* he's looking into shadows in his spare time.
-It's impressive, even if it's given him an ego that knows exactly how to get on my nerves.
+His interest in shadows means we have a common goal, so we've been helping each other
+think of ideas and find new leads. He's impressive, even if it's given him an ego that knows
+exactly how to get on my nerves.
 
-"I don't think I would have been able to do nearly as much, at least, I don't think. But if I
-had a normal life, maybe I could at least have done something impressive too? Ugh, I don't even
-want to think about it anymore."
+"I don't think I would have been able to accomplish nearly as much, at least, I don't think.
+But if I had a normal life, maybe I could at least have done something impressive too?
+Ugh, I don't even want to think about it anymore."
 
 ### [Mystery Girl]({{% relref "sonya" %}})
 
