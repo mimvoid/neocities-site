@@ -7,5 +7,9 @@
 {{ end }}
 
 {{ define "article-head" }}
-  {{ partial "worlds/breadcrumb" (dict "context" . "world" "sacrificial") }}
+  {{ if .Params.character }}
+    {{ partial "worlds/character-tabs" . }}
+  {{ else if .IsPage }}
+    {{ partial "worlds/breadcrumb" . }}
+  {{ end }}
 {{ end }}
