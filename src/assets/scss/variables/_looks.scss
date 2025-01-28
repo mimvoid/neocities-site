@@ -1,9 +1,10 @@
 :root {
   --border-radius: 4px;
+  --transition: all 0.2s ease-in-out;
 }
 
 @mixin transition() {
-  transition: all 0.2s ease-in-out;
+  transition: var(--transition);
 }
 
 @mixin border-radius() {
