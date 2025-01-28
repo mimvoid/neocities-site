@@ -103,14 +103,14 @@ I'll need any help I can get."
 
 **Relation**: Ally
 
-"Felix is awfully smart, and he knows a lot about technology I had no idea existed.
-His interest in shadows means we have a common goal, so we've been helping each other
-think of ideas and find new leads. He's impressive, even if it's given him an ego that knows
-exactly how to get on my nerves.
+"Felix knows a lot about technology I can hardly wrap my head around, and he's one of the
+few out there who's actually interested in shadows. He always comes running to me with new ideas
+and leads. It's impressive, even if it's given him an ego that's probably bore holes through
+his skull.
 
-"I don't think I would have been able to accomplish nearly as much, at least, I don't think.
-But if I had a normal life, maybe I could at least have done something impressive too?
-Ugh, I don't even want to think about it anymore."
+"He's so...what's the right word...independent? I don't think I would have been able to
+accomplish nearly as much. But if I had a normal life, maybe I could at least have done
+something impressive too? Ugh, I don't even want to think about him anymore."
 
 ### [Mystery Girl]({{% relref "sonya" %}})
 

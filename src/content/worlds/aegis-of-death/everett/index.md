@@ -105,26 +105,26 @@ know more."
 **Relation**: Coworker
 
 "Sonya's really good at making decisions in the moment, and she can talk to the people we
-have to talk to for our missions. She's like a shining beacon—bright, cheerful, confident,
-accomplished...I guess you could say I admire her a lot.
+have to talk to for our missions. She's bright, cheerful, confident, accomplished...you could
+say she's like a shining beacon for everyone.
 
 "We hang out outside of work occasionally, talking about anything that comes to mind. It's
-nice, even if it's a little draining—don't tell her that, though. I don't want her
+nice, even if it can be a little much—don't tell her that, though. I don't want her
 to feel bad because of me."
 
 ### [Deuce]({{% relref "deuce" %}})
 
 **Relation**: Boss
 
-"Honestly, I owe everything to Deuce. He's the one that helped me get back on my feet and
-welcomed me to the AOD. If I hadn't met him—if The Herald hadn't saved me—I don't know where
-I would have gone. <span class="small"><em>Probably not here at all...</em></span>
+"Deuce is the one who helped me get back on my feet and welcomed me to the AOD.
+If I hadn't met him—if The Herald hadn't saved me—I don't know where I would have gone.
+<span class="small"><em>Probably not here at all...</em></span>
 
 "He handles much of the logistics and paperwork for Division 02, so he's busy even
-outside of missions. He said he doesn't enjoy it very much. I'm at least able to keep him
-company though. Return the favor somewhat, I suppose.
+outside of missions. I'm at least able to keep him company though. Return the favor
+somewhat, I suppose.
 
-"There's more I can share, but I'm not supposed to say too much. Sorry."
+"There's more, but I'm not supposed to say too much. Sorry."
 
 ### [Halle Auclair]({{% relref "halle" %}})
 
@@ -133,8 +133,8 @@ company though. Return the favor somewhat, I suppose.
 "Halle's usually the one who radios in during our missions, giving the details. She's
 pretty good at it, even if she can be a little strict. And angry. And loud. Especially with Sonya.
 
-"She might say she prefers me for actually listening to her, but I can tell she and Sonya
-are pretty close. Sometimes I feel like I'm intruding, so I just let them be."
+"She says she prefers me for actually listening to her, but I can tell she and Sonya have
+known each other for much longer. Sometimes I feel like I'm intruding, so I just let them be."
 
 ### [Aisling Fitzpatrick]({{% relref "aisling" %}})
 
@@ -152,7 +152,7 @@ I just supervise and talk with her sometimes. Maybe babysitting is the right wor
 **Relation**: Mother
 
 "This is the name of my mother, according to my documents. Sometimes I wonder
-what my life would have have been like if she was still alive. Maybe it's better that
-I don't know."
+what my life would have have been like if she was still alive. But with her age,
+maybe it's better that I don't know."
 
 </div>
