@@ -1,0 +1,51 @@
+@use "../partials/noto-serif-sc";
+
+// Variables
+
+:root {
+  --border-radius: 2px;
+  --border-size: 1px;
+}
+
+[data-theme="dark"] {
+  --bg: rgb(35, 30, 54);
+  --fg: rgb(232, 223, 221);
+  --fg-dim: rgb(195, 182, 197);
+  --overlay: rgb(48, 43, 62);
+  --overlay-dim: rgb(45, 38, 62);
+
+  --primary: rgb(245, 98, 152);
+  --secondary: rgb(220, 178, 250);
+  --tertiary: rgb(170, 160, 222);
+
+  --bg-img: none;
+}
+
+[data-theme="light"] {
+  --bg: rgb(232, 202, 212);
+  --fg: rgb(31, 30, 55);
+  --fg-dim: rgb(64, 48, 80);
+  --overlay: rgb(230, 192, 190);
+  --overlay-dim: rgb(220, 188, 185);
+
+  --primary: rgb(195, 62, 115);
+  --secondary: rgb(98, 58, 98);
+  --tertiary: rgb(75, 52, 96);
+
+  --bg-img: none;
+}
+
+// Elements
+
+h1 {
+  font-family: "Noto Serif SC", "Source Han Serif SC", serif;
+}
+
+// Classes
+
+.box {
+  border: 2.5px double;
+}
+.card {
+  border: 1px solid var(--primary);
+}

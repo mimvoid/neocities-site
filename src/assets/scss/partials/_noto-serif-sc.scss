@@ -1,0 +1,8 @@
+@use "./font-face" with ($path: "../../fonts/page");
+
+@include font-face.font(
+  "Noto Serif SC",
+  "NotoSerifSC-ExtraBold",
+  $weight: 800,
+  $local: "Noto Serif SC ExtraBold"
+);

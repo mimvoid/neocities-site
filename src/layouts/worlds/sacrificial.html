@@ -1,0 +1,11 @@
+{{ define "head-extra" }}
+  {{ partial "utils/style" "scss/extra/sacrificial.scss" }}
+
+  {{ if .Params.character }}
+  <style>h1 { font-size: 3.5em; }</style>
+  {{ end }}
+{{ end }}
+
+{{ define "article-head" }}
+  {{ partial "worlds/breadcrumb" (dict "context" . "world" "sacrificial") }}
+{{ end }}
