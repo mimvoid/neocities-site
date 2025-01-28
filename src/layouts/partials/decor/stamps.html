@@ -141,9 +141,11 @@
 {{ range slice $firstStamps $catStamps $songStamps $aestheticStamps $miscStamps }}
   <div class="stamp-row">
     {{ range . }}
-      {{ $resource := resources.Get (print "images/stamps/" .file) }}
       <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
-        <img src="{{ $resource.RelPermalink }}" alt="{{- .alt -}}" />
+        {{ $alt := .alt }}
+        {{ with resources.Get (print "images/stamps/" .file) }}
+          <img src="{{ .RelPermalink }}" alt="{{- $alt -}}" width="{{ .Width }}" height="{{ .Height }}" />
+        {{ end }}
       </a>
     {{ end }}
   </div>

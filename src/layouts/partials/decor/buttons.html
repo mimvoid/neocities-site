@@ -1,3 +1,8 @@
 {{ with resources.Get "images/buttons/73119buttons.webp" }}
-<img src="{{ .RelPermalink }}" alt="A button of the 'Born to die World is a fuck' meme" />
+<img
+  src="{{ .RelPermalink }}"
+  alt="A button of the 'Born to die World is a fuck' meme"
+  width="{{ .Width }}"
+  height="{{ .Height }}"
+/>
 {{ end }}

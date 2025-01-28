@@ -18,7 +18,13 @@
           <a href="{{ .RelPermalink }}">
             {{ $name := .Title }}
             {{ with .Resources.GetMatch "avatar" }}
-              <img src="{{ .RelPermalink }}" class="avatar" alt="Character avatar of {{ $name }}" />
+              <img
+                src="{{ .RelPermalink }}"
+                class="avatar"
+                alt="Character avatar of {{ $name }}"
+                width="{{ .Width }}"
+                height="{{ .Height }}"
+              />
             {{ else }}
               <div class="placeholder"></div>
             {{ end }}

@@ -10,6 +10,6 @@
 {{ range $badge }}
   {{ $link := printf "https://img.shields.io/badge/%s&logoColor=20213A&style=for-the-badge" .logo }}
   <a href="{{ $link }}" target="_blank" rel="noopener noreferrer">
-    <img src="{{ $link }}" alt="{{- .alt -}}" />
+    <img src="{{ $link }}" alt="{{- .alt -}}" width="{{ .Width }}" height="{{ .Height }}" />
   </a>
 {{ end }}
