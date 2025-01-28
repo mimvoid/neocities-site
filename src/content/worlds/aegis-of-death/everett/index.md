@@ -86,3 +86,14 @@ TBA
 <div class="relations">
 {{% snippet "relations.md" %}}
 </div>
+<div class="extra">
+
+{{% figure
+    src="EverettReferenceSheet.webp"
+    alt="A reference sheet of Everett Dayal in formal clothes, with a bandage-like eyepatch over their eye. The text reads: 'they/he; Ability: Refraction; Affiliation: AOD Mir Field Team Division 02; Soft-spoken, gentle, and timid around people, it might be a surprise to learn Everett is a shadow hunter and Deuce's (unofficial) right-hand man. But anyone who's worked with them knows their capability when it's life or death. But how much do they really know?'"
+    caption="Everett's reference sheet (March 2024)"
+    loading="lazy"
+%}}
+
+{{% snippet "extra.md" %}}
+</div>
