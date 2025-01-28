@@ -23,6 +23,7 @@ article:has(#tab-nav-5:checked) .summary {
 
 .character-tabs {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 1em 0 3em 0;
 
@@ -33,7 +34,8 @@ article:has(#tab-nav-5:checked) .summary {
 
   .checkboxes {
     display: flex;
-    gap: 1em;
+    flex-wrap: wrap;
+    column-gap: 1em;
 
     input {
       display: none;
