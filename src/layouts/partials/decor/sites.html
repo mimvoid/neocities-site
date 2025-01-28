@@ -24,8 +24,14 @@
 
 {{ range $sites }}
 <a href="{{ .link | safeURL }}" title="{{ .title }}" target="_blank" rel="noopener noreferrer">
+  {{ $title := .title }}
   {{ with resources.Get (print "images/sites/" .img) }}
-    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" />
+    <img
+      src="{{ .RelPermalink }}"
+      alt="Website button for {{ $title }}"
+      width="{{ .Width }}"
+      height="{{ .Height }}"
+    />
   {{ end }}
 </a>
 {{ end }}
