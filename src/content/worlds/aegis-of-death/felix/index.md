@@ -14,6 +14,8 @@ An assistant journalist with an interest in shadows.
 
 <!--more-->
 
+<div class="info">
+
 **Classification**
 
 {{% param "classification" %}}
@@ -41,7 +43,8 @@ An assistant journalist with an interest in shadows.
 
 TBA
 
-***
+</div>
+<div class="history">
 
 ## File 2: History {.section}
 
@@ -51,7 +54,8 @@ TBA
 
 TBA
 
-***
+</div>
+<div class="relations">
 
 ## File 3: Relationships {.section}
 
@@ -98,3 +102,5 @@ wondering why Masha—that's our cat—liked them. She usually hates strangers."
 
 "What do you want me to say? That 'I'm grateful for him keeping a roof over our heads'
 and blah blah blah? Yeah, tough luck buddy."
+
+</div>

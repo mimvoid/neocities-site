@@ -14,6 +14,8 @@ A softspoken field operative of Myr Division 02.
 
 <!--more-->
 
+<div class="info">
+
 **Classification**
 
 {{% param "classification" %}}
@@ -73,13 +75,15 @@ No blood is recovered and no foreign bodies removed.
 
 TBA
 
-***
+</div>
+<div class="history">
 
 ## File 2: History {.section}
 
 TBA
 
-***
+</div>
+<div class="relations">
 
 ## File 3: Relationships {.section}
 
@@ -150,3 +154,5 @@ I just supervise and talk with her sometimes. Maybe babysitting is the right wor
 "This is the name of my mother, according to my documents. Sometimes I wonder
 what my life would have have been like if she was still alive. Maybe it's better that
 I don't know."
+
+</div>

@@ -14,6 +14,8 @@ One of the AOD's only human field operatives.
 
 <!--more-->
 
+<div class="info">
+
 **Classification**
 
 {{% param "classification" %}}
@@ -40,7 +42,8 @@ One of the AOD's only human field operatives.
 
 TBA
 
-***
+</div>
+<div class="history">
 
 ## File 2: History {.section}
 
@@ -56,6 +59,8 @@ years of social ostracization.
 TBA
 
 ***
+</div>
+<div class="relations">
 
 ## File 3: Relationships {.section}
 
@@ -121,3 +126,5 @@ I wish I could do more."
 "He works a lot to support everyone. Honestly he's always been a workaholic, but it
 ramped up even more after my mom fell ill. At least I can help now. Being a field operator
 pays really well."
+
+</div>

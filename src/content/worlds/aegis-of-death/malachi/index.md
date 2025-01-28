@@ -14,6 +14,8 @@ A fugitive wanted by the AOD, unsure of his own identity.
 
 <!--more-->
 
+<div class="info">
+
 **Classification**
 
 {{% param "classification" %}}
@@ -70,13 +72,15 @@ A fugitive wanted by the AOD, unsure of his own identity.
 
 TBA
 
-***
+</div>
+<div class="history">
 
 ## File 2: History {.section}
 
 TBA
 
-***
+</div>
+<div class="relations">
 
 ## File 3: Relationships {.section}
 
@@ -119,3 +123,5 @@ TBA
 **Relation**: Half sister
 
 "Her... I'd rather not talk about it."
+
+</div>
