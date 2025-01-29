@@ -18,4 +18,8 @@
 <meta name="author" content="mimvoid" />
 
 {{ partial "utils/style" "scss/style.scss" }}
+{{ if .Params.zoomable }}
+  {{ partial "utils/style" "scss/extra/figure-zoom.scss" }}
+  {{ partial "utils/script" "ts/figureZoom.ts" }}
+{{ end }}
 {{ partial "utils/script" "ts/themeToggle/main.ts" }}
