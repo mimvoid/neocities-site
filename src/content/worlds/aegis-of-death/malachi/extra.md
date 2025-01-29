@@ -2,7 +2,7 @@ Despite being the protagonist of Aegis of Death, Malachi has historically been o
 hardest characters for me to get into the headspace of...
 
 He didn't even have a compelling motivation for a while, just being a runaway. He has,
-however, grown on me after I added an uncertainly to his own identity. Sorry buddy, into
+however, grown on me after I added an uncertainty to his own identity. Sorry buddy, into
 the dissociation bin you go~
 
 ## Origin
