@@ -1,5 +1,4 @@
 import { button, setLightTheme, setDarkTheme } from "./utils";
-import noTransition from "./noTransition";
 
 // Get an updated value with each call
 const localTheme = () => localStorage.getItem("theme");
@@ -11,7 +10,7 @@ if (localTheme() === null) {
 }
 
 // Set theme on page enter (dark mode is the default)
-if (localTheme() === "light") noTransition(() => setLightTheme())
+if (localTheme() === "light") setLightTheme()
 
 // Implement the theme switcher
 button?.addEventListener("click", () => {
