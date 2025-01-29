@@ -17,6 +17,12 @@
 <meta property="og:locale" content="en_US" />
 <meta name="author" content="mimvoid" />
 
+{{/* Should be called early to reduce flashing */}}
+<script is:inline>
+  const theme = localStorage.getItem("theme") || "dark";
+  document.documentElement.setAttribute("data-theme", theme);
+</script>
+
 {{ partial "utils/style" "scss/style.scss" }}
 {{ if .Params.zoomable }}
   {{ partial "utils/style" "scss/extra/figure-zoom.scss" }}
