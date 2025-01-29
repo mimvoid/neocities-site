@@ -269,6 +269,15 @@ img {
   height: auto;
 }
 
+// Figures
+
+figure {
+  margin: 1em 0 2em 0;
+}
+figcaption {
+  color: var(--fg-dim);
+}
+
 /*------------
  * Date stats
  *------------*/
