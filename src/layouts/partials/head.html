@@ -1,6 +1,12 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 
+{{/* Should be called early to reduce flashing */}}
+<script is:inline>
+  const theme = localStorage.getItem("theme") || "dark";
+  document.documentElement.setAttribute("data-theme", theme);
+</script>
+
 <title>
   {{ if not .IsHome }}{{- .Title }} &ndash; {{ end }}{{ site.Title }}
 </title>
@@ -16,12 +22,6 @@
 <meta property="og:title" content="{{ .Title }}" />
 <meta property="og:locale" content="en_US" />
 <meta name="author" content="mimvoid" />
-
-{{/* Should be called early to reduce flashing */}}
-<script is:inline>
-  const theme = localStorage.getItem("theme") || "dark";
-  document.documentElement.setAttribute("data-theme", theme);
-</script>
 
 {{ partial "utils/style" "scss/style.scss" }}
 {{ if .Params.zoomable }}
