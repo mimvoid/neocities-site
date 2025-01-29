@@ -12,12 +12,7 @@ export default function withoutTransition(action: () => any) {
   // Create style element to disable transitions
   const style = document.createElement("style");
   const css = document.createTextNode(
-    `* {
-       -webkit-transition: none !important;
-       -o-transition: none !important;
-       -ms-transition: none !important;
-       transition: none !important;
-    }`
+    `* { -webkit-transition: none !important; -o-transition: none !important; -ms-transition: none !important; transition: none !important; }`
   );
   style.appendChild(css);
 

@@ -1,30 +1,24 @@
-import { getPreferredTheme, flipTheme, setTheme } from "./utils";
+import { button, setLightTheme, setDarkTheme } from "./utils";
 import noTransition from "./noTransition";
 
-// Based on https://whitep4nth3r.com/blog/best-light-dark-mode-theme-toggle-javascript
+// Get an updated value with each call
+const localTheme = () => localStorage.getItem("theme");
 
-const button = document.getElementById("theme_toggle");
-const cord = document.getElementById("theme_toggle_cord");
+// Set local theme
+if (localTheme() === null) {
+  const prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
+  localStorage.setItem("theme", prefersLight ? "light" : "dark");
+}
 
-// Find the preferred theme
-const localStorageTheme = localStorage.getItem("theme");
-const prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
-let currentTheme = getPreferredTheme(localStorageTheme, prefersLight);
-
-// Set the theme
-noTransition(() => setTheme(button, currentTheme))
+// Set theme on page enter (dark mode is the default)
+if (localTheme() === "light") noTransition(() => setLightTheme())
 
 // Implement the theme switcher
 button?.addEventListener("click", () => {
-  const newTheme = flipTheme(currentTheme);
+  localTheme() === "dark" ? setLightTheme() : setDarkTheme()
 
-  // Trigger lampshape-style animation
+  // Handle lampshade-style animation
+  const cord = document.getElementById("theme_toggle_cord");
   cord?.classList.add("pull-down");
-
-  // Update theme settings
-  setTheme(button, newTheme);
-  currentTheme = newTheme;
+  cord?.addEventListener("animationend", () => cord.classList.remove("pull-down"))
 })
-
-// Reset animation
-cord?.addEventListener("animationend", () => cord.classList.remove("pull-down"))

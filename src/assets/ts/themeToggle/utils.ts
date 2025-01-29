@@ -1,21 +1,10 @@
-// Find the user's preferred theme
-export function getPreferredTheme(localStorageTheme : string | null, prefersLight : boolean) {
-  if (localStorageTheme !== null) {
-    return localStorageTheme;
-  }
+export const button = document.getElementById("theme_toggle");
 
-  if (prefersLight) {
-    return "light"
-  }
-
-  return "dark"
-}
-
-// Switch light and dark
-export const flipTheme = (theme : string) => (theme === "dark" ? "light" : "dark");
-
-export function setTheme(button : Element | null, theme : string) {
-  button?.setAttribute("aria-label", `Change to ${flipTheme(theme)} theme`)
+function setTheme(theme: string) {
   document.documentElement.setAttribute("data-theme", theme);
+  button?.setAttribute("aria-label", `Change to ${theme === "dark" ? "light" : "dark" } theme`)
   localStorage.setItem("theme", theme);
 }
+
+export const setDarkTheme = () => setTheme("dark")
+export const setLightTheme = () => setTheme("light")
