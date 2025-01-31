@@ -69,7 +69,7 @@ for previews.
 
 [Homepage](https://fonts.google.com/specimen/Limelight)
 
-[Source](https://github.com/google/fonts/tree/main/ofl/limelight)
+[Source](https://github.com/librefonts/limelight)
 
 {{% license "ofl" %}}
 
@@ -79,7 +79,7 @@ for previews.
 
 [Homepage](https://fonts.google.com/specimen/Plaster)
 
-[Source](https://github.com/google/fonts/tree/main/ofl/plaster)
+[Source](https://github.com/SorkinType/Plaster)
 
 {{% license "ofl" %}}
 

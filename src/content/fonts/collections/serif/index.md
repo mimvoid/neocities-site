@@ -41,7 +41,7 @@ Libre Baskerville my go-to font for a printed book feel.
 
 [Homepage](https://www.huertatipografica.com/en/fonts/cambo-ht)
 
-[Source](https://github.com/google/fonts/tree/main/ofl/cambo)
+[Source](https://github.com/librefonts/cambo)
 
 {{% license "ofl" %}}
 
