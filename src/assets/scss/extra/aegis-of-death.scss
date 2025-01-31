@@ -73,9 +73,9 @@ blockquote {
 table {
   border-color: var(--fg-dim);
   background-color: var(--overlay-dim);
-  td {
-    border-top: 1px solid var(--fg-dim);
-  }
+}
+td {
+  border-top: 1px solid var(--fg-dim);
 }
 
 // Classes
@@ -94,4 +94,3 @@ h2.section {
   border: 1px solid var(--fg-dim);
   background-color: var(--bg) !important;
 }
-

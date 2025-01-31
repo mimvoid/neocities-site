@@ -5,44 +5,44 @@ footer {
   margin: 3em 0 2em 0;
   font-size: 0.95em;
   background-color: var(--bg);
+}
 
-  // Vim-like status bar
-  .bar {
-    display: flex;
-    flex-flow: row wrap;
-    row-gap: 1em;
-    justify-content: space-between;
-    padding: 0.15em 0;
+// Vim-like status bar
+.bar {
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 1em;
+  justify-content: space-between;
+  padding: 0.15em 0;
 
-    .left, .right {
-      padding: 0;
-      display: inline-block;
+  .left, .right {
+    padding: 0;
+    display: inline-block;
 
-      p {
-        padding: 0.25em 0.5em;
-        display: inline; // Put them all on one line
-      }
-    }
-
-    // Accented background, dark text
-    .status-high {
-      color: var(--bg);
-      background-color: var(--primary);
-
-      // Make children visible against the background
-      a {
-        color: var(--bg);
-      }
-    }
-
-    // Lighter background, accented text
-    .status-mid {
-      color: var(--primary);
-      background-color: var(--overlay);
-    }
-
-    .status-low {
-      opacity: 0.75;
+    p {
+      padding: 0.25em 0.5em;
+      display: inline; // Put them all on one line
     }
   }
+}
+
+// Accented background, dark text
+.status-high {
+  color: var(--bg);
+  background-color: var(--primary);
+
+  // Make children visible against the background
+  a {
+    color: var(--bg);
+  }
+}
+
+// Lighter background, accented text
+.status-mid {
+  color: var(--primary);
+  background-color: var(--overlay);
+}
+
+.status-low {
+  opacity: 0.75;
 }

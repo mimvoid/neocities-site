@@ -221,21 +221,17 @@ table {
   border: 1px solid var(--active-border);
 
   background-color: var(--overlay);
-
-  thead {
-    font-weight: bold;
-    color: var(--secondary);
-  }
-
-  td {
-    padding: 0.25em 0.75em;
-  }
+}
+thead {
+  font-weight: bold;
+  color: var(--secondary);
+}
+td {
+  padding: 0.25em 0.75em;
 }
 
-.headless table, table.headless {
-  thead {
-    display: none;
-  }
+.headless thead {
+  display: none;
 }
 
 .plain table, table.plain {

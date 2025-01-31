@@ -28,26 +28,23 @@
   @include wrapper-pad(0);
   @include header-pad(0);
 
-  header {
-    #nav_home, #nav_pages {
-      display: block;
-    }
-    #nav_home {
-      margin-bottom: 0.25em;
-    }
-    .actions {
-      display: none;
-    }
+  header .actions {
+    display: none;
+  }
+  #nav_home, #nav_pages {
+    display: block;
+  }
+  #nav_home {
+    margin-bottom: 0.25em;
   }
 
   .body {
     display: block;
-
-    .sidebar {
-      position: static;
-      margin: 0.75em 0;
-      font-size: 1.025em;
-    }
+  }
+  .sidebar {
+    position: static;
+    margin: 0.75em 0;
+    font-size: 1.025em;
   }
 
   .box {

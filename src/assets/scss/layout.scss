@@ -13,16 +13,14 @@
 .body {
   display: flex;
   align-items: flex-start;
-
-  .sidebar {
-    flex: 20%;
-    position: sticky;
-    top: 0.5em;
-  }
-
-  main {
-    flex: 80%;
-  }
+}
+.sidebar {
+  flex: 20%;
+  position: sticky;
+  top: 0.5em;
+}
+main {
+  flex: 80%;
 }
 
 /*---------------
