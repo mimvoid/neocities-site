@@ -174,6 +174,34 @@ Komika Parch
 CQ Obscurient is a pretty angular font by Aidan Clarke.
 It has a variety of weights (Light, Regular, Bold, and Heavy), ligatures, and alternates!
 
+## Patick Hand
+
+[Homepage](https://fonts.google.com/specimen/Patrick+Hand)
+
+[Source](https://github.com/librefonts/patrickhand)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Patrick Hand" %}}
+
+### Patrick Hand SC (Small Caps)
+
+[Homepage](https://fonts.google.com/specimen/Patrick+Hand+SC)
+
+[Source](https://github.com/m4rc1e/PatrickHandSC)
+
+{{% pangram font="Patrick Hand SC" punctuation=false %}}
+
+## Redacted Script
+
+[Homepage](https://fonts.google.com/specimen/Redacted+Script)
+
+[Source](https://github.com/christiannaths/redacted-font)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Redacted Script" %}}
+
 ## Sara's Fonts
 
 [Full listing](https://ko-fi.com/salinsley/shop)
