@@ -1,16 +1,16 @@
-div.info,
-div.history,
-div.relations,
-div.gallery,
-div.extra {
+section.info,
+section.history,
+section.relations,
+section.gallery,
+section.extra {
   display: none;
 }
 
-article:has(#tab-nav-1:checked) div.info,
-article:has(#tab-nav-2:checked) div.history,
-article:has(#tab-nav-3:checked) div.relations,
-article:has(#tab-nav-4:checked) div.gallery,
-article:has(#tab-nav-5:checked) div.extra {
+article:has(#tab-nav-1:checked) section.info,
+article:has(#tab-nav-2:checked) section.history,
+article:has(#tab-nav-3:checked) section.relations,
+article:has(#tab-nav-4:checked) section.gallery,
+article:has(#tab-nav-5:checked) section.extra {
   display: block;
 }
 

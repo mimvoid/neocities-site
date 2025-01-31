@@ -15,7 +15,7 @@ A softspoken field operative of Myr Division 02.
 
 <!--more-->
 
-<div class="info">
+<section class="info">
 
 **Classification**
 
@@ -76,18 +76,18 @@ No blood is recovered and no foreign bodies removed.
 
 TBA
 
-</div>
-<div class="history">
+</section>
+<section class="history">
 
 ## File 2: History {.section}
 
 TBA
 
-</div>
-<div class="relations">
+</section>
+<section class="relations">
 {{% snippet "relations.md" %}}
-</div>
-<div class="extra">
+</section>
+<section class="extra">
 
 {{% figure
     src="EverettReferenceSheet.webp"
@@ -98,4 +98,4 @@ TBA
 %}}
 
 {{% snippet "extra.md" %}}
-</div>
+</section>

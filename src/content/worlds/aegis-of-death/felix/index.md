@@ -14,7 +14,7 @@ An assistant journalist with an interest in shadows.
 
 <!--more-->
 
-<div class="info">
+<section class="info">
 
 **Classification**
 
@@ -43,8 +43,8 @@ An assistant journalist with an interest in shadows.
 
 TBA
 
-</div>
-<div class="history">
+</section>
+<section class="history">
 
 ## File 2: History {.section}
 
@@ -54,10 +54,10 @@ TBA
 
 TBA
 
-</div>
-<div class="relations">
+</section>
+<section class="relations">
 {{% snippet "relations.md" %}}
-</div>
-<div class="extra">
+</section>
+<section class="extra">
 {{% snippet "extra.md" %}}
-</div>
+</section>

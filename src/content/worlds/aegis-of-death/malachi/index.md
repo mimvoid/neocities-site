@@ -15,7 +15,7 @@ A fugitive wanted by the AOD, unsure of his own identity.
 
 <!--more-->
 
-<div class="info">
+<section class="info">
 
 **Classification**
 
@@ -73,18 +73,18 @@ A fugitive wanted by the AOD, unsure of his own identity.
 
 TBA
 
-</div>
-<div class="history">
+</section>
+<section class="history">
 
 ## File 2: History {.section}
 
 TBA
 
-</div>
-<div class="relations">
+</section>
+<section class="relations">
 {{% snippet "relations.md" %}}
-</div>
-<div class="extra">
+</section>
+<section class="extra">
 
 {{% figure
     src="MalachiReferenceSheet.webp"
@@ -95,4 +95,4 @@ TBA
 %}}
 
 {{% snippet "extra.md" %}}
-</div>
+</section>

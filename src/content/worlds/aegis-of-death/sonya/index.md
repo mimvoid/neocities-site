@@ -15,7 +15,7 @@ One of the AOD's only human field operatives.
 
 <!--more-->
 
-<div class="info">
+<section class="info">
 
 **Classification**
 
@@ -43,8 +43,8 @@ One of the AOD's only human field operatives.
 
 TBA
 
-</div>
-<div class="history">
+</section>
+<section class="history">
 
 ## File 2: History {.section}
 
@@ -60,11 +60,11 @@ years of social ostracization.
 TBA
 
 ***
-</div>
-<div class="relations">
+</section>
+<section class="relations">
 {{% snippet "relations.md" %}}
-</div>
-<div class="extra">
+</section>
+<section class="extra">
 
 {{% figure
     src="SonyaReferenceSheet.webp"
@@ -75,4 +75,4 @@ TBA
 %}}
 
 {{% snippet "extra.md" %}}
-</div>
+</section>
