@@ -65,37 +65,37 @@ What a goldmine! Designer and comic letterer Jakub D. Kočí made these fonts
 
 [Homepage](https://jdkfonty.mozellosite.com/fonts/jdk-bushidoo)
 
-{{% pangram font="JDK Bushidoo" lang="cz" %}}
+{{% pangram font="JDK Bushidoo" lang="cs" %}}
 
 <span class="primary">Variant</span>: Outline
 
-{{% pangram font="JDK Bushidoo Outline" lang="cz" %}}
+{{% pangram font="JDK Bushidoo Outline" lang="cs" %}}
 
 ### JDK Comics Hand
 
 [Homepage](https://jdkfonty.mozellosite.com/fonts/jdk-comics-hand)
 
-{{% pangram font="JDK Comics Hand" lang="cz" %}}
+{{% pangram font="JDK Comics Hand" lang="cs" %}}
 
 <span class="primary">Variant</span>: Bold
 
-<div style="font-weight: bold">{{% pangram font="JDK Comics Hand" lang="cz" %}}</div>
+<div style="font-weight: bold">{{% pangram font="JDK Comics Hand" lang="cs" %}}</div>
 
 ### JDK Croo Ella
 
 [Homepage](https://jdkfonty.mozellosite.com/pisma/jdk-croo-ella)
 
-{{% pangram font="JDK Croo Ella" lang="cz" %}}
+{{% pangram font="JDK Croo Ella" lang="cs" %}}
 
 ### JDK Vindil
 
 [Homepage](https://jdkfonty.mozellosite.com/fonts/jdk-vindil)
 
-{{% pangram font="JDK Vindil" lang="cz" %}}
+{{% pangram font="JDK Vindil" lang="cs" %}}
 
 <span class="primary">Variant</span>: Unreadable
 
-{{% pangram font="JDK Vindil Unreadable" lang="cz" %}}
+{{% pangram font="JDK Vindil Unreadable" lang="cs" %}}
 
 ## Komika
 
