@@ -16,11 +16,21 @@
       default = pkgs.mkShell {
         name = "neocities";
 
-        packages = with pkgs; [
-          neocities
-          hugo
-          dart-sass
-        ];
+        packages =
+          with pkgs;
+          let
+            aliases = [
+              (writeShellScriptBin "ncp" "hugo build && neocities push --prune public")
+              (writeShellScriptBin "ncinfo" "neocities info mimvoid")
+              (writeShellScriptBin "hs" "hugo server")
+            ];
+          in
+          [
+            neocities
+            hugo
+            dart-sass
+          ]
+          ++ aliases;
       };
     });
   };
