@@ -1,16 +1,12 @@
 <div class="character-tabs">
-  <div class="checkboxes">
-    {{- $tabs := slice "Info" "History" "Relations" "Gallery" "Extra" -}}
+  {{- $tabs := slice "Info" "History" "Relations" "Gallery" "Extra" -}}
 
-    {{- range seq (len $tabs) -}}
-      <input type="radio" name="tabs" id="tab-nav-{{ . }}" {{ if eq . 1 }}checked{{ end }}>
-      <label for="tab-nav-{{ . }}">{{ index $tabs (sub . 1) }}</label>
-    {{- end -}}
-  </div>
+  {{- range seq (len $tabs) -}}
+    <input type="radio" name="tabs" id="tab-nav-{{ . }}" {{ if eq . 1 }}checked{{ end }}>
+    <label for="tab-nav-{{ . }}">{{ index $tabs (sub . 1) }}</label>
+  {{- end -}}
 
   {{ with index .Ancestors.Reverse 2 }}
-    <div class="world-link">
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </div>
+    <a class="world-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
   {{ end }}
 </div>

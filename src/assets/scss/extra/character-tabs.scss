@@ -1,68 +1,59 @@
-section.info,
-section.history,
-section.relations,
-section.gallery,
-section.extra {
-  display: none;
+@use "sass:map";
+
+$sections: (1: info, 2: history, 3: relations, 4: gallery, 5: extra);
+
+// Display sections only when they're selected
+@each $i, $class in $sections {
+  section.#{$class} {
+    display: none;
+  }
+  article:has(#tab-nav-#{$i}:checked) section.#{$class} {
+    display: block;
+  }
 }
 
-article:has(#tab-nav-1:checked) section.info,
-article:has(#tab-nav-2:checked) section.history,
-article:has(#tab-nav-3:checked) section.relations,
-article:has(#tab-nav-4:checked) section.gallery,
-article:has(#tab-nav-5:checked) section.extra {
-  display: block;
-}
-
-article:has(#tab-nav-2:checked) .summary,
-article:has(#tab-nav-3:checked) .summary,
-article:has(#tab-nav-4:checked) .summary,
-article:has(#tab-nav-5:checked) .summary {
-  display: none;
+// Hide summary in later sections
+@each $i, $class in map.remove($sections, 1) {
+  article:has(#tab-nav-#{$i}:checked) .summary {
+    display: none;
+  }
 }
 
 .character-tabs {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-wrap: wrap-reverse;
   margin: 1em 0 3em 0;
+  gap: 1em;
 
-  * {
-    font-family: var(--body);
-    font-size: 0.95em;
+  font-family: var(--body);
+  font-size: 0.95rem;
+
+  input {
+    display: none;
+  }
+  label {
+    cursor: pointer;
+    transition: var(--transition);
+
+    border: none;
+
+    background-color: transparent;
+    color: var(--primary);
   }
 
-  .checkboxes {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 1em;
-
-    input {
-      display: none;
-    }
-    label {
-      cursor: pointer;
-      transition: var(--transition);
-
-      border: none;
-
-      background-color: transparent;
-      color: var(--primary);
-    }
-
-    // Style the active tab label
-    label:focus, label:hover, input:checked + label {
-      color: var(--tertiary);
-    }
-    input:checked + label {
-      text-decoration: 1px underline;
-      &::before {
-        content: "> ";
-      }
+  // Style the active tab label
+  label:focus, label:hover, input:checked + label {
+    color: var(--tertiary);
+  }
+  input:checked + label {
+    text-decoration: 1px underline;
+    &::before {
+      content: "> ";
     }
   }
 
-  .world-link a {
+  .world-link {
+    margin-left: auto;
     text-decoration: none;
     color: var(--link-color);
 
