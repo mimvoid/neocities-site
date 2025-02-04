@@ -27,7 +27,7 @@ minifyOutput = true
 
 
 [markup.highlight]
-style = 'dracula'
+style = 'rose-pine-moon'
 tabWidth = 2
 
 [markup.goldmark.renderer]

@@ -252,8 +252,14 @@ td {
 
 pre {
   @include looks.border-radius;
-  padding: 1em;
+  padding: 1rem;
   font-family: var(--monospace);
+  font-size: 0.875rem;
+  text-wrap: wrap;
+}
+
+[data-theme="dark"] .highlight pre {
+  background-color: var(--overlay-dim) !important;
 }
 
 /*--------
