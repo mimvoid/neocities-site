@@ -13,3 +13,7 @@ A loner slow to trust and protective of her small world.
 <!--more-->
 
 ## Liú Ruìméi
+
+<section class="gallery">
+{{% gallery "sacrificial" "Ruimei" %}}
+</section>

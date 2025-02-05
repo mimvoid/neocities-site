@@ -13,3 +13,7 @@ The leader of The Hidden Hand.
 <!--more-->
 
 ## Xuānyuán Àoyì
+
+<section class="gallery">
+{{% gallery "sacrificial" "Xuanyuan" %}}
+</section>

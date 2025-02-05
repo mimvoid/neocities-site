@@ -13,3 +13,7 @@ The young heir to the Mu Family, unsteady about his place in the world.
 <!--more-->
 
 ## Mù Chāngwèi
+
+<section class="gallery">
+{{% gallery "sacrificial" "Changwei" %}}
+</section>

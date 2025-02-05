@@ -13,3 +13,7 @@ A healer prone to losing themselves in threads and patchwork.
 <!--more-->
 
 ## Sōu Xiánmǐn
+
+<section class="gallery">
+{{% gallery "sacrificial" "Xianmin" %}}
+</section>

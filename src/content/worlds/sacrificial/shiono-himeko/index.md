@@ -13,3 +13,7 @@ The most popular girl in school, who sees humanity as utterly superficial.
 <!--more-->
 
 ## Shiono Himeko
+
+<section class="gallery">
+{{% gallery "sacrificial" "Shiono" %}}
+</section>
