@@ -14,3 +14,7 @@ Leader of Myr Division 02.
 
 Under Construction...
 {.secondary}
+
+<section class="gallery">
+{{% gallery "aegis-of-death" "Deuce" %}}
+</section>

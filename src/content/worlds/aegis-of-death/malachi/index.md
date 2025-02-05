@@ -84,6 +84,9 @@ TBA
 <section class="relations">
 {{% snippet "relations.md" %}}
 </section>
+<section class="gallery">
+{{% gallery "aegis-of-death" "Malachi" %}}
+</section>
 <section class="extra">
 
 {{% figure

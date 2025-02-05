@@ -15,3 +15,7 @@ The youngest member of the AOD Myr Branch.
 
 Under Construction...
 {.secondary}
+
+<section class="gallery">
+{{% gallery "aegis-of-death" "Aisling" %}}
+</section>

@@ -15,3 +15,7 @@ Responder of Myr Division 02 and Everett and Sonya's coworker.
 
 Under Construction...
 {.secondary}
+
+<section class="gallery">
+{{% gallery "aegis-of-death" "Halle" %}}
+</section>

@@ -1,0 +1,137 @@
+[
+  {
+    "year": "2024",
+    "items": [
+      {
+        "file": "2024-01-EverettSplashArt.webp",
+        "tags": [ "Everett" ],
+        "creation": "2024 Jan",
+        "desc": "A mock splash art of Everett",
+        "alt": "Everett's splash art with a blood halo and a red ring with splatters in the background"
+      },
+      {
+        "file": "2024-01-EverettClothesV1.webp",
+        "tags": [ "Everett" ],
+        "creation": "2024 Jan",
+        "desc": "Clothing concept art 1",
+        "alt": "A collection of concept sketches of Everett in varying clothing styles"
+      },
+      {
+        "file": "2024-01-EverettClothesV2.webp",
+        "tags": [ "Everett" ],
+        "creation": "2024 Jan",
+        "desc": "Clothing concept art 2",
+        "alt": "A continuation of Everett's clothing concept art, with the final design"
+      },
+      {
+        "file": "2024-07-AOD-sketches.webp",
+        "tags": [ "Sonya" ],
+        "creation": "2024 Jul",
+        "desc": "A simple Sonya sketch",
+        "alt": "A flat colored sketch of Sonya with flowy hair"
+      },
+      {
+        "file": "2024-12-Everett.webp",
+        "tags": [ "Everett" ],
+        "creation": "2024 Dec",
+        "desc": "A painting experiment",
+        "alt": "Everett in a painterly style with muted colors"
+      },
+      {
+        "file": "2024-12-Sonya-Sketch.webp",
+        "tags": [ "Sonya" ],
+        "creation": "2024 Dec",
+        "desc": "A painting experiment",
+        "alt": "A sketch of Sonya in a painterly style"
+      },
+      {
+        "file": "2024-12-felix-design.webp",
+        "tags": [ "Felix" ],
+        "creation": "2024 Dec",
+        "desc": "Felix with a newer design",
+        "alt": "A sketch of Felix resting on his arms, smiling"
+      }
+    ]
+  },
+  {
+    "year": "2023",
+    "items": [
+      {
+        "file": "2023-01-EverettBreakdown.webp",
+        "tags": [ "Everett" ],
+        "creation": "2023 Jan",
+        "desc": "Breakdown",
+        "alt": "A sketch of Everett sitting in a bathtub with a rubber duckie on his head"
+      },
+      {
+        "file": "2023-03-AnastasiaDesignAoD-M.webp",
+        "tags": [ "Anastasia" ],
+        "creation": "2023 Mar",
+        "desc": "A more recent concept sketch of Anastasia, now an AOD researcher",
+        "alt": "A fullbody and headshot sketch of Anastasia with a white lab coat, black overcoat-like dress, and messy hair"
+      },
+      {
+        "file": "2023-05-StyleExperiment-M.webp",
+        "tags": [ "Everett" ],
+        "creation": "2023 May",
+        "desc": "An art style experiment",
+        "alt": "A sketch of Everett with anime-style hair and highlights on their eyelashes"
+      },
+      {
+        "file": "2023-05-AoDKolyaEdition-Malachi-M.webp",
+        "tags": [ "Malachi" ],
+        "creation": "2023 May",
+        "desc": "Malachi's not all the way there...",
+        "alt": "A sketch of Malachi with messy hair and a scratchy shadow-like iris"
+      },
+      {
+        "file": "2023-07-Hal.webp",
+        "tags": [ "Halle" ],
+        "creation": "2023 Jul",
+        "desc": "Concept sketches of Halle, then simply called Hal",
+        "alt": "Sketches of Halle's concept design with a thin body, altered office clothes, a headset, and a camera eye"
+      },
+      {
+        "file": "2023-12-FelixAvatar.webp",
+        "tags": [ "Felix" ],
+        "creation": "2023 Dec",
+        "desc": "An avatar to mess around on Character.ai with Felix's early design",
+        "alt": "An avatar of Felix with thicker hair and a brown coat"
+      }
+    ]
+  },
+  {
+    "year": "2020",
+    "items": [
+      {
+        "file": "2020-04-Strawberry.webp",
+        "tags": [ "Sonya" ],
+        "creation": "2020 Apr",
+        "desc": "A very early drawing of Sonya, then called Juna",
+        "alt": "A warm colored drawing of Juna standing with floating hair and a hand on her hip"
+      },
+      {
+        "file": "2020-04-StrawberryBlood.webp",
+        "tags": [ "Sonya" ],
+        "creation": "2020 Apr",
+        "desc": "Alt version of a very early drawing of Sonya",
+        "alt": "A drawing of only grays and bright pinks, with Juna now smiling with hintsof pink splatters"
+      },
+      {
+        "file": "2020-09-ChibiJuna.webp",
+        "tags": [ "Sonya" ],
+        "creation": "2020 Sep",
+        "desc": "Mildly chibi art of Sonya, then called Juna",
+        "alt": "Juna stands in a background of cyan and hearts"
+      },
+      {
+        "file": "2020-11-UmbrellaHat.webp",
+        "tags": [ "Sonya" ],
+        "tags": [ "Anastasia" ],
+        "creation": "2023 Nov",
+        "desc": "Very early design of Anastasia in her black market dealer era",
+        "alt": "A tall gangly Anastasia stands with an umbrella and hat marked with eye symbols"
+      }
+    ]
+  }
+]

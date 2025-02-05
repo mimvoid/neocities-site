@@ -15,3 +15,7 @@ The researcher who assigned herself to Subject ψ-01.
 
 Under Construction...
 {.secondary}
+
+<section class="gallery">
+{{% gallery "aegis-of-death" "Anastasia" %}}
+</section>
