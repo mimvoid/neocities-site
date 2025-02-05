@@ -1,8 +1,7 @@
 {{- $file := default "style.scss" (.Get 0) -}}
-{{- $style := .Page.Resources.Get $file -}}
 
-<!-- Fingerprint so the browser doesn't cache changed stylesheets -->
-{{ with $style | toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
+{{- /* Fingerprint so the browser doesn't cache changed stylesheets */ -}}
+{{ with .Page.Resources.Get $file | toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
 <link
   type="text/css"
   rel="stylesheet"
