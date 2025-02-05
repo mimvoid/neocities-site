@@ -1,7 +1,5 @@
-{{ $world := print "worlds/" .world }}
-
-{{ if .context.IsPage }}
-  {{ with site.GetPage .world }}
+{{ if .IsPage }}
+  {{ with index .Ancestors.Reverse 2 }}
     <a class="breadcrumb" href="{{ .RelPermalink }}">{{ .Title }}</a>
   {{ end }}
 {{ end }}
