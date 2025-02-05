@@ -1,0 +1,20 @@
+.gallery-content {
+  columns: 3 14rem;
+  column-gap: 0.5rem;
+
+  figure {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 2px;
+  }
+
+  figcaption {
+    display: none;
+  }
+}

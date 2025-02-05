@@ -24,8 +24,14 @@
 <meta name="author" content="mimvoid" />
 
 {{ partial "utils/style" "scss/style.scss" }}
-{{ if .Params.zoomable }}
+{{ if or .Params.zoomable (or .Params.character .Params.gallery) }}
   {{ partial "utils/style" "scss/extra/figure-zoom.scss" }}
-  {{ partial "utils/script" "ts/figureZoom.ts" }}
+{{ end }}
+{{ if .Params.zoomable }}
+  {{ partial "utils/script" "ts/figureZoom/figureZoom.ts" }}
+{{ end }}
+{{ if or .Params.character .Params.gallery }}
+  {{ partial "utils/style" "scss/extra/gallery-zoom.scss" }}
+  {{ partial "utils/script" "ts/figureZoom/galleryZoom.ts" }}
 {{ end }}
 {{ partial "utils/script" "ts/themeToggle/main.ts" }}
