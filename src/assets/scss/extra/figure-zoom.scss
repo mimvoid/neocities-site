@@ -19,7 +19,7 @@ figure.zoomed {
   margin: 0;
   padding: 1em;
 
-  background-color: rgba(0, 0, 0, .75);
+  background-color: rgba(0, 0, 0, .85);
   cursor: zoom-out;
 
   img {
@@ -28,7 +28,7 @@ figure.zoomed {
   }
 
   figcaption {
-    color: var(--fg);
+    color: ghostwhite;
   }
 
   p {
