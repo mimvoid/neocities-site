@@ -20,11 +20,33 @@
 
     &:focus, &:hover {
       transform: rotate(1deg);
+
+      p.tw {
+        opacity: 100%
+      }
     }
   }
 
   img {
     width: 100%;
+
+    &.tw-img {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); // blur edges less
+      filter: blur(3px) saturate(75%);
+      image-rendering: pixelated;
+    }
+  }
+  p.tw {
+    $shadow: drop-shadow(0 0 1px var(--bg));
+
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    filter: $shadow $shadow $shadow;
+    transition: var(--transition);
   }
 
   figcaption p {
@@ -53,4 +75,8 @@
   figcaption {
     color: var(--fg);
   }
+}
+
+figure.zoomed p.tw {
+  display: none;
 }

@@ -3,7 +3,6 @@
 
 {{- range resources.Get (path.Join "images/galleries" $dataFile) | transform.Unmarshal -}}
   {{- $year := .year -}}
-
   {{- $items := .items -}}
   {{- with $.Get 1 -}}
     {{- $items = where $items "tags" "intersect" (split . " ") -}}
@@ -13,20 +12,23 @@
     <h2>{{ $year }}</h2>
     <div class="gallery-content">
       {{- range . -}}
-        {{- $alt := default .desc .alt -}}
-        {{- $date := default $year .creation -}}
-        {{- $fullDesc := printf "%s (%s)" .desc $date -}}
+        {{- if $img := resources.Get (path.Join "images/galleries" $data .file) -}}
+          {{- $date := default $year .creation -}}
+          {{- $fullDesc := printf "%s (%s)" .desc $date -}}
 
-        {{- with resources.Get (path.Join "images/galleries" $data .file) -}}
           <figure>
             <img
               loading="lazy"
-              src="{{ .RelPermalink }}"
-              width="{{ .Width }}"
-              height="{{ .Height }}"
-              alt="{{ $alt }}"
+              src="{{ $img.RelPermalink }}"
+              width="{{ $img.Width }}"
+              height="{{ $img.Height }}"
+              alt="{{ default .desc .alt }}"
               title="{{ $fullDesc }}"
+              {{- if .tw -}}class="tw-img"{{- end -}}
             />
+            {{- with .tw -}}
+              <p class="tw">TW: {{ delimit . ", " }}</p>
+            {{- end -}}
             <figcaption><p>{{ $fullDesc }}</p></figcaption>
           </figure>
         {{- end -}}
