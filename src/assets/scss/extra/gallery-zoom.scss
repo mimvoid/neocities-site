@@ -1,20 +1,56 @@
+@use "../partials/jott-flf";
+
 .gallery-content {
   columns: 3 14rem;
   column-gap: 0.5rem;
 
   figure {
+    position: relative;
     cursor: pointer;
-    display: block;
+    display: inline-block;
     width: 100%;
-    margin: 0;
+
+    margin: 0 0 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 0;
+
+    box-shadow: 0 0.1rem 0.25rem rgba(from var(--fg-dim) r g b / 0.5);
+    background-color: ghostwhite;
+    transition: transform 0.05s linear;
+
+    &:focus, &:hover {
+      transform: rotate(1deg);
+    }
   }
 
   img {
     width: 100%;
-    border-radius: 2px;
   }
 
+  figcaption p {
+    margin: 0.1rem 0.15rem 0.25rem;
+    font-family: "Jott FLF";
+    font-size: 0.9rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+[data-theme="dark"] .gallery-content {
+  figure:before, figure:after {
+    border-color: var(--overlay);
+  }
   figcaption {
-    display: none;
+    color: var(--bg);
+  }
+}
+
+[data-theme="light"] .gallery-content {
+  figure:before, figure:after {
+    border-color: var(--fg);
+  }
+  figcaption {
+    color: var(--fg);
   }
 }
