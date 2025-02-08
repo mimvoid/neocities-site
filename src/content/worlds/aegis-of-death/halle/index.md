@@ -10,6 +10,7 @@ params:
 ---
 
 Responder of Myr Division 02 and Everett and Sonya's coworker.
+{.summary}
 
 <!--more-->
 

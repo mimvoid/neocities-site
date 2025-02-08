@@ -3,7 +3,7 @@ title: Home
 description: mimvoid's little corner, my space on the internet
 date: 2024-07-22T21:27:02-04:00
 params:
-    customTitle: Welcome and Salutations!
+    customTitle: Welcome & Salutations!
 ---
 
 <div style="margin-bottom: 1.5em">

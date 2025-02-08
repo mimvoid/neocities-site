@@ -118,7 +118,7 @@ most interesting. Please look at the previous links and footnotes if you want to
 
 {{% pangram font="Vertigo Plus FLF" %}}
 
-[^1]: "Latest News". *Moorstation*. https://moorstation.org/typoasis/index.htm.
+[^1]: "Latest News". *typOasis*. https://moorstation.org/typoasis/index.htm.
 [^2]: Casady, Robin. "From Robin Casady." http://www.robincasady.com/aboutCG.html.
 [^3]: "About Casady & Greene." *Casady & Greene*. https://web.archive.org/web/20030405142716/http://www.casadyg.com/about/about.html.
 [^4]: Devroye, Luc. "Casady&Greene (Fluentlaserfonts)." *Luc Devroye*. https://luc.devroye.org/fonts-27509.html
