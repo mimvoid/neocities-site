@@ -49,6 +49,7 @@ $headings: (
 
 @each $h, $size in $headings {
   #{$h} {
+    @include looks.transition;
     font-family: var(--heading);
     font-size: $size;
     color: var(--heading-color);
@@ -57,7 +58,6 @@ $headings: (
 }
 
 h1 {
-  @include looks.transition;
   margin-bottom: 0.75em;
   text-shadow:
     0.5px 0.5px 0 var(--bg),
@@ -119,6 +119,10 @@ a {
 
   &:focus, &:hover {
     color: var(--tertiary);
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--tertiary);
+    }
   }
 }
 
