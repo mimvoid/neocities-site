@@ -26,8 +26,8 @@ body {
 
   font-family: var(--body);
   font-size: 1em;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+  letter-spacing: 0.015em;
+  line-height: 1.45;
 
   * {
     image-rendering: auto;
@@ -72,6 +72,11 @@ h1 {
 /*-------
  * Text
  *-------*/
+
+// Make text slightly bolder
+p, li, span {
+  text-shadow: 0 0.01px 0, 0.01px 0 0;
+}
 
 strong,
 .primary {
