@@ -7,6 +7,7 @@ weight: 40
 params:
     character: true
     classification: Entity ω-186
+    ruby: Феликс Антонович Соколов
 ---
 
 An assistant journalist with an interest in shadows.

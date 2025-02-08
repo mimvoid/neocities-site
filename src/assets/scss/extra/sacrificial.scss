@@ -1,4 +1,5 @@
 @use "../partials/noto-serif-sc";
+@use "./ruby-h1";
 @use "./character-tabs.scss";
 
 // Variables
@@ -43,39 +44,7 @@ h1 {
 
   font-family: $font;
   margin: 0.25em 0 0.5em;
-
-  rt, rp, rtc {
-    font-family: $font;
-    font-size: 1rem;
-    color: var(--heading-color);
-  }
-
-  rt, rtc {
-    pointer-events: none;
-    position: relative;
-    opacity: 0;
-    transition: var(--transition);
-  }
-  rt {
-    top: 0.5rem;
-  }
-  rtc {
-    bottom: 0.5rem;
-  }
 }
-
-h1 ruby:hover {
-  rt, rtc {
-    opacity: 1;
-  }
-  rt {
-    top: 0.25rem;
-  }
-  rtc {
-    bottom: 0.25rem;
-  }
-}
-
 
 // Classes
 

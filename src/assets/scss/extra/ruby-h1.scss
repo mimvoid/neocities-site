@@ -1,0 +1,31 @@
+h1 {
+  rt, rp, rtc {
+    font-size: 1rem;
+    color: var(--heading-color);
+  }
+
+  rt, rtc {
+    pointer-events: none;
+    position: relative;
+    opacity: 0;
+    transition: var(--transition);
+  }
+  rt {
+    top: 0.5rem;
+  }
+  rtc {
+    bottom: 0.5rem;
+  }
+
+  &:hover {
+    rt, rtc {
+      opacity: 1;
+    }
+    rt {
+      top: 0.25rem;
+    }
+    rtc {
+      bottom: 0.25rem;
+    }
+  }
+}

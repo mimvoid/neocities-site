@@ -7,6 +7,7 @@ weight: 30
 params:
     character: true
     classification: Entity ω-673
+    ruby: София Антоновна Соколова
     zoomable: true
 ---
 
