@@ -27,10 +27,17 @@
 
               {{- block "title" . -}}
                 {{- if not .Params.noTitle -}}
-                  {{- with .Params.customTitle -}}
-                    <h1>{{- . -}}</h1>
+                  {{- $title := default .Title .Params.customTitle -}}
+                  {{- with .Params.ruby -}}
+                    <h1>
+                    <ruby>
+                      {{- $title -}}
+                      <rt>{{- . -}}</rt>
+                      <rp>{{- . -}}</rp>
+                    </ruby>
+                    </h1>
                   {{- else -}}
-                    <h1>{{- .Title -}}</h1>
+                    <h1>{{- $title -}}</h1>
                   {{- end -}}
                 {{- end -}}
               {{- end -}}
