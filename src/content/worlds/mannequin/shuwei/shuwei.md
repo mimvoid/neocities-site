@@ -5,10 +5,9 @@ date: 2024-09-24T21:41:42-04:00
 params:
     character: true
     customTitle: 任淑为
+    ruby: Rén Shūwéi
 ---
 
 A model student admired by many, to near artificial perfection.
 
 <!--more-->
-
-## Rén Shūwéi
