@@ -7,6 +7,14 @@
 }
 
 // Site-wide styling
+html {
+  scroll-behavior: smooth;
+
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
+}
+
 body {
   margin: 0;
   color: var(--fg);
@@ -269,6 +277,7 @@ pre {
 img {
   max-width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 // Figures

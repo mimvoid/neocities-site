@@ -52,7 +52,18 @@ article.box {
 }
 
 .sidebar nav > .box {
+  max-height: 94vh;
+  overflow-y: scroll;
+  overscroll-behavior: none;
   padding: 0.6em 0.8em;
+
+  // Hide scrollbar
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   details, p {
     margin: 0.5em 0;
