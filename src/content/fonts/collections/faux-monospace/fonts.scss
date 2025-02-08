@@ -1,0 +1,17 @@
+@include font("0xProto", "0xProto-Regular", $local: "0xProto Regular");
+@include font("0xProto", "0xProto-Italic", $style: italic);
+
+@include font("Monaspace Neon", "MonaspaceNeon-Regular");
+@include font("Monaspace Argon", "MonaspaceArgon-Regular");
+@include font("Monaspace Xenon", "MonaspaceXenon-Regular");
+@include font("Monaspace Radon", "MonaspaceRadon-Regular");
+@include font("Monaspace Krypton", "MonaspaceKrypton-Regular");
+
+@include font("iA Writer Duo", "iAWriterDuoS-Regular", $local: "iA Writer Duo Regular");
+@include font("iA Writer Duo", "iAWriterDuoS-Bold", $weight: bold);
+@include font("iA Writer Quattro", "iAWriterQuattroS-Regular", $local: "iA Writer Quattro Regular");
+
+@include font("Trispace Condensed", "TrispaceCondensed-Regular");
+@include font("Trispace SemiCondensed", "TrispaceSemiCondensed-Regular");
+@include font("Trispace Regular", "Trispace-Regular");
+@include font("Trispace Expanded", "TrispaceExpanded-Regular");
