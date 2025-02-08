@@ -22,11 +22,16 @@ body {
   background: var(--bg-img) var(--bg-color);
   background-size: var(--bg-size);
   background-attachment: fixed;
+  image-rendering: crisp-edges;
 
   font-family: var(--body);
   font-size: 1em;
   letter-spacing: 0.02em;
   line-height: 1.5;
+
+  * {
+    image-rendering: auto;
+  }
 }
 
 /*---------
