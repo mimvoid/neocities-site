@@ -6,13 +6,12 @@ weight: 50
 params:
     character: true
     customTitle: 軒轅奥忆
+    ruby: Xuānyuán Àoyì
 ---
 
 The leader of The Hidden Hand.
 
 <!--more-->
-
-## Xuānyuán Àoyì
 
 <section class="gallery">
 {{% gallery "sacrificial" "Xuanyuan" %}}

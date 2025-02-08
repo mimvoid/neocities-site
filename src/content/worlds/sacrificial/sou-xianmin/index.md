@@ -6,13 +6,12 @@ weight: 40
 params:
     character: true
     customTitle: 飕弦敏
+    ruby: Sōu Xiánmǐn
 ---
 
 A healer prone to losing themselves in threads and patchwork.
 
 <!--more-->
-
-## Sōu Xiánmǐn
 
 <section class="gallery">
 {{% gallery "sacrificial" "Xianmin" %}}
