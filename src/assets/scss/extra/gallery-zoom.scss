@@ -39,6 +39,7 @@
   p.tw {
     $shadow: drop-shadow(0 0 2px var(--bg));
 
+    pointer-events: none;
     opacity: 0;
     position: absolute;
     top: 50%;
