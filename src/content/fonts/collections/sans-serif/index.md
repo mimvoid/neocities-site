@@ -18,7 +18,7 @@ Under Construction...
 
 {{% pangram font="Karla" %}}
 
-Karla is the body font of my website!
+Karla used to be the body font of my website!
 
 It's a nice friendly-looking font with an air of playfulness.
 

@@ -20,30 +20,31 @@
   $weight: bold
 );
 
-// karla-regular - latin
+// livvic-regular - latin
 @include font(
-  $family: Karla,
-  $file: "karla_400",
-  $local: "Karla Regular"
+  $family: Livvic,
+  $file: "livvic",
+  $local: "Livvic Regular"
 );
 
-// karla-italic - latin
+// livvic-italic - latin
 @include font(
-  $family: Karla,
-  $file: "karla_400-italic",
+  $family: Livvic,
+  $file: "livvic_italic",
   $style: italic
 );
 
-// karla-600 - latin
+// livvic-600 - latin
 @include font(
-  $family: Karla,
-  $file: "karla_600",
+  $family: Livvic,
+  $file: "livvic_600",
   $weight: bold
 );
 
-// karla-600italic - latin
+// livvic-600italic - latin
 @include font(
-  $family: Karla,
-  $file: "karla_600-italic",
-  $weight: bold
+  $family: Livvic,
+  $file: "livvic_600-italic",
+  $weight: bold,
+  $style: italic
 );
