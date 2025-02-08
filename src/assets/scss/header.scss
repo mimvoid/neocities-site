@@ -29,12 +29,14 @@ header {
   @include looks.transition;
 
   margin-right: 1.25em;
+  font-family: var(--heading);
   font-weight: bold;
+  letter-spacing: -0.02em;
   color: var(--fg);
 
   svg {
     @include looks.transition;
-    margin-right: 0.35em;
+    margin-right: 0.25em;
     color: var(--primary);
   }
 

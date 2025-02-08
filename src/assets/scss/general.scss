@@ -39,7 +39,7 @@ body {
  *---------*/
 
 $headings: (
-  h1: 2.5em,
+  h1: 3em,
   h2: 2em,
   h3: 1.5em,
   h4: 1.25em,
@@ -52,11 +52,13 @@ $headings: (
     font-family: var(--heading);
     font-size: $size;
     color: var(--heading-color);
+    letter-spacing: -0.03em;
   }
 }
 
 h1 {
   @include looks.transition;
+  margin-bottom: 0.75em;
   text-shadow:
     0.5px 0.5px 0 var(--bg),
     2px 2px 0 rgba(from var(--primary) r g b / 0.5);

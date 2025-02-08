@@ -1,10 +1,11 @@
 @use "partials/font-face" as * with ($path: "../fonts");
 
-// ia-writer-duospace bold
+// trispace bold
 @include font(
-  $family: "iA Writer Duo",
-  $file: "ia-writer-duos_bold",
-  $weight: 700
+  $family: "Trispace",
+  $file: "trispace_800",
+  $weight: 800,
+  $local: "Trispace ExtraBold"
 );
 
 // ia-writer-monospace
