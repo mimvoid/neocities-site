@@ -48,6 +48,10 @@
     margin: 0;
     filter: $shadow $shadow $shadow;
     transition: var(--transition);
+
+    @media (orientation: portrait) {
+      opacity: 1;
+    }
   }
 
   figcaption p {

@@ -53,6 +53,10 @@
   .box {
     margin: 0.4em;
   }
+  main > .box {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
 
   footer .bar {
     justify-content: center;
