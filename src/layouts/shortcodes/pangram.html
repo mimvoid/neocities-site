@@ -23,7 +23,7 @@
   "hr" "gojazni đačić s biciklom drži hmelj i finu vatu u džepu nošnje."
 -}}
 
-<div class="large" style="font-family: '{{ .Get "font" }}'">
+<div class="pangram large" style="font-family: '{{ .Get "font" }}'">
   {{- with $lang -}}
     {{- if or (index $langAbbrev .) (index $pangrams .) -}}
       {{- with default . (index $langAbbrev .) -}}

@@ -79,6 +79,9 @@ h1 {
 p, li, span {
   text-shadow: 0 0.01px 0, 0.01px 0 0;
 }
+.pangram p {
+  text-shadow: none;
+}
 
 strong,
 .primary {
