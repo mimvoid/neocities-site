@@ -95,3 +95,8 @@ h2.section {
   border: 1px solid var(--fg-dim);
   background-color: var(--bg) !important;
 }
+
+hr.date-hr::before {
+  content: "***";
+  top: 1em;
+}

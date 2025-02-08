@@ -290,14 +290,44 @@ figcaption {
   color: var(--fg-dim);
 }
 
+/*----------------
+ * Horizontal rule
+ *----------------*/
+
+hr {
+  margin: 1.5em 0;
+  border: none;
+  border-bottom: 1px solid rgba(from var(--secondary) r g b / 0.5);
+}
+
+hr.date-hr {
+  overflow: visible;
+  margin: 0 0 2.25em;
+  text-align: center;
+
+  &::before {
+    @include looks.transition;
+    content: "❤ ♠ ❤";
+
+    display: inline-block;
+    position: relative;
+    top: 0.75em;
+    padding: 0 0.5em;
+
+    color: var(--secondary);
+    background-color: var(--bg);
+    opacity: 0.9;
+
+  }
+
+  &:hover::before {
+    color: var(--primary);
+  }
+}
+
 /*------------
  * Date stats
  *------------*/
-hr {
-  margin: 1.5em 0;
-  color: var(--secondary);
-  opacity: 0.35;
-}
 
 .dates {
   text-align: right;
