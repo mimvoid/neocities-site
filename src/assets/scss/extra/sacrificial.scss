@@ -40,10 +40,13 @@
 // Elements
 
 h1 {
-  $font: "Noto Serif SC", "Source Han Serif SC", serif;
-
-  font-family: $font;
   margin: 0.25em 0 0.5em;
+  font-family: "Noto Serif SC", "Source Han Serif SC", serif;
+  text-shadow: none;
+
+  &:hover {
+    text-shadow: none;
+  }
 }
 
 // Classes

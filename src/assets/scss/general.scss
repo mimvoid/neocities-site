@@ -55,6 +55,20 @@ $headings: (
   }
 }
 
+h1 {
+  @include looks.transition;
+  text-shadow:
+    0.5px 0.5px 0 var(--bg),
+    2px 2px 0 rgba(from var(--primary) r g b / 0.5);
+
+  &:hover {
+    color: var(--tertiary);
+    text-shadow:
+      1.5px 1.5px 0 var(--bg),
+      3px 3px 0 rgba(from var(--heading-color) r g b / 0.5);
+  }
+}
+
 /*-------
  * Text
  *-------*/

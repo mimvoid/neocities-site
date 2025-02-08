@@ -6,6 +6,7 @@
 
 :root {
   --body: "Courier Prime", "Courier New", "Courier", monospace;
+  --heading-color: var(--tertiary);
   --border-radius: 0;
   --border-size: 1px;
   --active-border: var(--fg);
@@ -53,6 +54,12 @@ h3, h4, h5, h6 {
 h1 {
   text-decoration: 0.05em underline;
   text-underline-offset: 0.25em;
+  text-shadow: none;
+
+  &:hover {
+    color: var(--heading-color);
+    text-shadow: none;
+  }
 }
 // don't change color for links in headings
 h3 a {
