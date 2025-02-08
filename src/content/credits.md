@@ -28,12 +28,13 @@ Several other backgrounds are from
 
 **Fonts**
 
-- Headers: [iA Writer Duo][f1]
-- Body: [Karla][f2]
-- Monospace: [iA Writer Mono][f1]
+- Headings: [Trispace][f1]
+- Body: [Livvic][f2]
+- Monospace: [iA Writer Mono][f3]
 
-[f1]: https://github.com/iaolo/iA-Fonts
-[f2]: https://github.com/googlefonts/karla
+[f1]: https://etceteratype.co/trispace
+[f2]: https://fonts.google.com/specimen/Livvic
+[f3]: https://github.com/iaolo/iA-Fonts
 
 The colors were modified from [Catppuccin Macchiato](https://catppuccin.com). It's a very nice pastel color palette!
 
