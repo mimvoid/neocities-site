@@ -7,3 +7,7 @@ layout: index
 ---
 
 A collection of my stories.
+
+## [Characters!]({{% relref "characters" %}})
+
+All of my characters across worlds! {{% kaomoji "(´｡• ᵕ •｡) ♡" %}}

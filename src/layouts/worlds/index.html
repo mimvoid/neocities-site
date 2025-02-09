@@ -1,11 +1,6 @@
 {{ define "main" }}
   {{ .Content -}}
 
-  {{ with .GetPage "characters" }}
-    <h2><a href="{{ .RelPermalink }}">Characters!</a></h2>
-    <p>All of my characters across worlds! <span class="secondary">(´｡• ᵕ •｡) ♡</span></p>
-  {{ end }}
-
   <div class="cards">
     {{ range .Sections }}
       <div class="card">
