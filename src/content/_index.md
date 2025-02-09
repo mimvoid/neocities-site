@@ -6,6 +6,8 @@ params:
     customTitle: Welcome & Salutations!
 ---
 
+{{% style %}}
+
 <div style="margin-bottom: 1.5em">
     <span class="secondary">Artist</span>
     / <span class="secondary">Designer</span>
@@ -17,15 +19,35 @@ Hi there, I'm **mimvoid**!
 
 I made this website as my own little space on the internet.
 
-You will find me sharing my many interests:
-<span class="secondary">biology, art, design, software,</span>
-and other goodies:
+<fieldset>
+<legend>Goodies</legend>
 
-- [Font collections]({{% relref "fonts/collections" %}})
-- [Media file formats]({{% relref "formats" %}})
-- Interesting algae
-- Neat open-source software
-- [My story ideas and worlds]({{% relref "/worlds" %}})!
+<div class="icon-grid">
+{{< icon-grid.inline >}}
+
+{{-
+    $icons := slice
+    (dict "icon" "heart" "link" "worlds" "title" "Worlds & Characters")
+    (dict "icon" "edit-box" "link" "fonts" "title" "Typography")
+    (dict "icon" "file-alt" "link" "formats" "title" "File Formats (WIP)")
+    (dict "icon" "debug" "link" "biology" "title" "Biology (WIP)")
+    (dict "icon" "script-text" "link" "linguistics" "title" "Linguistics (WIP)")
+-}}
+
+{{- range $icons -}}
+    <a
+        {{ with $.Page.GetPage .link -}}
+            href="{{ .RelPermalink }}"
+        {{- end -}}
+    >
+        {{ partial "utils/svg" (print "pai-" .icon) }}
+        <p class="small">{{ default (strings.Title .link) .title }}</p>
+    </a>
+{{- end -}}
+
+{{< /icon-grid.inline >}}
+</div>
+</fieldset>
 
 Linked in the footer are [my website's source code](https://github.com/mimvoid/neocities-site)
 and [useful resources]({{% relref "/credits" %}}).

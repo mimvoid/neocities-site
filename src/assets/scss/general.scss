@@ -253,6 +253,33 @@ blockquote {
   background-color: var(--overlay-dim);
 }
 
+/*----------
+ * Fieldsets
+ *----------*/
+
+fieldset {
+  @include looks.border-radius;
+  @include looks.transition;
+
+  margin: 2em 0;
+  padding: 1.5em;
+  border: 1px solid var(--inactive-border);
+
+  &:focus, &:hover {
+    border-color: var(--active-border);
+
+    legend {
+      color: var(--active-border);
+    }
+  }
+}
+
+legend {
+  @include looks.transition;
+  font-weight: bolder;
+  color: var(--inactive-border);
+}
+
 /*--------
  * Tables
  *--------*/

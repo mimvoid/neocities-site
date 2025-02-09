@@ -27,6 +27,16 @@
   }
 }
 
+@keyframes float {
+  from, to {
+    transform: translatey(0);
+  }
+
+  50% {
+    transform: translatey(-0.1em);
+  }
+}
+
 .pop:hover {
   animation: 0.25s ease-in-out pop;
 }
@@ -35,8 +45,12 @@
   animation: 0.3s ease-in-out pull-down;
 }
 
+.float {
+  animation: 0.5s ease-in-out float infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .pop:hover, .pull-down {
+  .pop:hover, .pull-down, .float {
     animation-duration: 0s;
   }
 }

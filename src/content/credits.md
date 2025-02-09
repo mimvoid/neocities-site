@@ -38,7 +38,7 @@ Several other backgrounds are from
 
 The colors were modified from [Catppuccin Macchiato](https://catppuccin.com). It's a very nice pastel color palette!
 
-The icons are from [Phosphor](https://phosphoricons.com).
+The icons are from [Phosphor](https://phosphoricons.com) and [Pixelarticons](https://pixelarticons.com).
 
 The overall design was inspired by **TUIs** and **tiling window managers**. I find them really charming for their simplicity and design constraints. There was not one single inspiration, but some of them include:
 
