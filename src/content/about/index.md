@@ -14,8 +14,8 @@ params:
 <div class="fetcher">
     <p class="prompt tertiary">about-fetch</p>
     <div class="content">
-        <div class="art pop">
-            {{< avatar.inline >}}
+        {{< fetcher.inline >}}
+            <div class="art pop">
                 {{ $alt := "A headshot of mimvoid's persona, with expressions drawn on a piece of paper covering their real face." }}
                 {{ with .Page.Resources.Get "avatar-1.webp" }}
                     <img
@@ -35,31 +35,31 @@ params:
                         alt={{ $alt }}
                     />
                 {{ end }}
-            {{< /avatar.inline >}}
-        </div>
-        <div class="text">
-            <div class="info">
-                <strong class="groups">
-                    <p>user</p>
-                    <p>pronouns</p>
-                    <p>b-day</p>
-                    <p>os</p>
-                    <p>distro</p>
-                </strong>
-                <div class="data">
-                    <p>mimvoid<span class="primary">@</span>neocities</p>
-                    <p>she/they</p>
-                    <p>March 29</p>
-                    <p>Linux</p>
-                    <p>NixOS :D</p>
+            </div>
+            <div class="text">
+                <div class="info">
+                    <strong class="groups">
+                        <p>{{ partial "utils/svg" "pai-user" }} user</p>
+                        <p>{{ partial "utils/svg" "pai-message-processing" }} pronouns</p>
+                        <p>{{ partial "utils/svg" "pai-calendar-tomorrow" }} b-day</p>
+                        <p>{{ partial "utils/svg" "pai-device-laptop" }} os</p>
+                        <p>{{ partial "utils/svg" "pai-ac" }} distro</p>
+                    </strong>
+                    <div class="data">
+                        <p>mimvoid<span class="primary">@</span>neocities</p>
+                        <p>she/they</p>
+                        <p>March 29</p>
+                        <p>Linux</p>
+                        <p>NixOS :D</p>
+                    </div>
+                </div>
+                <div class="palette">
+                    <span class="primary"></span>
+                    <span class="secondary"></span>
+                    <span class="tertiary"></span>
                 </div>
             </div>
-            <div class="palette">
-                <span class="primary"></span>
-                <span class="secondary"></span>
-                <span class="tertiary"></span>
-            </div>
-        </div>
+        {{< /fetcher.inline >}}
     </div>
 </div>
 
