@@ -19,7 +19,7 @@ much whitespace. It's very apparent if you bump the font size up, in headings fo
 **"Faux monospace"** fonts, as I've come to call them, can be the best of both worlds! They're
 mostly monospace, but widen or narrow some of the glyphs for readability.
 
-So far, I haven't been able to find many. If you know some, please please tell let me about them!
+So far, I haven't been able to find many. If you know some, please please tell me about them!
 
 ## Texture Healing Fonts
 
