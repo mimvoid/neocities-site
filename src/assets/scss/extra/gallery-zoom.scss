@@ -1,4 +1,4 @@
-@use "../partials/jott-flf";
+@use "./polaroid";
 
 .gallery-content {
   columns: 3 14rem;
@@ -10,75 +10,37 @@
     display: inline-block;
     width: 100%;
 
-    margin: 0 0 0.5rem 0;
-    padding: 0.5rem;
-    border-radius: 0;
-
-    box-shadow: 0 0.1rem 0.25rem rgb(from var(--fg-dim) r g b / 0.5);
-    background-color: ghostwhite;
-    transition: transform 0.05s linear;
-
     &:focus, &:hover {
-      transform: rotate(1deg);
-
       p.tw {
-        opacity: 100%
+        opacity: 1;
       }
     }
   }
 
-  img {
-    width: 100%;
-
-    &.tw-img {
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); // blur edges less
-      filter: blur(3px) saturate(75%);
-      image-rendering: pixelated;
-    }
-  }
-  p.tw {
-    $shadow: drop-shadow(0 0 2px var(--bg));
-
-    pointer-events: none;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    filter: $shadow $shadow $shadow;
-    transition: var(--transition);
-
-    @media (orientation: portrait) {
-      opacity: 1;
-    }
-  }
-
-  figcaption p {
-    margin: 0.1rem 0.15rem 0.25rem;
-    font-family: "Jott FLF";
-    font-size: 0.9rem;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+  img.tw-img {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); // blur edges less
+    filter: blur(3px) saturate(75%);
+    image-rendering: pixelated;
   }
 }
 
-[data-theme="dark"] .gallery-content {
-  figure:before, figure:after {
-    border-color: var(--overlay);
-  }
-  figcaption {
-    color: var(--bg);
-  }
-}
+p.tw {
+  pointer-events: none;
+  opacity: 0;
 
-[data-theme="light"] .gallery-content {
-  figure:before, figure:after {
-    border-color: var(--fg);
-  }
-  figcaption {
-    color: var(--fg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  $shadow: drop-shadow(0 0 2px var(--bg));
+  filter: $shadow $shadow $shadow;
+
+  margin: 0;
+  transition: var(--transition);
+
+  @media (orientation: portrait) {
+    opacity: 1;
   }
 }
 

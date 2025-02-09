@@ -16,7 +16,7 @@
           {{- $date := default $year .creation -}}
           {{- $fullDesc := printf "%s (%s)" .desc $date -}}
 
-          <figure>
+          <figure class="polaroid">
             <img
               loading="lazy"
               src="{{ $img.RelPermalink }}"

@@ -7,7 +7,7 @@
     {{ range .items }}
       {{- $i := . -}}
       {{- with $.Page.Resources.Get (print $path .file) -}}
-        <figure>
+        <figure class="polaroid">
           <img
             loading="lazy"
             src="{{ .RelPermalink }}"

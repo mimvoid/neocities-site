@@ -3,6 +3,7 @@ export function addZoomedFigure (figure: Element | EventTarget) {
 
   const zoomedFigure = figure.cloneNode(true);
   zoomedFigure.classList.add("zoomed");
+  zoomedFigure.classList.remove("polaroid");
 
   zoomedFigure.addEventListener("click", () => {
     body.removeChild(zoomedFigure);
