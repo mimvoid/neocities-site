@@ -1,0 +1,4 @@
+{{- $classes := default "secondary" (.Get 1) -}}
+{{- with .Get 0 -}}
+  <span class="kaomoji {{ $classes }}">{{ . }}</span>
+{{- end -}}

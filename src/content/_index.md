@@ -15,7 +15,8 @@ params:
     / <span class="secondary">Webmaster</span>
 </div>
 
-Hi there, I'm **mimvoid**! ( ｡• ω •｡)ノ☆
+Hi there, I'm **mimvoid**!
+<span class="kaomoji">( ｡• ω •｡)ノ☆</span>
 
 I made this website as my own little space on the internet.
 
@@ -59,4 +60,5 @@ Or even have an interesting source you'd like me to check out? Please let me kno
 
 That's it for this introduction. Click on any links that interest you!
 
-(ﾉ>ω<)ﾉ☆ﾟ.･｡ﾟ <span class="secondary">I hope you have fun~!</span>
+<span class="kaomoji">(ﾉ>ω<)ﾉ☆ﾟ.･｡ﾟ</span>
+<span class="secondary">I hope you have fun~!</span>

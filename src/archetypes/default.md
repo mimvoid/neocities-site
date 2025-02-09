@@ -5,5 +5,5 @@ date: {{ .Date }}
 draft: true
 ---
 
-Under Construction (ﾉ・・)ノ・・・
+Under Construction <span class="kaomoji">(ﾉ・・)ノ・・・</span>
 {.secondary}

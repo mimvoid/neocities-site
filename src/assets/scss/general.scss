@@ -110,6 +110,11 @@ em,
   font-size: 0.9em;
 }
 
+// Make sure kaomoji don't split due to wrapping
+.kaomoji {
+  display: inline-block;
+}
+
 /*-------
  * Links
  *-------*/
