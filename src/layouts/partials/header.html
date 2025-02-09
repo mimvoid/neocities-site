@@ -17,11 +17,9 @@
         {{ partial "utils/svg" "ph-moon" }}
       </div>
       <div id="theme_toggle_cord">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
+        {{ range seq 5 }}
+          <div class="circle"></div>
+        {{ end }}
         <div class="knob"></div>
       </div>
     </button>

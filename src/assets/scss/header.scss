@@ -66,11 +66,17 @@ header {
   position: relative;
   top: 3em;
   margin-top: -3em;
+  padding: 0 1.75em;
 
-  margin-right: 1.5em;
   border: none;
   background-color: transparent;
   color: var(--primary);
+
+  // Make sure the icons are centered
+  .icon-box, svg {
+    width: 1.25em;
+    height: 1.25em;
+  }
 
   svg {
     margin: 0;
@@ -87,7 +93,7 @@ header {
   top: -0.5em;
 
   .circle, .knob {
-    border-radius: 64px;
+    border-radius: 100vh;
     background-color: var(--primary);
   }
   .circle {

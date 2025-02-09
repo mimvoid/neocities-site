@@ -11,19 +11,26 @@
 }
 
 @keyframes pull-down {
-  $base: -0.5em;
-
   from, to {
-    top: $base;
+    transform: translateY(0);
   }
   60%, 70% {
-    top: $base + 0.95em;
+    transform: translateY(0.75em) scaleY(1.25);
   }
   65% {
-    top: $base + 1em; // peak
+    transform: translateY(0.8em) scaleY(1.5); // peak
   }
   85% {
-    top: $base - 0.15em; // overshoot
+    transform: translateY(-0.1em) scaleY(0.9); // overshoot
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
@@ -31,7 +38,6 @@
   from, to {
     transform: translatey(0);
   }
-
   50% {
     transform: translatey(-0.1em);
   }
@@ -45,12 +51,16 @@
   animation: 0.3s ease-in-out pull-down;
 }
 
+.spin {
+  animation: 0.5s ease-in-out spin;
+}
+
 .float {
   animation: 0.5s ease-in-out float infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .pop:hover, .pull-down, .float {
+  .pop:hover, .pull-down, .spin, .float {
     animation-duration: 0s;
   }
 }

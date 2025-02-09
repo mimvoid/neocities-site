@@ -17,4 +17,9 @@ button?.addEventListener("click", () => {
   const cord = document.getElementById("theme_toggle_cord");
   cord?.classList.add("pull-down");
   cord?.addEventListener("animationend", () => cord.classList.remove("pull-down"))
+
+  // And icon spin animation
+  const icon = document.querySelector(".icon-box");
+  icon?.classList.add("spin");
+  icon?.addEventListener("animationend", () => icon.classList.remove("spin"))
 })
