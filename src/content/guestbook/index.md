@@ -10,7 +10,6 @@ layout: guestbook
 
 <iframe
     src="https://mimvoid.atabook.org"
-    title="Guestbook for mimvoid's little corner, hosted by Atabook"
     class="guestbook box"
     allow="fullscreen"
     width="100%"
