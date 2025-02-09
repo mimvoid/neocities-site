@@ -102,4 +102,12 @@
 
 .stamp-row {
   margin: 1em 0;
+
+  img {
+    transition: transform 0.05s linear;
+
+    &:focus, &:hover {
+      transform: rotate(2deg);
+    }
+  }
 }
