@@ -1,91 +1,102 @@
 .fetcher {
-  margin: 2.5em 2em;
-  padding: 1.5em;
+  margin: 2.5em min(2em, 2vw);
+  padding: min(1.5em, 2vw);
 
   border-radius: 4px;
   background-color: var(--overlay);
 
   p {
-    // Decrease paragraph spacing
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-
+    margin: 0.5em 0; // Decrease paragraph spacing
     font-family: var(--monospace);
     font-size: 0.9em;
   }
+}
 
-  .prompt {
-    margin-bottom: 1em;
-    &::before {
-      content: "> ";
-      font-weight: bold;
-    }
+.prompt {
+  margin-left: 1em;
+
+  &::before {
+    content: "> ";
+    font-weight: bold;
+  }
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  gap: 0.25em;
+  margin: 1em min(1em, 4vw) 0 min(1em, 4vw);
+}
+
+.art {
+  margin-bottom: 1em;
+
+  img {
+    filter: drop-shadow(0 0 1px var(--primary));
   }
 
-  .content {
-    display: flex;
-    align-items: center;
+  .not-hover {
+    display: block;
+  }
+  .hover {
+    display: none;
   }
 
-  .art {
-    margin: 1em;
-    margin-top: 0;
-
-    img {
-      filter: drop-shadow(0 0 1px var(--primary));
-    }
-
+  &:hover {
     .not-hover {
-      display: block;
-    }
-    .hover {
       display: none;
     }
-
-    &:hover {
-      .not-hover {
-        display: none;
-      }
-      .hover {
-        display: block;
-      }
+    .hover {
+      display: block;
     }
   }
+}
 
-  // TODO: display text below art on mobile
-  .info {
-    display: flex;
-    align-items: flex-start;
+.info {
+  margin-left: 1em;
+}
 
-    .groups {
-      margin: 0 1em;
-      padding: 0.25em 0.75em;
-      border: 2px solid var(--primary);
-      border-radius: 6px;
-      color: var(--secondary);
-    }
+.groups {
+  display: inline-block;
 
-    .data {
-      border: 2px solid transparent;
-      padding-top: 0.25em;
-      padding-bottom: 0.25em;
-    }
+  margin-right: 1em;
+  padding: 0.25em 0.75em;
+
+  border: 2px solid var(--primary);
+  border-radius: 6px;
+
+  color: var(--secondary);
+
+  svg {
+    margin: 0;
+  }
+}
+
+.data {
+  display: inline-block;
+  border: 2px solid transparent;
+  padding: 0.25em 0;
+}
+
+.palette {
+  margin: 1em 0 1em 1em;
+
+  * {
+    padding: 0.025em 1.4em;
   }
 
-  .palette {
-    margin: 1em;
-    * {
-      padding: 0.025em 1.25em;
-    }
-    .primary {
-      background-color: var(--primary);
-    }
-    .secondary {
-      background-color: var(--secondary);
-    }
-    .tertiary {
-      background-color: var(--tertiary);
-    }
+  .primary {
+    background-color: var(--primary);
+  }
+
+  .secondary {
+    background-color: var(--secondary);
+  }
+
+  .tertiary {
+    background-color: var(--tertiary);
   }
 }
 

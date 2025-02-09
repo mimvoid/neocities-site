@@ -12,55 +12,50 @@ params:
 {{% style %}}
 
 <div class="fetcher">
-    <p class="prompt tertiary">about-fetch</p>
-    <div class="content">
-        {{< fetcher.inline >}}
-            <div class="art pop">
-                {{ $alt := "A headshot of mimvoid's persona, with expressions drawn on a piece of paper covering their real face." }}
-                {{ with .Page.Resources.Get "avatar-1.webp" }}
-                    <img
-                        class="not-hover"
-                        src="{{ .RelPermalink }}"
-                        width="200px"
-                        height="200px"
-                        alt={{ $alt }}
-                    />
-                {{ end }}
-                {{ with .Page.Resources.Get "avatar-2.webp" }}
-                    <img
-                        class="hover"
-                        src="{{ .RelPermalink }}"
-                        width="200px"
-                        height="200px"
-                        alt={{ $alt }}
-                    />
-                {{ end }}
-            </div>
-            <div class="text">
-                <div class="info">
-                    <strong class="groups">
-                        <p>{{ partial "utils/svg" "pai-user" }} user</p>
-                        <p>{{ partial "utils/svg" "pai-message-processing" }} pronouns</p>
-                        <p>{{ partial "utils/svg" "pai-calendar-tomorrow" }} b-day</p>
-                        <p>{{ partial "utils/svg" "pai-device-laptop" }} os</p>
-                        <p>{{ partial "utils/svg" "pai-ac" }} distro</p>
-                    </strong>
-                    <div class="data">
-                        <p>mimvoid<span class="primary">@</span>neocities</p>
-                        <p>she/they</p>
-                        <p>March 29</p>
-                        <p>Linux</p>
-                        <p>NixOS :D</p>
-                    </div>
-                </div>
-                <div class="palette">
-                    <span class="primary"></span>
-                    <span class="secondary"></span>
-                    <span class="tertiary"></span>
-                </div>
-            </div>
-        {{< /fetcher.inline >}}
-    </div>
+  <p class="prompt tertiary">about-fetch</p>
+  <div class="content">
+    {{< fetcher.inline >}}
+      <div class="art pop">
+        {{-
+          $avatars := slice
+          (dict "img" "avatar-1.webp" "class" "not-hover")
+          (dict "img" "avatar-2.webp" "class" "hover")
+        -}}
+        {{ range $avatars }}
+           <img
+             class="{{ .class }}"
+             src="{{ with $.Page.Resources.Get .img }}{{ .RelPermalink }}{{ end }}"
+             width="200px"
+             height="200px"
+             alt="A headshot of mimvoid's persona, with expressions drawn on a piece of paper covering their real face."
+           />
+        {{ end }}
+      </div>
+      <div class="text">
+        <div class="info">
+          <strong class="groups">
+            <p>{{ partial "utils/svg" "pai-user" }} user</p>
+            <p>{{ partial "utils/svg" "pai-message-processing" }} pronouns</p>
+            <p>{{ partial "utils/svg" "pai-calendar-tomorrow" }} b-day</p>
+            <p>{{ partial "utils/svg" "pai-device-laptop" }} os</p>
+            <p>{{ partial "utils/svg" "pai-ac" }} distro</p>
+          </strong>
+          <div class="data">
+            <p>mimvoid<span class="primary">@</span>neocities</p>
+            <p>she/they</p>
+            <p>29 March</p>
+            <p>Linux</p>
+            <p>NixOS :D</p>
+          </div>
+        </div>
+        <div class="palette">
+          <span class="primary"></span>
+          <span class="secondary"></span>
+          <span class="tertiary"></span>
+        </div>
+      </div>
+    {{< /fetcher.inline >}}
+  </div>
 </div>
 
 > *An extra-dimensional being on a plane of unreality.*
