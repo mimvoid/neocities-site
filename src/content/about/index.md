@@ -67,6 +67,7 @@ params:
 > *Their lonesome thoughts spark new universes in wake and in sleep.*
 
 I'm a busy college student with a knack for niche interests.
+<span class="secondary">(´=﹏=) ･ﾟ｡</span>
 
 I am a self-taught hobbyist artist, and I love my characters and worlds! I have a penchant for surrealism, character psychologies, and magic systems based on human perception.
 

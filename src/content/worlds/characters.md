@@ -5,5 +5,5 @@ date: 2025-01-21T20:07:49-05:00
 layout: characters
 ---
 
-Under Construction...
+Under Construction (ﾉ・・)ノ・・・
 {.secondary}

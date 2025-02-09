@@ -5,5 +5,5 @@ date: {{ .Date }}
 draft: true
 ---
 
-Under Construction...
+Under Construction (ﾉ・・)ノ・・・
 {.secondary}
