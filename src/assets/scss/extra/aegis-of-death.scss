@@ -68,6 +68,9 @@ h3 a {
     color: var(--heading-color);
   }
 }
+a:hover, a:focus {
+  text-decoration-style: solid;
+}
 
 blockquote {
   border: 1px solid var(--fg-dim);
