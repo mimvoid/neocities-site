@@ -9,9 +9,10 @@ layout: guestbook
 {{% style %}}
 
 <iframe
-    src="https://mimvoid.atabook.org"
-    class="guestbook box"
-    allow="fullscreen"
-    width="100%"
-    height="525px">
+  src="https://mimvoid.atabook.org"
+  class="guestbook"
+  allow="fullscreen"
+  width="100%"
+  height="525px"
+>
 </iframe>

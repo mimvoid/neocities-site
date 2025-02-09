@@ -1,3 +1,14 @@
+article.box {
+  padding: 0;
+}
+
+.guestbook {
+  display: block;
+  border: none;
+  padding: 0;
+}
+
+// Reduce padding
 .box.extra-box {
-  padding: 0.5em; // reduce padding
+  padding: 0.5em;
 }
