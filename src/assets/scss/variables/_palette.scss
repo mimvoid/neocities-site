@@ -3,15 +3,15 @@
     display: none;
   }
 
-  --bg: rgb(35, 32, 62);
-  --fg: rgb(235, 200, 220);
-  --fg-dim: rgb(205, 170, 205);
-  --overlay: rgb(46, 41, 74);
-  --overlay-dim: rgb(42, 36, 70);
+  --bg: rgb(35 32 62);
+  --fg: rgb(235 200 220);
+  --fg-dim: rgb(205 170 205);
+  --overlay: rgb(46 41 74);
+  --overlay-dim: rgb(42 36 70);
 
-  --primary: rgb(253, 170, 215);
-  --secondary: rgb(245, 140, 225);
-  --tertiary: rgb(190, 130, 252);
+  --primary: rgb(253 170 215);
+  --secondary: rgb(245 140 225);
+  --tertiary: rgb(190 130 252);
 
   --bg-img: url(../images/mimvoid_cat-spades_dark.webp);
   --bg-color: var(--bg);
@@ -22,15 +22,15 @@
     display: none;
   }
 
-  --bg: rgb(254, 235, 238);
-  --fg: rgb(52, 48, 84);
-  --fg-dim: rgb(68, 50, 90);
-  --overlay: rgb(248, 218, 235);
-  --overlay-dim: rgb(250, 220, 238);
+  --bg: rgb(254 235 238);
+  --fg: rgb(52 48 84);
+  --fg-dim: rgb(68 50 90);
+  --overlay: rgb(248 218 235);
+  --overlay-dim: rgb(250 220 238);
 
-  --primary: rgb(192, 42, 112);
-  --secondary: rgb(160, 42, 162);
-  --tertiary: rgb(92, 48, 154);
+  --primary: rgb(192 42 112);
+  --secondary: rgb(160 42 162);
+  --tertiary: rgb(92 48 154);
 
   --bg-img: url(../images/mimvoid_cat-spades_light.webp);
   --bg-color: var(--bg);

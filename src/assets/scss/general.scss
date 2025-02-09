@@ -61,13 +61,13 @@ h1 {
   margin-bottom: 0.75em;
   text-shadow:
     0.5px 0.5px 0 var(--bg),
-    2px 2px 0 rgba(from var(--primary) r g b / 0.5);
+    2px 2px 0 rgb(from var(--primary) r g b / 0.5);
 
   &:hover {
     color: var(--tertiary);
     text-shadow:
       1.5px 1.5px 0 var(--bg),
-      3px 3px 0 rgba(from var(--heading-color) r g b / 0.5);
+      3px 3px 0 rgb(from var(--heading-color) r g b / 0.5);
   }
 }
 
@@ -358,7 +358,7 @@ figcaption {
 hr {
   margin: 1.5em 0;
   border: none;
-  border-bottom: 1px solid rgba(from var(--secondary) r g b / 0.5);
+  border-bottom: 1px solid rgb(from var(--secondary) r g b / 0.5);
 }
 
 hr.date-hr {

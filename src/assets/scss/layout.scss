@@ -35,7 +35,7 @@ main {
   margin: 0.75em 0.35em;
   padding: 1.5em;
 
-  background-color: rgba(from var(--bg) r g b / 0.9);
+  background-color: rgb(from var(--bg) r g b / 0.9);
   backdrop-filter: blur(4px);
 
   &:hover, &:has(*:focus) {
