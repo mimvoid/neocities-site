@@ -9,9 +9,13 @@
 }
 
 fieldset {
-  text-align: center;
-  padding: 1.5em 2.5em;
   background-color: rgba(from var(--overlay-dim) r g b / 0.5);
+
+  &.icons {
+    text-align: center;
+    padding: 1.5em 2.5em;
+    background-color: rgba(from var(--overlay-dim) r g b / 0.5);
+  }
 }
 
 .icon-grid {
@@ -37,6 +41,43 @@ fieldset {
 
   p {
     margin-bottom: 0; 
+  }
+}
+
+// Extra boxes
+
+@media (orientation: landscape) {
+  div:has(> .updates, > .status) {
+    max-height: 20em;
+  }
+}
+
+@media (orientation: portrait) {
+  .updates {
+    max-height: 20em;
+  }
+}
+
+.updates, .status {
+  text-align: left;
+  overflow: scroll;
+}
+.status {
+  fieldset {
+    padding: 1em 1.5em 1.25em 1.5em;
+
+    .date {
+      margin-left: 0.5em;
+      color: var(--fg-dim);
+      font-size: 0.9em;
+    }
+  }
+
+  pre {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
   }
 }
 

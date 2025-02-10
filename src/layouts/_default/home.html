@@ -27,12 +27,42 @@
 
 {{ define "body-extra" }}
 <aside>
-  <div class="box extra-box badges">
-    {{ partial "decor/badges" }}
+  <div class="h-boxes">
+    <div class="box extra-box updates">
+      {{ with site.GetPage "updates" }}
+        <h2><a href="{{ .RelPermalink }}">Updates</a></h2>
+        {{ .Summary }}
+        <p>...</p>
+        <a href="{{ .RelPermalink }}">Read more</a>
+      {{ end }}
+    </div>
+    <div class="box extra-box status larger">
+      <fieldset>
+        <legend>Status</legend>
+        {{ with site.GetPage "status" }}
+          <p>
+            <strong>mimvoid</strong> <span class="date">{{ .Lastmod | time.Format "02 Jan 2006" }}</span>
+          </p>
+          {{ .Summary }}
+        {{ end }}
+      </fieldset>
+      <pre>ฅ/ᐠ｡‸｡ᐟ\ฅ</pre>
+    </div>
   </div>
-  <div class="box extra-box sites">
-    <h2>Corners of the Web</h2>
-    {{ partial "decor/sites" }}
+  <div class="h-boxes">
+    <div class="larger">
+      <div class="box extra-box badges">
+        {{ partial "decor/badges" }}
+      </div>
+      <div class="box extra-box sites">
+        <h2>Corners of the Web</h2>
+        {{ partial "decor/sites" }}
+      </div>
+    </div>
+    <div class="box extra-box webrings">
+      <h2>Webrings</h2>
+      <p>Under construction</p>
+    </div>
   </div>
 </aside>
 {{ end }}

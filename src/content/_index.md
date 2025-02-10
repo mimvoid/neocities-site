@@ -20,7 +20,7 @@ Hi there, I'm **mimvoid**!
 
 I made this website as my own little space on the internet.
 
-<fieldset>
+<fieldset class="icons">
 <legend>Goodies</legend>
 
 <div class="icon-grid">
