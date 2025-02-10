@@ -111,3 +111,8 @@
     }
   }
 }
+
+// Put more space between text and stamps
+p + .stamp-row {
+  margin-top: 2em;
+}
