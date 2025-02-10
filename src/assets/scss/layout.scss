@@ -33,7 +33,7 @@ main {
 
   border: var(--border-size) solid var(--inactive-border);
   margin: 0.75em 0.35em;
-  padding: 1.5em;
+  padding: 1.25em min(3em, 6%);
 
   background-color: rgb(from var(--bg) r g b / 0.9);
   backdrop-filter: blur(4px);
@@ -74,10 +74,6 @@ article.box {
   }
 }
 
-main > .box {
-  padding: 1.25em min(3em, 6%);
-}
-
 .row-direction {
   display: flex;
   flex-flow: wrap row;
@@ -87,11 +83,11 @@ main > .box {
 }
 
 .extra-box {
+  padding: 1.25em min(2.75em, 4%);
   text-align: center;
   align-content: center;
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.9em;
   }
 }
-

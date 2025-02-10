@@ -1,37 +1,23 @@
-{{
-  $sites := slice
-    (dict
-      "title" "Mycorrhiza"
-      "link" "https://mycorrhiza.space"
-      "img" "mycorrhiza_button3.webp"
-    )
-    (dict
-      "title" "Eggramen"
-      "link" "https://eggramen.neocities.org"
-      "img" "eggramen_button2_simple.webp"
-    )
-    (dict
-      "title" "Gildedware"
-      "link" "https://gildedware.net"
-      "img" "gildedware_button.gif"
-    )
-    (dict
-      "title" "Asralore"
-      "link" "https://asralore.neocities.org"
-      "img" "asralore_button.gif"
-    )
-}}
-
-{{ range $sites }}
-<a href="{{ .link | safeURL }}" title="{{ .title }}" target="_blank" rel="noopener noreferrer">
-  {{ $title := .title }}
-  {{ with resources.Get (print "images/sites/" .img) }}
-    <img
-      src="{{ .RelPermalink }}"
-      alt="Website button for {{ $title }}"
-      width="{{ .Width }}"
-      height="{{ .Height }}"
-    />
-  {{ end }}
-</a>
+{{ with resources.Get "images/sites/links.json" | transform.Unmarshal }}
+  <div>
+    {{ range .buttons }}
+      <a href="{{ .link | safeURL }}" title="{{ .title }}" target="_blank" rel="noopener noreferrer">
+        <img
+          {{ with resources.Get (path.Join "images/sites" .img) }}
+            src="{{ .RelPermalink }}"
+            width="{{ .Width }}"
+            height="{{ .Height }}"
+          {{ end }}
+          alt="Website button for {{ .title }}"
+        />
+      </a>
+    {{ end }}
+  </div>
+  <div class="buttonless">
+    {{ range .buttonless }}
+      <a href="{{ .link | safeURL }}" title="{{ .title }}" target="_blank" rel="noopener noreferrer">
+        <p>{{ .title }}</p>
+      </a>
+    {{ end }}
+  </div>
 {{ end }}

@@ -1,0 +1,77 @@
+{
+  "buttons": [
+    {
+      "title": "Mycorrhiza",
+      "link": "https://mycorrhiza.space",
+      "img": "mycorrhiza_button3.webp"
+    },
+    {
+      "title": "Eggramen",
+      "link": "https://eggramen.neocities.org",
+      "img": "eggramen_button2_simple.webp"
+    },
+    {
+      "title": "Gildedware",
+      "link": "https://gildedware.net",
+      "img": "gildedware_button.gif"
+    },
+    {
+      "title": "Asralore",
+      "link": "https://asralore.neocities.org",
+      "img": "asralore_button.gif"
+    },
+    {
+      "title": "Mister Dizzy",
+      "link": "https://misterdizzy.neocities.org",
+      "img": "misterdizzy.webp"
+    },
+    {
+      "title": "kaylee rowena",
+      "link": "https://kayleerowena.com",
+      "img": "krowena.png"
+    },
+    {
+      "title": "VM's Numbers Station",
+      "link": "https://vm70.neocities.org",
+      "img": "vms-numbers-station.gif"
+    },
+    {
+      "title": "10KPH",
+      "link": "https://karuma.me",
+      "img": "10kph-02.webp"
+    },
+    {
+      "title": "pont",
+      "link": "https://pont.cool",
+      "img": "pont.gif"
+    },
+    {
+      "title": "Just Pattie",
+      "link": "https://justpattie.neocities.org",
+      "img": "pattie-button2.webp"
+    },
+    {
+      "title": "Baguette",
+      "link": "https://baguete.es",
+      "img": "baguette-link_family.gif"
+    }
+  ],
+  "buttonless": [
+    {
+      "title": "dogblog",
+      "link": "https://dogblog.neocities.org"
+    },
+    {
+      "title": "typOasis",
+      "link": "https://moorstation.org/typoasis/typoasis1.htm"
+    },
+    {
+      "title": "Hard Software",
+      "link": "https://hard-software.neocities.org"
+    },
+    {
+      "title": "PrivateMe",
+      "link": "https://privateme.neocities.org"
+    }
+  ]
+}
