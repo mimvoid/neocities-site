@@ -85,9 +85,18 @@ article.box {
 .extra-box {
   padding: 1.25em min(2.75em, 4%);
   text-align: center;
-  align-content: center;
 
   h2 {
     font-size: 1.9em;
+  }
+}
+
+.h-boxes {
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+
+  .larger {
+    flex-grow: 2;
   }
 }
