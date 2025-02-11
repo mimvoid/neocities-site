@@ -50,6 +50,10 @@ fieldset {
   div:has(> .updates, > .status) {
     max-height: 20em;
   }
+
+  .updates {
+    max-width: 22em;
+  }
 }
 
 @media (orientation: portrait) {

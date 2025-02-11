@@ -6,6 +6,10 @@ date: 2025-02-09T19:48:23-05:00
 
 ### 2025
 
+##### 10.02.2025
+
+- Found and linked all [stamps]({{% relref "/about" %}})' original sources
+
 ##### 09.02.2025
 
 - Updated the [homepage]({{% relref "/index" %}}) layout with:
