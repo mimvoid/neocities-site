@@ -54,6 +54,10 @@ fieldset {
   .updates {
     max-width: 22em;
   }
+
+  .webrings {
+    max-width: 16em;
+  }
 }
 
 @media (orientation: portrait) {
@@ -83,6 +87,13 @@ fieldset {
     font-weight: bold;
     text-align: center;
   }
+}
+
+.webrings {
+  padding: 1.25em 1em;
+}
+.webrings-box {
+  font-size: 0.8em;
 }
 
 .buttonless {
