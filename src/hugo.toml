@@ -6,7 +6,6 @@ copyright = 'mimvoid © 2025'
 
 uglyUrls = true  # allow .html extension
 enableGitInfo = true  # let Git be used for the Lastmod param
-disableKinds = ['taxonomy', 'term']  # I don't use these
 
 
 [module]

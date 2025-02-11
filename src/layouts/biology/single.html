@@ -1,0 +1,15 @@
+{{ define "head-extra" }}
+  {{ partial "utils/style" "scss/extra/polaroid.scss" }}
+  {{ partial "utils/style" "scss/extra/tags.scss" }}
+{{ end }}
+
+{{ define "main" }}
+  {{ with .GetTerms "tags" }}
+    <ul class="tags">
+      {{ range . }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+      {{ end }}
+    </ul>
+  {{ end }}
+  {{ .Content }}
+{{ end }}

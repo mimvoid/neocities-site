@@ -1,0 +1,43 @@
+.tags {
+  list-style: none;
+  margin: 0 0 2em 0;
+  padding: 0;
+
+  li {
+    display: inline;
+    margin: 0 0.25em;
+    padding: 0.25em 0.5em;
+
+    border-radius: var(--border-radius);
+    font-size: 0.85em;
+    background-color: var(--overlay);
+
+    transition: var(--transition);
+
+    // Alternate colors every 2 tags
+    &:nth-child(2n+1) {
+      --tag-color: var(--primary);
+    }
+    &:nth-child(2n+2) {
+      --tag-color: var(--secondary);
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--tag-color);
+      transition: var(--transition);
+
+      &::before {
+        content: "# ";
+      }
+    }
+
+    &:focus, &:hover {
+      background-color: var(--tag-color);
+
+      a {
+        color: var(--bg);
+      }
+    }
+  }
+}
