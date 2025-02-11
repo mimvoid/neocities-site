@@ -8,7 +8,9 @@
   box-shadow: 0 0.1rem 0.25rem rgb(from var(--fg-dim) r g b / 0.5);
   background-color: ghostwhite;
   transition: transform 0.05s linear;
+}
 
+.polaroid:not(.no-rotate) {
   &:focus, &:hover {
     transform: rotate(1deg);
   }
@@ -29,10 +31,22 @@ figure.polaroid {
   }
 }
 
-[data-theme="dark"] .polaroid figcaption {
-  color: var(--bg);
+[data-theme="dark"] .polaroid {
+  figcaption {
+    color: var(--bg);
+  }
+
+  a {
+    color: var(--overlay);
+  }
 }
 
-[data-theme="light"] .polaroid figcaption {
-  color: var(--fg);
+[data-theme="light"] .polaroid {
+  figcaption {
+    color: var(--fg);
+  }
+
+  a {
+    color: var(--fg-dim);
+  }
 }
