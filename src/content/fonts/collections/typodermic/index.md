@@ -35,12 +35,9 @@ interested to check them out!
 - [Typodermic Fonts in the Public Domain](https://typodermicfonts.com/public-domain)
 
 <span class="tertiary">NOTE</span>:
-As of 06 Jan 2025, it seems the webfonts download link no longer works.
-If you'd like the files in [WOFF2 format]({{% relref "formats/fonts#woff2" %}}),
-here are some options:
-
-- [The last working archive on the Wayback Machine](https://web.archive.org/web/20240911192441/https://typodermicfonts.com/public-domain)
-- [My copy, with font families sorted into folders](https://github.com/mimvoid/neocities-site/blob/main/src/content/design/fonts/collections/typodermic/typodermic-public-domain-webfonts-2024-04.zip)
+The 2024 December webfonts ([WOFF2]({{% relref "formats/fonts#woff2" %}})) download on
+the Typodermic Fonts website is broken as of 12 Feb 2025, but here is a
+[fixed version of the webfonts download link](https://typodermicfonts.com/wp-content/uploads/2024/12/typodermic-public-domain-webfonts-2024-12.zip).
 
 ## Adriator
 
