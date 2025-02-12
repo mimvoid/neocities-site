@@ -3,7 +3,7 @@
     {
       "title": "Mycorrhiza",
       "link": "https://mycorrhiza.space",
-      "img": "mycorrhiza_button3.webp"
+      "img": "mycorrhiza_button.webp"
     },
     {
       "title": "Eggramen",
@@ -54,6 +54,21 @@
       "title": "Baguette",
       "link": "https://baguete.es",
       "img": "baguette-link_family.gif"
+    },
+    {
+      "title": "Melvian",
+      "link": "https://melvian.xyz",
+      "img": "melvian.webp"
+    },
+    {
+      "title": "Leilukin's Hub",
+      "link": "https://leilukin.com",
+      "img": "leilukins-hub.webp"
+    },
+    {
+      "title": "whiona.me",
+      "link": "https://whiona.me",
+      "img": "whiona_button.webp"
     }
   ],
   "buttonless": [
@@ -72,6 +87,10 @@
     {
       "title": "PrivateMe",
       "link": "https://privateme.neocities.org"
+    },
+    {
+      "title": "sara joy",
+      "link": "https://sarajoy.dev"
     }
   ]
 }
