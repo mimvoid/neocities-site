@@ -44,6 +44,7 @@ fieldset {
   }
 }
 
+
 // Extra boxes
 
 @media (orientation: landscape) {
@@ -70,6 +71,7 @@ fieldset {
   text-align: left;
   overflow: scroll;
 }
+
 .status {
   fieldset {
     padding: 1em 1.5em 1.25em 1.5em;
@@ -89,12 +91,19 @@ fieldset {
   }
 }
 
+
+// Webrings
+
 .webrings {
   padding: 1.25em 1em;
 }
+
 .webrings-box {
   font-size: 0.8em;
 }
+
+
+// Site buttons
 
 .buttonless {
   margin-top: 1em;
