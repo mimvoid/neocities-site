@@ -95,11 +95,68 @@ fieldset {
 // Webrings
 
 .webrings {
+  min-width: 14rem;
   padding: 1.25em 1em;
 }
 
 .webrings-box {
-  font-size: 0.8em;
+  font-size: 0.85em;
+}
+
+.webring {
+  margin: 2em 0;
+  font-family: var(--monospace);
+  text-decoration: none;
+
+  .name {
+    display: inline;
+    margin: 1em 0;
+    padding: 0.4em 0.75em;
+    color: var(--bg);
+    background-color: var(--secondary);
+    font-weight: bold;
+
+    a {
+      color: var(--bg);
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0.75em 0;
+  }
+
+  .webring-links a {
+    padding: 0 0.5em;
+  }
+}
+
+.nix-webring {
+  --color: #c9bbf9;
+  color: var(--color);
+
+  svg {
+    margin: 0;
+  }
+
+  a, .webring-links a {
+    color: var(--color);
+  }
+
+  .name {
+    background-color: var(--color);
+    color: var(--bg);
+  }
+}
+[data-theme="light"] .nix-webring {
+  --color: #b6aaf5;
+
+  a, .webring-links a {
+    color: var(--fg);
+  }
 }
 
 
