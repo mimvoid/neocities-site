@@ -1,3 +1,3 @@
 {{ with .Page.Resources.Get (.Get 0) }}
-  {{ .Content | safeHTML }}
+  {{ .Content | markdownify }}
 {{ end }}
