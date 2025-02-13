@@ -13,9 +13,43 @@ The researcher who assigned herself to Subject ψ-01.
 
 <!--more-->
 
-Under Construction...
-{.secondary}
+<section class="info">
 
+**Classification**
+
+{{% param "classification" %}}
+
+## File 0: General Profile {.section}
+
+|               |                          |
+| ------------- | ------------------------ |
+| Role          | **Antagonist**       |
+| Age           | **TBA**                   |
+| Date of Birth | **TBA**        |
+| Affiliation   | **AOD Myr Branch Research Department** |
+| Occupation    | **Researcher**            |
+{.headless}
+
+***
+
+## File 1: Behavior {.section}
+
+**Traits**
+
+TBA
+
+</section>
+<section class="history">
+
+TBA
+
+</section>
+<section class="relations">
+{{% snippet "relations.md" %}}
+</section>
 <section class="gallery">
 {{% gallery "aegis-of-death" "Anastasia" %}}
+</section>
+<section class="extra">
+
 </section>

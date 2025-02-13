@@ -60,7 +60,6 @@ years of social ostracization.
 
 TBA
 
-***
 </section>
 <section class="relations">
 {{% snippet "relations.md" %}}

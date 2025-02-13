@@ -10,12 +10,47 @@ params:
 ---
 
 The youngest member of the AOD Myr Branch.
+{.summary}
 
 <!--more-->
 
-Under Construction...
-{.secondary}
+<section class="info">
 
+**Classification**
+
+{{% param "classification" %}}
+
+## File 0: General Profile {.section}
+
+|               |                          |
+| ------------- | ------------------------ |
+| Role          | **Support**       |
+| Age           | **12**                   |
+| Date of Birth | **TBA**        |
+| Affiliation   | **AOD Myr Branch Division 02** |
+| Occupation    | **TBA**            |
+{.headless}
+
+***
+
+## File 1: Behavior {.section}
+
+**Traits**
+
+TBA
+
+</section>
+<section class="history">
+
+TBA
+
+</section>
+<section class="relations">
+{{% snippet "relations.md" %}}
+</section>
 <section class="gallery">
 {{% gallery "aegis-of-death" "Aisling" %}}
+</section>
+<section class="extra">
+
 </section>

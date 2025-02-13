@@ -14,9 +14,43 @@ Responder of Myr Division 02 and Everett and Sonya's coworker.
 
 <!--more-->
 
-Under Construction...
-{.secondary}
+<section class="info">
 
+**Classification**
+
+{{% param "classification" %}}
+
+## File 0: General Profile {.section}
+
+|               |                          |
+| ------------- | ------------------------ |
+| Role          | **Support**       |
+| Age           | **21**                   |
+| Date of Birth | **TBA**        |
+| Affiliation   | **AOD Myr Branch Division 02** |
+| Occupation    | **Intelligence operator**            |
+{.headless}
+
+***
+
+## File 1: Behavior {.section}
+
+**Traits**
+
+TBA
+
+</section>
+<section class="history">
+
+TBA
+
+</section>
+<section class="relations">
+{{% snippet "relations.md" %}}
+</section>
 <section class="gallery">
 {{% gallery "aegis-of-death" "Halle" %}}
+</section>
+<section class="extra">
+
 </section>
