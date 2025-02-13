@@ -13,6 +13,32 @@ The young heir to the Mu Family, unsteady about his place in the world.
 
 <!--more-->
 
+<section class="info">
+
+## About
+
+<div class="about-box">
+
+|          |                 |
+| -------- | --------------- |
+| Role     | **Main character** |
+| Age      | **2X**          |
+| Birthday | **TBA**         |
+| Demon    | **Demon of Shadows**        |
+{.headless}
+
+</div>
+
+## Personality
+
+TBA
+
+</section>
+<section class="relations">
+{{% snippet "relations.md" %}}
+</section>
 <section class="gallery">
 {{% gallery "sacrificial" "Changwei" %}}
+</section>
+<section class="extra">
 </section>

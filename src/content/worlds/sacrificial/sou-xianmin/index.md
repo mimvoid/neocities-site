@@ -16,3 +16,33 @@ A healer prone to losing themselves in threads and patchwork.
 <section class="gallery">
 {{% gallery "sacrificial" "Xianmin" %}}
 </section>
+
+<section class="info">
+
+## About
+
+<div class="about-box">
+
+|          |                 |
+| -------- | --------------- |
+| Role     | **Main character** |
+| Age      | **2X**          |
+| Birthday | **TBA**         |
+| Demon    | **Demon of Patchwork**        |
+{.headless}
+
+</div>
+
+## Personality
+
+TBA
+
+</section>
+<section class="relations">
+{{% snippet "relations.md" %}}
+</section>
+<section class="gallery">
+{{% gallery "sacrificial" "Xianmin" %}}
+</section>
+<section class="extra">
+</section>

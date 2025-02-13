@@ -13,6 +13,34 @@ A loner slow to trust and protective of her small world.
 
 <!--more-->
 
+<section class="info">
+
+## About
+
+<div class="about-box">
+
+|          |                 |
+| -------- | --------------- |
+| Role     | **Protagonist** |
+| Age      | **18**          |
+| Birthday | **TBA**         |
+| Demon    | **None**        |
+{.headless}
+
+Average grade: **B-**
+
+</div>
+
+## Personality
+
+- Bitter
+
+</section>
+<section class="relations">
+{{% snippet "relations.md" %}}
+</section>
 <section class="gallery">
 {{% gallery "sacrificial" "Ruimei" %}}
+</section>
+<section class="extra">
 </section>

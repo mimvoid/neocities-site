@@ -16,3 +16,33 @@ The leader of The Hidden Hand.
 <section class="gallery">
 {{% gallery "sacrificial" "Xuanyuan" %}}
 </section>
+
+<section class="info">
+
+## About
+
+<div class="about-box">
+
+|          |                 |
+| -------- | --------------- |
+| Role     | **Support?** |
+| Age      | **?**          |
+| Birthday | **TBA**         |
+| Demon    | **Demon of Memories**        |
+{.headless}
+
+</div>
+
+## Personality
+
+TBA
+
+</section>
+<section class="relations">
+{{% snippet "relations.md" %}}
+</section>
+<section class="gallery">
+{{% gallery "sacrificial" "Xuanyuan" %}}
+</section>
+<section class="extra">
+</section>

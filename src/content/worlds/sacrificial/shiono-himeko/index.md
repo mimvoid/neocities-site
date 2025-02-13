@@ -19,6 +19,34 @@ The most popular girl in school, who sees humanity as utterly superficial.
 
 <!--more-->
 
+<section class="info">
+
+## About
+
+<div class="about-box">
+
+|          |                 |
+| -------- | --------------- |
+| Role     | **Deuteragonist** |
+| Age      | **18**          |
+| Birthday | **TBA**         |
+| Demon    | **Demon of Artillery**        |
+{.headless}
+
+Average grade: **A**
+
+</div>
+
+## Personality
+
+TBA
+
+</section>
+<section class="relations">
+{{% snippet "relations.md" %}}
+</section>
 <section class="gallery">
 {{% gallery "sacrificial" "Shiono" %}}
+</section>
+<section class="extra">
 </section>
