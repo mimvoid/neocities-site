@@ -10,6 +10,7 @@ date: 2025-02-09T19:48:23-05:00
 
 - Found and added a working link for [Typodermic Fonts]({{% relref "fonts/collections/typodermic" %}})'
 most recent webfonts download
+- Added a [page for works I've read]({{% relref "/reading" %}})
 
 ##### 11.02.2025
 
