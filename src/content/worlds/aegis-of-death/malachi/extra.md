@@ -1,3 +1,12 @@
+<!---->
+{{% figure
+    src="malachi/MalachiReferenceSheet.webp"
+    alt="A reference sheet of Malachi Xie in a cautious pose, and another with shadow tendrils emanating from beneath his coat. The text reads: 'he/him; Ability: ?; Affilitation: None; A wary fugitive with a bounty out from the AOD. Everett has tentatively sheltered him in their residence. Despite everything, he rejects anything that challenges his humanity.'"
+    caption="Malachi's reference sheet (outdated March 2024)"
+    loading="lazy"
+    class="zoomable"
+%}}
+
 Despite being the protagonist of Aegis of Death, Malachi has historically been one of the
 hardest characters for me to get into the headspace of...
 

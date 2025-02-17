@@ -68,14 +68,5 @@ TBA
 {{% gallery "aegis-of-death" "Sonya" %}}
 </section>
 <section class="extra">
-
-{{% figure
-    src="SonyaReferenceSheet.webp"
-    alt="A reference sheet of Sonya Antonovna Sokolova in a confident pose, with a sash around her waist and a bow in her wavy ginger hair. The text reads: 'she/her; Ability: N/A; Affilitation: AOD Mir Field Team Division 02; One of the few operatives in the AOD. While she may act laidback, nothing is more important to her than justness and the truth. Something compels her to prove herself again and again...'"
-    caption="Sonya's reference sheet (March 2024)"
-    loading="lazy"
-    class="zoomable"
-%}}
-
 {{% snippet "extra.md" %}}
 </section>
