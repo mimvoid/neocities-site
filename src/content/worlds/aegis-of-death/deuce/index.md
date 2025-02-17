@@ -50,7 +50,8 @@ Leader of Myr Division 02.
 
 ??
 
-***
+</section>
+<section class="personality">
 
 ## File 1: Behavior {.section}
 

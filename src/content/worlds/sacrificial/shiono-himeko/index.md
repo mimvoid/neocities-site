@@ -37,6 +37,9 @@ Average grade: **A**
 
 </div>
 
+</section>
+<section class="personality">
+
 ## Personality
 
 TBA

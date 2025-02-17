@@ -33,7 +33,8 @@ One of the AOD's only human field operatives.
 | Occupation    | **Field operative**            |
 {.headless}
 
-***
+</section>
+<section class="personality">
 
 ## File 1: Behavior {.section}
 

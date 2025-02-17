@@ -32,7 +32,8 @@ An assistant journalist with an interest in shadows.
 | Occupation    | **Assistant Journalist** |
 {.headless}
 
-***
+</section>
+<section class="personality">
 
 ## File 1: Behavior {.section}
 

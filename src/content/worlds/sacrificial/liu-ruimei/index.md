@@ -31,6 +31,9 @@ Average grade: **B-**
 
 </div>
 
+</section>
+<section class="personality">
+
 ## Personality
 
 - Bitter

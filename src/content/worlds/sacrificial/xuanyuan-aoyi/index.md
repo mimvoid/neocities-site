@@ -33,6 +33,9 @@ The leader of The Hidden Hand.
 
 </div>
 
+</section>
+<section class="personality">
+
 ## Personality
 
 TBA

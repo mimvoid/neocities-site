@@ -31,7 +31,8 @@ Responder of Myr Division 02 and Everett and Sonya's coworker.
 | Occupation    | **Intelligence operator**            |
 {.headless}
 
-***
+</section>
+<section class="personality">
 
 ## File 1: Behavior {.section}
 

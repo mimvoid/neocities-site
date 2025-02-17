@@ -1,6 +1,6 @@
 @use "sass:map";
 
-$sections: (1: info, 2: history, 3: relations, 4: gallery, 5: extra);
+$sections: (1: info, 2: personality, 3: history, 4: relations, 5: gallery, 6: extra);
 
 // Display sections only when they're selected
 @each $i, $class in $sections {

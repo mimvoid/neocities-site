@@ -30,7 +30,8 @@ The researcher who assigned herself to Subject ψ-01.
 | Occupation    | **Researcher**            |
 {.headless}
 
-***
+</section>
+<section class="personality">
 
 ## File 1: Behavior {.section}
 

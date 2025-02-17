@@ -33,6 +33,9 @@ A healer prone to losing themselves in threads and patchwork.
 
 </div>
 
+</section>
+<section class="personality">
+
 ## Personality
 
 TBA

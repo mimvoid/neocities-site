@@ -63,7 +63,8 @@ No blood is recovered and no foreign bodies removed.
 
 ██████████████████████████████████████████████
 
-***
+</section>
+<section class="personality">
 
 ## File 1: Behavior {.section}
 

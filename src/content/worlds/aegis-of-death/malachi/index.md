@@ -62,7 +62,8 @@ A fugitive wanted by the AOD, unsure of his own identity.
 | Lead Researcher | **Anastasia Xie**           |
 {.headless}
 
-***
+</section>
+<section class="personality">
 
 ## File 1: Behavior {.section}
 

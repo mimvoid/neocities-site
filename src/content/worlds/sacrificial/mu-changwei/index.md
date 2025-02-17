@@ -29,6 +29,9 @@ The young heir to the Mu Family, unsteady about his place in the world.
 
 </div>
 
+</section>
+<section class="personality">
+
 ## Personality
 
 TBA
