@@ -6,10 +6,14 @@
   {{ end }}
 {{ end }}
 
-{{ define "article-head" }}
+{{ define "pre-article" }}
   {{ if .Params.character }}
     {{ partial "worlds/character-tabs" . }}
-  {{ else if .IsPage }}
+  {{ end }}
+{{ end }}
+
+{{ define "article-head" }}
+  {{ if and (not .Params.character) .IsPage }}
     {{ partial "worlds/breadcrumb" . }}
   {{ end }}
 {{ end }}

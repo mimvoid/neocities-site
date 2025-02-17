@@ -5,8 +5,4 @@
     <input type="radio" name="tabs" id="tab-nav-{{ . }}" {{ if eq . 1 }}checked{{ end }}>
     <label for="tab-nav-{{ . }}">{{ index $tabs (sub . 1) }}</label>
   {{- end -}}
-
-  {{ with index .Ancestors.Reverse 2 }}
-    <a class="world-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-  {{ end }}
 </div>

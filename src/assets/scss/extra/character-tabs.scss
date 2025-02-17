@@ -2,28 +2,39 @@
 
 $sections: (1: info, 2: personality, 3: history, 4: relations, 5: gallery, 6: extra);
 
+// Layer folder-style tabs on top of each other
+@each $i, $class in $sections {
+  label[for="tab-nav-#{$i}"] {
+    z-index: #{10 - $i};
+  }
+}
+
 // Display sections only when they're selected
 @each $i, $class in $sections {
   section.#{$class} {
     display: none;
   }
-  article:has(#tab-nav-#{$i}:checked) section.#{$class} {
+  main:has(#tab-nav-#{$i}:checked) section.#{$class} {
     display: block;
   }
 }
 
 // Hide summary in later sections
 @each $i, $class in map.remove($sections, 1) {
-  article:has(#tab-nav-#{$i}:checked) .summary {
+  main:has(#tab-nav-#{$i}:checked) .summary {
     display: none;
   }
+}
+
+main:has(.character-tabs) article.box {
+  margin-top: 0;
 }
 
 .character-tabs {
   display: flex;
   flex-wrap: wrap-reverse;
-  margin: 1em 0 3em 0;
-  gap: 1em;
+
+  margin: 1em 0 0 0.35rem;
 
   font-family: var(--body);
   font-size: 0.95rem;
@@ -33,23 +44,31 @@ $sections: (1: info, 2: personality, 3: history, 4: relations, 5: gallery, 6: ex
   }
   label {
     cursor: pointer;
-    transition: var(--transition);
+    transition: color 0.25s ease-in-out;
 
-    border: none;
+    padding: 0.75em 2em 0.75em 1em;
+    border: 1px solid var(--bg);
+    border-bottom: none;
 
-    background-color: transparent;
+    background-color: var(--overlay-dim);
     color: var(--primary);
+
+    &:not([for="tab-nav-1"]) {
+      margin-left: -0.5em;
+    }
   }
 
   // Style the active tab label
   label:focus, label:hover, input:checked + label {
+    border-color: var(--active-border);
     color: var(--tertiary);
+    background-color: var(--bg);
   }
+
   input:checked + label {
-    text-decoration: 1px underline;
-    &::before {
-      content: "> ";
-    }
+    z-index: 999;
+    transform: scaleY(1.1);
+    border-bottom: none;
   }
 
   .world-link {
