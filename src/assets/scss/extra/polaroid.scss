@@ -21,6 +21,14 @@ figure.polaroid {
     width: 100%;
   }
 
+  figcaption {
+    color: var(--text-color);
+  }
+
+  a {
+    color: var(--link-color)
+  }
+
   figcaption p {
     margin: 0.1rem 0.15rem 0.25rem;
     font-family: "Jott FLF";
@@ -31,22 +39,21 @@ figure.polaroid {
   }
 }
 
-[data-theme="dark"] .polaroid {
-  figcaption {
-    color: var(--bg);
-  }
+img.polaroid.avatar {
+  padding: 0.2em 0 0 0;
+  border: 0.8em solid ghostwhite;
+  border-bottom-width: 1.2em;
+  background-color: var(--img-bg);
+}
 
-  a {
-    color: var(--overlay);
-  }
+[data-theme="dark"] .polaroid {
+  --text-color: var(--bg);
+  --link-color: var(--overlay);
+  --img-bg: var(--fg-dim);
 }
 
 [data-theme="light"] .polaroid {
-  figcaption {
-    color: var(--fg);
-  }
-
-  a {
-    color: var(--fg-dim);
-  }
+  --text-color: var(--fg);
+  --link-color: var(--fg-dim);
+  --img-bg: var(--overlay-dim);
 }
