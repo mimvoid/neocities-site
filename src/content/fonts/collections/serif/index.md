@@ -4,8 +4,6 @@ description: My collection of serif fonts
 date: 2025-01-02T13:24:54-05:00
 ---
 
-{{% load_fonts %}}
-
 <p class="secondary">Under Construction...</p>
 
 I've never had much of a liking toward serif fonts, except for those that were

@@ -1,0 +1,14 @@
+{{- $fontFace := resources.Get "scss/partials/_font-face.scss" -}}
+{{- $fonts := .Page.Resources.Get "fonts.scss" -}}
+
+{{- $resultPath := urls.JoinPath .Page.Path "fonts.scss" -}}
+{{- $style := slice $fontFace $fonts | resources.Concat $resultPath -}}
+
+{{ with $style | toCSS (dict "transpiler" "dartsass") | minify | fingerprint }}
+<link
+  type="text/css"
+  rel="stylesheet"
+  href="{{ .RelPermalink }}"
+  integrity="{{ .Data.Integrity }}"
+>
+{{ end }}

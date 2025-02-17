@@ -5,8 +5,6 @@ description: My collection of script and handwriting fonts
 date: 2025-01-15T09:44:56-05:00
 ---
 
-{{% load_fonts %}}
-
 Under construction...
 {.secondary}
 

@@ -5,8 +5,6 @@ description: My collection of monospace or monospace-like fonts geared for reada
 date: 2025-02-08T17:21:05-05:00
 ---
 
-{{% load_fonts %}}
-
 Ah, monospace fonts. I'm a big fan, both because I'm a chronic terminal hermit and because
 unlike [sans serif fonts]({{% relref "sans-serif" %}}), a majority of them don't look very
 coporate or too geometric for my tastes. They have very distinct letterforms and a sort of

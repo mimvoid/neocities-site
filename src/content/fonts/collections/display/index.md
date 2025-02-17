@@ -4,8 +4,6 @@ description: My collection of display fonts
 date: 2025-01-02T13:25:05-05:00
 ---
 
-{{% load_fonts %}}
-
 Under Construction...
 
 ## Major Mono Display

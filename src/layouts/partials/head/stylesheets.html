@@ -1,0 +1,16 @@
+{{ partial "utils/style" "scss/style.scss" }}
+
+{{- if .HasShortcode "gallery" }}
+  {{ partial "utils/style" "scss/extra/gallery-zoom.scss" }}
+{{ else }}
+  {{ if .Params.zoomable }}
+    {{ partial "utils/style" "scss/extra/figure-zoom.scss" }}
+  {{ end }}
+  {{ if or .Params.polaroid (.HasShortcode "list_characters") -}}
+    {{ partial "utils/style" "scss/extra/polaroid.scss" }}
+  {{ end }}
+{{ end -}}
+
+{{- if .HasShortcode "pangram" }}
+  {{ partial "utils/load_fonts" . }}
+{{ end }}

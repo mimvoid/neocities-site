@@ -5,8 +5,6 @@ description: My collection of comic and manga-style fonts
 date: 2025-01-08T16:30:52-05:00
 ---
 
-{{% load_fonts %}}
-
 Under construction...
 {.secondary}
 

@@ -4,8 +4,6 @@ description: A showcase of public domain fonts by Typodermic Fonts
 date: 2025-01-06T13:43:34-05:00
 ---
 
-{{% load_fonts %}}
-
 **Typodermic Fonts** is a foundry based in Nagoya, Japan with a treasure trove of cool
 [display fonts]({{% relref "fonts/collections/display" %}})!
 It was founded in 2001 by talented Canadian designer Raymond Larabie.

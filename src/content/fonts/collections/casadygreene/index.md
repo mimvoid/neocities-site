@@ -4,8 +4,6 @@ description: A showcase of fonts by Casady & Greene
 date: 2025-01-12T12:19:28-05:00
 ---
 
-{{% load_fonts %}}
-
 **Casady & Greene** first got on my radar in my search for a higher contrast alternative to
 [Limelight]({{% relref "fonts/collections/display#limelight" %}}). I arrived at
 <a href="#ritz-flf">Ritz FLF</a> and sought to find the original source so I could package

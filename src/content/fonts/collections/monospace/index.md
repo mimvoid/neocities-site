@@ -5,7 +5,6 @@ date: 2025-01-02T13:24:59-05:00
 ---
 
 {{% asset_style "scss/partials/_courier-prime.scss" %}}
-{{% load_fonts %}}
 
 Under Construction...
 {.secondary}

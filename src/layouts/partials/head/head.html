@@ -1,7 +1,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 
-{{/* Should be called early to reduce flashing */}}
+{{- /* Should be called early to reduce flashing */ -}}
 <script is:inline>
   const theme = localStorage.getItem("theme") || "dark";
   document.documentElement.setAttribute("data-theme", theme);
@@ -23,15 +23,5 @@
 <meta property="og:locale" content="en_US" />
 <meta name="author" content="mimvoid" />
 
-{{ partial "utils/style" "scss/style.scss" }}
-{{ if or .Params.zoomable (or .Params.character .Params.gallery) }}
-  {{ partial "utils/style" "scss/extra/figure-zoom.scss" }}
-{{ end }}
-{{ if .Params.zoomable }}
-  {{ partial "utils/script" "ts/figureZoom/figureZoom.ts" }}
-{{ end }}
-{{ if or .Params.character .Params.gallery }}
-  {{ partial "utils/style" "scss/extra/gallery-zoom.scss" }}
-  {{ partial "utils/script" "ts/figureZoom/galleryZoom.ts" }}
-{{ end }}
-{{ partial "utils/script" "ts/themeToggle/main.ts" }}
+{{ partial "head/stylesheets" . }}
+{{ partial "head/scripts" . }}
