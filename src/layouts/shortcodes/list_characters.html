@@ -9,6 +9,17 @@
           href="{{ .RelPermalink }}"
           {{- if ne .LinkTitle .Title -}}title="{{- .Title -}}"{{- end -}}
         >
+          {{- $name := .Title -}}
+          {{- with .Resources.GetMatch "avatar" -}}
+            <img
+              src="{{ .RelPermalink }}"
+              class="avatar{{ with $.Get "imgClass" }} {{ . }}{{ end }}"
+              alt="Character avatar of {{ $name }}"
+              width="{{ .Width }}"
+              height="{{ .Height }}"
+            />
+          {{- end -}}
+
           <h3>{{ .LinkTitle -}}</h3>
         </a>
 

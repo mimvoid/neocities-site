@@ -18,13 +18,22 @@
           <a href="{{ .RelPermalink }}">
             {{ $name := .Title }}
             {{ with .Resources.GetMatch "avatar" }}
+              {{ with .Params.bg }}
+              <div style="background-color: {{ . }}; transform: scale(0.8); border-radius: var(--border-radius)">
+              {{ end }}
               <img
                 src="{{ .RelPermalink }}"
                 class="avatar"
                 alt="Character avatar of {{ $name }}"
                 width="{{ .Width }}"
                 height="{{ .Height }}"
+                {{ with .Params.bg }}
+                  style="transform: scale(1.25)";
+                {{ end }}
               />
+              {{ with .Params.bg }}
+              </div>
+              {{ end }}
             {{ else }}
               <div class="placeholder"></div>
             {{ end }}

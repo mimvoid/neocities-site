@@ -32,7 +32,7 @@ How breathtaking is it?
 
 How breathtaking.
 
-{{% list_characters extra="classification" %}}
+{{% list_characters extra="classification" imgClass="polaroid" %}}
 
 ***
 
