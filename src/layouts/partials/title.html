@@ -1,0 +1,10 @@
+{{- if not .Params.noTitle -}}
+  {{- $title := default .Title .Params.customTitle -}}
+  {{- with .Params.ruby -}}
+    <h1>
+    {{ partial "utils/ruby" (dict "title" $title "ruby" .) }}
+    </h1>
+  {{- else -}}
+    <h1>{{- $title -}}</h1>
+  {{- end -}}
+{{- end -}}

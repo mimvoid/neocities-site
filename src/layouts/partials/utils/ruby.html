@@ -1,0 +1,18 @@
+<ruby>
+  {{- $titleSplit := split .title " " -}}
+  {{- $rubySplit := split .ruby " " -}}
+
+  {{- if eq (len $titleSplit) (len $rubySplit) -}}
+    {{- range seq 0 (sub (len $titleSplit) 1) -}}
+      {{ index $titleSplit . }}
+      {{ with index $rubySplit . }}
+        <rt>{{ . }}</rt>
+        <rp>{{ . }}</rp>
+      {{ end }}
+    {{- end -}}
+  {{- else -}}
+    {{- .title -}}
+    <rt>{{- .ruby -}}</rt>
+    <rp>{{- .ruby -}}</rp>
+  {{- end -}}
+</ruby>
