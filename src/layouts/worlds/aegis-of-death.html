@@ -13,3 +13,11 @@
     {{ partial "worlds/breadcrumb" . }}
   {{ end }}
 {{ end }}
+
+{{ define "title" }}
+  {{ with .Params.classification }}
+    <div class="with-classification" data-classification="{{ . }}">{{ partial "title" $ }}</div>
+  {{ else }}
+    {{ partial "title" . }}
+  {{ end }}
+{{ end }}

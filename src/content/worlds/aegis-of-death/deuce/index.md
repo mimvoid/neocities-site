@@ -15,10 +15,6 @@ Leader of Myr Division 02.
 
 <section class="info">
 
-**Classification**
-
-{{% param "classification" %}}
-
 ## File 0: General Profile {.section}
 
 |               |                                |

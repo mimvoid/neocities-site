@@ -17,10 +17,6 @@ An assistant journalist with an interest in shadows.
 
 <section class="info">
 
-**Classification**
-
-{{% param "classification" %}}
-
 ## File 0: General Profile {.section}
 
 |               |                          |

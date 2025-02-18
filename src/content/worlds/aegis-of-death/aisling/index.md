@@ -16,10 +16,6 @@ The youngest member of the AOD Myr Branch.
 
 <section class="info">
 
-**Classification**
-
-{{% param "classification" %}}
-
 ## File 0: General Profile {.section}
 
 |               |                          |

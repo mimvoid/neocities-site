@@ -17,10 +17,6 @@ A fugitive wanted by the AOD, unsure of his own identity.
 
 <section class="info">
 
-**Classification**
-
-{{% param "classification" %}}
-
 ## File 0: Host Profile {.section}
 
 |               |                   |

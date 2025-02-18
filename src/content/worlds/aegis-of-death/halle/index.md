@@ -16,10 +16,6 @@ Responder of Myr Division 02 and Everett and Sonya's coworker.
 
 <section class="info">
 
-**Classification**
-
-{{% param "classification" %}}
-
 ## File 0: General Profile {.section}
 
 |               |                          |

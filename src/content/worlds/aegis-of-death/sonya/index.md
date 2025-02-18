@@ -18,10 +18,6 @@ One of the AOD's only human field operatives.
 
 <section class="info">
 
-**Classification**
-
-{{% param "classification" %}}
-
 ## File 0: General Profile {.section}
 
 |               |                          |

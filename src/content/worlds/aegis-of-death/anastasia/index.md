@@ -15,10 +15,6 @@ The researcher who assigned herself to Subject ψ-01.
 
 <section class="info">
 
-**Classification**
-
-{{% param "classification" %}}
-
 ## File 0: General Profile {.section}
 
 |               |                          |
