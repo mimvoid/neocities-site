@@ -19,6 +19,7 @@ date: 2025-02-09T19:48:23-05:00
     - Added [Lkdown]({{% relref "fonts/collections/display#lkdown" %}})
     - Added [Rosarina]({{% relref "fonts/collections/display#rosarina" %}})
     - Added [Bagnard]({{% relref "fonts/collections/serif#bagnard" %}})
+    - Added [Formera]({{% relref "fonts/collections/sans-serif#formera" %}})
 
 ##### 18.02.2025
 

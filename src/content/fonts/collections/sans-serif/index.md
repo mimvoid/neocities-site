@@ -85,6 +85,20 @@ with [Inter](https://rsms.me/inter).
 
 {{% pangram font="Finlandica" lang="fi en" %}}
 
+## Formera
+
+[Homepage](https://noirblancrouge.com/fonts/futura-renner)
+
+[Source](https://github.com/noirblancrouge/Formera)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Formera" %}}
+
+Formera, also known as Futura Renner, is based on what is likely the first draft of
+Futura from 1927. I may hate Futura to an irrational degree, but Formera is cool and
+retains the irregular edges from print.
+
 ## Telex
 
 [Homepage](https://fonts.google.com/specimen/Telex)
