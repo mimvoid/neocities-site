@@ -18,11 +18,7 @@ Under Construction...
 
 {{% license "ofl" %}}
 
-{{% pangram font="KN Bobohei" lang="sc" punctuation=false %}}
-{{% pangram font="KN Bobohei" lang="tc" punctuation=false %}}
-{{% pangram font="KN Bobohei" lang="hiragana" punctuation=false %}}
-{{% pangram font="KN Bobohei" lang="katakana" punctuation=false %}}
-{{% pangram font="KN Bobohei" %}}
+{{% pangram font="KN Bobohei" lang="sc tc hiragana katakana en" %}}
 
 KN Bobohei is a truly outstanding font with support for Simplified Chinese,
 Traditional Chinese, and Hiragana and Katakana!
@@ -57,8 +53,7 @@ License (version 0.2 or below): [GNU GPL v2](http://www.gnu.org/licenses/old-lic
 <span class="primary">Variant</span>: cwTeX Q Kai
 {{% pangram font="cwTeX Q Kai" lang="tc" punctuation=false %}}
 <span class="primary">Variant</span>: cwTeX Q Fangsong
-{{% pangram font="cwTeX Q Fangsong" lang="tc" punctuation=false %}}
-{{% pangram font="cwTeX Q Fangsong" %}}
+{{% pangram font="cwTeX Q Fangsong" lang="tc en" %}}
 
 ### Wang Fonts
 
@@ -70,23 +65,19 @@ License (version 0.2 or below): [GNU GPL v2](http://www.gnu.org/licenses/old-lic
 
 <span class="primary">Variant</span>: Han Wang Yen Heavy (wt009)
 
-{{% pangram font="HanWangYenHeavy" lang="tc" punctuation=false %}}
-{{% pangram font="HanWangYenHeavy" %}}
+{{% pangram font="HanWangYenHeavy" lang="tc en" %}}
 
 <span class="primary">Variant</span>: Han Wang Li Su Medium (wt021)
 
-{{% pangram font="HanWanLiSuMedium" lang="tc" punctuation=false %}}
-{{% pangram font="HanWanLiSuMedium" %}}
+{{% pangram font="HanWanLiSuMedium" lang="tc en" %}}
 
 <span class="primary">Variant</span>: Han Wang Kan Da Yan (wt028)
 
-{{% pangram font="HanWangKanDaYan" lang="tc" punctuation=false %}}
-{{% pangram font="HanWangKanDaYan" %}}
+{{% pangram font="HanWangKanDaYan" lang="tc en" %}}
 
 <span class="primary">Variant</span>: Han Wang Kan Tan (wt028)
 
-{{% pangram font="HanWangKanTan" lang="tc" punctuation=false %}}
-{{% pangram font="HanWangKanTan" %}}
+{{% pangram font="HanWangKanTan" lang="tc en" %}}
 
 <details><summary>Full samples</summary>
 {{< images.inline >}}
@@ -118,9 +109,7 @@ interesting. The full sample images can be found above.
 
 {{% license "ofl" %}}
 
-{{% pangram font="Cherry Bomb One" lang="hiragana" punctuation=false %}}
-{{% pangram font="Cherry Bomb One" lang="katakana" punctuation=false %}}
-{{% pangram font="Cherry Bomb One" %}}
+{{% pangram font="Cherry Bomb One" lang="hiragana katakana en" %}}
 
 ### mini-wakuwaku
 
@@ -128,9 +117,7 @@ interesting. The full sample images can be found above.
 
 License: See homepage
 
-{{% pangram font="mini-wakuwaku" lang="hiragana" punctuation=false %}}
-{{% pangram font="mini-wakuwaku" lang="katakana" punctuation=false %}}
-{{% pangram font="mini-wakuwaku" %}}
+{{% pangram font="mini-wakuwaku" lang="hiragana katakana en" %}}
 
 ### Yuji Syuku
 
@@ -140,9 +127,7 @@ License: See homepage
 
 {{% license "ofl" %}}
 
-{{% pangram font="Yuji Syuku" lang="ja" punctuation=false %}}
-{{% pangram font="Yuji Syuku" lang="katakana" punctuation=false %}}
-{{% pangram font="Yuji Syuku" %}}
+{{% pangram font="Yuji Syuku" lang="ja katakana en" %}}
 
 Yuji Syuku is part of a series of typefaces based on the writing of calligrapher
 Yuji Kataoka!
@@ -155,9 +140,7 @@ All three versions have the same kanji, but different kana styles.
 
 {{% license "ofl" %}}
 
-{{% pangram font="SoukouMincho" lang="ja" punctuation=false %}}
-{{% pangram font="SoukouMincho" lang="katakana" punctuation=false %}}
-{{% pangram font="SoukouMincho" %}}
+{{% pangram font="SoukouMincho" lang="ja katakana en" %}}
 
 Designer Kato Masashi (加藤雅士) from Flop Design derived SoukouMincho (装甲明朝)
 from Source Han Serif.
@@ -175,9 +158,7 @@ homepage is the latest working version from the Internet Archive's Wayback Machi
 
 {{% license "ofl" %}}
 
-{{% pangram font="Zen Antique" lang="ja" punctuation=false %}}
-{{% pangram font="Zen Antique" lang="katakana" punctuation=false %}}
-{{% pangram font="Zen Antique" %}}
+{{% pangram font="Zen Antique" lang="ja katakana en" %}}
 
 ### Train One
 
@@ -187,9 +168,7 @@ homepage is the latest working version from the Internet Archive's Wayback Machi
 
 {{% license "ofl" %}}
 
-{{% pangram font="Train One" lang="ja" punctuation=false %}}
-{{% pangram font="Train One" lang="katakana" punctuation=false %}}
-{{% pangram font="Train One" %}}
+{{% pangram font="Train One" lang="ja katakana en" %}}
 
 </section>
 <hr />

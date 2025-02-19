@@ -103,22 +103,19 @@ are quite pretty, especially after I had gotten used to the plain italics of
 
 #### iA Writer Duo
 
-{{% pangram font="iA Writer Duo" punctuation=false %}}
-{{% pangram font="iA Writer Duo" lang="ru" %}}
+{{% pangram font="iA Writer Duo" lang="en ru" %}}
 
 <span class="primary">Variant</span>: Bold
 
 <div style="font-weight: bold">
-{{% pangram font="iA Writer Duo" punctuation=false %}}
-{{% pangram font="iA Writer Duo" lang="ru" %}}
+{{% pangram font="iA Writer Duo" lang="en ru" %}}
 </div>
 
 iA Writer Duospace Bold used to be the heading font of my website!
 
 #### iA Writer Quattro
 
-{{% pangram font="iA Writer Quattro" punctuation=false %}}
-{{% pangram font="iA Writer Quattro" lang="ru" %}}
+{{% pangram font="iA Writer Quattro" lang="en ru" %}}
 
 The iA Writer fonts were modified from [IBM Plex](https://github.com/IBM/plex).
 

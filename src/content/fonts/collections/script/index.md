@@ -71,8 +71,7 @@ the handwriting models Playwrite portrays.
 
 {{% license "ofl" %}}
 
-{{% pangram font="Itim" lang="th" punctuation=false %}}
-{{% pangram font="Itim" %}}
+{{% pangram font="Itim" lang="th en" %}}
 
 Itim has such regularity that you can almost mistake it for a typical sans serif font with
 round terminals. It has a subtlety that makes it perfect for clean yet playful designs.
@@ -95,8 +94,7 @@ round terminals. It has a subtlety that makes it perfect for clean yet playful d
 
 {{% license "ofl" %}}
 
-{{% pangram font="Shantell Sans" punctuation=false %}}
-{{% pangram font="Shantell Sans" lang="ru" %}}
+{{% pangram font="Shantell Sans" lang="en ru" %}}
 
 Shantell Sans is a wonderful and versatile font based on the handwriting of dyslexic
 artist Shantell Martin. You might have heard of it as "the new Comic Sans" (in a positive way),
@@ -133,8 +131,7 @@ It reminds me a bit of my own handwriting too.
 
 {{% license "ofl" %}}
 
-{{% pangram font="Bad Script" punctuation=false %}}
-{{% pangram font="Bad Script" lang="ru" %}}
+{{% pangram font="Bad Script" lang="en ru" %}}
 
 It's name is rather ironic given how pretty I find it.
 

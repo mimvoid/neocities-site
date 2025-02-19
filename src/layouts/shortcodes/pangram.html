@@ -24,76 +24,96 @@
 -}}
 
 <div class="pangram large" style="font-family: '{{ .Get "font" }}'">
-  {{- with $lang -}}
+  {{- range split $lang " " -}}
     {{- if or (index $langAbbrev .) (index $pangrams .) -}}
       {{- with default . (index $langAbbrev .) -}}
-        <p>{{ index $pangrams . | strings.ToUpper }}</p>
-        <p>{{ index $pangrams . }}</p>
+        <p>
+          {{ index $pangrams . | strings.ToUpper }}<br />
+          {{ index $pangrams . }}
+        </p>
       {{- end -}}
 
     {{- else if eq . "hiragana" -}}
-      <div style="display: inline flex">
-        <div style="margin-right: 2.5em">
-          <p>いろはにほへと</p>
-          <p>ちりぬるを</p>
-          <p>わかよたれそ</p>
-          <p>つねならむ</p>
+      <div style="display: flex">
+        <div style="margin-right: 1.5em">
+          <p>
+            いろはにほへと<br />
+            ちりぬるを<br />
+            わかよたれそ<br />
+            つねならむ
+          </p>
         </div>
         <div>
-          <p>うゐのおくやま</p>
-          <p>けふこえて</p>
-          <p>あさきゆめみし</p>
-          <p>ゑひもせす</p>
+          <p>
+            うゐのおくやま<br />
+            けふこえて<br />
+            あさきゆめみし<br />
+            ゑひもせす
+          </p>
         </div>
       </div>
 
     {{- else if eq . "katakana" -}}
-      <div style="display: inline flex">
-        <div style="margin-right: 2.5em">
-          <p>イロハニホヘト</p>
-          <p>チリヌルヲ</p>
-          <p>ワカヨタレソ</p>
-          <p>ツネナラム</p>
+      <div style="display: flex">
+        <div style="margin-right: 1.5em">
+          <p>
+            イロハニホヘト<br />
+            チリヌルヲ<br />
+            ワカヨタレソ<br />
+            ツネナラム
+          </p>
         </div>
         <div>
-          <p>ウヰノオクヤマ</p>
-          <p>ケフコエテ</p>
-          <p>アサキユメミシ</p>
-          <p>ヱヒモセス</p>
+          <p>
+            ウヰノオクヤマ<br />
+            ケフコエテ<br />
+            アサキユメミシ<br />
+            ヱヒモセス
+          </p>
         </div>
       </div>
 
     {{- else if or (eq . "japanese") (eq . "ja") -}}
-      <p>鳥啼く声す 夢覚ませ</p>
-      <p>見よ明け渡る 東を</p>
-      <p>空色映えて 沖つ辺に</p>
-      <p>帆船群れゐぬ 靄の中</p>
+      <p>
+        鳥啼く声す 夢覚ませ<br />
+        見よ明け渡る 東を<br />
+        空色映えて 沖つ辺に<br />
+        帆船群れゐぬ 靄の中
+      </p>
 
     {{- else if eq . "sc" -}}
       <div style="display: inline flex">
         <div style="margin-right: 1.5em">
-          <p>天地玄黄，宇宙洪荒。</p>
-          <p>日月盈昃，辰宿列张。</p>
-          <p>寒来暑往，秋收冬藏。</p>
+          <p>
+            天地玄黄，宇宙洪荒。<br />
+            日月盈昃，辰宿列张。<br />
+            寒来暑往，秋收冬藏。
+          </p>
         </div>
         <div>
-          <p>闰余成岁，律吕调阳。</p>
-          <p>云腾致雨，露结为霜。</p>
-          <p>金生丽水，玉出昆冈。</p>
+          <p>
+            闰余成岁，律吕调阳。<br />
+            云腾致雨，露结为霜。<br />
+            金生丽水，玉出昆冈。
+          </p>
         </div>
       </div>
 
     {{- else if eq . "tc" -}}
       <div style="display: inline flex">
         <div style="margin-right: 1.5em">
-          <p>天地玄黃，宇宙洪荒。</p>
-          <p>日月盈昃，辰宿列張。</p>
-          <p>寒來暑往，秋收冬藏。</p>
+          <p>
+            天地玄黃，宇宙洪荒。<br />
+            日月盈昃，辰宿列張。<br />
+            寒來暑往，秋收冬藏。
+          </p>
         </div>
         <div>
-          <p>閏餘成歲，律呂調陽。</p>
-          <p>雲騰致雨，露結為霜。</p>
-          <p>金生麗水，玉出崑岡。</p>
+          <p>
+            閏餘成歲，律呂調陽。<br />
+            雲騰致雨，露結為霜。<br />
+            金生麗水，玉出崑岡。
+          </p>
         </div>
       </div>
 
