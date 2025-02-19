@@ -118,3 +118,11 @@ This font was designed during the lockdown in April 2020 by Mariano Diez, and th
 Cyrillic set was by Denis Ignatov.
 
 It's super cool, very futuristic and sci-fi or cyberpunk-esque.
+
+## Rosarina
+
+[Homepage](https://www.behance.net/gallery/47054079/Rosarina-Font)
+
+License: Free for commercial use
+
+{{% pangram font="Rosarina" %}}
