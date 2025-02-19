@@ -110,6 +110,18 @@ interesting. The full sample images can be found above.
 
 ## Japanese
 
+### Cherry Bomb One
+
+[Hompage](https://fonts.google.com/specimen/Cherry+Bomb+One)
+
+[Source](https://github.com/satsuyako/CherryBomb)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Cherry Bomb One" lang="hiragana" punctuation=false %}}
+{{% pangram font="Cherry Bomb One" lang="katakana" punctuation=false %}}
+{{% pangram font="Cherry Bomb One" %}}
+
 ### mini-wakuwaku
 
 [Homepage](http://mini-design.jp/font/mini-wakuwaku.html)
