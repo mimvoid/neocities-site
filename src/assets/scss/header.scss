@@ -109,13 +109,13 @@ header {
 .actions {
   @include looks.transition;
 
-  .ph-minus-icon {
+  .ph-minus {
     color: var(--primary);
   }
-  .ph-cards-icon {
+  .ph-cards {
     color: var(--secondary);
   }
-  .ph-x-icon {
+  .ph-x {
     color: var(--tertiary);
   }
 }

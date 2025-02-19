@@ -1,4 +1,4 @@
-svg:not(.mimvoid_icon-icon) {
+svg:not(.mimvoid_icon) {
   position: relative;
   display: inline-block;
   vertical-align: -0.12em;
@@ -7,19 +7,19 @@ svg:not(.mimvoid_icon-icon) {
 
 // Sidebar navigation folders
 details > summary {
-  .ph-folder-simple-icon {
+  .ph-folder-simple {
     display: inline-block;
   }
-  .ph-folder-open-icon {
+  .ph-folder-open {
     display: none;
   }
 }
 
 details[open] > summary {
-  .ph-folder-simple-icon {
+  .ph-folder-simple {
     display: none;
   }
-  .ph-folder-open-icon {
+  .ph-folder-open {
     display: inline-block;
   }
 }

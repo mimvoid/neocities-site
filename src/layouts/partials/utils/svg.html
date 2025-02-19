@@ -1,9 +1,8 @@
-<!-- From Utkarsh Verma -->
-<!-- https://bitbanged.com/posts/how-to-use-inline-svgs-with-hugo -->
+{{- /* From Utkarsh Verma */ -}}
+{{- /* https://bitbanged.com/posts/how-to-use-inline-svgs-with-hugo */ -}}
 
-{{ $svg := . }}
-{{ $class := print $svg "-icon" }}
-{{ $match := "<svg (.*)?>(.*)</svg>" }}
+{{- $svg := . -}}
+{{- $regex := "<svg (.*)?>(.*)</svg>" -}}
+{{- $replaceWith := printf `<svg class="%s" ${1}>${2}</svg>` $svg -}}
 
-{{ $replaceWith := printf `<svg class="%s" ${1}>${2}</svg>` $class }}
-{{ return (replaceRE $match $replaceWith (printf "/assets/icons/%s.svg" $svg | readFile) | safeHTML) }}
+{{ return (replaceRE $regex $replaceWith (printf "/assets/icons/%s.svg" $svg | readFile) | safeHTML) }}
