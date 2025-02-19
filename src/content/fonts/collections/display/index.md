@@ -136,3 +136,13 @@ License: Free for commercial use
 {{% license "ofl" %}}
 
 {{% pangram font="LibertineSuper" %}}
+
+## Beon Display
+
+[Homepage](https://noirblancrouge.com/fonts/beon-display)
+
+[Source](https://github.com/noirblancrouge/Beon)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Beon Display" %}}
