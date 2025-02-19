@@ -6,53 +6,6 @@ date: 2025-01-02T13:24:49-05:00
 
 Under Construction...
 
-## Karla
-
-[Homepage](https://fonts.google.com/specimen/Karla)
-
-[Source](https://github.com/googlefonts/karla)
-
-{{% license "ofl" %}}
-
-{{% pangram font="Karla" %}}
-
-Karla used to be the body font of my website!
-
-It's a nice friendly-looking font with an air of playfulness.
-
-## Nunito
-
-[Homepage](https://fonts.google.com/specimen/Nunito)
-
-[Source](https://github.com/googlefonts/nunito)
-
-{{% license "ofl" %}}
-
-{{% pangram font="Nunito" %}}
-
-Nunito is distinct for its round terminals, which I don't see in many non-display
-sans serif fonts. It works pretty well as a simple body font.
-
-The variant [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) has more
-standard non-rounded terminals.
-
-## Mulish
-
-[Homepage](https://fonts.google.com/specimen/Mulish)
-
-[Source](https://github.com/googlefonts/mulish)
-
-{{% license "ofl" %}}
-
-{{% pangram font="Mulish" %}}
-
-I used this font a ton in my earlier school days, so it has a sort of nostalgia for me.
-
-I remember it by its original name Muli, which was 
-[changed in 2020](https://github.com/googlefonts/mulish/commit/e268b235f32aa7472c4aa22b59d0854ae5420c97).
-
-Unlike many modern fonts, it has a single story "a" like everyday handwriting.
-
 ## Cantarell
 
 [Homepage](https://cantarell.gnome.org)
@@ -98,6 +51,53 @@ with [Inter](https://rsms.me/inter).
 Formera, also known as Futura Renner, is based on what is likely the first draft of
 Futura from 1927. I may hate Futura to an irrational degree, but Formera is cool and
 retains the irregular edges from print.
+
+## Karla
+
+[Homepage](https://fonts.google.com/specimen/Karla)
+
+[Source](https://github.com/googlefonts/karla)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Karla" %}}
+
+Karla used to be the body font of my website!
+
+It's a nice friendly-looking font with an air of playfulness.
+
+## Mulish
+
+[Homepage](https://fonts.google.com/specimen/Mulish)
+
+[Source](https://github.com/googlefonts/mulish)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Mulish" %}}
+
+I used this font a ton in my earlier school days, so it has a sort of nostalgia for me.
+
+I remember it by its original name Muli, which was 
+[changed in 2020](https://github.com/googlefonts/mulish/commit/e268b235f32aa7472c4aa22b59d0854ae5420c97).
+
+Unlike many modern fonts, it has a single story "a" like everyday handwriting.
+
+## Nunito
+
+[Homepage](https://fonts.google.com/specimen/Nunito)
+
+[Source](https://github.com/googlefonts/nunito)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Nunito" %}}
+
+Nunito is distinct for its round terminals, which I don't see in many non-display
+sans serif fonts. It works pretty well as a simple body font.
+
+The variant [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) has more
+standard non-rounded terminals.
 
 ## Telex
 

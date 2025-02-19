@@ -119,21 +119,6 @@ License: See homepage
 
 {{% pangram font="mini-wakuwaku" lang="hiragana katakana en" %}}
 
-### Yuji Syuku
-
-[Homepage](https://fonts.google.com/specimen/Yuji+Syuku)
-
-[Source](https://github.com/Kinutafontfactory/Yuji)
-
-{{% license "ofl" %}}
-
-{{% pangram font="Yuji Syuku" lang="ja katakana en" %}}
-
-Yuji Syuku is part of a series of typefaces based on the writing of calligrapher
-Yuji Kataoka!
-
-All three versions have the same kanji, but different kana styles.
-
 ### SoukouMincho
 
 [Homepage](https://web.archive.org/web/20220320201742/https://flopdesign.com/blog/font/5228)
@@ -150,16 +135,6 @@ I love this font for its contrast!
 Sometime between 20 March and 15 May 2022, the original website went down. The linked
 homepage is the latest working version from the Internet Archive's Wayback Machine.
 
-### Zen Antique
-
-[Homepage](https://fonts.google.com/specimen/Zen+Antique)
-
-[Source](https://github.com/googlefonts/zen-antique)
-
-{{% license "ofl" %}}
-
-{{% pangram font="Zen Antique" lang="ja katakana en" %}}
-
 ### Train One
 
 [Homepage](https://fonts.google.com/specimen/Train+One)
@@ -169,6 +144,31 @@ homepage is the latest working version from the Internet Archive's Wayback Machi
 {{% license "ofl" %}}
 
 {{% pangram font="Train One" lang="ja katakana en" %}}
+
+### Yuji Syuku
+
+[Homepage](https://fonts.google.com/specimen/Yuji+Syuku)
+
+[Source](https://github.com/Kinutafontfactory/Yuji)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Yuji Syuku" lang="ja katakana en" %}}
+
+Yuji Syuku is part of a series of typefaces based on the writing of calligrapher
+Yuji Kataoka!
+
+All three versions have the same kanji, but different kana styles.
+
+### Zen Antique
+
+[Homepage](https://fonts.google.com/specimen/Zen+Antique)
+
+[Source](https://github.com/googlefonts/zen-antique)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Zen Antique" lang="ja katakana en" %}}
 
 </section>
 <hr />

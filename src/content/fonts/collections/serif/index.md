@@ -11,6 +11,28 @@ first and foremost [display fonts]({{% relref "fonts/collections/display" %}}).
 
 Nevertheless, there are a few that have won me over.
 
+## Bagnard
+
+[Specimen](https://open-foundry.com/fonts/bagnard_regular)
+
+[Source](https://github.com/sebsan/Bagnard)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Bagnard" %}}
+
+## Cambo
+
+[Homepage](https://www.huertatipografica.com/en/fonts/cambo-ht)
+
+[Source](https://github.com/librefonts/cambo)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Cambo" %}}
+
+Look at those beautiful numbers and terminals!
+
 ## EB Garamond
 
 [Homepage](https://googlefonts.github.io/ebgaramond-specimen)
@@ -34,28 +56,6 @@ EB Garamond is one of my favorite serif body fonts. It's classy and gets the job
 {{% pangram font="Libre Baskerville" %}}
 
 Libre Baskerville my go-to font for a printed book feel.
-
-## Bagnard
-
-[Specimen](https://open-foundry.com/fonts/bagnard_regular)
-
-[Source](https://github.com/sebsan/Bagnard)
-
-{{% license "ofl" %}}
-
-{{% pangram font="Bagnard" %}}
-
-## Cambo
-
-[Homepage](https://www.huertatipografica.com/en/fonts/cambo-ht)
-
-[Source](https://github.com/librefonts/cambo)
-
-{{% license "ofl" %}}
-
-{{% pangram font="Cambo" %}}
-
-Look at those beautiful numbers and terminals!
 
 ## Spectral
 

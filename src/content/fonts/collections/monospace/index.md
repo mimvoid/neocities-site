@@ -18,6 +18,20 @@ Some are typewriter style fonts, great for formatting screenplays and the like.
 
 ## Programming
 
+### Fira Code
+
+[Homepage](https://github.com/tonsky/FiraCode)
+
+Nerd Font variant: [FiraCode][nf]
+
+{{% license "ofl" %}}
+
+{{% pangram font="Fira Code" %}}
+{{% pangram font="Fira Code" lang="ligatures" punctuation=false %}}
+
+Fira Code is super popular among developers, particularly for its abundance
+of programming ligatures.
+
 ### Source Code Pro
 
 [Homepage](https://adobe-fonts.github.io/source-code-pro)
@@ -59,20 +73,6 @@ but can be seen with many other languages like JavaScript, Typescript,
 
 A derivative of Source Code Pro, Office Code Pro is slightly taller with
 a few different glyph styles.
-
-### Fira Code
-
-[Homepage](https://github.com/tonsky/FiraCode)
-
-Nerd Font variant: [FiraCode][nf]
-
-{{% license "ofl" %}}
-
-{{% pangram font="Fira Code" %}}
-{{% pangram font="Fira Code" lang="ligatures" punctuation=false %}}
-
-Fira Code is super popular among developers, particularly for its abundance
-of programming ligatures.
 
 ### Victor Mono
 
