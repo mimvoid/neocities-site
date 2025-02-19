@@ -35,6 +35,16 @@ EB Garamond is one of my favorite serif body fonts. It's classy and gets the job
 
 Libre Baskerville my go-to font for a printed book feel.
 
+## Bagnard
+
+[Specimen](https://open-foundry.com/fonts/bagnard_regular)
+
+[Source](https://github.com/sebsan/Bagnard)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Bagnard" %}}
+
 ## Cambo
 
 [Homepage](https://www.huertatipografica.com/en/fonts/cambo-ht)
