@@ -22,6 +22,7 @@ date: 2025-02-09T19:48:23-05:00
     - Added [Formera]({{% relref "fonts/collections/sans-serif#formera" %}})
     - Added [LibertineSuper]({{% relref "fonts/collections/display#libertinesuper" %}})
     - Added [Beon Display]({{% relref "fonts/collections/display#beon-display" %}})
+    - Added [Dan]({{% relref "fonts/collections/display#dan" %}})
 - Added avatar art for [Malachi]({{% relref "worlds/aegis-of-death/malachi" %}}) and [Everett]({{% relref "worlds/aegis-of-death/everett" %}})!
 
 ##### 18.02.2025

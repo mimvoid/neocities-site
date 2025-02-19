@@ -146,3 +146,13 @@ License: Free for commercial use
 {{% license "ofl" %}}
 
 {{% pangram font="Beon Display" %}}
+
+## Dan
+
+[Specimen](https://www.behance.net/gallery/501615/DAN-Free-Font)
+
+[Download](https://localfonts.eu/freefonts/decorative-cyrillic-free-fonts/dan)
+
+License: [Fontfabric EULA Free Font License Ver. 2.0](https://localfonts.eu/wp-content/uploads/2017/12/EULA-Free-Font-License-Ver.-2.0.pdf)
+
+{{% pangram font="Dan" lang="en ru uk" %}}
