@@ -10,5 +10,13 @@
 @include font("Courier Prime Sans", "CourierPrimeSans");
 @include font("Courier Prime Sans", "CourierPrimeSans-Italic", $style: italic);
 
+@include font("Latin Modern Mono", "LatinModernMono-Regular");
+@include font("Latin Modern Mono", "LatinModernMono-Italic", $style: italic);
+
+@include font("TT2020 Base", "TT2020Base-Regular");
+@include font("TT2020 Base", "TT2020Base-Italic", $style: italic);
+@include font("TT2020 Style E", "TT2020StyleE-Regular");
+@include font("TT2020 Style E", "TT2020StyleE-Italic", $style: italic);
+
 @include font("Sono", "Sono-Regular");
 @include font("Sono", "Sono-700", $weight: bold);

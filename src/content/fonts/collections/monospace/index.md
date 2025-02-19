@@ -138,6 +138,53 @@ which was designed in 1955 for IBM and became the standard for screenwriting (a 
 Courier Prime is my favorite typewriter style font, and I love its italics. There is also
 Courier Prime Code, which is Courier Prime Sans but code-optimized.
 
+### Latin Modern Mono
+
+[Homepage](https://www.gust.org.pl/projects/e-foundry/latin-modern)
+
+[Specimen](https://tug.org/FontCatalogue/latinmodernmono)
+
+License: [GUST Font License](https://www.gust.org.pl/projects/e-foundry/licenses)
+
+{{% pangram font="Latin Modern Mono" %}}
+
+<div style="font-style: italic">
+{{% pangram font="Latin Modern Mono" %}}
+</div>
+
+Latin Modern Mono was built on Computer Mono, designed by Donald Knuth and the original family
+used by TeX.
+
+### TT2020
+
+[Homepage](https://copypaste.wtf/TT2020/)
+
+[Source](https://github.com/ctrlcctrlv/TT2020)
+
+{{% license "ofl" %}}
+
+<span class="primary">Variant</span>: Base Style
+
+{{% pangram font="TT2020 Base" lang="en ru" %}}
+
+<div style="font-style: italic">
+{{% pangram font="TT2020 Base" lang="en ru" %}}
+</div>
+
+<span class="primary">Variant</span>: Style E
+
+{{% pangram font="TT2020 Style E" lang="en ru" %}}
+
+<div style="font-style: italic">
+{{% pangram font="TT2020 Style E" lang="en ru" %}}
+</div>
+
+TT2020 is a cool hyperrealistic typewriter font that takes care to vary glyphs, even for
+spaces. That means it's not a monospace font, but I put it here anyway.
+
+It manages to emulate true typewriter print pretty well, especially compared to
+most other fonts out there.
+
 </section>
 <section>
 
