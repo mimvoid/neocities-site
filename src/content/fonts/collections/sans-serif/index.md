@@ -83,7 +83,7 @@ with [Inter](https://rsms.me/inter).
 
 {{% license "ofl" %}}
 
-{{% pangram font="Finlandica" %}}
+{{% pangram font="Finlandica" lang="fi en" %}}
 
 ## Telex
 
