@@ -15,6 +15,7 @@ date: 2025-02-09T19:48:23-05:00
     - Added [Spectral]({{% relref "fonts/collections/serif#spectral" %}})
     - Added [Bukhari Script]({{% relref "fonts/collections/script#bukhari-script" %}})
     - Added [Gogol]({{% relref "fonts/collections/script#gogol" %}})
+    - Added [Tsarevich]({{% relref "fonts/collections/display#tsarevich" %}})
 
 ##### 18.02.2025
 

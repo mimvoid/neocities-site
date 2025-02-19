@@ -82,3 +82,24 @@ for previews.
 {{% license "ofl" %}}
 
 {{% pangram font="Plaster" %}}
+
+## Tsarevich
+
+[Homepage](http://www.mishapanfilov.ru/font_tsarevich_en.html)
+
+License: Free for commercial use (see homepage)
+
+{{% pangram font="Tsarevich-Regular" lang="ru en" %}}
+
+<span class="primary">Variant</span>: Light
+
+{{% pangram font="Tsarevich-Light" lang="ru en" %}}
+
+<span class="primary">Variant</span>: Bold
+
+{{% pangram font="Tsarevich-Bold" lang="ru en" %}}
+
+Tsarevich has a huge number of ligatures with interlocking letters! It's based on old
+Russian calligraphy.
+
+There is also an older version with a more handwritten and irregular look.
