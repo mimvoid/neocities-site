@@ -1,8 +1,6 @@
 ## File 3: Relationships {.section}
 
-### [Everett Dayal]({{% relref "everett" %}})
-
-**Relation**: Harborer?
+{{< relation page="../everett" rel="Harborer?" class="polaroid" >}}
 
 "There's a lot I can say about Everett... They've given me a place to stay, even though
 they work for the AOD. I know it's risky. They've threatened me about stepping out of line
@@ -15,9 +13,9 @@ own house...
 "We both know I'm not telling the whole story. But if it keeps the truce, then that's that.
 I'll need any help I can get."
 
-### [Felix Antonovich Sokolov]({{% relref "felix" %}})
+{{< /relation >}}
 
-**Relation**: Ally
+{{< relation page="../felix" rel="Ally" class="polaroid" >}}
 
 "Felix knows a lot about technology I can hardly wrap my head around, and he's one of the
 few out there who's actually interested in shadows. He always comes running to me with new ideas
@@ -28,14 +26,16 @@ his skull.
 accomplish nearly as much. But if I had a normal life, maybe I could at least have done
 something impressive too? Ugh, I don't even want to think about him anymore."
 
-### [Mystery Girl]({{% relref "sonya" %}})
+{{< /relation >}}
 
-**Relation**: "Partners in crime"
+{{< relation page="../sonya" title="Mystery Girl" rel=`"Partners in crime"` class="polaroid" >}}
 
 TBA
 
-### [Anastasia Xie]({{% relref "anastasia" %}})
+{{< /relation >}}
 
-**Relation**: Half sister
+{{< relation page="../anastasia" rel="Half sister" class="polaroid" >}}
 
 "Her... I'd rather not talk about it."
+
+{{< /relation >}}

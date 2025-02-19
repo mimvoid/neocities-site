@@ -11,6 +11,10 @@
   {{ end }}
 {{ end -}}
 
+{{- if or .Params.character (.HasShortcode "relation") }}
+  {{ partial "utils/style" "scss/extra/relation.scss" }}
+{{ end -}}
+
 {{- if .HasShortcode "pangram" }}
   {{ partial "utils/load-fonts" . }}
 {{ end }}
