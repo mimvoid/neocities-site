@@ -9,3 +9,6 @@
 
 @include font("Courier Prime Sans", "CourierPrimeSans");
 @include font("Courier Prime Sans", "CourierPrimeSans-Italic", $style: italic);
+
+@include font("Sono", "Sono-Regular");
+@include font("Sono", "Sono-700", $weight: bold);

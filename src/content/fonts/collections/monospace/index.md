@@ -139,3 +139,22 @@ Courier Prime is my favorite typewriter style font, and I love its italics. Ther
 Courier Prime Code, which is Courier Prime Sans but code-optimized.
 
 </section>
+<section>
+
+## Miscellaneous
+
+### Sono
+
+[Homepage](https://etceteratype.co/sono)
+
+[Source](https://github.com/sursly/sono)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Sono" %}}
+
+<div style="font-weight: bold">
+{{% pangram font="Sono" %}}
+</div>
+
+</section>

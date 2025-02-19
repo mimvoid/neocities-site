@@ -9,6 +9,8 @@ date: 2025-02-09T19:48:23-05:00
 ##### 19.02.2025
 
 - Reorganized my [font collection pages]({{% relref "fonts/collections" %}})
+- Added new fonts
+    - Added [Sono]({{% relref "fonts/collections/monospace/#sono" %}})
 
 ##### 18.02.2025
 
