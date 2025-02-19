@@ -14,6 +14,7 @@ date: 2025-02-09T19:48:23-05:00
     - Added [Cherry Bomb One]({{% relref "fonts/collections/cjk/#cherry-bomb-one" %}})
     - Added [Spectral]({{% relref "fonts/collections/serif#spectral" %}})
     - Added [Bukhari Script]({{% relref "fonts/collections/script#bukhari-script" %}})
+    - Added [Gogol]({{% relref "fonts/collections/script#gogol" %}})
 
 ##### 18.02.2025
 

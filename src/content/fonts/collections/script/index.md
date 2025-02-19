@@ -135,6 +135,19 @@ It reminds me a bit of my own handwriting too.
 
 It's name is rather ironic given how pretty I find it.
 
+### Gogol
+
+[Homepage](https://www.paratype.com/fonts/pt/gogol)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Gogol" lang="ru" %}}
+
+Gogol is a Russian typeface based on Nikolai Gogol's handwriting from his letters and
+drafts for *Mertvye Dushi*.
+
+It's not very extensive (and doesn't support Ukrainian), but it's interesting nontheless.
+
 ### Homemade Apple
 
 [Homepage](https://fonts.google.com/specimen/Homemade+Apple)
