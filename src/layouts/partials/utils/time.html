@@ -1,8 +1,8 @@
-{{ $machineFmt := "2006-01-02T15:04:05-07:00" }}
-{{ $humanFmt := default "02 Jan 2006" .format }}
+{{- $machineFmt := "2006-01-02T15:04:05-07:00" -}}
+{{- $humanFmt := default "02 Jan 2006" .format -}}
 
-{{ with .time }}
+{{- with .time -}}
 <time datetime="{{ .Format $machineFmt }}">
   {{ .Format $humanFmt -}}
 </time>
-{{ end }}
+{{- end -}}

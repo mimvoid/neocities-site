@@ -1,5 +1,3 @@
-{{ if .IsPage }}
-  {{ with index .Ancestors.Reverse 2 }}
-    <a class="breadcrumb" href="{{ .RelPermalink }}">{{ .Title }}</a>
-  {{ end }}
+{{ with index .Ancestors.Reverse 2 }}
+  <a class="breadcrumb" href="{{ .RelPermalink }}">{{ .Title }}</a>
 {{ end }}

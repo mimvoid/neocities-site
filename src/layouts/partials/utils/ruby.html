@@ -1,17 +1,20 @@
 <ruby>
-  {{- $titleSplit := split .title " " -}}
-  {{- $rubySplit := split .ruby " " -}}
+  {{- $wordSplit := split .word " " -}}
+  {{- $numWords := len $wordSplit -}}
 
-  {{- if eq (len $titleSplit) (len $rubySplit) -}}
-    {{- range seq 0 (sub (len $titleSplit) 1) -}}
-      {{ index $titleSplit . }}
+  {{- $rubySplit := split .ruby " " -}}
+  {{- $numRuby := len $rubySplit -}}
+
+  {{- if eq $numWords $numRuby -}}
+    {{- range seq 0 (sub $numWords 1) -}}
+      {{ index $wordSplit . }}
       {{ with index $rubySplit . }}
-        <rt>{{ . }}</rt>
-        <rp>{{ . }}</rp>
+        <rt>{{- . -}}</rt>
+        <rp>{{- . -}}</rp>
       {{ end }}
     {{- end -}}
   {{- else -}}
-    {{- .title -}}
+    {{- .word -}}
     <rt>{{- .ruby -}}</rt>
     <rp>{{- .ruby -}}</rp>
   {{- end -}}

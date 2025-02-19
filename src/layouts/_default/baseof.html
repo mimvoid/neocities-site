@@ -3,49 +3,48 @@
 
 <head>
   {{ partial "head/head" . }}
-  <!-- Extra content for the head (e.g. custom styles) -->
   {{ block "head-extra" . }}{{ end }}
 </head>
 
 <body>
   {{ block "body" . }}
 
-    {{- partial "header" . -}}
+    {{ partialCached "header" . }}
 
     <div id="wrapper">
       <div class="body">
         <div class="sidebar">
-          {{- partial "nav/nav" . -}}
+          {{ partial "nav/nav" . }}
           {{ block "sidebar-extra" . }}{{ end }}
         </div>
 
         <main>
-          {{- block "main-box" . -}}
-            {{- block "pre-article" . -}}
-            {{- end -}}
+          {{ block "main-box" . }}
+            {{ block "pre-article" . }}{{ end }}
             <article class="box">
-              {{- block "article-head" . -}}
-              {{- end -}}
+              {{ block "article-head" . }}{{ end }}
 
-              {{- block "title" . -}}
-                {{- partial "title" . -}}
-              {{- end -}}
+              {{ block "title" . }}
+                {{ partial "title" . }}
+              {{ end }}
 
-              {{- block "main" . -}}
+              {{ block "main" . }}
                 {{ .Content -}}
-              {{- end -}}
+              {{ end }}
 
-              {{- partial "dates" . -}}
+              {{ partial "dates" . }}
             </article>
-            {{- block "body-extra" . -}}{{- end -}}
-          {{- end -}}
+            {{ block "main-extra" . }}{{ end }}
+          {{ end }}
         </main>
 
       </div>
-      {{- partial "footer" . -}}
+
+      {{ partial "footer" . }}
+
     </div>
 
-  {{- end -}}
+  {{ end }}
 </body>
 
 </html>
