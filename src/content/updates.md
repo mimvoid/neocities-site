@@ -16,6 +16,7 @@ date: 2025-02-09T19:48:23-05:00
     - Added [Bukhari Script]({{% relref "fonts/collections/script#bukhari-script" %}})
     - Added [Gogol]({{% relref "fonts/collections/script#gogol" %}})
     - Added [Tsarevich]({{% relref "fonts/collections/display#tsarevich" %}})
+    - Added [Lkdown]({{% relref "fonts/collections/display#lkdown" %}})
 
 ##### 18.02.2025
 

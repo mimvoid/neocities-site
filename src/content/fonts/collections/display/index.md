@@ -103,3 +103,18 @@ Tsarevich has a huge number of ligatures with interlocking letters! It's based o
 Russian calligraphy.
 
 There is also an older version with a more handwritten and irregular look.
+
+## Lkdown
+
+[Homepage](https://rostype.com/lkdown)
+
+[Typographic specimen](https://www.behance.net/gallery/95166229/Lkdown-Free-font?locale=en_US)
+
+License: EULA (free for commerical use, see homepage)
+
+{{% pangram font="Lkdown" lang="en ru" %}}
+
+This font was designed during the lockdown in April 2020 by Mariano Diez, and the
+Cyrillic set was by Denis Ignatov.
+
+It's super cool, very futuristic and sci-fi or cyberpunk-esque.
