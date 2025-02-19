@@ -4,6 +4,11 @@ linkTitle: Malachi
 description: Character page for Malachi Xie, the protagonist of Aegis of Death
 date: 2024-09-24T21:39:53-04:00
 weight: 10
+resources:
+  - name: avatar
+    src: Malachi-Avatar.webp
+    params:
+      bg: "#b199c9"
 params:
     character: true
     classification: Subject ψ-01

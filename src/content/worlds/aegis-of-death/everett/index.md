@@ -4,6 +4,11 @@ linkTitle: Everett
 description: Character page for Everett Dayal, deuteragonist of Aegis of Death.
 date: 2024-09-24T21:39:46-04:00
 weight: 20
+resources:
+  - name: avatar
+    src: Everett-Avatar.webp
+    params:
+      bg: "#96a9bf"
 params:
     character: true
     classification: Entity β-994
