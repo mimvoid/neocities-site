@@ -26,6 +26,8 @@ date: 2025-02-09T19:48:23-05:00
     - Added [Latin Modern Mono]({{% relref "fonts/collections/monospace#latin-modern-mono" %}})
     - Added [TT2020]({{% relref "fonts/collections/monospace#tt2020" %}})
 - Added avatar art for [Malachi]({{% relref "worlds/aegis-of-death/malachi" %}}) and [Everett]({{% relref "worlds/aegis-of-death/everett" %}})!
+- Added the [Font Browsing Sites]({{% relref "fonts/browsing" %}}) page, a collection of places to browse
+and discover fonts
 
 ##### 18.02.2025
 

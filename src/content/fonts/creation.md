@@ -1,7 +1,7 @@
 ---
-title: Font Resources
-linkTitle: Resources
-description: A list of resources in regards to fonts and typography
+title: Font Tools
+linkTitle: Tools
+description: A list of tools and resources in regards to fonts and typography
 date: 2025-01-19T21:25:19-05:00
 ---
 
