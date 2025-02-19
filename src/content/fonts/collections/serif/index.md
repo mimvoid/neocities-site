@@ -46,3 +46,23 @@ Libre Baskerville my go-to font for a printed book feel.
 {{% pangram font="Cambo" %}}
 
 Look at those beautiful numbers and terminals!
+
+## Spectral
+
+[Homepage](https://productiontype.com/font/spectral)
+
+[Source](https://github.com/productiontype/Spectral)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Spectral" punctuation=false %}}
+{{% pangram font="Spectral" lang="ru" %}}
+
+<span class="primary">Variant</span>: Extra Bold
+
+<div style="font-weight: 800">
+{{% pangram font="Spectral" punctuation=false %}}
+{{% pangram font="Spectral" lang="ru" %}}
+</div>
+
+It makes quite the nice display font at high weights, but it also works well as a body font.

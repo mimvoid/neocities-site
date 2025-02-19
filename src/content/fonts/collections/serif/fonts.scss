@@ -1,3 +1,5 @@
 @include font("Cambo", "Cambo-Regular");
 @include font("EB Garamond", "EBGaramond-Regular");
 @include font("Libre Baskerville", "LibreBaskerville-Regular");
+@include font("Spectral", "Spectral-Regular");
+@include font("Spectral", "Spectral-ExtraBold", $weight: 800);

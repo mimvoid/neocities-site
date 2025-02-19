@@ -12,6 +12,7 @@ date: 2025-02-09T19:48:23-05:00
 - Added new fonts
     - Added [Sono]({{% relref "fonts/collections/monospace/#sono" %}})
     - Added [Cherry Bomb One]({{% relref "fonts/collections/cjk/#cherry-bomb-one" %}})
+    - Added [Spectral]({{% relref "fonts/collections/serif#spectral" %}})
 
 ##### 18.02.2025
 
