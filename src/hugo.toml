@@ -7,6 +7,12 @@ copyright = 'mimvoid © 2025'
 uglyUrls = true  # allow .html extension
 enableGitInfo = true  # let Git be used for the Lastmod param
 
+# Overwrite Hugo's default 404 page link
+[[server.redirects]]
+from = '/**'
+status = 404
+to = '/not_found.html'
+
 
 [module]
 [[module.mounts]]
