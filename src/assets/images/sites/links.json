@@ -69,13 +69,14 @@
       "title": "whiona.me",
       "link": "https://whiona.me",
       "img": "whiona_button.webp"
+    },
+    {
+      "title": "dogblog",
+      "link": "https://dogblog.neocities.org",
+      "img": "dogblog.gif"
     }
   ],
   "buttonless": [
-    {
-      "title": "dogblog",
-      "link": "https://dogblog.neocities.org"
-    },
     {
       "title": "typOasis",
       "link": "https://moorstation.org/typoasis/typoasis1.htm"
