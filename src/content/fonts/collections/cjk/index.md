@@ -8,6 +8,8 @@ date: 2025-01-08T16:30:28-05:00
 Under Construction...
 {.secondary}
 
+<section>
+
 ## Multiple Support
 
 ### Kingnam Bobohei
@@ -28,9 +30,17 @@ Traditional Chinese, and Hiragana and Katakana!
 Apparently it was authorized for redistribution on Google Fonts, but that does not
 seem to have happened.
 
+</section>
+<hr />
+<section>
+
 ## Simplified Chinese
 
 TBA
+
+</section>
+<hr />
+<section>
 
 ## Traditional Chinese
 
@@ -93,6 +103,10 @@ This is a huge family of fonts donated by Taiwanese Professor Wang Hann-Tzong (ç
 
 There were so many nice fonts that I could only display the ones I found the most
 interesting. The full sample images can be found above.
+
+</section>
+<hr />
+<section>
 
 ## Japanese
 
@@ -165,6 +179,12 @@ homepage is the latest working version from the Internet Archive's Wayback Machi
 {{% pangram font="Train One" lang="katakana" punctuation=false %}}
 {{% pangram font="Train One" %}}
 
+</section>
+<hr />
+<section>
+
 ## Korean
 
 TBA
+
+</section>

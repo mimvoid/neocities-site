@@ -52,6 +52,8 @@ Balpaq is among several comic fonts by Abay Emes, a designer from Kazakhstan who
 the foundry QR Type in 2024. I think it has a cute vibe! Abay Emes has several other
 [great comic fonts free for personal use and paid on Gumroad](https://abayemes.gumroad.com).
 
+***
+
 ## JDK Fonts
 
 [Full listing](https://jdkfonty.mozellosite.com/fonts)
@@ -94,6 +96,8 @@ What a goldmine! Designer and comic letterer Jakub D. Kočí made these fonts
 <span class="primary">Variant</span>: Unreadable
 
 {{% pangram font="JDK Vindil Unreadable" lang="cs" %}}
+
+***
 
 ## Komika
 
@@ -161,6 +165,8 @@ Komika Parch
 
 {{% pangram font="Komika Parch" %}}
 
+***
+
 ## Obscurient
 
 [Homepage](https://ko-fi.com/s/b5fa3d5ed2)
@@ -199,6 +205,8 @@ It has a variety of weights (Light, Regular, Bold, and Heavy), ligatures, and al
 {{% license "ofl" %}}
 
 {{% pangram font="Redacted Script" %}}
+
+***
 
 ## Sara's Fonts
 
@@ -256,6 +264,8 @@ comics is prohibited.
 
 {{% pangram font="SS Pretzel" %}}
 
+***
+
 ## SF Arch Rival
 
 [Homepage](https://www.fontsquirrel.com/fonts/SF-Arch-Rival)
@@ -273,4 +283,3 @@ License: [ShyFonts Font License](https://www.fontsquirrel.com/license/SF-Arch-Ri
 {{% pangram font="xkcd" %}}
 
 Yes, there's a font based on the [xkcd comic](https://xkcd.com) and Randall's handwriting!
-

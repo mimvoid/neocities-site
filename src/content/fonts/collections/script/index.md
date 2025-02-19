@@ -8,7 +8,11 @@ date: 2025-01-15T09:44:56-05:00
 Under construction...
 {.secondary}
 
-## Betània Patmos
+<section>
+
+## Script
+
+### Betània Patmos
 
 [Homepage](https://www.huertatipografica.com/en/fonts/betania-patmos)
 
@@ -19,7 +23,7 @@ Under construction...
 Betània Patmos is designed by Carolina Giovagnoli. The foundry Huerta Tipográfica has
 other fonts that may sound familiar, Alegreya and Bitter!
 
-## Playwrite
+### Playwrite
 
 [Homepage](https://primarium.info)
 
@@ -37,32 +41,13 @@ Playwrite is a huge font family with cursive styles from across the world.
 The two samples above are some of my favorites, and are only a small fraction of
 the handwriting models Playwrite portrays.
 
-## Bad Script
+</section>
+<hr />
+<section>
 
-[Homepage](https://fonts.google.com/specimen/Bad+Script)
+## Handwriting
 
-[Source](https://github.com/alexeiva/badscript)
-
-{{% license "ofl" %}}
-
-{{% pangram font="Bad Script" punctuation=false %}}
-{{% pangram font="Bad Script" lang="ru" %}}
-
-It's name is rather ironic given how pretty I find it.
-
-## Homemade Apple
-
-[Homepage](https://fonts.google.com/specimen/Homemade+Apple)
-
-[Source](https://github.com/librefonts/homemadeapple)
-
-{{% license "apache 2.0" %}}
-
-{{% pangram font="Homemade Apple" %}}
-
-What texture!
-
-## Itim
+### Itim
 
 [Homepage](https://cadsondemak.github.io/itim)
 
@@ -76,29 +61,7 @@ What texture!
 Itim has such regularity that you can almost mistake it for a typical sans serif font with
 round terminals. It has a subtlety that makes it perfect for clean yet playful designs.
 
-## Meow Script
-
-[Homepage](https://fonts.google.com/specimen/Meow+Script)
-
-[Source](https://github.com/googlefonts/meow-script)
-
-{{% license "ofl" %}}
-
-{{% pangram font="Meow Script" %}}
-
-I had to include this font, if only for the name alone. Plus, it's quite beautiful!
-
-## Oooh Baby
-
-[Homepage](https://fonts.google.com/specimen/Oooh+Baby)
-
-[Source](https://github.com/googlefonts/oooh-baby)
-
-{{% license "ofl" %}}
-
-{{% pangram font="Oooh Baby" %}}
-
-## Rock Salt
+### Rock Salt
 
 [Homepage](https://fonts.google.com/specimen/Rock+Salt)
 
@@ -108,7 +71,7 @@ I had to include this font, if only for the name alone. Plus, it's quite beautif
 
 {{% pangram font="Rock Salt" %}}
 
-## Shantell Sans
+### Shantell Sans
 
 [Homepage](https://www.shantellsans.com)
 
@@ -125,15 +88,7 @@ with a similar irregularity and personality.
 
 They did a great job with the homepage presentation!
 
-## Square Peg
-
-[Homepage](https://fonts.google.com/specimen/Square+Peg)
-
-[Source](https://github.com/googlefonts/square-peg)
-
-{{% pangram font="Square Peg" %}}
-
-## Swanky and Moo Moo
+### Swanky and Moo Moo
 
 [Homepage](https://fonts.google.com/specimen/Swanky+and+Moo+Moo)
 
@@ -148,7 +103,68 @@ which I found adorable!
 
 It reminds me a bit of my own handwriting too.
 
-## WindSong
+</section>
+<hr />
+<section>
+
+## Both
+
+### Bad Script
+
+[Homepage](https://fonts.google.com/specimen/Bad+Script)
+
+[Source](https://github.com/alexeiva/badscript)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Bad Script" punctuation=false %}}
+{{% pangram font="Bad Script" lang="ru" %}}
+
+It's name is rather ironic given how pretty I find it.
+
+### Homemade Apple
+
+[Homepage](https://fonts.google.com/specimen/Homemade+Apple)
+
+[Source](https://github.com/librefonts/homemadeapple)
+
+{{% license "apache 2.0" %}}
+
+{{% pangram font="Homemade Apple" %}}
+
+What texture!
+
+### Meow Script
+
+[Homepage](https://fonts.google.com/specimen/Meow+Script)
+
+[Source](https://github.com/googlefonts/meow-script)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Meow Script" %}}
+
+I had to include this font, if only for the name alone. Plus, it's quite beautiful!
+
+### Oooh Baby
+
+[Homepage](https://fonts.google.com/specimen/Oooh+Baby)
+
+[Source](https://github.com/googlefonts/oooh-baby)
+
+{{% license "ofl" %}}
+
+{{% pangram font="Oooh Baby" %}}
+
+### Square Peg
+
+[Homepage](https://fonts.google.com/specimen/Square+Peg)
+
+[Source](https://github.com/googlefonts/square-peg)
+
+{{% pangram font="Square Peg" %}}
+
+### WindSong
 
 [Homepage](https://fonts.google.com/specimen/WindSong)
 

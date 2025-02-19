@@ -14,7 +14,11 @@ where their fixed width allows text to be displayed and aligned correctly.
 
 Some are typewriter style fonts, great for formatting screenplays and the like.
 
-## Source Code Pro
+<section>
+
+## Programming
+
+### Source Code Pro
 
 [Homepage](https://adobe-fonts.github.io/source-code-pro)
 
@@ -30,7 +34,7 @@ Nerd Font variant: [SauceCodePro][nf]
 Source Code Pro is one of widest I've found among monospace fonts,
 which gives it a nice round look.
 
-## Hasklig
+### Hasklig
 
 [Homepage](https://github.com/i-tu/Hasklig)
 
@@ -45,7 +49,7 @@ It was specifically geared toward [Haskell](https://www.haskell.org),
 but can be seen with many other languages like JavaScript, Typescript,
 [Rust](https://www.rust-lang.org), [Gleam](https://gleam.run), and [OCaml](https://ocaml.org).
 
-## Office Code Pro
+### Office Code Pro
 
 [Homepage](https://github.com/nathco/Office-Code-Pro)
 
@@ -56,7 +60,7 @@ but can be seen with many other languages like JavaScript, Typescript,
 A derivative of Source Code Pro, Office Code Pro is slightly taller with
 a few different glyph styles.
 
-## Fira Code
+### Fira Code
 
 [Homepage](https://github.com/tonsky/FiraCode)
 
@@ -70,7 +74,7 @@ Nerd Font variant: [FiraCode][nf]
 Fira Code is super popular among developers, particularly for its abundance
 of programming ligatures.
 
-## Victor Mono
+### Victor Mono
 
 [Homepage](https://rubjo.github.io/victor-mono)
 
@@ -95,7 +99,13 @@ It's a nice alternative to fonts like
 
 [nf]: https://www.nerdfonts.com/font-downloads
 
-## Courier Prime
+</section>
+<hr />
+<section>
+
+## Typewriter-Style
+
+### Courier Prime
 
 [Homepage](https://quoteunquoteapps.com/courierprime)
 
@@ -119,7 +129,7 @@ It's a nice alternative to fonts like
     {{% pangram font="Courier Prime Sans" %}}
 </div>
 
-Oh, a screenplay font this time!
+Oh, a screenplay font!
 
 [Courier Prime was made to improve upon Courier](https://johnaugust.com/2013/introducing-courier-prime),
 which was designed in 1955 for IBM and became the standard for screenwriting (a repository of
@@ -127,3 +137,5 @@ which was designed in 1955 for IBM and became the standard for screenwriting (a 
 
 Courier Prime is my favorite typewriter style font, and I love its italics. There is also
 Courier Prime Code, which is Courier Prime Sans but code-optimized.
+
+</section>

@@ -19,6 +19,8 @@ mostly monospace, but widen or narrow some of the glyphs for readability.
 
 So far, I haven't been able to find many. If you know some, please please tell me about them!
 
+<section>
+
 ## Texture Healing Fonts
 
 The title is a bit of a lie, not all of the fonts here will be "faux monospace". The following
@@ -84,6 +86,10 @@ are quite pretty, especially after I had gotten used to the plain italics of
 [Hasklig]({{% relref "monospace#hasklig" %}}) and [Source Code Pro]({{% relref "monospace#source-code-pro" %}}).
 
 [nf]: https://www.nerdfonts.com/font-downloads
+
+</section>
+<hr />
+<section>
 
 ## Faux Monospace
 
@@ -156,3 +162,5 @@ It's variable in both *width* and *weight*. The homepage presentation is very ni
 
 It hits a pretty good sweet spot between a monospace look and readable character widths
 with a ton of variability. Thank you Tyler Finck (ETC)!
+
+</section>

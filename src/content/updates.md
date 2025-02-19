@@ -6,6 +6,10 @@ date: 2025-02-09T19:48:23-05:00
 
 ### 2025
 
+##### 19.02.2025
+
+- Reorganized my [font collection pages]({{% relref "fonts/collections" %}})
+
 ##### 18.02.2025
 
 - Changed up the style for [Aegis of Death]({{% relref "worlds/aegis-of-death" %}})
