@@ -126,3 +126,13 @@ It's super cool, very futuristic and sci-fi or cyberpunk-esque.
 License: Free for commercial use
 
 {{% pangram font="Rosarina" %}}
+
+## LibertineSuper
+
+[Homepage](https://noirblancrouge.com/fonts/libertinesuper)
+
+[Source](https://github.com/noirblancrouge/LibertineSuper)
+
+{{% license "ofl" %}}
+
+{{% pangram font="LibertineSuper" %}}

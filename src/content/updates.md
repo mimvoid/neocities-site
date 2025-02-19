@@ -20,6 +20,7 @@ date: 2025-02-09T19:48:23-05:00
     - Added [Rosarina]({{% relref "fonts/collections/display#rosarina" %}})
     - Added [Bagnard]({{% relref "fonts/collections/serif#bagnard" %}})
     - Added [Formera]({{% relref "fonts/collections/sans-serif#formera" %}})
+    - Added [LibertineSuper]({{% relref "fonts/collections/display#libertinesuper" %}})
 
 ##### 18.02.2025
 
