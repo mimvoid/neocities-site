@@ -23,11 +23,27 @@ Under construction...
 Betània Patmos is designed by Carolina Giovagnoli. The foundry Huerta Tipográfica has
 other fonts that may sound familiar, Alegreya and Bitter!
 
+### Bukhari Script
+
+[Homepage](https://www.behance.net/gallery/24966319/Bukhari-Script-Free-Font)
+
+License: [Free for commercial use with terms](https://www.fontspace.com/bukhari-script-font-f21934)
+
+{{% pangram font="Bukhari Script" %}}
+
+The designer from Mikrojihad Inc. also called this a "Mouse Lettering Typeface" because it
+originated from a bold line with a computer mouse!
+
+This font has many more alternate glyphs and other OpenType features, please check out its
+homepage presentation.
+
 ### Playwrite
 
 [Homepage](https://primarium.info)
 
 [Source](https://github.com/TypeTogether/Playwrite)
+
+{{% license "ofl" %}}
 
 <span class="primary">Variant</span>: Playwrite Perú
 
