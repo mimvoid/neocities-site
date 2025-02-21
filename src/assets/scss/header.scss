@@ -3,13 +3,20 @@
 @use "./variables/looks";
 
 header {
+  background-color: var(--bg);
+}
+
+.header-wrapper {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   margin-bottom: 1.75em;
   padding: 0.75em min(2.5em, 4%) 0.25em min(2.5em, 4%);
-  background-color: var(--bg);
 
   .right {
     display: flex;
