@@ -23,6 +23,13 @@ main {
   flex: 80%;
 }
 
+.skip-link {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
 /*---------------
  * Content boxes
  *---------------*/

@@ -7,6 +7,7 @@
 </head>
 
 <body>
+  <a class="skip-link" href="#content">Skip to content</a>
   {{ block "body" . }}
 
     {{ partialCached "header" . }}
@@ -21,7 +22,7 @@
         <main>
           {{ block "main-box" . }}
             {{ block "pre-article" . }}{{ end }}
-            <article class="box">
+            <article class="box" id="content">
               {{ block "article-head" . }}{{ end }}
 
               {{ block "title" . }}
