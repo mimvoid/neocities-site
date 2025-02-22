@@ -1,10 +1,12 @@
 h1 {
-  rt, rp, rtc {
+  rp {
     font-size: 1rem;
     color: var(--heading-color);
   }
 
-  rt, rtc {
+  rt,
+  rtc {
+    @extend rp;
     pointer-events: none;
     position: relative;
     opacity: 0;

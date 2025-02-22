@@ -11,7 +11,8 @@
     display: inline-block;
     width: 100%;
 
-    &:focus, &:hover {
+    &:focus,
+    &:hover {
       p.tw {
         opacity: 1;
       }

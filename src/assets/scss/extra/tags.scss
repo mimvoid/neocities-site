@@ -18,7 +18,7 @@
     &:nth-child(2n+1) {
       --tag-color: var(--primary);
     }
-    &:nth-child(2n+2) {
+    &:nth-child(2n) {
       --tag-color: var(--secondary);
     }
 
@@ -32,7 +32,8 @@
       }
     }
 
-    &:focus, &:hover {
+    &:focus,
+    &:hover {
       background-color: var(--tag-color);
 
       a {

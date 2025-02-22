@@ -42,6 +42,8 @@
   --bg-size: 400px;
 }
 
+$border-plain: 1px solid var(--fg-dim);
+
 // Elements
 
 // headings in caps
@@ -51,6 +53,7 @@ h1, h2 {
 h3, h4, h5, h6 {
   font-variant: small-caps;
 }
+
 h1 {
   text-decoration: 0.05em underline;
   text-underline-offset: 0.25em;
@@ -58,24 +61,24 @@ h1 {
 
   &:hover {
     color: var(--heading-color);
-    text-shadow: none;
+    text-shadow: inherit;
   }
 }
+
 // don't change color for links in headings
 h3 a {
   color: var(--heading-color);
-  &:not(:visited) {
-    color: var(--heading-color);
-  }
 }
-a:hover, a:focus {
-  text-decoration-style: solid;
+
+a:hover,
+a:focus {
+  text-decoration-style: initial;
 }
 
 blockquote {
-  border: 1px solid var(--fg-dim);
+  border: $border-plain;
   padding: 1em;
-  background-color: var(--bg);
+  background: var(--bg);
   p {
     margin: 0;
   }
@@ -86,7 +89,7 @@ table {
   background-color: transparent;
 }
 td {
-  border-bottom: 1px solid var(--fg-dim);
+  border-bottom: $border-plain;
   padding: 0.4em 1em;
 }
 
@@ -137,7 +140,7 @@ h2.section {
 }
 
 .card {
-  border: 1px solid var(--fg-dim);
+  border: $border-plain;
   background-color: var(--bg) !important;
 }
 

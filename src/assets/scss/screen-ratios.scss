@@ -1,46 +1,49 @@
-@mixin header-pad($scale) {
-  header {
-    padding-left: $scale;
-    padding-right: $scale;
-  }
-}
-
-@mixin wrapper-pad($scale) {
-  #wrapper {
-    padding: 0 $scale;
-  }
-}
+@use "./partials/utils" as u;
 
 /*-------------------------
  * Different screen ratios
  *-------------------------*/
 
 @media (max-width: 840px) {
-  @include wrapper-pad(4%);
+  #wrapper {
+    @include u.px(4%);
+  }
 }
 
 @media (max-width: 700px) {
-  @include wrapper-pad(2%);
-  @include header-pad(0.75em);
+  #wrapper {
+    @include u.px(2%);
+  }
+
+  header {
+    @include u.px(0.75em);
+  }
 }
 
 @media (orientation: portrait), (max-width: 440px) {
-  @include wrapper-pad(0);
-  @include header-pad(0);
-
-  header .actions {
-    display: none;
+  #wrapper {
+    @include u.px(0);
   }
-  #nav_home, #nav_pages {
+
+  header {
+    @include u.px(0);
+
+    .actions {
+      display: none;
+    }
+  }
+
+  #nav_home,
+  #nav_pages,
+  .body,
+  .h-boxes {
     display: block;
   }
+
   #nav_home {
     margin-bottom: 0.25em;
   }
 
-  .body {
-    display: block;
-  }
   .sidebar {
     position: static;
     margin: 0.75em 0;
@@ -54,12 +57,7 @@
     margin: 0.4em;
   }
   main > .box {
-    padding-left: 4%;
-    padding-right: 4%;
-  }
-
-  .h-boxes {
-    display: block;
+    @include u.px(4%);
   }
 
   footer .bar {

@@ -1,4 +1,5 @@
 @use "sass:color";
+@use "./partials/utils" as u;
 @use "./variables/palette";
 @use "./variables/looks";
 
@@ -7,10 +8,8 @@
  *--------------------------*/
 
 #wrapper {
-  margin-left: auto;
-  margin-right: auto;
+  @include u.containerize;
   padding: 0 5%;
-  max-width: 1600px;
 }
 
 .body {
@@ -48,17 +47,18 @@ main {
   background-color: rgb(from var(--bg) r g b / 0.9);
   backdrop-filter: blur(4px);
 
-  &:hover, &:has(*:focus) {
+  &:hover,
+  &:has(*:focus) {
     border-color: var(--active-border);
     background-color: var(--bg);
     backdrop-filter: none;
     opacity: 1;
   }
-}
 
-// The content box always has the active border color
-article.box {
-  border-color: var(--active-border);
+  // The content box always has the active border color
+  &article {
+    border-color: var(--active-border);
+  }
 }
 
 .sidebar nav > .box {
@@ -75,11 +75,14 @@ article.box {
     display: none;
   }
 
-  details, p {
+  details,
+  p {
     margin: 0.5em 0;
   }
 
-  p, a, summary {
+  p,
+  a,
+  summary {
     font-size: 0.96em;
   }
 }

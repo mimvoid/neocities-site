@@ -1,15 +1,15 @@
 .cards {
-  margin: 2.5em 0;
-
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(16em, 1fr));
   gap: 0.5em;
+
+  margin: 2.5em 0;
 }
 
 .card {
   padding: 0.5em 1em;
   border-radius: var(--border-radius);
-  background-color: var(--overlay-dim);
+  background: var(--overlay-dim);
 
   h1 {
     display: none; // there shouldn't be any, unless from custom titles

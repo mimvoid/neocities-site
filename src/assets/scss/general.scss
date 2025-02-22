@@ -2,7 +2,9 @@
 @use "./variables/fonts";
 @use "./variables/looks";
 
-* {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
@@ -22,7 +24,7 @@ body {
   background: var(--bg-img) var(--bg-color);
   background-size: var(--bg-size);
   background-attachment: fixed;
-  image-rendering: crisp-edges;
+  image-rendering: crisp-edges; // for background
 
   font-family: var(--body);
   font-size: 1em;
@@ -30,7 +32,7 @@ body {
   line-height: 1.45;
 
   * {
-    image-rendering: auto;
+    image-rendering: auto; // reset
   }
 }
 
@@ -48,16 +50,18 @@ $headings: (
 );
 
 @each $h, $size in $headings {
-  #{$h} {
-    @include looks.transition;
+  #{$h},
+  .#{$h} {
     font-family: var(--heading);
     font-size: $size;
-    color: var(--heading-color);
     letter-spacing: -0.03em;
+    color: var(--heading-color);
   }
 }
 
-h1 {
+h1,
+.h1 {
+  @include looks.transition;
   margin-bottom: 0.75em;
   text-shadow:
     0.5px 0.5px 0 var(--bg),
@@ -76,7 +80,9 @@ h1 {
  *-------*/
 
 // Make text slightly bolder
-p, li, span {
+p,
+li,
+span {
   text-shadow: 0 0.01px 0, 0.01px 0 0;
 }
 .pangram p {
@@ -106,7 +112,8 @@ em,
   }
 }
 
-.small, figcaption {
+.small,
+figcaption {
   font-size: 0.9em;
 }
 
@@ -130,8 +137,17 @@ a {
     text-decoration-style: wavy;
 
     h1, h2, h3, h4, h5, h6 {
-      color: var(--tertiary);
+      color: inherit;
     }
+  }
+
+  &.footnote-ref,
+  &.footnote-backref {
+    text-decoration: none;
+  }
+
+  &:has(img) {
+    text-decoration: none;
   }
 }
 
@@ -145,10 +161,6 @@ main a {
   }
 }
 
-a.footnote-ref, a.footnote-backref {
-  text-decoration: none;
-}
-
 .footnotes {
   font-size: 0.9em;
 
@@ -156,13 +168,10 @@ a.footnote-ref, a.footnote-backref {
     margin: 0.5em 0;
   }
 
-  strong, em {
+  strong,
+  em {
     color: var(--fg);
   }
-}
-
-a:has(img) {
-  text-decoration: none;
 }
 
 /*-------
@@ -182,7 +191,8 @@ li {
     color: var(--primary);
   }
 
-  &:focus::marker, &:hover::marker {
+  &:focus::marker,
+  &:hover::marker {
     color: var(--tertiary);
   }
 }
@@ -210,7 +220,8 @@ summary {
     color: var(--primary);
   }
 
-  &:focus svg, &:hover svg {
+  &:focus svg,
+  &:hover svg {
     color: var(--tertiary);
   }
 }
@@ -219,11 +230,10 @@ summary {
   position: relative;
   left: 0.4rem;
 
-  box-sizing: content-box;
-  border-left: 1px var(--tertiary) solid;
-
   overflow: hidden;
   white-space: nowrap;
+
+  border-left: 1px var(--tertiary) solid;
 
   p {
     text-indent: 0.75em;
@@ -270,7 +280,8 @@ fieldset {
   padding: 1.5em;
   border: 1px solid var(--inactive-border);
 
-  &:focus, &:hover {
+  &:focus,
+  &:hover {
     border-color: var(--active-border);
 
     legend {
@@ -383,7 +394,6 @@ hr.date-hr {
     color: var(--secondary);
     background-color: var(--bg);
     opacity: 0.9;
-
   }
 
   &:hover::before {

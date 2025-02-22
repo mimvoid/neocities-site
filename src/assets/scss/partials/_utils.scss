@@ -1,0 +1,28 @@
+// Collection of mixins
+
+// Spacing
+
+@mixin mx($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+@mixin my($value) {
+  margin-top: $value;
+  margin-bottom: $value;
+}
+
+@mixin px($value) {
+  padding-left: $value;
+  padding-right: $value;
+}
+
+@mixin py($value) {
+  padding-top: $value;
+  padding-bottom: $value;
+}
+
+@mixin containerize {
+  @include mx(auto);
+  max-width: 1600px;
+}

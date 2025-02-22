@@ -7,15 +7,11 @@
     margin-bottom: 0.5em;
   }
 
-  .content {
-    p:last-child {
-      margin-bottom: 0;
-    }
+  .content p:last-child {
+    margin-bottom: 0;
   }
-}
 
-@media (orientation: landscape) {
-  .relation {
+  @media (orientation: landscape) {
     display: flex;
     column-gap: 2em;
 
@@ -28,9 +24,8 @@
     }
 
     .avatar {
-      $size: 16em;
-      max-width: $size;
-      max-height: $size;
+      max-width: 16em;
+      max-height: 16em;
     }
 
     h3 {
@@ -41,10 +36,8 @@
       margin-top: 0;
     }
   }
-}
 
-@media (max-width: 960px) {
-  .relation {
+  @media (max-width: 960px) {
     display: block;
 
     .intro {
@@ -52,10 +45,10 @@
       margin: 0 1.5em 0.75em 0;
     }
   }
-}
 
-@media (orientation: portrait) {
-  .relation .intro {
-    float: none;
+  @media (orientation: portrait) {
+    .intro {
+      float: none;
+    }
   }
 }

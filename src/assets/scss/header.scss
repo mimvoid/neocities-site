@@ -1,15 +1,14 @@
+@use "./partials/utils" as u;
 @use "./variables/palette";
 @use "./variables/fonts";
 @use "./variables/looks";
 
 header {
-  background-color: var(--bg);
+  background: var(--bg);
 }
 
 .header-wrapper {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
+  @include u.containerize;
 
   display: flex;
   justify-content: space-between;
@@ -42,23 +41,26 @@ header {
   color: var(--fg);
 
   svg {
-    @include looks.transition;
+    transition: inherit;
     margin-right: 0.25em;
     color: var(--primary);
   }
 
-  &:focus, &:hover {
+  &:focus,
+  &:hover {
     color: var(--tertiary);
+
     svg {
-      color: var(--tertiary);
+      color: inherit;
     }
   }
 }
 
 #nav_pages a {
+  display: inline-block; // don't split text
   margin-right: 0.35rem;
 
-  &:before {
+  &::before {
     content: "~/";
     color: var(--fg-dim);
   }
@@ -76,16 +78,16 @@ header {
   padding: 0 1.75em;
 
   border: none;
-  background-color: transparent;
+  background: transparent;
   color: var(--primary);
 
   // Make sure the icons are centered
-  .icon-box, svg {
+  .icon-box {
     width: 1.25em;
     height: 1.25em;
   }
-
   svg {
+    @extend .icon-box;
     margin: 0;
   }
 }
@@ -99,7 +101,8 @@ header {
   position: relative;
   top: -0.5em;
 
-  .circle, .knob {
+  .circle,
+  .knob {
     border-radius: 100vh;
     background-color: var(--primary);
   }

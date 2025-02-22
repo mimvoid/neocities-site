@@ -4,15 +4,15 @@
 footer {
   margin: 3em 0 2em 0;
   font-size: 0.95em;
-  background-color: var(--bg);
+  background: var(--bg);
 }
 
 // Vim-like status bar
 .bar {
   display: flex;
   flex-flow: row wrap;
-  row-gap: 1em;
   justify-content: space-between;
+  row-gap: 1em;
   padding: 0.15em 0;
 
   .left, .right {
@@ -29,18 +29,18 @@ footer {
 // Accented background, dark text
 .status-high {
   color: var(--bg);
-  background-color: var(--primary);
+  background: var(--primary);
 
   // Make children visible against the background
   a {
-    color: var(--bg);
+    color: inherit;
   }
 }
 
 // Lighter background, accented text
 .status-mid {
   color: var(--primary);
-  background-color: var(--overlay);
+  background: var(--overlay);
 }
 
 .status-low {

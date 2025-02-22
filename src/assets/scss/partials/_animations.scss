@@ -1,3 +1,4 @@
+// Keyframes
 @keyframes pop {
   from, to {
     transform: scale(1);
@@ -36,13 +37,14 @@
 
 @keyframes float {
   from, to {
-    transform: translatey(0);
+    transform: translateY(0);
   }
   50% {
-    transform: translatey(-0.1em);
+    transform: translateY(-0.1em);
   }
 }
 
+// Classes
 .pop:hover {
   animation: 0.25s ease-in-out pop;
 }
@@ -59,8 +61,12 @@
   animation: 0.5s ease-in-out float infinite;
 }
 
+// Reduced motion
 @media (prefers-reduced-motion: reduce) {
-  .pop:hover, .pull-down, .spin, .float {
+  .pop:hover,
+  .pull-down,
+  .spin,
+  .float {
     animation-duration: 0s;
   }
 }

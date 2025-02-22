@@ -45,7 +45,7 @@ h1 {
   text-shadow: none;
 
   &:hover {
-    text-shadow: none;
+    text-shadow: inherit;
   }
 }
 
