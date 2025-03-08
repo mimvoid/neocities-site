@@ -21,10 +21,9 @@ body {
   margin: 0;
   color: var(--fg);
 
-  background: var(--bg-img) var(--bg-color);
+  background: var(--bg-img) var(--bg-color) fixed;
   background-size: var(--bg-size);
-  background-attachment: fixed;
-  image-rendering: crisp-edges; // for background
+  image-rendering: var(--bg-rendering); // for background
 
   font-family: var(--body);
   font-size: 1em;
@@ -113,6 +112,8 @@ em,
 }
 
 .small,
+.footnotes,
+.dates,
 figcaption {
   font-size: 0.9em;
 }
@@ -162,8 +163,6 @@ main a {
 }
 
 .footnotes {
-  font-size: 0.9em;
-
   li p {
     margin: 0.5em 0;
   }
@@ -407,5 +406,4 @@ hr.date-hr {
 
 .dates {
   text-align: right;
-  font-size: 0.9em;
 }
