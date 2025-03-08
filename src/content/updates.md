@@ -4,9 +4,9 @@ description: Record of site updates for mimvoid's little corner
 date: 2025-02-09T19:48:23-05:00
 ---
 
-### 2025
+## 2025 {.h3}
 
-##### 19.02.2025
+### 19.02.2025 {.h5}
 
 - Reorganized my [font collection pages]({{% relref "fonts/collections" %}})
 - Added new fonts
@@ -29,25 +29,25 @@ date: 2025-02-09T19:48:23-05:00
 - Added the [Font Browsing Sites]({{% relref "fonts/browsing" %}}) page, a collection of places to browse
 and discover fonts
 
-##### 18.02.2025
+### 18.02.2025 {.h5}
 
 - Changed up the style for [Aegis of Death]({{% relref "worlds/aegis-of-death" %}})
 
-##### 12.02.2025
+### 12.02.2025 {.h5}
 
 - Found and added a working link for [Typodermic Fonts]({{% relref "fonts/collections/typodermic" %}})'
 most recent webfonts download
 - Added a [page for works I've read]({{% relref "/reading" %}})
 
-##### 11.02.2025
+### 11.02.2025 {.h5}
 
 - Joined the [GFDKWTFAW webring](https://fabstarotcorner.neocities.org/webring)!
 
-##### 10.02.2025
+### 10.02.2025 {.h5}
 
 - Found and linked all [stamps]({{% relref "/about" %}})' original sources
 
-##### 09.02.2025
+### 09.02.2025 {.h5}
 
 - Updated the [homepage]({{% relref "/index" %}}) layout with:
     - Update box
