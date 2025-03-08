@@ -6,6 +6,13 @@ date: 2025-02-09T19:48:23-05:00
 
 ## 2025 {.h3}
 
+### 08.03.2025 {.h5}
+
+- The [Anomalous Occurrences Division (Aegis of Death)]({{% relref "worlds/aegis-of-death" %}})
+got a logo!
+- [Aegis of Death]({{% relref "worlds/aegis-of-death" %}}) and
+[Sacrificial]({{% relref "worlds/sacrificial" %}}) got their own hero sections
+
 ### 19.02.2025 {.h5}
 
 - Reorganized my [font collection pages]({{% relref "fonts/collections" %}})
