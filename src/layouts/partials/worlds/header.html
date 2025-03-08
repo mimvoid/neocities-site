@@ -1,0 +1,18 @@
+<header>
+  <div class="header-wrapper">
+    <nav class="tabs">
+      <a id="nav_home" href="/">
+        {{ partial "utils/svg" "mimvoid_icon" }}
+        {{ site.Title }}
+      </a>
+    </nav>
+    <div class="right">
+      <button type="button" id="theme_toggle" aria-label="Change to light theme">
+        <div class="icon-box">
+          {{ partial "utils/svg" "ph-sun" }}
+          {{ partial "utils/svg" "ph-moon" }}
+        </div>
+      </button>
+    </div>
+  </div>
+</header>

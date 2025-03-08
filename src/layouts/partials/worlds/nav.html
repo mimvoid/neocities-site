@@ -1,0 +1,16 @@
+<nav>
+  <div class="box">
+    {{ with site.GetPage . }}
+      <details open>
+        {{ partial "nav/summary" . }}
+        <div class="details-content">
+          <!-- Recurse -->
+          {{ partial "nav/recurse-sections" . }}
+          {{ range .RegularPages }}
+            <p>{{ partial "utils/link-page" . }}</p>
+          {{ end }}
+        </div>
+      </details>
+    {{ end }}
+  </div>
+</nav>

@@ -3,21 +3,13 @@ title: Aegis of Death
 description: A page dedicated to Aegis of Death, a story about living and personhood.
 date: 2024-09-24T21:39:39-04:00
 weight: 10
+params:
+    noTitle: true
 cascade:
     layout: aegis-of-death
 ---
 
-> *What does it mean to be a human?*<br>
-> *What does it mean to live?*
-
-<!--
-It was only a decade ago since shadows appeared—things of mist and eyes and enmity
-toward humanity. Not long after came the first reported revivals and contact with
-The Herald.
-
-To combat and research these new phenomena, the government created the
-Anomalous Occurrences Division (AOD). It defended the people 
--->
+## Foreword
 
 It has only been a decade since the first reported resurrections and contact with The Herald.
 
@@ -31,6 +23,8 @@ To be among a chosen few? To have a being that can only be likened to a god look
 How breathtaking is it?
 
 How breathtaking.
+
+## Subjects of Interest
 
 {{% list_characters extra="classification" imgClass="polaroid" %}}
 

@@ -10,12 +10,18 @@
   <a class="skip-link" href="#content">Skip to content</a>
   {{ block "body" . }}
 
-    {{ partialCached "header" . }}
+    {{ block "header" . }}
+      {{ partialCached "header" . }}
+    {{ end }}
 
     <div id="wrapper">
+      {{ block "pre-body" . }}{{ end }}
+
       <div class="body">
         <div class="sidebar">
-          {{ partial "nav/nav" . }}
+          {{ block "nav" . }}
+            {{ partial "nav/nav" . }}
+          {{ end }}
           {{ block "sidebar-extra" . }}{{ end }}
         </div>
 

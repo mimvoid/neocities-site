@@ -1,8 +1,23 @@
 {{ define "head-extra" }}
-  {{ partial "utils/style" "scss/extra/sacrificial.scss" }}
+  {{ partial "utils/style" "scss/worlds/sacrificial.scss" }}
 
   {{ if .Params.character }}
   <style>h1 { font-size: 3.5em; }</style>
+  {{ end }}
+{{ end }}
+
+{{ define "header" }}
+  {{ partial "worlds/header" "worlds/sacrificial" }}
+{{ end }}
+{{ define "nav" }}
+  {{ partial "worlds/nav" "worlds/sacrificial" }}
+{{ end }}
+
+{{ define "pre-body" }}
+  {{ if eq .Parent .FirstSection }}
+    <div class="title-box">
+      <h1 class="title">Sacrificial</h1>
+    </div>
   {{ end }}
 {{ end }}
 

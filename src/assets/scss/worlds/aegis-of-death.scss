@@ -1,5 +1,7 @@
 @use "../partials/courier-prime";
-@use "./ruby-h1";
+@use "../extra/ruby-h1";
+@use "../extra/typewriter";
+@use "./common";
 @use "./character-tabs.scss";
 
 // Variables
@@ -7,10 +9,14 @@
 :root {
   --body: "Courier Prime", "Courier New", "Courier", monospace;
   --heading-color: var(--tertiary);
+
   --border-radius: 0;
   --border-size: 1px;
+
   --active-border: var(--fg);
   --inactive-border: var(--fg-dim);
+
+  --bg-rendering: auto;
 }
 
 [data-theme="dark"] {
@@ -25,6 +31,11 @@
   --tertiary: rgb(205, 78, 132);
 
   --bg-img: none;
+
+  .title-box svg {
+    color: var(--fg);
+    opacity: 0.1;
+  }
 }
 
 [data-theme="light"] {
@@ -40,6 +51,11 @@
 
   --bg-img: url(../../images/halftone.webp);
   --bg-size: 400px;
+
+  .title-box svg {
+    color: var(--bg);
+    opacity: 0.6;
+  }
 }
 
 $border-plain: 1px solid var(--fg-dim);
@@ -94,6 +110,48 @@ td {
 }
 
 // Classes
+
+.title-box {
+  position: relative;
+  padding: 7.5em 0;
+
+  h1,
+  p {
+    position: relative;
+    z-index: 999;
+  }
+
+  h1 {
+    display: inline-block;
+  }
+
+  svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(3.75);
+  }
+}
+
+article {
+  &:has(svg.AOD) {
+    position: relative;
+    overflow: hidden;
+
+    .with-classification {
+      z-index: 999;
+    }
+  }
+
+  svg.AOD {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+
+    transform: scale(2);
+    opacity: 0.1;
+  }
+}
 
 .with-classification {
   position: relative;

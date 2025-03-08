@@ -1,0 +1,14 @@
+.typewriter::after {
+  content: "";
+  position: absolute;
+  right: -0.25em;
+  bottom: 0.05em;
+
+  height: 80%;
+  border: 0.05em solid var(--heading-color);
+
+  animation: 1.75s ease-in-out fade-in-out-sharp infinite;
+  @media (prefers-reduced-motion: reduce) {
+    animation-duration: 0s;
+  }
+}

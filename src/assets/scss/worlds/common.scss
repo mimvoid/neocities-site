@@ -1,0 +1,36 @@
+@use "../partials/utils" as u;
+@use "./relation";
+
+.title-box {
+  @include u.my(1em);
+  @include u.py(1em);
+
+  text-align: center;
+
+  h1.title {
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+    font-size: 5em;
+
+    @media (orientation: portrait) {
+      font-size: 4em;
+    }
+  }
+}
+
+#nav_home {
+  font-family: var(--body);
+}
+
+#theme_toggle {
+  top: 0;
+  margin-top: 0;
+}
+
+#theme_toggle .spin {
+  animation-duration: 0s;
+}
+
+footer .bar svg {
+  display: none;
+}
