@@ -33,34 +33,24 @@ A fugitive wanted by the AOD, unsure of his own identity.
 | Occupation    | **N/A**           |
 {.headless}
 
-<br>
-
-|                |                        |
-| -------------- | ---------------------- |
-| Date of Death  | **███. ██. 20XX**      |
-| Cause of Death | **██████**             |
-{.headless}
-
 ## File 0D: Parasite Profile {.section}
-
-**Date of First Sighting**: ███. ██. 20XX
 
 **Number of Eyes**: Unknown
 
 **Incidents Involved**
 
-- Incident δ-████-A
+- Incident δ-7661-A
 - Incident ψ-01-A
 
 ## File 0S: Subject Profile {.section}
 
-**Status**: ███████
+**Status**: Alive
 
-|                 |                             |
-| --------------- | --------------------------- |
-| Branch          | **Myr Research Department** |
-| Location        | **Floor ██ Quarter ████**   |
-| Lead Researcher | **Anastasia Xie**           |
+|                 |                                                 |
+| --------------- | ----------------------------------------------- |
+| Branch          | **Myr Research Department**                     |
+| Location        | **Floor 4 Quarter A18**                         |
+| Lead Researcher | [**Anastasia Xie**]({{% relref "anastasia" %}}) |
 {.headless}
 
 </section>

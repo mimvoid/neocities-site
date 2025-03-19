@@ -58,11 +58,11 @@ ring of blood above their head, reminiscent of a halo.
 After activation, Everett's transferred wounds heal at an abnormally fast pace.
 No blood is recovered and no foreign bodies removed.
 
-**Reported Words from The Herald**
-
-████████████████████████████████████████
-
-██████████████████████████████████████████████
+<!--**Reported Words from The Herald**-->
+<!---->
+<!--████████████████████████████████████████-->
+<!---->
+<!--██████████████████████████████████████████████-->
 
 </section>
 <section class="personality">
