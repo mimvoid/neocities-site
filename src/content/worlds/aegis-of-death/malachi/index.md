@@ -54,7 +54,7 @@ A fugitive wanted by the AOD, unsure of his own identity.
 {.headless}
 
 </section>
-<section class="personality">
+<section class="details">
 
 ## File 1: Behavior {.section}
 

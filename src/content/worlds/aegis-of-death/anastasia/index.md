@@ -27,7 +27,7 @@ The researcher who assigned herself to Subject ψ-01.
 {.headless}
 
 </section>
-<section class="personality">
+<section class="details">
 
 ## File 1: Behavior {.section}
 

@@ -30,7 +30,7 @@ One of the AOD's only human field operatives.
 {.headless}
 
 </section>
-<section class="personality">
+<section class="details">
 
 ## File 1: Behavior {.section}
 

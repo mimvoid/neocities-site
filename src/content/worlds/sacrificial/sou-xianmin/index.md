@@ -34,7 +34,7 @@ A healer prone to losing themselves in threads and patchwork.
 </div>
 
 </section>
-<section class="personality">
+<section class="details">
 
 ## Personality
 

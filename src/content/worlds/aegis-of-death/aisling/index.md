@@ -28,7 +28,7 @@ The youngest member of the AOD Myr Branch.
 {.headless}
 
 </section>
-<section class="personality">
+<section class="details">
 
 ## File 1: Behavior {.section}
 

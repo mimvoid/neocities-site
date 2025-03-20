@@ -29,7 +29,7 @@ An assistant journalist with an interest in shadows.
 {.headless}
 
 </section>
-<section class="personality">
+<section class="details">
 
 ## File 1: Behavior {.section}
 

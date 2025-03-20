@@ -38,7 +38,7 @@ Average grade: **A**
 </div>
 
 </section>
-<section class="personality">
+<section class="details">
 
 ## Personality
 

@@ -47,7 +47,7 @@ Leader of Myr Division 02.
 ??
 
 </section>
-<section class="personality">
+<section class="details">
 
 ## File 1: Behavior {.section}
 
