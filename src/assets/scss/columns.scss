@@ -1,0 +1,26 @@
+.columns {
+  display: flex;
+  gap: 0.5em;
+
+  .column {
+    flex-basis: 100%;
+  }
+
+  &__2 {
+    @media (max-width: 480px) {
+      display: block;
+    }
+  }
+
+  &__3 {
+    @media (max-width: 600px) {
+      display: block;
+    }
+  }
+
+  &__4 {
+    @media (max-width: 640px) {
+      display: block;
+    }
+  }
+}
