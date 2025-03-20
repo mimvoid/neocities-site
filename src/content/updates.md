@@ -6,6 +6,10 @@ date: 2025-02-09T19:48:23-05:00
 
 ## 2025 {.h3}
 
+### 19.03.2025 {.h5}
+
+- [Everett Dayal]({{% relref "worlds/aegis-of-death" %}}) got new information!
+
 ### 08.03.2025 {.h5}
 
 - The [Anomalous Occurrences Division (Aegis of Death)]({{% relref "worlds/aegis-of-death" %}})

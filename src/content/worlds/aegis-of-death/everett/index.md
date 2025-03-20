@@ -69,14 +69,58 @@ No blood is recovered and no foreign bodies removed.
 
 ## File 1: Behavior {.section}
 
-**Traits**
+### Description
 
-- Terrible at shouting. They often have to try several times before they're loud enough.
-- Frequently spaces out. May not respond to their name when called.
-- Fiddles with parts of his clothes (e.g. neck tie) when nervous.
-- Has an interest in human anatomy and injuries.
+Everett Dayal may be likened to a prism.
 
-TBA
+Their demeanor shifts with the moment. They say very little about themselves. It's difficult
+to keep track of what their core personality is, or if they have one at all.
+
+Their attention may be easily swayed in one moment, and impossible to capture the next.
+Their interests are volatile, and so are their beliefs.
+
+However, there are some details to be certain of.
+
+Everett has uncanny ability to stay still and silent for long periods of time. It may be to observe,
+to think, to hide. Many struggle to keep track of them, or are startled when they approach
+from behind.
+
+When in combat, they rely mainly on *instinct*. In such a state, their quick reactions and
+singular mindset prove to be quite valuable. However, they struggle with unexpected situations
+and recognizing they are pushing their limits in the moment.
+
+They are easily swayed by feelings of obligation and guilt. Offer them your companionship,
+worm into their sense of debt and of morals, and you can convince them to do *anything*.
+
+### Traits
+
+- Awful at shouting. They often have to try several times before they're loud enough.
+- Fiddles with parts of his clothes (especially their neck tie and sleeves) when nervous.
+- They're quite patient, and rarely get restless in a waiting room. They hardly even browse their
+phone as they wait.
+- Has a morbid interest in human anatomy and injuries.
+
+<div class="columns columns__2">
+<div class="column">
+
+### Likes
+
+- Udon noodles
+- Cats, pigeons, rats, spiders—any animal, really
+- High views
+
+</div>
+<div class="column">
+
+### Dislikes
+
+- Loud noises
+- High-profile gatherings
+- Spending money
+- Mirrors
+
+</div>
+</div>
 
 </section>
 <section class="history">
