@@ -60,7 +60,7 @@ $sections: (1: info, 2: details, 3: history, 4: relations, 5: gallery, 6: extra)
     &:hover {
       border-color: var(--active-border);
       color: var(--tertiary);
-      background: var(--bg);
+      background-color: var(--bg);
     }
   }
 

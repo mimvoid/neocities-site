@@ -1,9 +1,8 @@
-@use "../partials/utils" as u;
 @use "./relation";
 
 .title-box {
-  @include u.my(1em);
-  @include u.py(1em);
+  margin-block: 1em;
+  padding-block: 1em;
 
   text-align: center;
 

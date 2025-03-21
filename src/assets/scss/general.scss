@@ -1,6 +1,6 @@
-@use "./variables/palette";
-@use "./variables/fonts";
-@use "./variables/looks";
+@use "variables/palette";
+@use "variables/fonts";
+@use "variables/looks";
 
 *,
 ::before,
@@ -103,11 +103,11 @@ em,
 }
 
 .large {
-  margin: 1.25em 0;
+  margin-block: 1.25em;
   font-size: 1.75em;
 
   p {
-    margin: 0.5em 0;
+    margin-block: 0.5em;
   }
 }
 
@@ -164,12 +164,12 @@ main a {
 
 .footnotes {
   li p {
-    margin: 0.5em 0;
+    margin-block: 0.5em;
   }
 
   strong,
   em {
-    color: var(--fg);
+    color: inherit;
   }
 }
 
@@ -182,7 +182,7 @@ ul ul {
 }
 
 li {
-  padding: 0.2rem 0;
+  padding-block: 0.2rem;
 
   // color the bullet points
   &::marker {
@@ -227,7 +227,7 @@ summary {
 
 .details-content {
   position: relative;
-  left: 0.4rem;
+  left: 0.4em;
 
   overflow: hidden;
   white-space: nowrap;
@@ -242,13 +242,13 @@ summary {
 
 details.nested {
   summary {
-    left: 0.75rem;
+    left: 0.75em;
   }
 
   .details-content {
-    left: 1.2rem;
+    left: 1.2em;
     p {
-      text-indent: 0.85em;
+      text-indent: 0.9em;
     }
   }
 }
@@ -275,11 +275,12 @@ fieldset {
   @include looks.border-radius;
   @include looks.transition;
 
-  margin: 2em 0;
+  margin-block: 2em;
   padding: 1.5em;
   border: 1px solid var(--inactive-border);
 
   &:focus,
+  &:focus-within,
   &:hover {
     border-color: var(--active-border);
 

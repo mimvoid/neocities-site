@@ -1,10 +1,10 @@
-@use "./variables/palette";
-@use "./variables/looks";
+@use "variables/palette";
+@use "variables/looks";
 
 footer {
-  margin: 3em 0 2em 0;
+  margin-block: 3em 2em;
   font-size: 0.95em;
-  background: var(--bg);
+  background-color: var(--bg);
 }
 
 // Vim-like status bar
@@ -13,7 +13,7 @@ footer {
   flex-flow: row wrap;
   justify-content: space-between;
   row-gap: 1em;
-  padding: 0.15em 0;
+  padding-block: 0.15em;
 
   .left, .right {
     padding: 0;
@@ -29,7 +29,7 @@ footer {
 // Accented background, dark text
 .status-high {
   color: var(--bg);
-  background: var(--primary);
+  background-color: var(--primary);
 
   // Make children visible against the background
   a {
@@ -40,7 +40,7 @@ footer {
 // Lighter background, accented text
 .status-mid {
   color: var(--primary);
-  background: var(--overlay);
+  background-color: var(--overlay);
 }
 
 .status-low {

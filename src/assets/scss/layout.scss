@@ -1,7 +1,7 @@
 @use "sass:color";
-@use "./partials/utils" as u;
-@use "./variables/palette";
-@use "./variables/looks";
+@use "partials/utils" as u;
+@use "variables/palette";
+@use "variables/looks";
 
 /*--------------------------
  * Body & sidebar positions
@@ -48,16 +48,11 @@ main {
   backdrop-filter: blur(4px);
 
   &:hover,
-  &:has(*:focus) {
+  &:focus,
+  &:focus-within {
     border-color: var(--active-border);
     background-color: var(--bg);
     backdrop-filter: none;
-    opacity: 1;
-  }
-
-  // The content box always has the active border color
-  &article {
-    border-color: var(--active-border);
   }
 }
 
@@ -77,22 +72,14 @@ main {
 
   details,
   p {
-    margin: 0.5em 0;
+    margin-block: 0.5em;
   }
 
   p,
   a,
   summary {
-    font-size: 0.96em;
+    font-size: 0.95em;
   }
-}
-
-.row-direction {
-  display: flex;
-  flex-flow: wrap row;
-  justify-content: space-between;
-  align-items: stretch;
-  align-content: stretch;
 }
 
 .extra-box {
@@ -106,8 +93,6 @@ main {
 
 .h-boxes {
   display: flex;
-  align-items: stretch;
-  align-content: stretch;
 
   .larger {
     flex-grow: 2;

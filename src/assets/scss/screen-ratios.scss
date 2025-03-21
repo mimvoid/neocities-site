@@ -1,36 +1,37 @@
-@use "./partials/utils" as u;
-
 /*-------------------------
  * Different screen ratios
  *-------------------------*/
 
+@media (orientation: landscape), (min-width: 441px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
 @media (max-width: 840px) {
   #wrapper {
-    @include u.px(4%);
+    padding-inline: 4%;
   }
 }
 
 @media (max-width: 700px) {
   #wrapper {
-    @include u.px(2%);
+    padding-inline: 2%;
   }
 
   header {
-    @include u.px(0.75em);
+    padding-inline: 0.75em;
   }
 }
 
 @media (orientation: portrait), (max-width: 440px) {
-  #wrapper {
-    @include u.px(0);
+  #wrapper,
+  header {
+    padding-inline: 0;
   }
 
-  header {
-    @include u.px(0);
-
-    .actions {
-      display: none;
-    }
+  .desktop-only {
+    display: none;
   }
 
   #nav_home,
@@ -57,7 +58,7 @@
     margin: 0.4em;
   }
   main > .box {
-    @include u.px(4%);
+    padding-inline: 4%;
   }
 
   footer .bar {

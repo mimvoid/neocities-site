@@ -1,29 +1,25 @@
 @keyframes float-hover {
   from {
-    transform: translatey(0);
+    transform: translateY(0);
   }
 
   to {
-    transform: translatey(-0.25em);
+    transform: translateY(-0.25em);
   }
 }
 
 fieldset {
-  background-color: rgba(from var(--overlay-dim) r g b / 0.5);
+  background-color: rgb(from var(--overlay-dim) r g b / 0.5);
 
   &.icons {
     text-align: center;
     padding: 1.5em 2.5em;
-    background-color: rgba(from var(--overlay-dim) r g b / 0.5);
   }
 }
 
 .icon-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
-  justify-items: center;
-  align-items: start;
-  justify-content: center;
   gap: 1em 2.5em;
 
   svg {
@@ -104,52 +100,44 @@ fieldset {
 }
 
 .webring {
-  margin: 2em 0;
+  margin-block: 2em;
+  color: var(--color, inherit);
   font-family: var(--monospace);
   text-decoration: none;
 
   .name {
-    display: inline;
-    margin: 1em 0;
+    margin-block: 1em;
     padding: 0.4em 0.75em;
     color: var(--bg);
-    background-color: var(--secondary);
+    background-color: var(--color);
     font-weight: bold;
 
     a {
-      color: var(--bg);
+      color: inherit;
     }
   }
 
+  .webring-links a {
+    color: inherit;
+    padding-inline: 0.5em;
+  }
+
   a {
+    color: inherit;
     text-decoration: none;
   }
 
   p {
-    margin: 0.75em 0;
+    margin-block: 0.75em;
   }
 
-  .webring-links a {
-    padding: 0 0.5em;
+  svg {
+    margin: 0;
   }
 }
 
 .nix-webring {
   --color: #c9bbf9;
-  color: var(--color);
-
-  svg {
-    margin: 0;
-  }
-
-  a, .webring-links a {
-    color: var(--color);
-  }
-
-  .name {
-    background-color: var(--color);
-    color: var(--bg);
-  }
 }
 [data-theme="light"] .nix-webring {
   --color: #b6aaf5;
@@ -164,42 +152,41 @@ fieldset {
 
 .buttonless {
   margin-top: 1em;
-}
 
-.buttonless a {
-  display: inline-block;
-  position: relative;
+  a {
+    display: inline-block;
 
-  width: 88px;
-  height: 31px;
+    width: 88px;
+    height: 31px;
 
-  border: 1px solid var(--fg);
-  margin: 0 0.1rem;
-  overflow: hidden;
+    border: 1px solid var(--fg);
+    margin-inline: 0.1rem;
+    overflow: hidden;
 
-  color: var(--bg);
-  text-decoration: none;
+    color: var(--bg);
+    text-decoration: none;
 
-  p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    p {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
 
-    margin: 0;
-    font-size: 0.65em;
-    font-weight: bold;
-    line-height: 1;
-  }
+      margin: 0;
+      font-size: 0.65em;
+      font-weight: bold;
+      line-height: 1;
+    }
 
-  // Alternate colors every 3 links
-  &:nth-child(3n+1) {
-    background-color: var(--primary);
-  }
-  &:nth-child(3n+2) {
-    background-color: var(--secondary);
-  }
-  &:nth-child(3n+3) {
-    background-color: var(--tertiary);
+    // Alternate colors every 3 links
+    &:nth-child(3n+1) {
+      background-color: var(--primary);
+    }
+    &:nth-child(3n+2) {
+      background-color: var(--secondary);
+    }
+    &:nth-child(3n) {
+      background-color: var(--tertiary);
+    }
   }
 }

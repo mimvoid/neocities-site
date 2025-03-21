@@ -1,10 +1,10 @@
-@use "./partials/utils" as u;
-@use "./variables/palette";
-@use "./variables/fonts";
-@use "./variables/looks";
+@use "partials/utils" as u;
+@use "variables/palette";
+@use "variables/fonts";
+@use "variables/looks";
 
 header {
-  background: var(--bg);
+  background-color: var(--bg);
 }
 
 .header-wrapper {
@@ -12,10 +12,9 @@ header {
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
 
   margin-bottom: 1.75em;
-  padding: 0.75em min(2.5em, 4%) 0.25em min(2.5em, 4%);
+  padding: 0.75em min(2.5em, 4%) 0.25em;
 
   .right {
     display: flex;
@@ -25,10 +24,6 @@ header {
 
 .tabs {
   margin: 0.5em 1em;
-
-  * {
-    display: inline;
-  }
 }
 
 #nav_home {
@@ -44,6 +39,7 @@ header {
     transition: inherit;
     margin-right: 0.25em;
     color: var(--primary);
+    vertical-align: unset;
   }
 
   &:focus,
@@ -69,16 +65,13 @@ header {
 #theme_toggle {
   cursor: pointer;
 
-  display: flex;
-  flex-flow: nowrap column;
-
   position: relative;
   top: 3em;
   margin-top: -3em;
-  padding: 0 1.75em;
+  padding-inline: 1.75em;
 
   border: none;
-  background: transparent;
+  background-color: transparent;
   color: var(--primary);
 
   // Make sure the icons are centered

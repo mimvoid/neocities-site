@@ -5,11 +5,11 @@
         {{ partial "utils/svg" "mimvoid_icon" }}
         {{ site.Title }}
       </a>
-      <div id="nav_pages">
+      <span id="nav_pages">
         {{ range site.Menus.tabs }}
           <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
         {{ end }}
-      </div>
+      </span>
     </nav>
     <div class="right">
       <button type="button" id="theme_toggle" aria-label="Change to light theme">
@@ -24,7 +24,7 @@
           <div class="knob"></div>
         </div>
       </button>
-      <div class="actions">
+      <div class="actions desktop-only">
         <a href="https://neocities.org/site/mimvoid">
           {{ partial "utils/svg" "ph-minus" }}
         </a>

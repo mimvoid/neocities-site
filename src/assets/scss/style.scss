@@ -1,15 +1,15 @@
 // Important definitions
-@use "./font-faces";
-@use "./icons";
+@use "font-faces";
+@use "icons";
 
 // Overall site style
-@use "./general";
-@use "./layout";
-@use "./header";
-@use "./footer";
+@use "general";
+@use "layout";
+@use "header";
+@use "footer";
 
 // Misc
-@use "./partials/animations";
-@use "./screen-ratios";
-@use "./cards";
-@use "./columns";
+@use "partials/animations";
+@use "screen-ratios";
+@use "cards";
+@use "columns";
