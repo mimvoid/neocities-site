@@ -4,6 +4,11 @@ linkTitle: Sonya
 description: Character page for Sonya Antonovna Sokolova, a main character in Aegis of Death.
 date: 2024-09-24T21:39:50-04:00
 weight: 30
+resources:
+  - name: avatar
+    src: Sonya-Avatar.webp
+    params:
+        bg: "#ab9cf0"
 params:
     character: true
     classification: Entity ω-673
@@ -34,12 +39,30 @@ One of the AOD's only human field operatives.
 
 ## File 1: Behavior {.section}
 
-**Traits**
+### Details
 
-- Often stands contrapposto (very much not straight).
-- Loves caramel boba tea.
+### Traits
 
-TBA
+- Often stands contrapposto (not straight).
+- She's disturbed by the very concept of chronic illnesses, especially degenerative diseases.
+
+<div class="columns columns__2">
+<div>
+
+### Likes
+
+- Caramel boba tea
+
+</div>
+<div>
+
+### Dislikes
+
+- Long hours
+- The process of falling asleep
+
+</div>
+</div>
 
 </section>
 <section class="history">

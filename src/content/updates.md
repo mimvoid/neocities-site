@@ -6,6 +6,11 @@ date: 2025-02-09T19:48:23-05:00
 
 ## 2025 {.h3}
 
+### 22.03.2025 {.h5}
+
+- Added an avatar for [Sonya Antonovna Sokolova]({{% relref "worlds/aegis-of-death/sonya" %}})
+    - (See [Characters]({{% relref "worlds/characters" %}}) or [Aegis of Death]({{% relref "worlds/aegis-of-death" %}}))
+
 ### 19.03.2025 {.h5}
 
 - [Everett Dayal]({{% relref "worlds/aegis-of-death" %}}) got new information!
