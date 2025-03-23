@@ -1,18 +1,21 @@
 {{ partial "utils/style" "scss/style.scss" }}
 
 {{- if .HasShortcode "gallery" }}
-  {{ partial "utils/style" "scss/extra/gallery-zoom.scss" }}
+  {{ partial "utils/style" "scss/components/_gallery-zoom.scss" }}
 {{ else }}
   {{ if .Params.zoomable }}
-    {{ partial "utils/style" "scss/extra/figure-zoom.scss" }}
+    {{ partial "utils/style" "scss/components/_figure-zoom.scss" }}
   {{ end }}
   {{ if or .Params.polaroid (.HasShortcode "list_characters") -}}
-    {{ partial "utils/style" "scss/extra/polaroid.scss" }}
+    {{ partial "utils/style" "scss/components/_polaroid.scss" }}
   {{ end }}
 {{ end -}}
 
-{{- if or .Params.character (.HasShortcode "relation") }}
-  {{ partial "utils/style" "scss/extra/relation.scss" }}
+{{- if .Params.character }}
+  {{ partial "utils/style" "scss/pages/_relation.scss" }}
+  {{ partial "utils/style" "scss/pages/_character-tabs.scss" }}
+{{ else if .HasShortcode "relation" }}
+  {{ partial "utils/style" "scss/pages/_relation.scss" }}
 {{ end -}}
 
 {{- if .HasShortcode "pangram" }}

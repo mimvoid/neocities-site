@@ -1,4 +1,4 @@
-@use "./font-face" with ($path: "../../fonts/page");
+@use "../abstracts/font-face" with ($path: "../../fonts/page");
 
 @include font-face.font(
   "Noto Serif SC",

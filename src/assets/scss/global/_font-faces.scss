@@ -1,4 +1,4 @@
-@use "partials/font-face" as * with ($path: "../fonts");
+@use "../abstracts/font-face" as * with ($path: "../fonts");
 
 // trispace bold
 @include font(

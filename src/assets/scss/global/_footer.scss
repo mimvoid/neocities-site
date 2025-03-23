@@ -1,5 +1,4 @@
-@use "variables/palette";
-@use "variables/looks";
+@use "../abstracts/looks";
 
 footer {
   margin-block: 3em 2em;

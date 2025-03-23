@@ -1,7 +1,6 @@
 @use "sass:color";
-@use "partials/utils" as u;
-@use "variables/palette";
-@use "variables/looks";
+@use "../abstracts/utils" as u;
+@use "../abstracts/looks";
 
 /*--------------------------
  * Body & sidebar positions

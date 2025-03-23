@@ -1,3 +1,30 @@
+:root {
+  // Font families
+  --body: "Livvic", "Comic Neue", sans-serif;
+  --heading: "Trispace", "iA Writer Duo", "IBM Plex Mono", "Source Code Pro",
+    monospace;
+  --monospace: "iA Writer Mono", "IBM Plex Mono", "Source Code Pro", monospace;
+
+  // Looks
+  --border-radius: 4px;
+  --transition: all 0.2s ease-in-out;
+
+  // Miscellaneous theme components
+  --heading-color: var(--primary);
+
+  --border-size: 2px;
+  --active-border: var(--primary);
+  --inactive-border: var(--secondary);
+
+  --link-color: var(--primary);
+  --link-color-old: var(--secondary);
+
+  --bg-size: 175px;
+  --bg-rendering: crisp-edges;
+}
+
+// Theme-specific
+
 [data-theme="dark"] {
   .ph-sun {
     display: none;
@@ -34,18 +61,4 @@
 
   --bg-img: url(../images/mimvoid_cat-spades_light.webp);
   --bg-color: var(--bg);
-}
-
-:root {
-  --heading-color: var(--primary);
-
-  --border-size: 2px;
-  --active-border: var(--primary);
-  --inactive-border: var(--secondary);
-
-  --link-color: var(--primary);
-  --link-color-old: var(--secondary);
-
-  --bg-size: 175px;
-  --bg-rendering: crisp-edges;
 }

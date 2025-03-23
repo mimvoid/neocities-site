@@ -18,15 +18,15 @@
       }
     }
   }
-
-  img.tw-img {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); // blur edges less
-    filter: blur(3px) saturate(75%);
-    image-rendering: pixelated;
-  }
 }
 
-p.tw {
+.tw-img {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); // blur edges less
+  filter: blur(3px) saturate(75%);
+  image-rendering: pixelated;
+}
+
+.tw {
   pointer-events: none;
   opacity: 0;
 
@@ -46,6 +46,6 @@ p.tw {
   }
 }
 
-figure.zoomed p.tw {
+figure.zoomed .tw {
   display: none;
 }

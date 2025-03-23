@@ -1,15 +1,16 @@
 // Important definitions
-@use "font-faces";
-@use "icons";
+@use "global/vars";
+@use "global/font-faces";
 
 // Overall site style
-@use "general";
-@use "layout";
-@use "header";
-@use "footer";
+@use "global/general";
+@use "global/layout";
+@use "global/header";
+@use "global/footer";
 
 // Misc
-@use "partials/animations";
-@use "screen-ratios";
-@use "cards";
-@use "columns";
+@use "global/screen-ratios";
+@use "global/animations";
+@use "global/icons";
+@use "global/cards";
+@use "global/columns";
