@@ -26,9 +26,15 @@ main {
 
 .skip-link {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 0.5rem;
+  top: 0.5rem;
+  padding: 0.5em;
   opacity: 0;
+
+  &:focus {
+    opacity: 1;
+    background-color: var(--bg);
+  }
 }
 
 /*---------------
