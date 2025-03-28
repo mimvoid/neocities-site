@@ -37,9 +37,6 @@ $sections: (1: info, 2: details, 3: history, 4: relations, 5: gallery, 6: extra)
   font-family: var(--body);
   font-size: 0.95rem;
 
-  input {
-    display: none;
-  }
   label {
     cursor: pointer;
     transition: color 0.25s ease-in-out;
@@ -64,10 +61,21 @@ $sections: (1: info, 2: details, 3: history, 4: relations, 5: gallery, 6: extra)
     }
   }
 
-  input:checked + label {
-    @extend label, :hover;
-    z-index: 999 !important;
-    transform: scaleY(1.1);
-    border-bottom: none;
+  input {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+
+    &:checked + label {
+      @extend label, :hover;
+      z-index: 999 !important;
+      transform: scaleY(1.1);
+      border-bottom: none;
+    }
+
+    &:focus + label {
+      text-decoration: 1px solid underline;
+    }
   }
 }
