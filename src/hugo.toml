@@ -6,6 +6,7 @@ copyright = 'mimvoid © 2025'
 
 uglyUrls = true  # allow .html extension
 enableGitInfo = true  # let Git be used for the Lastmod param
+summaryLength = 108
 
 # Overwrite Hugo's default 404 page link
 [[server.redirects]]

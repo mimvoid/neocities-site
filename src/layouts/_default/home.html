@@ -31,7 +31,7 @@
     <div class="box extra-box updates">
       {{ with site.GetPage "updates" }}
         <h2><a href="{{ .RelPermalink }}">Updates</a></h2>
-        {{ .Summary }}
+        {{ .Content | strings.Truncate 512 }}
         <p>...</p>
         <a href="{{ .RelPermalink }}">Read more</a>
       {{ end }}
