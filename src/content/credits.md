@@ -26,7 +26,11 @@ I drew the background myself! It was [inspired by these patterns](https://nonexi
 Several other backgrounds are from
 [Subtle Patterns on Toptal](https://www.toptal.com/designers/subtlepatterns).
 
-**Fonts**
+The colors were modified from [Catppuccin Macchiato](https://catppuccin.com). It's a very nice pastel color palette!
+
+The icons are from [Phosphor](https://phosphoricons.com) and [Pixelarticons](https://pixelarticons.com).
+
+### Fonts
 
 - Headings: [Trispace][f1]
 - Body: [Livvic][f2]
@@ -36,9 +40,7 @@ Several other backgrounds are from
 [f2]: https://fonts.google.com/specimen/Livvic
 [f3]: https://github.com/iaolo/iA-Fonts
 
-The colors were modified from [Catppuccin Macchiato](https://catppuccin.com). It's a very nice pastel color palette!
-
-The icons are from [Phosphor](https://phosphoricons.com) and [Pixelarticons](https://pixelarticons.com).
+### Inspirations
 
 The overall design was inspired by **TUIs** and **tiling window managers**. I find them really charming for their simplicity and design constraints. There was not one single inspiration, but some of them include:
 
