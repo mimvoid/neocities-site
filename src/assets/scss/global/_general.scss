@@ -9,10 +9,9 @@
 // Site-wide styling
 html {
   color-scheme: dark light;
-  scroll-behavior: smooth;
 
-  @media (prefers-reduced-motion: reduce) {
-    scroll-behavior: auto;
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
   }
 }
 

@@ -63,33 +63,24 @@
 }
 
 // Classes
-.pop:hover {
-  animation: 0.25s ease-in-out pop;
-}
+@media (prefers-reduced-motion: no-preference) {
+  .pop:hover {
+    animation: 0.25s ease-in-out pop;
+  }
 
-.pull-down {
-  animation: 0.3s ease-in-out pull-down;
-}
+  .pull-down {
+    animation: 0.3s ease-in-out pull-down;
+  }
 
-.spin {
-  animation: 0.5s ease-in-out spin;
-}
+  .spin {
+    animation: 0.5s ease-in-out spin;
+  }
 
-.float {
-  animation: 0.5s ease-in-out float infinite;
-}
+  .float {
+    animation: 0.5s ease-in-out float infinite;
+  }
 
-.fade-in-out {
-  animation: 1s ease-in-out fade-in-out infinite;
-}
-
-// Reduced motion
-@media (prefers-reduced-motion: reduce) {
-  .pop:hover,
-  .pull-down,
-  .spin,
-  .float,
   .fade-in-out {
-    animation-duration: 0s;
+    animation: 1s ease-in-out fade-in-out infinite;
   }
 }
