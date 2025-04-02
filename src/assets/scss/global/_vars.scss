@@ -26,6 +26,8 @@
 // Theme-specific
 
 [data-theme="dark"] {
+  color-scheme: dark;
+
   .ph-sun {
     display: none;
   }
@@ -45,6 +47,8 @@
 }
 
 [data-theme="light"] {
+  color-scheme: light;
+
   .ph-moon {
     display: none;
   }
