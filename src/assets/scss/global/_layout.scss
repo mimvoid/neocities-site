@@ -8,7 +8,7 @@
 
 #wrapper {
   @include u.containerize;
-  padding: 0 5%;
+  padding-inline: 5%;
 }
 
 .body {
@@ -61,7 +61,7 @@ main {
   }
 }
 
-.sidebar nav > .box {
+.sidebar nav .box {
   max-height: 94vh;
   overflow-y: scroll;
   overscroll-behavior: none;

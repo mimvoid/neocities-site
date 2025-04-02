@@ -53,22 +53,21 @@ $headings: (
     font-size: $size;
     letter-spacing: -0.03em;
     color: var(--heading-color);
-  }
-}
 
-h1,
-.h1 {
-  @include looks.transition;
-  margin-bottom: 0.75em;
-  text-shadow:
-    0.5px 0.5px 0 var(--bg),
-    2px 2px 0 rgb(from var(--primary) r g b / 0.5);
+    @if $h == "h1" {
+      @include looks.transition;
+      margin-bottom: 0.75em;
+      text-shadow:
+        0.5px 0.5px 0 var(--bg),
+        2px 2px 0 rgb(from var(--primary) r g b / 0.5);
 
-  &:hover {
-    color: var(--tertiary);
-    text-shadow:
-      1.5px 1.5px 0 var(--bg),
-      3px 3px 0 rgb(from var(--heading-color) r g b / 0.5);
+      &:hover {
+        color: var(--tertiary);
+        text-shadow:
+          1.5px 1.5px 0 var(--bg),
+          3px 3px 0 rgb(from var(--heading-color) r g b / 0.5);
+      }
+    }
   }
 }
 
@@ -141,10 +140,7 @@ a {
   }
 
   &.footnote-ref,
-  &.footnote-backref {
-    text-decoration: none;
-  }
-
+  &.footnote-backref,
   &:has(img) {
     text-decoration: none;
   }
@@ -199,7 +195,7 @@ li {
  *------------------------*/
 
 // replace the default triangle marker
-nav details summary {
+nav summary {
   display: block;
 
   &::-webkit-details-marker {
@@ -359,7 +355,7 @@ img {
 // Figures
 
 figure {
-  margin: 1em 0 2em 0;
+  margin: 1em 0 2em;
 }
 figcaption {
   color: var(--fg-dim);
@@ -373,29 +369,29 @@ hr {
   margin: 1.5em 0;
   border: none;
   border-bottom: 1px solid rgb(from var(--secondary) r g b / 0.5);
-}
 
-hr.date-hr {
-  overflow: visible;
-  margin: 0 0 2.25em;
-  text-align: center;
+  &.date-hr {
+    overflow: visible;
+    margin: 0 0 2.25em;
+    text-align: center;
 
-  &::before {
-    @include looks.transition;
-    content: "❤ ♠ ❤";
+    &::before {
+      @include looks.transition;
+      content: "❤ ♠ ❤";
 
-    display: inline-block;
-    position: relative;
-    top: 0.75em;
-    padding: 0 0.5em;
+      display: inline-block;
+      position: relative;
+      top: 0.75em;
+      padding: 0 0.5em;
 
-    color: var(--secondary);
-    background-color: var(--bg);
-    opacity: 0.9;
-  }
+      color: var(--secondary);
+      background-color: var(--bg);
+      opacity: 0.9;
+    }
 
-  &:hover::before {
-    color: var(--primary);
+    &:hover::before {
+      color: var(--primary);
+    }
   }
 }
 

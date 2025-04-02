@@ -49,14 +49,11 @@
     position: static;
     margin: 0.75em 0;
 
-    nav > .box {
+    nav .box {
       max-height: initial; // avoid scrolling
     }
   }
 
-  .box {
-    margin: 0.4em;
-  }
   main > .box {
     padding-inline: 4%;
   }
