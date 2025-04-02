@@ -29,10 +29,12 @@ $sections: (1: info, 2: details, 3: history, 4: relations, 5: gallery, 6: extra)
 }
 
 .character-tabs {
+  $left-offset: 0.5em;
+
   display: flex;
   flex-wrap: wrap-reverse;
 
-  margin: 1em 0 0 0.35rem;
+  margin: 1em 0 0 (0.35em + $left-offset);
 
   font-family: var(--body);
   font-size: 0.95rem;
@@ -41,16 +43,13 @@ $sections: (1: info, 2: details, 3: history, 4: relations, 5: gallery, 6: extra)
     cursor: pointer;
     transition: color 0.25s ease-in-out;
 
+    margin-left: -$left-offset;
     padding: 0.75em 2em 0.75em 1em;
     border: 1px solid var(--bg);
     border-bottom: none;
 
     color: var(--primary);
-    background: var(--overlay-dim);
-
-    &:not([for="tab-nav-1"]) {
-      margin-left: -0.5em;
-    }
+    background-color: var(--overlay-dim);
 
     // Style an active tab label
     &:focus,
@@ -62,6 +61,7 @@ $sections: (1: info, 2: details, 3: history, 4: relations, 5: gallery, 6: extra)
   }
 
   input {
+    // Hide radio input circles
     width: 0;
     height: 0;
     margin: 0;
