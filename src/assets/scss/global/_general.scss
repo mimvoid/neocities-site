@@ -134,19 +134,19 @@ a {
   text-decoration: none;
   color: var(--link-color);
 
-  &:focus, &:hover {
+  &:focus,
+  &:hover {
     color: var(--tertiary);
+    text-decoration: underline 1px var(--tertiary);
     text-decoration-style: wavy;
 
     h1, h2, h3, h4, h5, h6 {
       color: inherit;
     }
-  }
 
-  &.footnote-ref,
-  &.footnote-backref,
-  &:has(img) {
-    text-decoration: none;
+    &:has(img) {
+      text-decoration: none;
+    }
   }
 }
 
@@ -157,6 +157,17 @@ main a {
 
   &:not(:visited) {
     color: var(--link-color);
+  }
+
+  &.footnote-ref,
+  &.footnote-backref,
+  &:has(img) {
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
   }
 }
 
