@@ -79,7 +79,11 @@ $headings: (
 p,
 li,
 span {
-  text-shadow: 0 0.01px 0, 0.01px 0 0;
+  text-shadow:
+    0 0.01px 0,
+    0.01px 0 0,
+    0 -0.01px 0,
+    -0.01px 0 0;
 }
 .pangram p {
   text-shadow: none;
