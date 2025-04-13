@@ -49,15 +49,20 @@ main {
  *---------------*/
 
 .box {
-  @include looks.transition;
   @include looks.border-radius;
+
+  transition:
+    border var(--transition-duration) ease-in-out,
+    backdrop-filter var(--transition-duration) ease-in-out,
+    background var(--transition-duration) ease-in-out,
+    box-shadow 0.05s ease-in-out;
 
   border: var(--border-size) solid var(--inactive-border);
   margin: 0.75em 0.35em;
   padding: 1.25em min(3em, 6%);
 
   background-color: rgb(from var(--bg) r g b / 0.9);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(3px) contrast(140%);
 
   &:hover,
   &:focus,
@@ -65,6 +70,7 @@ main {
     border-color: var(--active-border);
     background-color: var(--bg);
     backdrop-filter: none;
+    box-shadow: 0 0 0 1px var(--active-border);
   }
 }
 
