@@ -3,6 +3,12 @@
 
 header {
   background-color: var(--bg);
+
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
 }
 
 .header-wrapper {
@@ -69,8 +75,6 @@ header {
   margin-top: -3em;
   padding-inline: 1.75em;
 
-  border: none;
-  background-color: transparent;
   color: var(--primary);
 
   // Make sure the icons are centered
@@ -125,4 +129,9 @@ header {
   .ph-x {
     color: var(--tertiary);
   }
+}
+
+.nav-toggle button {
+  font-size: 1.15em;
+  color: var(--fg-dim);
 }

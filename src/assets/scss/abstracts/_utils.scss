@@ -1,7 +1,9 @@
+// Miscellaneous variables
+$mobile-max: 540px;
+
 // Collection of mixins
 
 // Spacing
-
 @mixin mx($value) {
   margin-left: $value;
   margin-right: $value;

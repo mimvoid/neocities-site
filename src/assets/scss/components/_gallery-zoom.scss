@@ -41,7 +41,7 @@
   margin: 0;
   transition: var(--transition);
 
-  @media (orientation: portrait) {
+  @media (hover: none) {
     opacity: 1;
   }
 }

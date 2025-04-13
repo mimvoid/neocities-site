@@ -1,8 +1,10 @@
+@use "../abstracts/utils" as u;
+
 /*-------------------------
  * Different screen ratios
  *-------------------------*/
 
-@media (orientation: landscape), (min-width: 441px) {
+@media (min-width: #{u.$mobile-max + 1px}) {
   .mobile-only {
     display: none;
   }
@@ -24,7 +26,60 @@
   }
 }
 
-@media (orientation: portrait), (max-width: 440px) {
+@media (max-width: u.$mobile-max) {
+  // Navigation
+  .nav-wrapper {
+    display: none;
+
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+
+    overflow: clip auto;
+    max-height: 100vh; // fallback
+    max-height: 100dvh;
+
+    margin: 4px;
+    padding-right: 0.5em;
+    font-size: 1.25rem;
+
+    &:focus,
+    &:focus-within,
+    &:hover {
+      box-shadow: none;
+      background-color: rgb(from var(--bg) r g b / 0.9);
+      backdrop-filter: blur(3px) contrast(140%);
+    }
+
+    button {
+      // Right align
+      display: block;
+      margin-left: auto;
+      margin-right: 0;
+
+      border: none;
+      color: var(--fg-dim);
+      background: transparent;
+      font-size: 1.25em;
+    }
+
+    nav .box {
+      overflow: clip auto;
+      margin: 0;
+      padding: 0;
+      border: none;
+      background-color: transparent;
+      backdrop-filter: none;
+
+      &:focus,
+      &:focus-within,
+      &:hover {
+        background-color: transparent;
+        box-shadow: none;
+      }
+    }
+  }
+
   #wrapper,
   header {
     padding-inline: 0;

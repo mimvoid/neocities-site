@@ -11,7 +11,7 @@
   {{ block "body" . }}
 
     {{ block "header" . }}
-      {{ partialCached "header" . }}
+      {{ partial "header" . }}
     {{ end }}
 
     <div id="wrapper">
@@ -19,9 +19,19 @@
 
       <div class="body">
         <div class="sidebar">
-          {{ block "nav" . }}
-            {{ partial "nav/nav" . }}
-          {{ end }}
+          <div class="nav-wrapper">
+            <button
+              class="mobile-only"
+              type="button"
+              id="nav_closer"
+              aria-label="Close navigation menu"
+            >
+              {{ partial "utils/svg" "ph-x" }}
+            </button>
+            {{ block "nav" . }}
+              {{ partial "nav/nav" . }}
+            {{ end }}
+          </div>
           {{ block "sidebar-extra" . }}{{ end }}
         </div>
 

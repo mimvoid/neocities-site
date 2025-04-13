@@ -1,3 +1,5 @@
+{{ $inWorlds := eq .Page.FirstSection (.Site.GetPage "/worlds") }}
+{{ $isWorldPage := and $inWorlds (or (gt (len .Page.Ancestors) 2) .Page.IsSection) }}
 <header>
   <div class="header-wrapper">
     <nav class="tabs">
@@ -5,11 +7,13 @@
         {{ partial "utils/svg" "mimvoid_icon" }}
         {{ site.Title }}
       </a>
-      <span id="nav_pages">
-        {{ range site.Menus.tabs }}
-          <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
-        {{ end }}
-      </span>
+      {{ if not $isWorldPage }}
+        <span id="nav_pages">
+          {{ range site.Menus.tabs }}
+            <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+          {{ end }}
+        </span>
+      {{ end }}
     </nav>
     <div class="right">
       <button type="button" id="theme_toggle" aria-label="Change to light theme">
@@ -17,32 +21,45 @@
           {{ partial "utils/svg" "ph-sun" }}
           {{ partial "utils/svg" "ph-moon" }}
         </div>
-        <div id="theme_toggle_cord">
-          {{ range seq 5 }}
-            <div class="circle"></div>
-          {{ end }}
-          <div class="knob"></div>
-        </div>
+        {{ if not $isWorldPage }}
+          <div id="theme_toggle_cord">
+            {{ range seq 5 }}
+              <div class="circle"></div>
+            {{ end }}
+            <div class="knob"></div>
+          </div>
+        {{ end }}
       </button>
-      <div class="actions desktop-only">
-        <a
-          href="https://neocities.org/site/mimvoid"
-          aria-label="Window hide button - mimvoid's Neocities profile"
+      {{ if not $isWorldPage }}
+        <div class="actions desktop-only">
+          <a
+            href="https://neocities.org/site/mimvoid"
+            aria-label="Window hide button - mimvoid's Neocities profile"
+          >
+            {{ partial "utils/svg" "ph-minus" }}
+          </a>
+          <a
+            href="https://neocities.org/site/mimvoid"
+            aria-label="Window maximize button - mimvoid's Neocities profile"
+          >
+            {{ partial "utils/svg" "ph-cards" }}
+          </a>
+          <a
+            href="https://neocities.org"
+            aria-label="Window close button - Neocities homepage"
+          >
+            {{ partial "utils/svg" "ph-x" }}
+          </a>
+        </div>
+      {{ end }}
+      <div class="nav-toggle mobile-only">
+        <button
+          type="button"
+          id="nav_opener"
+          aria-label="Open navigation menu"
         >
-          {{ partial "utils/svg" "ph-minus" }}
-        </a>
-        <a
-          href="https://neocities.org/site/mimvoid"
-          aria-label="Window maximize button - mimvoid's Neocities profile"
-        >
-          {{ partial "utils/svg" "ph-cards" }}
-        </a>
-        <a
-          href="https://neocities.org"
-          aria-label="Window close button - Neocities homepage"
-        >
-          {{ partial "utils/svg" "ph-x" }}
-        </a>
+          {{ partial "utils/svg" "ph-folders" }}
+        </button>
       </div>
     </div>
   </div>

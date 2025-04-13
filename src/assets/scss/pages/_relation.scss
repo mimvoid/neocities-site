@@ -1,3 +1,5 @@
+@use "../abstracts/utils" as u;
+
 .relation {
   border: 1px solid var(--inactive-border);
   margin: 2.5em 0;
@@ -11,7 +13,7 @@
     margin-bottom: 0;
   }
 
-  @media (orientation: landscape) {
+  @media (min-width: 961px) {
     display: flex;
     column-gap: 2em;
 
@@ -46,7 +48,7 @@
     }
   }
 
-  @media (orientation: portrait) {
+  @media (max-width: u.$mobile-max) {
     .intro {
       float: none;
     }
