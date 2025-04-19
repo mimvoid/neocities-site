@@ -21,13 +21,8 @@
   font-family: var(--body);
 }
 
-#theme_toggle {
-  top: 0;
-  margin-top: 0;
-}
-
 #theme_toggle .spin {
-  animation-duration: 0s;
+  animation: none;
 }
 
 footer .bar svg {

@@ -1,5 +1,6 @@
 {{ $inWorlds := eq .Page.FirstSection (.Site.GetPage "/worlds") }}
-{{ $isWorldPage := and $inWorlds (or (gt (len .Page.Ancestors) 2) .Page.IsSection) }}
+{{ $isCharacterPage := eq .Page (.Site.GetPage "/worlds/characters") }}
+{{ $isWorldPage := and (and $inWorlds (gt (len .Page.Ancestors) 1)) (not $isCharacterPage) }}
 <header>
   <div class="header-wrapper">
     <nav class="tabs">

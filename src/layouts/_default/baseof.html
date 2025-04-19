@@ -10,9 +10,7 @@
   <a class="skip-link" href="#content">Skip to content</a>
   {{ block "body" . }}
 
-    {{ block "header" . }}
-      {{ partial "header" . }}
-    {{ end }}
+    {{ partial "header" . }}
 
     <div id="wrapper">
       {{ block "pre-body" . }}{{ end }}

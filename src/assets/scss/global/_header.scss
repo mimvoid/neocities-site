@@ -71,8 +71,6 @@ header {
   cursor: pointer;
 
   position: relative;
-  top: 3em;
-  margin-top: -3em;
   padding-inline: 1.75em;
 
   color: var(--primary);
@@ -94,8 +92,8 @@ header {
   align-items: center;
   gap: 4px;
 
-  position: relative;
-  top: -0.5em;
+  position: absolute;
+  inset: 60% 0 auto;
 
   .circle,
   .knob {
