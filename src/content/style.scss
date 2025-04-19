@@ -1,3 +1,16 @@
+:root {
+  // Safont webring
+  --g1v5x3-background-color: transparent !important;
+  --g1v5x3-padding: 0.5em !important;
+  --g1v5x3-title-font: var(--body) !important;
+  --g1v5x3-title-color: var(--fg) !important;
+  --g1v5x3-text-family: var(--body) !important;
+  --g1v5x3-text-color: var(--fg) !important;
+  --g1v5x3-text-height: 1.5 !important;
+  --g1v5x3-link-family: var(--body) !important;
+  --g1v5x3-link-color: var(--primary) !important;
+}
+
 @keyframes float-hover {
   from {
     transform: translateY(0);
@@ -147,6 +160,10 @@ fieldset {
   }
 }
 
+.safont-webring {
+  display: flex;
+  justify-content: center;
+}
 
 // Site buttons
 
