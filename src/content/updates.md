@@ -6,6 +6,16 @@ date: 2025-02-09T19:48:23-05:00
 
 ## 2025 {.h3}
 
+### 19.04.2025 {.h5}
+
+- [Lock and Key]({{% relref "worlds/lock-and-key" %}}) got a makeover!
+- Fixed the inconsistent heading styles in the [Worlds]({{% relref "worlds" %}}) section
+- Fixed the padding on the [Guestbook]({{% relref "guestbook" %}}) page
+
+### 13.04.2025 {.h5}
+
+- The mobile experience should be a bit better now
+
 ### 22.03.2025 {.h5}
 
 - Added an avatar for [Sonya Antonovna Sokolova]({{% relref "worlds/aegis-of-death/sonya" %}})
