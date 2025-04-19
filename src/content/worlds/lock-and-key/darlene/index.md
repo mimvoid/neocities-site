@@ -7,6 +7,7 @@ params:
 ---
 
 A sheltered girl lost in an upper class of deception.
+{.summary}
 
 <!--more-->
 

@@ -1,0 +1,6 @@
+@use "../abstracts/font-face-page" as *;
+
+@include font("Crimson Pro", "CrimsonPro-Regular");
+@include font("Crimson Pro", "CrimsonPro-Italic", $style: italic);
+@include font("Crimson Pro", "CrimsonPro-Bold", $weight: bold);
+@include font("Crimson Pro", "CrimsonPro-BoldItalic", $weight: bold, $style: italic);

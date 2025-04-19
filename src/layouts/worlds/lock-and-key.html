@@ -1,0 +1,16 @@
+{{ define "head-extra" }}
+  {{ partial "utils/style" "scss/pages/lock-and-key.scss" }}
+{{ end }}
+
+{{ define "nav" }}
+  {{ partial "worlds/nav" "worlds/lock-and-key" }}
+{{ end }}
+
+{{ define "article-head" }}
+  {{ if .Params.character }}
+    {{ partial "worlds/character-tabs" . }}
+  {{ end }}
+  {{ if and (not .Params.character) .IsPage }}
+    {{ partial "worlds/breadcrumb" . }}
+  {{ end }}
+{{ end }}

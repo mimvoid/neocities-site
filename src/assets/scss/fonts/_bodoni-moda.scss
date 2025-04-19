@@ -1,0 +1,3 @@
+@use "../abstracts/font-face-page" as *;
+
+@include font("Bodoni Moda", "BodoniModa-ExtraBold", $weight: 800);

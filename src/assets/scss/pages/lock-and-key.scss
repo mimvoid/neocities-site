@@ -1,0 +1,128 @@
+@use "../fonts/crimson-pro";
+@use "../fonts/bodoni-moda";
+@use "./common";
+
+:root {
+  --body: "Crimson Pro", "Times New Roman", "Times", serif;
+  --heading: "Bodoni Moda", "Abril Fatface", "Times New Roman", "Times", serif;
+
+  --border-radius: 0;
+  --border-size: 1px;
+
+  --bg-img: url(../../images/halftone.webp);
+  --bg-size: 400px;
+
+  --heading-color: var(--fg);
+}
+
+[data-theme="dark"],
+[data-theme="light"] {
+  --bg: rgb(230, 200, 190);
+  --fg: rgb(31, 30, 50);
+  --fg-dim: rgb(64, 48, 70);
+  --overlay: rgb(230, 192, 190);
+  --overlay-dim: rgb(220, 188, 185);
+
+  --primary: rgb(85, 62, 86);
+  --secondary: rgb(98, 58, 98);
+  --tertiary: rgb(150, 52, 65);
+
+  #theme_toggle {
+    display: none;
+  }
+}
+
+body {
+  font-size: 1.025em;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  text-shadow: none;
+  line-height: 1;
+
+  &:focus,
+  &:hover {
+    text-shadow: none;
+  }
+
+  &:has(+ .summary) {
+    margin-bottom: 0.25em;
+  }
+  + .summary {
+    text-align: center;
+  }
+}
+
+a:focus,
+a:hover {
+  text-decoration-style: solid;
+}
+
+.details-content {
+  border-left-color: var(--inactive-border);
+}
+
+.box {
+  border-width: 0;
+  background-color: var(--bg);
+  backdrop-filter: none;
+
+  $shadow-color: rgb(from var(--fg) r g b / 0.4);
+  box-shadow: -1px 1px 4px 2px $shadow-color;
+
+  &:focus,
+  &:focus-within,
+  &:hover {
+    box-shadow: -1px 3px 6px 4px $shadow-color;
+  }
+}
+
+.character-tabs {
+  border-bottom: var(--border-size) solid var(--inactive-border);
+  margin: 0;
+  padding-block: 0.5em 1.25em;
+
+  label {
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+
+    background-color: transparent;
+
+    &:not(:last-child) {
+      margin-right: 1em;
+    }
+  }
+
+  input:checked + label,
+  input:focus + label {
+    @extend label;
+    border-width: 0;
+    text-decoration: underline;
+  }
+}
+
+.cards {
+  background-color: var(--inactive-border);
+  gap: 0 1px;
+}
+
+.card {
+  border-radius: 0;
+  background-color: var(--bg);
+}
+
+hr.date-hr {
+  margin-bottom: 1.5em;
+
+  &::before {
+    content: "";
+  }
+}
+.dates {
+  display: flex;
+  justify-content: space-between;
+}

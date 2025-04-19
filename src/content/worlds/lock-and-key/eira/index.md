@@ -7,6 +7,7 @@ params:
 ---
 
 A mysterious young woman who's closed her heart off from the world.
+{.summary}
 
 <!--more-->
 
