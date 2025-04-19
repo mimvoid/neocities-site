@@ -1,4 +1,5 @@
 basepageref = 'https://mimvoid.neocities.org/'
+baseURL = 'https://mimvoid.neocities.org/'
 languageCode = 'en-us'
 
 title = "mimvoid's little corner"

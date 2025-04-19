@@ -22,7 +22,7 @@
             aliases = [
               (writeShellScriptBin "ncp" "hugo build && neocities push --prune public")
               (writeShellScriptBin "ncinfo" "neocities info mimvoid")
-              (writeShellScriptBin "hs" "hugo server")
+              (writeShellScriptBin "hs" "hugo server --baseURL=https://mimvoid.neocities.org --appendPort=false")
             ];
           in
           [
