@@ -1,8 +1,14 @@
+$padX: clamp(0em, 3em, 6%);
+
 article.box {
-  padding: 0;
+  padding-left: $padX;
+  padding-right: $padX;
 }
 
 .guestbook {
+  position: relative;
+  left: calc(-1 * $padX);
+  min-width: calc(100% + (2 * $padX));
   border: none;
 }
 
