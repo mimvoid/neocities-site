@@ -1,6 +1,6 @@
-@use "../abstracts/font-face" with ($path: "../../fonts/page");
+@use "../abstracts/font-face-page" as *;
 
-@include font-face.font("Courier Prime", "CourierPrime-Regular");
-@include font-face.font("Courier Prime", "CourierPrime-Italic", $style: italic);
-@include font-face.font("Courier Prime", "CourierPrime-Bold", $weight: bold);
-@include font-face.font("Courier Prime", "CourierPrime-BoldItalic", $weight: bold, $style: italic);
+@include font("Courier Prime", "CourierPrime-Regular");
+@include font("Courier Prime", "CourierPrime-Italic", $style: italic);
+@include font("Courier Prime", "CourierPrime-Bold", $weight: bold);
+@include font("Courier Prime", "CourierPrime-BoldItalic", $weight: bold, $style: italic);
