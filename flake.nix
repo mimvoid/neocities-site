@@ -1,7 +1,7 @@
 {
   description = "Provides tools for developing a Neocities site";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+  inputs.nixpkgs.url = "git+https://github.com/NixOS/nixpkgs?shallow=1&ref=nixpkgs-unstable";
 
   outputs = { self, nixpkgs }:
   let
