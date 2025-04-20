@@ -9,6 +9,9 @@ date: 2025-02-09T19:48:23-05:00
 ### 19.04.2025 {.h5}
 
 - [Lock and Key]({{% relref "worlds/lock-and-key" %}}) got a makeover!
+- Added an avatar for [Felix Antonovich Sokolov]({{% relref "worlds/aegis-of-death/felix" %}})!
+    - (See [Characters]({{% relref "worlds/characters" %}}) or [Aegis of Death]({{% relref "worlds/aegis-of-death" %}}))
+    - The main cast avatars of Aegis of Death are done, yay! :D
 - Fixed the inconsistent heading styles in the [Worlds]({{% relref "worlds" %}}) section
 - Fixed the padding on the [Guestbook]({{% relref "guestbook" %}}) page
 
