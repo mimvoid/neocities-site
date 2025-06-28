@@ -5,9 +5,6 @@ description: A list of tools and resources in regards to fonts and typography
 date: 2025-01-19T21:25:19-05:00
 ---
 
-Under Construction...
-{.secondary}
-
 ## Webfonts
 
 ### google-webfonts-helper
@@ -20,7 +17,7 @@ Google Fonts is a great collection of free-to-use and high quality fonts, but Go
 the company doesn't have quite as good of a reputation.
 
 If you'd like to self-host your fonts, google-webfonts-helper is a great choice!
-You can download the fonts in multiple formats, subsetted so they only need to
+You can download the fonts in multiple formats and subsetted so they only need to
 support the characters you require.
 
 It was a huge aid for me to download Google Fonts in
@@ -35,7 +32,7 @@ which I used to showcase many fonts in
 Many fonts aren't available in WOFF2 format, but rather TTF or OTF format.
 They're great for general use on the computer, but a little big for use on the web.
 
-I found FontSquirrel's Webfont Generator the easily accessible choice, functional and
+I found FontSquirrel's Webfont Generator an easily accessible choice, functional and
 usable in the browser. In addition to converting to multiple font file formats,
 it can subset fonts, adjust metrics and rendering, flatten Opentype features, and more.
 

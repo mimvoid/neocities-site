@@ -16,7 +16,7 @@ Instead, here are several options for further browsing:
 
 ### Blambot
 
-[Blambot](https://blambot.com) is a popular foundry with many popular comic style fonts you've
+[Blambot](https://blambot.com) is a popular foundry with many popular comic-style fonts you've
 likely seen before. Their free fonts allow **commercial use for indie comics**. To my understanding,
 unless you're operating under a big publisher, you can use those fonts for free even if
 you're making money off your comics!
@@ -100,7 +100,7 @@ What a goldmine! Designer and comic letterer Jakub D. Kočí made these fonts
 
 [License](https://st.1001fonts.net/license/komika/readme.txt)
 
-Komika's honestly a classic free for commerical use comic book font.
+Komika's a classic free for commerical use comic book font.
 
 The original website for Apostrophic Lab is gone, but
 [typOasis's Lab collection](https://moorstation.org/typoasis/designers/lab/index.htm)

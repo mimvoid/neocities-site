@@ -6,8 +6,8 @@ date: 2025-02-08T17:21:05-05:00
 ---
 
 Ah, monospace fonts. I'm a big fan, both because I'm a chronic terminal hermit and because
-unlike [sans serif fonts]({{% relref "sans-serif" %}}), a majority of them don't look very
-coporate or too geometric for my tastes. They have very distinct letterforms and a sort of
+unlike [sans serif fonts]({{% relref "sans-serif" %}}), a majority of them don't look too
+corporate or geometric for my tastes. They have very distinct letterforms and a sort of
 irregular charm.
 
 Unfortunately, they're not the best fonts for *readability*, especially not for long stretches
@@ -23,12 +23,12 @@ So far, I haven't been able to find many. If you know some, please please tell m
 
 ## Texture Healing Fonts
 
-The title is a bit of a lie, not all of the fonts here will be "faux monospace". The following
+The title is a bit of a lie, not all of the fonts here are "faux monospace". The following
 are true monospace fonts, but employ a special feature called
 [**texture healing**](https://github.com/githubnext/monaspace/blob/main/docs/Texture%20Healing.md)!
 Basically, the font lets some glyphs take up more space within their cell, while the surrounding
 letters are made narrower so they don't look too cramped. Unlike "faux monospace" fonts, you can
-still use these in the terminal, but it may or may not support texture healing.
+still use these in the terminal, but which may or may not support texture healing.
 
 ### Monaspace
 

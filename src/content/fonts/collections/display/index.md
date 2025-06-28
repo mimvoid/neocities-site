@@ -90,7 +90,7 @@ License: EULA (free for commerical use, see homepage)
 This font was designed during the lockdown in April 2020 by Mariano Diez, and the
 Cyrillic set was by Denis Ignatov.
 
-It's super cool, very futuristic and sci-fi or cyberpunk-esque.
+It's super cool and very futuristic, sci-fi, or cyberpunk-esque.
 
 ## Major Mono Display
 
@@ -142,7 +142,7 @@ Major Mono Display is among my all-time favorites. It's unique, interesting, and
 
 Ostrich Sans by Tyler Finck (who also founded Etcetera Type Co., which made
 [Trispace]({{% relref "faux-monospace#trispace" %}})!)
-is super nice and tall! I like the Ostrich Sans Heavy in particular.
+is super nice and tall! I like Ostrich Sans Heavy in particular.
 
 The files came with some sample images too, two of them can be found above.
 

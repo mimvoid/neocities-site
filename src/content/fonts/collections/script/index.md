@@ -130,7 +130,7 @@ It reminds me a bit of my own handwriting too.
 
 {{% pangram font="Bad Script" lang="en ru" %}}
 
-It's name is rather ironic given how pretty I find it.
+Its name is rather ironic given how pretty I find it.
 
 ### Gogol
 

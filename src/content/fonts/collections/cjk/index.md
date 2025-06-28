@@ -103,7 +103,7 @@ interesting. The full sample images can be found above.
 
 ### Cherry Bomb One
 
-[Hompage](https://fonts.google.com/specimen/Cherry+Bomb+One)
+[Homepage](https://fonts.google.com/specimen/Cherry+Bomb+One)
 
 [Source](https://github.com/satsuyako/CherryBomb)
 

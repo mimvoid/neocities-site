@@ -9,7 +9,7 @@ date: 2025-01-02T13:24:59-05:00
 Monospace fonts are quintessential to programming and life in the terminal,
 where their fixed width allows text to be displayed and aligned correctly.
 
-Some are typewriter style fonts, great for formatting screenplays and the like.
+Some are typewriter-style fonts, great for formatting screenplays and the like.
 
 <section>
 
@@ -132,7 +132,7 @@ Oh, a screenplay font!
 which was designed in 1955 for IBM and became the standard for screenwriting (a repository of
 [the original Courier's digital forms can be found here](https://github.com/dse/font-og-courier)).
 
-Courier Prime is my favorite typewriter style font, and I love its italics. There is also
+Courier Prime is my favorite typewriter-style font, and I love its italics. There is also
 Courier Prime Code, which is Courier Prime Sans but code-optimized.
 
 ### Latin Modern Mono
@@ -149,8 +149,8 @@ License: [GUST Font License](https://www.gust.org.pl/projects/e-foundry/licenses
 {{% pangram font="Latin Modern Mono" %}}
 </div>
 
-Latin Modern Mono was built on Computer Mono, designed by Donald Knuth and the original family
-used by TeX.
+Latin Modern Mono was built upon Computer Mono, which was designed by Donald Knuth and part
+of the original font family used by TeX.
 
 ### TT2020
 
