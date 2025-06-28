@@ -4,7 +4,7 @@ description: A page snippet for the homepage of mimvoid's little corner
 date: 2025-02-09T20:14:38-05:00
 ---
 
-Ibuprofen my beloved~
+Aren't fireflies cool? Please leave out your winter leaf piles for the little guys. <3
 
 <!--more-->
 
