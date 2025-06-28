@@ -140,8 +140,9 @@ Major Mono Display is among my all-time favorites. It's unique, interesting, and
 {{< /ostrich-sans-images.inline >}}
 </details>
 
-Ostrich Sans by Tyler Finck is super nice and tall! I like the Ostrich Sans Heavy
-in particular.
+Ostrich Sans by Tyler Finck (who also founded Etcetera Type Co., which made
+[Trispace]({{% relref "faux-monospace#trispace" %}})!)
+is super nice and tall! I like the Ostrich Sans Heavy in particular.
 
 The files came with some sample images too, two of them can be found above.
 

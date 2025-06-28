@@ -158,6 +158,6 @@ Trispace is not a font I see mentioned too often, but it's genuinely so cool!
 It's variable in both *width* and *weight*. The homepage presentation is very nice too.
 
 It hits a pretty good sweet spot between a monospace look and readable character widths
-with a ton of variability. Thank you Tyler Finck (ETC)!
+with a ton of variability. Thank you Etcetera Type Company and Tyler Finck!
 
 </section>
