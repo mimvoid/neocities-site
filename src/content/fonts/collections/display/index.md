@@ -106,6 +106,47 @@ It's super cool, very futuristic and sci-fi or cyberpunk-esque.
 
 Major Mono Display is among my all-time favorites. It's unique, interesting, and esoteric!
 
+## Ostrich Sans
+
+[Homepage](https://www.theleagueofmoveabletype.com/ostrich-sans)
+
+[Source](https://github.com/theleagueof/ostrich-sans)
+
+{{% license "ofl" %}}
+
+<span class="primary">Variant</span>: Medium
+
+{{% pangram font="Ostrich Sans Medium" %}}
+
+<span class="primary">Variant</span>: Black
+
+{{% pangram font="Ostrich Sans Black" %}}
+
+<span class="primary">Variant</span>: Heavy
+
+{{% pangram font="Ostrich Sans Heavy" %}}
+
+<span class="primary">Variant</span>: Inline Bold
+
+{{% pangram font="Ostrich Sans Bold" %}}
+
+<details>
+<summary>Images</summary>
+{{< ostrich-sans-images.inline >}}
+    {{ with .Page.Resources.Get "samples/OstrichSans-4.jpg" }}
+        <img src="{{ .RelPermalink }}" alt="4th sample image of Ostrich Sans">
+    {{ end }}
+    {{ with .Page.Resources.Get "samples/OstrichSans-5.jpg" }}
+        <img src="{{ .RelPermalink }}" alt="5th sample image of Ostrich Sans">
+    {{ end }}
+{{< /ostrich-sans-images.inline >}}
+</details>
+
+Ostrich Sans by Tyler Finck is super nice and tall! I like the Ostrich Sans Heavy
+in particular.
+
+The files came with some sample images too, two of them can be found above.
+
 ## Oswald
 
 [Homepage](https://fonts.google.com/specimen/Oswald)

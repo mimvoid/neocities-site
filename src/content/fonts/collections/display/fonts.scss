@@ -3,6 +3,12 @@
 @include font("Limelight", "Limelight-Regular");
 @include font("Major Mono Display", "MajorMonoDisplay-Regular");
 @include font("Milton Burlesque", "MiltonBurlesque-Regular");
+
+@include font("Ostrich Sans Medium", "OstrichSans-Medium", $local: "Ostrich Sans Medium");
+@include font("Ostrich Sans Black", "OstrichSans-Black", $local: "Ostrich Sans Black");
+@include font("Ostrich Sans Heavy", "OstrichSans-Heavy", $local: "Ostrich Sans Heavy");
+@include font("Ostrich Sans Bold", "OstrichSans-Bold", $local: "Ostrich Sans Bold");
+
 @include font("Oswald", "Oswald-Regular");
 @include font("Plaster", "Plaster-Regular");
 

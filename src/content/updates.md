@@ -6,6 +6,12 @@ date: 2025-02-09T19:48:23-05:00
 
 ## 2025 {.h3}
 
+### 28.06.2025 {.h5}
+
+After a bit of a break, I'm back! :D
+
+- Added [Ostrich Sans]({{% relref "fonts/collections/display#ostrich-sans" %}})
+
 ### 19.04.2025 {.h5}
 
 - [Lock and Key]({{% relref "worlds/lock-and-key" %}}) got a makeover!
