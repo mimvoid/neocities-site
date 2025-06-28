@@ -2,16 +2,15 @@
 title: Sacoglossa
 description: Sacoglossan sea slugs and sea snails
 date: 2025-02-10T11:44:38-05:00
+resources:
+    - src: Christian-Gloor_Coastasiella.webp
 params:
     zoomable: true
 tags:
     - aquatic
     - marine
     - gastropod
-draft: true
 ---
-
-{{% asset_style "scss/extra/polaroid.scss" %}}
 
 Under Construction <span class="kaomoji">(ﾉ・・)ノ・・・</span>
 {.secondary}
@@ -45,6 +44,10 @@ like a bunch of flowering cacti.
 
 ***
 
-## Further Reading
+## Further Reading {.h4}
+
+<div class="footnotes">
 
 1. The Octopus Lady. [These Sea Slugs EAT SUNLIGHT and RIP THEIR OWN HEADS OFF 🤘🔥🤘](https://www.youtube.com/watch?v=Jm7nZMHX2Cs). 26 Aug 2023.
+
+</div>

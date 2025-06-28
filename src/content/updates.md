@@ -11,6 +11,8 @@ date: 2025-02-09T19:48:23-05:00
 After a bit of a break, I'm back! :D
 
 - Added [Ostrich Sans]({{% relref "fonts/collections/display#ostrich-sans" %}})
+- Added the first proper page in my [Biology]({{% relref "biology" %}}) section
+about [Sacoglossa]({{% relref "biology/critters/sacoglossa" %}})!
 
 ### 19.04.2025 {.h5}
 
