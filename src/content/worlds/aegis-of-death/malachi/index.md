@@ -44,7 +44,7 @@ A fugitive wanted by the AOD, unsure of his own identity.
 
 ## File 0S: Subject Profile {.section}
 
-**Status**: Alive
+**Status**: <s>Alive</s> Unknown
 
 |                 |                                                 |
 | --------------- | ----------------------------------------------- |

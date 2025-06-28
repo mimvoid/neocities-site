@@ -4,8 +4,6 @@ description: My collection of display fonts
 date: 2025-01-02T13:25:05-05:00
 ---
 
-Under Construction...
-
 ## Baloo 2
 
 [Homepage](https://fonts.google.com/specimen/Baloo+2)

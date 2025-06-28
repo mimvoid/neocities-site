@@ -5,9 +5,6 @@ description: My collection of comic and manga-style fonts
 date: 2025-01-08T16:30:52-05:00
 ---
 
-Under construction...
-{.secondary}
-
 To be honest, this could be a section by itself.
 
 These fonts are best viewed in *light mode*!

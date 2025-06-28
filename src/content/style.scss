@@ -58,7 +58,7 @@ fieldset {
 
 @media (orientation: landscape) {
   div:has(> .updates, > .status) {
-    max-height: 20em;
+    max-height: 21em;
   }
 
   .updates {
