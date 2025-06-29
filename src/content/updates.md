@@ -6,6 +6,12 @@ date: 2025-02-09T19:48:23-05:00
 
 ## 2025 {.h3}
 
+### 29.06.2025 {.h5}
+
+- The new Hugo update changed the
+[template system](https://gohugo.io/templates/new-templatesystem-overview),
+so some page layouts got broken. It should be fixed now!
+
 ### 28.06.2025 {.h5}
 
 After a bit of a break, I'm back! :D
