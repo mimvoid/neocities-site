@@ -1,0 +1,28 @@
+{{ define "head-extra" }}
+<style>
+  html, body { height: 100%; }
+  .wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #not_found {
+    padding: 2em;
+    h1 { margin-top: 0.5em; }
+  }
+</style>
+{{ end }}
+
+{{ define "body" }}
+<div class="wrapper">
+  <div id="not_found" class="box">
+    {{ .Content -}}
+    <br />
+    <nav>
+      <p><a href="{{ site.Home.RelPermalink }}">Go back home?</a></p>
+    </nav>
+  </div>
+</div>
+{{ end }}

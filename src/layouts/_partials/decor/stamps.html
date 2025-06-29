@@ -1,0 +1,16 @@
+{{ range resources.Get "images/stamps/data.json" | transform.Unmarshal }}
+<div class="stamp-row">
+  {{ range . }}
+    {{- $img := resources.Get (print "images/stamps/" .file) -}}
+    <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
+      <img
+        src="{{ $img.RelPermalink }}"
+        width="{{ $img.Width }}"
+        height="{{ $img.Height }}"
+        alt="{{- .alt -}}"
+        loading="lazy"
+      />
+    </a>
+  {{ end }}
+</div>
+{{ end }}

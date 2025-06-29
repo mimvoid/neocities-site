@@ -7,9 +7,9 @@
   {{ with .GetTerms "tags" }}
     <ul class="tags">
       {{ range . }}
-        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
       {{ end }}
     </ul>
   {{ end }}
-  {{ .Content }}
+  {{ .Content -}}
 {{ end }}

@@ -1,0 +1,6 @@
+{{- $machineFmt := "2006-01-02T15:04:05-07:00" -}}
+{{- $humanFmt := default "02 Jan 2006" .format -}}
+
+<time datetime="{{ .time.Format $machineFmt }}">
+  {{ .time.Format $humanFmt -}}
+</time>

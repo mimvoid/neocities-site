@@ -1,0 +1,17 @@
+<ul>
+  {{- range .Sections -}}
+    <li>{{ partial "utils/link-page" .Page }}</li>
+    {{- if .Sections -}}
+      {{ partial "utils/recurse-list-pages" . }}
+    {{- end -}}
+    <ul>
+      {{- range .RegularPages -}}
+        <li>{{ partial "utils/link-page" . }}</li>
+      {{- end -}}
+    </ul>
+  {{- end -}}
+
+  {{- range .RegularPages -}}
+    <li>{{ partial "utils/link-page" . }}</li>
+  {{- end -}}
+</ul>

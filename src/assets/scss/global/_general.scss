@@ -78,15 +78,24 @@ $headings: (
 // Make text slightly bolder
 p,
 li,
-span {
+span,
+th,
+td {
   text-shadow:
     0 0.01px 0,
     0.01px 0 0,
     0 -0.01px 0,
     -0.01px 0 0;
 }
+
 .pangram p {
   text-shadow: none;
+}
+.pangram-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.5em;
+  margin: 0.5em 0;
 }
 
 strong,

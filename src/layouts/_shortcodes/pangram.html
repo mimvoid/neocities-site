@@ -1,0 +1,113 @@
+{{-
+  $langAbbrev := dict
+  "english" "en"
+  "spanish" "es"
+  "russian" "ru"
+  "ukrainian" "uk"
+  "czech" "cs"
+  "croatian" "hr"
+  "finnish" "fi"
+-}}
+
+{{-
+  $pangrams := dict
+  "en" "sphinx of black quartz, judge my vow."
+  "es" "jovencillo emponzoñado de whisky: ¡qué figurota exhibe!"
+  "ru" "эх, чужак, общий съём цен шляп (юфть) – вдрызг!"
+  "uk" "чуєш їх, доцю, га? Кумедна ж ти, прощайся без ґольфів!"
+  "cs" "nechť již hříšné saxofony ďáblů rozezvučí síň úděsnými tóny waltzu, tanga a quickstepu."
+  "hr" "gojazni đačić s biciklom drži hmelj i finu vatu u džepu nošnje."
+  "fi" "albert osti fagotin ja töräytti puhkuvan melodian."
+-}}
+
+{{- $lang := default "en" (.Get "lang") -}}
+{{- $punctuation := not (in (slice "false" false 0) (.Get "punctuation")) -}}
+
+<div class="pangram large" style="font-family:{{ .Get "font" }}">
+  {{- range split $lang " " -}}
+    {{- if $pangram := index $pangrams (default . (index $langAbbrev .)) -}}
+      <p>
+        {{ $pangram | strings.ToUpper }}<br />
+        {{ $pangram }}
+      </p>
+    {{- else if eq . "hiragana" -}}
+      <div class="pangram-columns">
+        <p>
+          いろはにほへと<br />
+          ちりぬるを<br />
+          わかよたれそ<br />
+          つねならむ
+        </p>
+        <p>
+          うゐのおくやま<br />
+          けふこえて<br />
+          あさきゆめみし<br />
+          ゑひもせす
+        </p>
+      </div>
+    {{- else if eq . "katakana" -}}
+      <div class="pangram-columns">
+        <p>
+          イロハニホヘト<br />
+          チリヌルヲ<br />
+          ワカヨタレソ<br />
+          ツネナラム
+        </p>
+        <p>
+          ウヰノオクヤマ<br />
+          ケフコエテ<br />
+          アサキユメミシ<br />
+          ヱヒモセス
+        </p>
+      </div>
+    {{- else if eq . "japanese" "ja" -}}
+      <p>
+        鳥啼く声す 夢覚ませ<br />
+        見よ明け渡る 東を<br />
+        空色映えて 沖つ辺に<br />
+        帆船群れゐぬ 靄の中
+      </p>
+    {{- else if eq . "sc" -}}
+      <div class="pangram-columns">
+        <p>
+          天地玄黄，宇宙洪荒。<br />
+          日月盈昃，辰宿列张。<br />
+          寒来暑往，秋收冬藏。
+        </p>
+        <p>
+          闰余成岁，律吕调阳。<br />
+          云腾致雨，露结为霜。<br />
+          金生丽水，玉出昆冈。
+        </p>
+      </div>
+    {{- else if eq . "tc" -}}
+      <div class="pangram-columns">
+        <p>
+          天地玄黃，宇宙洪荒。<br />
+          日月盈昃，辰宿列張。<br />
+          寒來暑往，秋收冬藏。
+        </p>
+        <p>
+          閏餘成歲，律呂調陽。<br />
+          雲騰致雨，露結為霜。<br />
+          金生麗水，玉出崑岡。
+        </p>
+      </div>
+    {{- else if eq . "thai" "th" -}}
+      <p>นายสังฆภัณฑ์ เฮงพิทักษ์ฝั่ง ผู้เฒ่าซึ่งมีอาชีพเป็นฅนขายฃวด ถูกตำรวจปฏิบัติการจับฟ้องศาล ฐานลักนาฬิกาคุณหญิงฉัตรชฎา ฌานสมาธิ</p>
+    {{- else if eq . "kazakh" "kk" -}}
+      <p>Barlıq adamdar twmısınan azat jäne qadir-qasïyeti men quqıqtarı teñ bolıp dünïyege keledi.</p>
+      <p>Барлық адамдар тумысынан азат және қадір-қасиеті мен кұқықтары тең болып дүниеге келеді.</p>
+    {{- else if eq . "ligatures" -}}
+      <p>
+        == != /= === ==> *** <| |> <|>
+        <<< >>> <> +++ <- -> <= >= => >> << >>= =<<
+        .. ... :: -< >- -<< >>- ++
+      </p>
+    {{- end -}}
+  {{- end -}}
+
+  {{- if $punctuation -}}
+    <p>0123456789 ?! ‘’ “” () [] {} / &@%*#$£¥</p>
+  {{- end -}}
+</div>

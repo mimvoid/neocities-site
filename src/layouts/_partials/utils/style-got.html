@@ -1,0 +1,13 @@
+{{- /* Helper to process Sass stylesheets after the resource was fetched */ -}}
+
+{{- $opts := dict "transpiler" "dartsass" -}}
+
+{{- /* Convert to CSS and minify */ -}}
+{{- with . | toCSS $opts | minify | fingerprint -}}
+<link
+  type="text/css"
+  rel="stylesheet"
+  href="{{ .RelPermalink }}"
+  integrity="{{ .Data.Integrity }}"
+/>
+{{- end -}}

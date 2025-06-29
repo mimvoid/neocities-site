@@ -1,0 +1,27 @@
+<div class="relation">
+  <div class="intro">
+    {{- with $page := .Page.GetPage (.Get "page") -}}
+      {{- with .Resources.GetMatch "avatar" -}}
+        <a href="{{ $page.RelPermalink }}">
+          <img
+            src="{{ .RelPermalink }}"
+            class="avatar{{ with $.Get "class" }} {{ . }}{{ end }}"
+            width="{{ .Width }}"
+            height="{{ .Height }}"
+            loading="lazy"
+          />
+        </a>
+      {{- end -}}
+      <div>
+        <h3><a href="{{ .RelPermalink }}">{{ default .Title ($.Get "title") }}</a></h3>
+        <p><strong>Relation</strong>: {{ $.Get "rel" }}</p>
+      </div>
+    {{- else with .Get "title" -}}
+      <h3>{{ . }}</h3>
+      <p><strong>Relation</strong>: {{ $.Get "rel" }}</p>
+    {{- end -}}
+  </div>
+  <div class="content">
+    {{- $.Inner -}}
+  </div>
+</div>

@@ -1,0 +1,13 @@
+{{- $page := site.GetPage . -}}
+<nav class="box">
+  <details open>
+    {{ partial "nav/summary" $page }}
+    <div class="details-content">
+      {{- /* Recurse */ -}}
+      {{ partial "nav/recurse-sections" $page }}
+      {{ range $page.RegularPages }}
+        <p>{{ partial "utils/link-page" . }}</p>
+      {{ end }}
+    </div>
+  </details>
+</nav>

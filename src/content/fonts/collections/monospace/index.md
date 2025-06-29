@@ -4,7 +4,7 @@ description: My collection of monospace fonts
 date: 2025-01-02T13:24:59-05:00
 ---
 
-{{% asset_style "scss/partials/_courier-prime.scss" %}}
+{{% asset_style "scss/fonts/_courier-prime.scss" %}}
 
 Monospace fonts are quintessential to programming and life in the terminal,
 where their fixed width allows text to be displayed and aligned correctly.

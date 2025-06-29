@@ -1,0 +1,14 @@
+<ruby>
+  {{- $wordSplit := split .word " " -}}
+  {{- $rubySplit := split .ruby " " -}}
+
+  {{- if eq (len $wordSplit) (len $rubySplit) -}}
+    {{- range $i, $word := $wordSplit -}}
+      {{ $word }}
+      <rp>(</rp><rt>{{- index $rubySplit $i -}}</rt><rp>)</rp>
+    {{- end -}}
+  {{- else -}}
+    {{- .word -}}
+    <rp>(</rp><rt>{{- .ruby -}}</rt><rp>)</rp>
+  {{- end -}}
+</ruby>

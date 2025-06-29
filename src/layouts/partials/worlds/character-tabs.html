@@ -1,8 +1,0 @@
-<div class="character-tabs">
-  {{- $tabs := slice "Info" "Details" "History" "Relations" "Gallery" "Extra" -}}
-
-  {{- range seq (len $tabs) -}}
-    <input type="radio" name="tabs" id="tab-nav-{{ . }}"{{ if eq . 1 }} checked{{ end }}>
-    <label for="tab-nav-{{ . }}">{{ index $tabs (sub . 1) }}</label>
-  {{- end -}}
-</div>

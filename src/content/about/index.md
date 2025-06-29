@@ -16,38 +16,40 @@ params:
   <div class="content">
     {{< fetcher.inline >}}
       <div class="art pop">
-        {{-
-          $avatars := slice
-          (dict "img" "avatar-1.webp" "class" "not-hover")
-          (dict "img" "avatar-2.webp" "class" "hover")
-        -}}
-        {{ range $avatars }}
-           <img
-             class="{{ .class }}"
-             src="{{ with $.Page.Resources.Get .img }}{{ .RelPermalink }}{{ end }}"
-             width="200px"
-             height="200px"
-             alt="A headshot of mimvoid's persona, with expressions drawn on a piece of paper covering their real face."
-           />
+        {{ range $i, $class := slice "not-hover" "hover" }}
+          {{- $img := $.Page.Resources.Get (printf "avatar-%d.webp" (add $i 1)) -}}
+          <img
+            class="{{ $class }}"
+            src="{{ $img.RelPermalink }}"
+            width="200"
+            height="200"
+            alt="A headshot of mimvoid's persona, with expressions drawn on a piece of paper covering their real face."
+          />
         {{ end }}
       </div>
       <div class="text">
-        <div class="info">
-          <strong class="groups">
-            <p>{{ partial "utils/svg" "pai-user" }} user</p>
-            <p>{{ partial "utils/svg" "pai-message-processing" }} pronouns</p>
-            <p>{{ partial "utils/svg" "pai-calendar-tomorrow" }} b-day</p>
-            <p>{{ partial "utils/svg" "pai-device-laptop" }} os</p>
-            <p>{{ partial "utils/svg" "pai-ac" }} distro</p>
-          </strong>
-          <div class="data">
-            <p>mimvoid<span class="primary">@</span>neocities</p>
-            <p>she/they</p>
-            <p>29 March</p>
-            <p>Linux</p>
-            <p>NixOS :D</p>
-          </div>
-        </div>
+        <table class="info">
+          <tr>
+            <th>{{ partial "utils/svg" "pai-user" }} user</th>
+            <td>mimvoid<span class="primary">@</span>neocities</td>
+          </tr>
+          <tr>
+            <th>{{ partial "utils/svg" "pai-message-processing" }} pronouns</th>
+            <td>she/they</td>
+          </tr>
+          <tr>
+            <th>{{ partial "utils/svg" "pai-calendar-tomorrow" }} b-day</th>
+            <td>29 March</td>
+          </tr>
+          <tr>
+            <th>{{ partial "utils/svg" "pai-device-laptop" }} os</th>
+            <td>Linux</td>
+          </tr>
+          <tr>
+            <th>{{ partial "utils/svg" "pai-ac" }} distro</th>
+            <td>NixOS :D</td>
+          </tr>
+        </table>
         <div class="palette">
           <span class="primary"></span>
           <span class="secondary"></span>

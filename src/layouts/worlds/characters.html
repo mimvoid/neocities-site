@@ -3,48 +3,45 @@
 {{ end }}
 
 {{ define "main" }}
-
 {{ .Content -}}
 
-{{ with site.GetPage "worlds" }}
-  {{ range .Sections }}
-    <a href="{{ .RelPermalink }}">
-      <h2>{{ .Title -}}</h2>
-    </a>
+{{- $worldPage := site.GetPage "worlds" -}}
+{{ range $worldPage.Sections }}
+  <a href="{{ .RelPermalink }}">
+    <h2>{{ .Title -}}</h2>
+  </a>
 
-    <div class="cards">
-      {{ range (where .Pages "Params.character" true) }}
-        <div class="card">
-          <a href="{{ .RelPermalink }}">
-            {{ $name := .Title }}
-            {{ with .Resources.GetMatch "avatar" }}
-              {{ with .Params.bg }}
-              <div style="background-color: {{ . }}; transform: scale(0.8); border-radius: var(--border-radius)">
-              {{ end }}
-              <img
-                src="{{ .RelPermalink }}"
-                class="avatar"
-                alt="Character avatar of {{ $name }}"
-                width="{{ .Width }}"
-                height="{{ .Height }}"
-                {{ with .Params.bg }}
-                  style="transform: scale(1.25)";
-                {{ end }}
-              />
-              {{ with .Params.bg }}
-              </div>
-              {{ end }}
-            {{ else }}
-              <div class="placeholder"></div>
+  <div class="cards">
+    {{ range (where .Pages "Params.character" true) }}
+      <div class="card">
+        <a href="{{ .RelPermalink }}">
+          {{ $name := .Title }}
+          {{ with .Resources.GetMatch "avatar" }}
+            {{ with .Params.bg }}
+            <div style="background-color: {{ . }}; transform: scale(0.8); border-radius: var(--border-radius)">
             {{ end }}
+            <img
+              src="{{ .RelPermalink }}"
+              class="avatar"
+              alt="Character avatar of {{ $name }}"
+              width="{{ .Width }}"
+              height="{{ .Height }}"
+              {{ with .Params.bg }}
+                style="transform: scale(1.25)";
+              {{ end }}
+            />
+            {{ with .Params.bg }}
+            </div>
+            {{ end }}
+          {{ else }}
+            <div class="placeholder"></div>
+          {{ end }}
 
-            <h3>{{ .LinkTitle -}}</h3>
-          </a>
-          <p>{{ .Summary -}}</p>
-        </div>
-      {{ end }}
-    </div>
-  {{ end }}
+          <h3>{{ .LinkTitle -}}</h3>
+        </a>
+        <p>{{ .Summary -}}</p>
+      </div>
+    {{ end }}
+  </div>
 {{ end }}
-
 {{ end }}

@@ -1,0 +1,63 @@
+{{ define "title" }}
+<h1>{{- default site.Title .Params.customTitle -}}</h1>
+{{ end }}
+
+{{ define "sidebar-extra" }}
+<div class="box extra-box site-buttons">
+  {{ range $i, $color := slice "Dark" "Light" }}
+    {{- $img := resources.Get (printf "images/site-button/mimvoid_button%d.gif" (add $i 1)) -}}
+    {{- $buttonsPage := site.GetPage "site-buttons" -}}
+
+    <a href="{{ $buttonsPage.RelPermalink }}" title="mimvoid's little corner">
+      <img
+        src="{{ $img.RelPermalink }}"
+        alt="{{ $color }} animated site button for mimvoid's little corner"
+      />
+    </a>
+  {{ end }}
+</div>
+{{ end }}
+
+{{ define "main-extra" }}
+<aside>
+  <div class="h-boxes">
+    <div class="box extra-box updates">
+      {{ with site.GetPage "updates" }}
+        <h2><a href="{{ .RelPermalink }}">Updates</a></h2>
+        {{ .Content | strings.Truncate 512 }}
+        <p>...</p>
+        <a href="{{ .RelPermalink }}">Read more</a>
+      {{ end }}
+    </div>
+    <div class="box extra-box status larger">
+      <fieldset>
+        <legend>Status</legend>
+        {{ with site.GetPage "status" }}
+          <p>
+            <strong>mimvoid</strong>
+            {{ partial "utils/time" (dict "time" .Lastmod) }}
+          </p>
+          {{ .Summary }}
+        {{ end }}
+      </fieldset>
+      <pre>ฅ/ᐠ｡‸｡ᐟ\ฅ</pre>
+    </div>
+  </div>
+  <div class="h-boxes">
+    <div class="larger">
+      <div class="box extra-box badges">
+        {{ partial "decor/badges" }}
+      </div>
+      <div class="box extra-box sites">
+        <h2>Corners of the Web</h2>
+        {{ partial "decor/sites" }}
+      </div>
+    </div>
+    <div class="box extra-box webrings">
+      <div class="webrings-box">
+        {{ partial "decor/webrings" }}
+      </div>
+    </div>
+  </div>
+</aside>
+{{ end }}

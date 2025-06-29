@@ -1,0 +1,38 @@
+{{- $name := .Get 0 -}}
+{{- $dataFile := path.Join "images/galleries" (print $name ".json") -}}
+{{- $requiredTags := .Get 1 -}}
+
+{{- range $section := resources.Get $dataFile | transform.Unmarshal -}}
+  {{- $items := cond $requiredTags
+      (where .items "tags" "intersect" (split $requiredTags " "))
+      .items
+  -}}
+  {{- if not $items -}}{{- continue -}}{{- end -}}
+
+  <h2>{{ .year }}</h2>
+  <div class="gallery-content">
+    {{- range $items -}}
+      {{- $img := resources.Get (path.Join "images/galleries" $name .file) -}}
+      {{- if not $img -}}{{- continue -}}{{- end -}}
+
+      {{- $date := default $section.year .creation -}}
+      {{- $fullDesc := printf "%s (%s)" .desc $date -}}
+
+      <figure class="polaroid">
+        <img
+          src="{{ $img.RelPermalink }}"
+          width="{{ $img.Width }}"
+          height="{{ $img.Height }}"
+          alt="{{ default .desc .alt }}"
+          title="{{ $fullDesc }}"
+          loading="lazy"
+          {{- if .tw -}}class="tw-img"{{- end -}}
+        />
+        {{- with .tw -}}
+          <p class="tw">TW: {{ delimit . ", " }}</p>
+        {{- end -}}
+        <figcaption><p>{{ $fullDesc }}</p></figcaption>
+      </figure>
+    {{- end -}}
+  </div>
+{{- end -}}

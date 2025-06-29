@@ -1,0 +1,26 @@
+<div class="cards">
+  {{- range $page := where .Page.Pages "Params.character" "eq" true -}}
+    <div class="card">
+      <a href="{{ .RelPermalink }}"
+        {{- if ne .LinkTitle .Title -}}title="{{- .Title -}}"{{- end -}}
+      >
+        {{- with .Resources.Get "avatar" -}}
+          <img
+            src="{{ .RelPermalink }}"
+            class="avatar{{ with $.Get "imgClass" }} {{ . }}{{ end }}"
+            alt="Character avatar of {{ $page.Title }}"
+            width="{{ .Width }}"
+            height="{{ .Height }}"
+          />
+        {{- end -}}
+        <h3>{{ .LinkTitle -}}</h3>
+      </a>
+
+      {{- with index .Params ($.Get "extra") -}}
+        <p class="{{- default "primary" ($.Get "extra-style") -}}">{{ . -}}</p>
+      {{- end -}}
+
+      <p>{{ .Summary -}}</p>
+    </div>
+  {{- end -}}
+</div>

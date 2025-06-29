@@ -9,8 +9,7 @@
 {{ define "article-head" }}
   {{ if .Params.character }}
     {{ partial "worlds/character-tabs" . }}
-  {{ end }}
-  {{ if and (not .Params.character) .IsPage }}
+  {{ else if .IsPage }}
     {{ partial "worlds/breadcrumb" . }}
   {{ end }}
 {{ end }}

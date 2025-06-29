@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="{{ site.Language }}" dir="ltr" data-theme="dark">
+<head>
+  {{ partial "head/head" . }}
+  {{ block "head-extra" . }}{{ end }}
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  {{ block "body" . }}
+
+    {{ partial "header" . }}
+
+    <div id="wrapper">
+      {{ block "pre-body" . }}{{ end }}
+
+      <div class="body">
+        <div class="sidebar">
+          <div class="nav-wrapper">
+            <button
+              class="mobile-only"
+              type="button"
+              id="nav_closer"
+              aria-label="Close navigation menu"
+            >
+              {{ partial "utils/svg" "ph-x" }}
+            </button>
+            {{ block "nav" . }}
+              {{ partial "nav/nav" . }}
+            {{ end }}
+          </div>
+          {{ block "sidebar-extra" . }}{{ end }}
+        </div>
+
+        <main>
+          {{ block "main-box" . }}
+            {{ block "pre-article" . }}{{ end }}
+            <article class="box" id="content">
+              {{ block "article-head" . }}{{ end }}
+
+              {{ block "title" . }}
+                {{ partial "title" . }}
+              {{ end }}
+
+              {{ block "main" . }}
+                {{ .Content -}}
+              {{ end }}
+
+              {{ partial "dates" . }}
+            </article>
+            {{ block "main-extra" . }}{{ end }}
+          {{ end }}
+        </main>
+
+      </div>
+
+      {{ partial "footer" . }}
+
+    </div>
+
+  {{ end }}
+</body>
+</html>

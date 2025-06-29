@@ -1,0 +1,23 @@
+{{ with resources.Get "images/sites/links.json" | transform.Unmarshal }}
+<div>
+  {{ range .buttons }}
+    {{- $img := resources.Get (path.Join "images/sites" .img) -}}
+    <a href="{{ .link | safeURL }}" title="{{ .title }}" target="_blank" rel="noopener noreferrer">
+      <img
+        src="{{ $img.RelPermalink }}"
+        width="{{ $img.Width }}"
+        height="{{ $img.Height }}"
+        alt="Website button for {{ .title }}"
+        loading="lazy"
+      />
+    </a>
+  {{ end }}
+</div>
+<div class="buttonless">
+  {{ range .buttonless }}
+    <a href="{{ .link | safeURL }}" title="{{ .title }}" target="_blank" rel="noopener noreferrer">
+      <p>{{ .title }}</p>
+    </a>
+  {{ end }}
+</div>
+{{ end }}

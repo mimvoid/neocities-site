@@ -11,25 +11,21 @@
 
 {{ define "pre-body" }}
   {{ if eq .Parent .FirstSection }}
-    <div class="title-box">
-      <h1 class="title typewriter" data-speed="150">Aegis of Death</h1>
-      <p><em>What does it mean to be a human?</em></p>
-      <p><em>What does it mean to live?</em></p>
-      {{ partial "utils/svg" "AOD" }}
-    </div>
+  <div class="title-box">
+    <h1 class="title typewriter" data-speed="150">Aegis of Death</h1>
+    <p><em>What does it mean to be a human?</em></p>
+    <p><em>What does it mean to live?</em></p>
+    {{ partial "utils/svg" "AOD" }}
+  </div>
   {{ end }}
 {{ end }}
 
 {{ define "pre-article" }}
-  {{ if .Params.character }}
-    {{ partial "worlds/character-tabs" . }}
-  {{ end }}
+  {{ if .Params.character }}{{ partial "worlds/character-tabs" . }}{{ end }}
 {{ end }}
 
 {{ define "article-head" }}
-  {{ if and (not .Params.character) .IsPage }}
-    {{ partial "worlds/breadcrumb" . }}
-  {{ end }}
+  {{ if and (not .Params.character) .IsPage }}{{ partial "worlds/breadcrumb" . }}{{ end }}
 {{ end }}
 
 {{ define "title" }}
@@ -41,8 +37,6 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ if not (eq .Parent .FirstSection) }}
-    {{ partial "utils/svg" "AOD" }}
-  {{ end }}
+  {{ if not (eq .Parent .FirstSection) }}{{ partial "utils/svg" "AOD" }}{{ end }}
   {{ .Content }}
 {{ end }}

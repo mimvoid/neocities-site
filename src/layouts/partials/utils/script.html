@@ -1,9 +1,0 @@
-{{ $opts := dict "minify" true }}
-
-{{ with resources.Get . | js.Build $opts | fingerprint }}
-<script
-  src="{{ .RelPermalink }}"
-  integrity="{{ .Data.Integrity }}"
-  defer
-></script>
-{{ end }}

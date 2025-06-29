@@ -1,0 +1,2 @@
+{{- $resourceName := default "style.scss" (.Get 0) -}}
+{{ partial "utils/style-got" (.Page.Resources.Get $resourceName) }}
