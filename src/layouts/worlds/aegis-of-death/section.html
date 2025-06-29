@@ -1,0 +1,18 @@
+{{ define "head-extra" }}
+  {{ partial "utils/style" "scss/pages/aegis-of-death.scss" }}
+  {{ partial "utils/script" "ts/typewriter.ts" }}
+{{ end }}
+
+{{ define "nav" }}
+  {{ partial "worlds/nav" .Path }}
+{{ end }}
+
+{{ define "pre-body" }}
+  <div class="title-box">
+    <h1 class="title typewriter" data-speed="150">Aegis of Death</h1>
+    <p><em>What does it mean to be a human?</em></p>
+    <p><em>What does it mean to live?</em></p>
+    {{ partial "utils/svg" "AOD" }}
+  </div>
+{{ end }}
+

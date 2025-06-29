@@ -9,14 +9,6 @@
   {{ partial "worlds/nav" "worlds/sacrificial" }}
 {{ end }}
 
-{{ define "pre-body" }}
-  {{ if eq .Parent .FirstSection }}
-    <div class="title-box">
-      <h1 class="title">Sacrificial</h1>
-    </div>
-  {{ end }}
-{{ end }}
-
 {{ define "pre-article" }}
   {{ if .Params.character }}
     {{ partial "worlds/character-tabs" . }}

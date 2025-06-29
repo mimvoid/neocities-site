@@ -5,8 +5,6 @@ date: 2024-09-24T21:39:39-04:00
 weight: 10
 params:
     noTitle: true
-cascade:
-    layout: aegis-of-death
 ---
 
 ## Foreword
