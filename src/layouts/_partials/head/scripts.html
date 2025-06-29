@@ -1,8 +1,8 @@
 {{ if .Params.zoomable }}
-  {{ partial "utils/script" "ts/figureZoom/figureZoom.ts" }}
+  {{ partialCached "utils/script" "ts/figureZoom/figureZoom.ts" "figureZoom" }}
 {{ end }}
 {{ if .HasShortcode "gallery" }}
-  {{ partial "utils/script" "ts/figureZoom/galleryZoom.ts" }}
+  {{ partialCached "utils/script" "ts/figureZoom/galleryZoom.ts" "galleryZoom" }}
 {{ end }}
-{{ partial "utils/script" "ts/themeToggle/main.ts" }}
-{{ partial "utils/script" "ts/navToggle.ts" }}
+{{ partialCached "utils/script" "ts/themeToggle/main.ts" "themeToggle" }}
+{{ partialCached "utils/script" "ts/navToggle.ts" "navToggle" }}

@@ -8,7 +8,7 @@
 
 {{ define "article-head" }}
   {{ if .Params.character }}
-    {{ partial "worlds/character-tabs" . }}
+    {{ partialCached "worlds/character-tabs" . }}
   {{ else if .IsPage }}
     {{ partial "worlds/breadcrumb" . }}
   {{ end }}

@@ -4,7 +4,7 @@
 {{ end }}
 
 {{ define "nav" }}
-  {{ partial "worlds/nav" .Path }}
+  {{ partialCached "worlds/nav" "worlds/aegis-of-death" "aegis-of-death" }}
 {{ end }}
 
 {{ define "pre-body" }}
@@ -12,7 +12,7 @@
     <h1 class="title typewriter" data-speed="150">Aegis of Death</h1>
     <p><em>What does it mean to be a human?</em></p>
     <p><em>What does it mean to live?</em></p>
-    {{ partial "utils/svg" "AOD" }}
+    {{ partialCached "utils/svg" "AOD" "AOD" }}
   </div>
 {{ end }}
 

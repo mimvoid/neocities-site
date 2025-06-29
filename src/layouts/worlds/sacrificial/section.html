@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "nav" }}
-  {{ partial "worlds/nav" "worlds/sacrificial" }}
+  {{ partialCached "worlds/nav" "worlds/sacrificial" "sacrificial" }}
 {{ end }}
 
 {{ define "pre-body" }}
@@ -11,4 +11,3 @@
     <h1 class="title">Sacrificial</h1>
   </div>
 {{ end }}
-

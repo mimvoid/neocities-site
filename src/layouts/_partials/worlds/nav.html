@@ -4,7 +4,7 @@
     {{ partial "nav/summary" $page }}
     <div class="details-content">
       {{- /* Recurse */ -}}
-      {{ partial "nav/recurse-sections" $page }}
+      {{ partialCached "nav/recurse-sections" $page $page.Path }}
       {{ range $page.RegularPages }}
         <p>{{ partial "utils/link-page" . }}</p>
       {{ end }}

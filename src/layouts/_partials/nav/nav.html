@@ -1,10 +1,10 @@
 <nav class="box">
   {{ range site.Sections }}
     <details {{ if or (.IsAncestor page) (.Eq page) }}open{{ end }}>
-      {{ partial "nav/summary" . }}
+      {{ partial "nav/summary" . .Path }}
       <div class="details-content">
         {{- /* Recurse */ -}}
-        {{ partial "nav/recurse-sections" . }}
+        {{ partialCached "nav/recurse-sections" . .Path }}
         {{ range .RegularPages }}
           <p>{{ partial "utils/link-page" . }}</p>
         {{ end }}

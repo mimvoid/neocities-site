@@ -1,6 +1,6 @@
 {{ range .Page.Sections }}
 <details class="nested" {{ if or (.IsAncestor page) (.Eq page) }}open{{ end }}>
-  {{ partial "nav/summary" . }}
+  {{ partial "nav/summary" . .Path }}
 
   <div class="details-content">
     {{ partial "nav/recurse-sections" . }}

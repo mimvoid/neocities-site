@@ -1,5 +1,5 @@
 {{ define "main" }}
 {{ .Summary -}}
-{{ partial "utils/recurse-list-pages" . }}
+{{ partialCached "utils/recurse-list-pages" . .Path }}
 {{ .ContentWithoutSummary -}}
 {{ end }}

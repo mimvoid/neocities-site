@@ -24,4 +24,4 @@
 <meta name="author" content="mimvoid" />
 
 {{ partial "head/stylesheets" . }}
-{{ partial "head/scripts" . }}
+{{ partialCached "head/scripts" . .Params.zoomable (.HasShortcode "gallery") }}

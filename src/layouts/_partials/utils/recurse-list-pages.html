@@ -2,7 +2,7 @@
   {{- range .Sections -}}
     <li>{{ partial "utils/link-page" .Page }}</li>
     {{- if .Sections -}}
-      {{ partial "utils/recurse-list-pages" . }}
+      {{ partialCached "utils/recurse-list-pages" . .Path }}
     {{- end -}}
     <ul>
       {{- range .RegularPages -}}

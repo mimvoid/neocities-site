@@ -6,12 +6,12 @@
 {{ end }}
 
 {{ define "nav" }}
-  {{ partial "worlds/nav" "worlds/sacrificial" }}
+  {{ partialCached "worlds/nav" "worlds/sacrificial" "sacrificial" }}
 {{ end }}
 
 {{ define "pre-article" }}
   {{ if .Params.character }}
-    {{ partial "worlds/character-tabs" . }}
+    {{ partialCached "worlds/character-tabs" . }}
   {{ end }}
 {{ end }}
 

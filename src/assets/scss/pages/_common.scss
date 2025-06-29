@@ -1,5 +1,9 @@
 @use "../abstracts/utils" as u;
 
+footer svg {
+  display: none;
+}
+
 .title-box {
   margin-block: 1em;
   padding-block: 1em;
