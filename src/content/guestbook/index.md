@@ -3,7 +3,6 @@ title: Guestbook
 description: Guestbook for mimvoid's little corner
 date: 2025-01-20T18:00:22-05:00
 menus: tabs
-layout: guestbook
 ---
 
 {{% style %}}
