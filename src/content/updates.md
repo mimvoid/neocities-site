@@ -6,6 +6,11 @@ date: 2025-02-09T19:48:23-05:00
 
 ## 2025 {.h3}
 
+### 22.07.2025 {.h5}
+
+- Added [Collections of Thoughts on Parasites]({{% relref "biology/critters/parasites" %}}).
+Please suffer with me. :D
+
 ### 29.06.2025 {.h5}
 
 - The new Hugo update changed the
