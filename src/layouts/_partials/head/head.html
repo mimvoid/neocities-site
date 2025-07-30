@@ -3,8 +3,7 @@
 
 {{- /* Should be called early to reduce flashing */ -}}
 <script is:inline>
-  const theme = localStorage.getItem("theme") || "dark";
-  document.documentElement.setAttribute("data-theme", theme);
+  document.documentElement.setAttribute("data-theme", localStorage.getItem("theme") || "dark");
 </script>
 
 <title>

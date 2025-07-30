@@ -6,6 +6,10 @@ date: 2025-02-09T19:48:23-05:00
 
 ## 2025 {.h3}
 
+### 30.07.2025 {.h5}
+
+- Some browsers now enjoy a nice view transition when switching themes!
+
 ### 22.07.2025 {.h5}
 
 - Added [Collections of Thoughts on Parasites]({{% relref "biology/critters/parasites" %}}).

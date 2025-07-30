@@ -1,4 +1,15 @@
 // Keyframes
+
+// Used for the view transition when switching themes
+@keyframes circle-in {
+  from {
+    clip-path: circle(0% at 75% 0%);
+  }
+  to {
+    clip-path: circle(125% at 75% 0%);
+  }
+}
+
 @keyframes pop {
   from, to {
     transform: scale(1);
@@ -85,6 +96,14 @@
 
 // Classes
 @media (prefers-reduced-motion: no-preference) {
+  // View transitions
+  ::view-transition-old(root) {
+    animation-delay: 0.5s;
+  }
+  ::view-transition-new(root) {
+    animation: circle-in 0.5s;
+  }
+
   .pop:hover {
     animation: 0.25s ease-in-out pop;
   }
