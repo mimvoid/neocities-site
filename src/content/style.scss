@@ -167,43 +167,36 @@ fieldset {
 
 // Site buttons
 
-.buttonless {
-  margin-top: 1em;
+.buttonless p {
+  display: inline-block;
+
+  width: 88px;
+  height: 31px;
+
+  border: 1px solid var(--fg);
+  margin-inline: 0.1rem;
+  overflow: hidden;
+
+  color: var(--bg);
+  text-decoration: none;
 
   a {
-    display: inline-block;
-
-    width: 88px;
-    height: 31px;
-
-    border: 1px solid var(--fg);
-    margin-inline: 0.1rem;
-    overflow: hidden;
-
-    color: var(--bg);
+    margin: 0;
+    font-size: 0.65em;
+    font-weight: bold;
+    line-height: 1;
     text-decoration: none;
+    color: inherit;
+  }
 
-    p {
-      position: relative;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-
-      margin: 0;
-      font-size: 0.65em;
-      font-weight: bold;
-      line-height: 1;
-    }
-
-    // Alternate colors every 3 links
-    &:nth-child(3n+1) {
-      background-color: var(--primary);
-    }
-    &:nth-child(3n+2) {
-      background-color: var(--secondary);
-    }
-    &:nth-child(3n) {
-      background-color: var(--tertiary);
-    }
+  // Alternate colors every 3 links
+  &:nth-child(3n+1) {
+    background-color: var(--primary);
+  }
+  &:nth-child(3n+2) {
+    background-color: var(--secondary);
+  }
+  &:nth-child(3n) {
+    background-color: var(--tertiary);
   }
 }

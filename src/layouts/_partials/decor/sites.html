@@ -15,9 +15,11 @@
 </div>
 <div class="buttonless">
   {{ range .buttonless }}
-    <a href="{{ .link | safeURL }}" title="{{ .title }}" target="_blank" rel="noopener noreferrer">
-      <p>{{ .title }}</p>
-    </a>
+    <p>
+      <a href="{{ .link | safeURL }}" title="{{ .title }}" target="_blank" rel="noopener noreferrer">
+        {{ .title }}
+      </a>
+    </p>
   {{ end }}
 </div>
 {{ end }}
