@@ -13,7 +13,7 @@ them, so I probably won't make any pages dedicated to a parasite unless it's par
 interesting.
 
 That said, parasites are a very important part of their ecosystems. They make up over half
-of all species on Earth, and 85–95% of them could be unknown to science.[^1]. They can control
+of all species on Earth, and 85–95% of them could be unknown to science[^1]. They can control
 population growths like any other predator. Many also encourage their hosts to be preyed upon,
 such as _Toxoplasma gondii_[^2].
 
@@ -69,6 +69,6 @@ I _really_ don't recommend watching or looking up any images if you're sensitive
 
 [^5]: Cleveland Clinic. n.d. “Cysticercosis: Overview, Symptoms & Treatment.” Accessed July 22, 2025. https://my.clevelandclinic.org/health/diseases/23534-cysticercosis.
 
-[^6]: Chubbyemu, dir. 2023. _A Man Ate Pork Tacos from an Illegal Food Truck. This Is What Happened to His Brain._ 15:29. https://www.youtube.com/watch?v=lPRzYJwqz6g.
+[^6]: Chubbyemu, dir. 2023. _A Man Ate Pork Tacos from an Illegal Food Truck. This Is What Happened to His Brain._ https://www.youtube.com/watch?v=lPRzYJwqz6g.
 
-[^7]: Chubbyemu, dir. 2024. _A Woman Ate Dark Web Bought Tapeworm Eggs to Lose Weight. This Is What Happened to Her Brain._ 18:17. https://www.youtube.com/watch?v=XAXfqISRZT4.
+[^7]: Chubbyemu, dir. 2024. _A Woman Ate Dark Web Bought Tapeworm Eggs to Lose Weight. This Is What Happened to Her Brain._ https://www.youtube.com/watch?v=XAXfqISRZT4.
