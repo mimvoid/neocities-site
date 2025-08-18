@@ -6,6 +6,12 @@ date: 2025-02-09T19:48:23-05:00
 
 ## 2025 {.h3}
 
+### 18.08.2025 {.h5}
+
+- I recently made a repository to store all
+[Casady & Greene fonts]({{% relref "fonts/collections/casadygreene" %}})
+found on [typOasis](https://moorstation.org/typoasis/typoasis1.htm)!
+
 ### 30.07.2025 {.h5}
 
 - Some browsers now enjoy a nice view transition when switching themes!

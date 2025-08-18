@@ -29,8 +29,14 @@ holds a great image collection of their fonts.
 According to Mike Wright, a designer at Casady & Greene, their fonts are now in the
 **public domain**.[^4]
 
-(As with all font pages on this site, this is not a complete collection, just what I find the
-most interesting. Please look at the previous links and footnotes if you want to see them all!)
+## Disclaimer {.h3}
+
+As with all font pages on this site, this is not a complete collection, just
+what I find the most interesting. Please look at the previous links and footnotes if you want
+to see them all!
+
+I also have a
+[repository of all C&G fonts found on typOasis](https://github.com/mimvoid/casady-greene)!
 
 ## Bodoni FLF
 
