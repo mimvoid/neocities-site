@@ -3,7 +3,7 @@ baseURL = 'https://mimvoid.neocities.org/'
 languageCode = 'en-us'
 
 title = "mimvoid's little corner"
-copyright = 'mimvoid © 2025'
+copyright = 'mimvoid © 2026'
 
 uglyUrls = true  # allow .html extension
 enableGitInfo = true  # let Git be used for the Lastmod param
