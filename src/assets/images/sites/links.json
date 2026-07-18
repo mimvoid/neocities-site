@@ -74,20 +74,17 @@
       "title": "dogblog",
       "link": "https://dogblog.neocities.org",
       "img": "dogblog.gif"
+    },
+    {
+      "title": "PrivateMe",
+      "link": "https://privateme.neocities.org",
+      "img": "privateme.gif"
     }
   ],
   "buttonless": [
     {
-      "title": "typOasis",
-      "link": "https://moorstation.org/typoasis/typoasis1.htm"
-    },
-    {
       "title": "Hard Software",
       "link": "https://hard-software.neocities.org"
-    },
-    {
-      "title": "PrivateMe",
-      "link": "https://privateme.neocities.org"
     },
     {
       "title": "sara joy",
