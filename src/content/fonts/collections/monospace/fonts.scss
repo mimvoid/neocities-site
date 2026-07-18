@@ -1,8 +1,8 @@
 @include font("Source Code Pro", "SourceCodePro-Regular.ttf");
 @include font("Hasklig", "Hasklig-Regular", $ext: otf);
 @include font("Office Code Pro", "OfficeCodePro-Regular");
-
 @include font("Fira Code", "FiraCode-Regular");
+@include font("JetBrains Mono", "JetBrainsMono-Regular");
 
 @include font("Victor Mono", "VictorMono-Regular");
 @include font("Victor Mono", "VictorMono-Italic", $style: italic);

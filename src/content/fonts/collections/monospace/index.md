@@ -29,6 +29,17 @@ Nerd Font variant: [FiraCode][nf]
 Fira Code is super popular among developers, particularly for its abundance
 of programming ligatures.
 
+### JetBrains Mono
+
+[Homepage](https://www.jetbrains.com/lp/mono)
+
+Nerd Font variant: [JetBrainsMono][nf]
+
+{{% license "ofl" %}}
+
+{{% pangram font="JetBrains Mono" %}}
+{{% pangram font="JetBrains Mono" lang="ligatures" punctuation=false %}}
+
 ### Source Code Pro
 
 [Homepage](https://adobe-fonts.github.io/source-code-pro)
