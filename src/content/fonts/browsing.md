@@ -15,9 +15,10 @@ This is a wonderful and huge archive of fonts of various foundries and styles. I
 with an encyclopedic treatment, so in addition to images of the fonts, it has information
 on the foundries' history and such.
 
-## [TypOasis](https://moorstation.org/typoasis/typoasis1.htm)
+## [TypOasis](https://web.archive.org/web/20250909052011/http://moorstation.org/typoasis/typoasis1.htm)
 
-I've also included TypOasis in my site buttons, but it was too good to not elaborate on it.
+> **Update**: What a shame, TypOasis has gone down...
+> What I have linked now is the last working snapshot on Web Archive.
 
 The **Lost + Found** section includes many original files from foundries that have
 otherwise shut down and no longer offer their fonts for download. You can probably trust them
