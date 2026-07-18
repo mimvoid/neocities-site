@@ -4,6 +4,20 @@ description: Record of site updates for mimvoid's little corner
 date: 2025-02-09T19:48:23-05:00
 ---
 
+## 2026 {.h3}
+
+### 18.07.2026 {.h5}
+
+Hey, hey, I'm back!
+
+- Updated the link to [typOasis]({{% relref "fonts/collections/" %}}) to the last working snapshot
+on Web Archive
+- Updated site buttons
+    - I haven't decided what to do about the sites that no longer work... I'll see if any of them have
+    a different page!
+- Added [JetBrains Mono]({{% relref "fonts/collections/monospace#jetbrains-mono" %}})
+
+
 ## 2025 {.h3}
 
 ### 18.08.2025 {.h5}
