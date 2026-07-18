@@ -56,7 +56,7 @@ the foundry QR Type in 2024. I think it has a cute vibe! Abay Emes has several o
 [Full listing](https://jdkfonty.mozellosite.com/fonts)
 
 What a goldmine! Designer and comic letterer Jakub D. Kočí made these fonts
-**free for commerical use**. They created made with Czech in mind.
+**free for commerical use**. They were made with Czech in mind.
 
 ### JDK Bushidoo
 
