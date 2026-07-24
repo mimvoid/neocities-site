@@ -32,6 +32,9 @@ lastmod = ['lastmod', ':fileModTime', ':default']
 [minify]
 minifyOutput = true
 
+[build]
+noJSConfigInAssets = true  # don't generate a .jsconfig.json file when building
+
 
 [markup.highlight]
 style = 'rose-pine-moon'

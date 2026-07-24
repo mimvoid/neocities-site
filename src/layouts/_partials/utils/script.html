@@ -1,4 +1,7 @@
-{{- $opts := dict "minify" true -}}
+{{- $opts := dict
+    "minify" true
+    "target" "es2015"
+-}}
 
 {{- with resources.Get . | js.Build $opts | fingerprint -}}
 <script

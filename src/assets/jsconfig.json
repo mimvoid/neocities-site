@@ -1,9 +1,10 @@
 {
- "compilerOptions": {
-  "paths": {
-   "*": [
-    "*"
-   ]
+  "compilerOptions": {
+    "target": "es2015",
+    "paths": {
+      "*": [
+        "*"
+      ]
+    }
   }
- }
 }
