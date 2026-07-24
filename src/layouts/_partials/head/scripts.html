@@ -1,8 +1,5 @@
-{{ if .Params.zoomable }}
-  {{ partialCached "utils/script" "ts/figureZoom/figureZoom.ts" "figureZoom" }}
-{{ end }}
-{{ if .HasShortcode "gallery" }}
-  {{ partialCached "utils/script" "ts/figureZoom/galleryZoom.ts" "galleryZoom" }}
+{{ if or .Params.zoomable (.HasShortcode "gallery") }}
+  {{ partialCached "utils/script" "ts/figureZoom.ts" "figureZoom" }}
 {{ end }}
 {{ partialCached "utils/script" "ts/themeToggle.ts" "themeToggle" }}
 {{ partialCached "utils/script" "ts/navToggle.ts" "navToggle" }}
