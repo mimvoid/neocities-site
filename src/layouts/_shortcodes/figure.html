@@ -6,13 +6,13 @@
     >
   {{- end -}}
 
-  {{- $u := urls.Parse (.Get "src") -}}
-  {{- $src := $u.String -}}
+  {{- $url := urls.Parse (.Get "src") -}}
+  {{- $src := $url.String -}}
   {{- /* HACK: detect image size if it's a resource */ -}}
   {{- $width := 0 -}}
   {{- $height := 0 -}}
-  {{- if not $u.IsAbs -}}
-    {{- with or (.Page.Resources.Get $u.Path) (resources.Get $u.Path) -}}
+  {{- if not $url.IsAbs -}}
+    {{- with or (.Page.Resources.Get $url.Path) (resources.Get $url.Path) -}}
       {{- $src = .RelPermalink -}}
       {{- $width = .Width -}}
       {{- $height = .Height -}}
@@ -31,15 +31,18 @@
   />
   {{- if .Get "link" }}</a>{{ end -}}
 
-  {{- if or (.Get "title") (.Get "caption") (.Get "attr") -}}
+  {{- $caption := .Get "caption" -}}
+  {{- $attr := .Get "attr" -}}
+  {{- $title := .Get "title" -}}
+  {{- if or $caption $attr $title -}}
     <figcaption>
-      {{- with .Get "title" }}<h4>{{ . }}</h4>{{ end -}}
-      {{- if or (.Get "caption") (.Get "attr") -}}
+      {{- with $title }}<h4>{{ . }}</h4>{{ end -}}
+      {{- if or $caption $attr -}}
         <p>
-          {{- .Get "caption" | markdownify }}
-          {{ with .Get "attrlink" -}}<a href="{{ . }}">{{ end }}
-          {{- .Get "attr" | markdownify -}}
-          {{ if .Get "attrlink" }}</a>{{ end }}
+          {{- markdownify $caption }}
+          {{ with .Get "attrlink" -}}
+            <a href="{{ . }}">{{- markdownify $attr -}}</a>
+          {{- end -}}
         </p>
       {{- end -}}
     </figcaption>
