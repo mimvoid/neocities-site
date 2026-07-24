@@ -1,6 +1,10 @@
-const toTypes = Array.from(document.getElementsByClassName("typewriter"));
+/**
+ * Animates elements with the "typewriter" class by adding characters at a set interval.
+ */
 
-toTypes.forEach((e: Element) => {
+const toAnimate = Array.from(document.getElementsByClassName("typewriter"));
+
+toAnimate.forEach((e: Element) => {
   const delay = Number(e.getAttribute("data-speed")) || 50;
 
   const fullText = e.innerHTML;
@@ -15,4 +19,4 @@ toTypes.forEach((e: Element) => {
       clearInterval(interval);
     }
   }, delay);
-})
+});

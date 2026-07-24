@@ -1,8 +1,12 @@
-const button = document.getElementById("theme_toggle");
+/**
+ * Animates the theme toggle button and theme transitions, if supported.
+ */
+
+const themeToggleButton = document.getElementById("theme_toggle");
 
 function setTheme(themeName: "light" | "dark") {
   document.documentElement.setAttribute("data-theme", themeName);
-  button?.setAttribute(
+  themeToggleButton?.setAttribute(
     "aria-label",
     `Change to ${themeName === "dark" ? "light" : "dark"} theme`,
   );
@@ -19,7 +23,7 @@ switch (localStorage.getItem("theme")) {
     localStorage.setItem("theme", "dark");
     break;
   case "light":
-    button?.setAttribute("aria-label", "Change to dark theme");
+    themeToggleButton?.setAttribute("aria-label", "Change to dark theme");
   default:
     break;
 }
@@ -33,11 +37,11 @@ const icon = document.getElementById("theme_toggle_icon");
 icon?.addEventListener("animationend", () => icon.classList.remove("spin"));
 
 // Implement the theme switcher
-button?.addEventListener("click", () => {
+themeToggleButton?.addEventListener("click", () => {
   if (document.startViewTransition) {
     document.startViewTransition(switchTheme);
   } else {
-    // Currently view transitions aren't in stable FireFox, very sad :(
+    // Older browsers don't support view transitions, very sad :(
     switchTheme();
   }
 

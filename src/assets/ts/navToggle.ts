@@ -1,3 +1,7 @@
+/**
+ * Animates the opening and closing of the navigation on mobile.
+ */
+
 const navOpener = document.getElementById("nav_opener")!;
 const navCloser = document.getElementById("nav_closer")!;
 const nav = document.getElementsByClassName("nav-wrapper")![0] as HTMLElement;

@@ -1,3 +1,7 @@
+/**
+ * Makes certain figures able to overlay the page when clicked.
+ */
+
 function addZoomedFigure(figure: Element) {
   const zoomedFigure = figure.cloneNode(true) as Element;
   zoomedFigure.classList.add("zoomed");
@@ -11,6 +15,8 @@ function addZoomedFigure(figure: Element) {
 }
 
 for (const gallery of document.querySelectorAll(".gallery-content")) {
+  // Add event listeners to whole galleries instead of each gallery figure,
+  // since it's more efficient.
   gallery.addEventListener("click", (event) => {
     if (
       event.target instanceof Element &&
