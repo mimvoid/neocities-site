@@ -2,26 +2,26 @@
  * Animates the opening and closing of the navigation on mobile.
  */
 
-const navOpener = document.getElementById("nav_opener")!;
-const navCloser = document.getElementById("nav_closer")!;
-const nav = document.getElementsByClassName("nav-wrapper")![0] as HTMLElement;
+const navOpener = document.getElementById("nav_opener");
+const navCloser = document.getElementById("nav_closer");
+const navWrapper = document.getElementById("nav_wrapper");
 
-navOpener.addEventListener("click", () => {
-  nav.style.display = "block";
-  nav.classList.add("box");
-  nav.classList.add("window-open");
-});
+if (navOpener && navCloser && navWrapper) {
+  navOpener.addEventListener("click", () => {
+    navWrapper.style.display = "block";
+    navWrapper.classList.add("window-open");
+  });
 
-navCloser.addEventListener("click", () => {
-  nav.classList.add("window-close");
-});
+  navCloser.addEventListener("click", () => {
+    navWrapper.classList.add("window-close");
+  });
 
-nav.addEventListener("animationend", () => {
-  if (nav.classList.contains("window-open")) {
-    nav.classList.remove("window-open");
-  } else if (nav.classList.contains("window-close")) {
-    nav.classList.remove("window-close");
-    nav.classList.remove("box");
-    nav.style.display = "none";
-  }
-});
+  navWrapper.addEventListener("animationend", () => {
+    if (navWrapper.classList.contains("window-open")) {
+      navWrapper.classList.remove("window-open");
+    } else {
+      navWrapper.classList.remove("window-close");
+      navWrapper.style.removeProperty("display"); // Reset to what the CSS says.
+    }
+  });
+}
