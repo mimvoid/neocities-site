@@ -124,6 +124,10 @@ figure.zoomed {
   filter: blur(3px) saturate(75%);
   image-rendering: pixelated;
 }
+figure.zoomed .tw-img {
+  filter: unset;
+  image-rendering: unset;
+}
 
 .tw {
   pointer-events: none;
