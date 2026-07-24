@@ -1,6 +1,9 @@
 {{- /* Helper to process Sass stylesheets after the resource was fetched */ -}}
 
-{{- $opts := dict "transpiler" "dartsass" -}}
+{{- $opts := dict
+    "transpiler" "dartsass"
+    "outputStyle" "compressed"
+-}}
 
 {{- /* Convert to CSS and minify */ -}}
 {{- with . | toCSS $opts | minify | fingerprint -}}
