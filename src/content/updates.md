@@ -6,6 +6,10 @@ date: 2025-02-09T19:48:23-05:00
 
 ## 2026 {.h3}
 
+### 24.07.2026 {.h5}
+
+- Made various minor tweaks in scripts and stylesheets
+
 ### 18.07.2026 {.h5}
 
 Hey, hey, I'm back!
