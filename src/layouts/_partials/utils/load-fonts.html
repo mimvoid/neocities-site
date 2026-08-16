@@ -1,7 +1,7 @@
 {{- $fontFace := resources.Get "scss/abstracts/_font-face.scss" -}}
 {{- $fonts := .Page.Resources.Get "fonts.scss" -}}
 
-{{- $resultPath := urls.JoinPath .Page.Path "fonts.scss" -}}
-{{- $style := slice $fontFace $fonts | resources.Concat $resultPath -}}
+{{- $outPath := urls.JoinPath .Page.Path "fonts.scss" -}}
+{{- $style := resources.Concat $outPath (slice $fontFace $fonts) -}}
 
 {{ partial "utils/style-got" $style }}
