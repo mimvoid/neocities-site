@@ -1,6 +1,6 @@
 basepageref = 'https://mimvoid.neocities.org/'
 baseURL = 'https://mimvoid.neocities.org/'
-languageCode = 'en-us'
+locale = 'en-us'
 
 title = "mimvoid's little corner"
 copyright = 'mimvoid © 2026'
@@ -14,13 +14,6 @@ summaryLength = 108
 from = '/**'
 status = 404
 to = '/not_found.html'
-
-
-[module]
-[[module.mounts]]
-source = 'content'
-target = 'content'
-excludeFiles = '**/*.zip'
 
 
 [security]
