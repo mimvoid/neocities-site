@@ -25,8 +25,17 @@ It includes code for neat little features like:
 
 - Importing fonts
 - Including icons
+- Masonry layout galleries
+- Polaroid-style images
+- Zoomed image overlays
 
 Further resources can be found on my [credits page](https://mimvoid.neocities.org/credits).
 
 I can't guarantee that the code will be pleasant to read, since this is a casual project with
 relatively loose standards. But I'll be happy if you still find it helpful!
+
+## License
+
+All code is under [GPLv3](./LICENSE).
+
+I reserve copyright on my content, including text and images, unless otherwise specified.
