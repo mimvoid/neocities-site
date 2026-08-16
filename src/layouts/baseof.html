@@ -25,7 +25,7 @@
               {{ partial "utils/svg" "ph-x" }}
             </button>
             {{ block "nav" . }}
-              {{ partialCached "nav/nav" . .CurrentSection }}
+              {{ partialCached "nav/nav" .CurrentSection .CurrentSection }}
             {{ end }}
           </div>
           {{ block "sidebar-extra" . }}{{ end }}

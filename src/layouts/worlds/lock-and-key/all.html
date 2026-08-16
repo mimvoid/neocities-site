@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "nav" }}
-  {{ partial "worlds/nav" "worlds/lock-and-key" }}
+  {{ partial "worlds/nav" (dict "world" "worlds/lock-and-key" "currentSection" .CurrentSection) }}
 {{ end }}
 
 {{ define "article-head" }}

@@ -1,11 +1,12 @@
-{{- $page := site.GetPage . -}}
+{{- $world := site.GetPage .world -}}
 <nav class="box">
   <details open>
-    {{ partial "nav/summary" $page }}
+    {{ partial "nav/summary" $world }}
     <div class="details-content">
-      {{- /* Recurse */ -}}
-      {{ partialCached "nav/recurse-sections" $page $page.Path }}
-      {{ range $page.RegularPages }}
+      {{ range .Sections }}
+        {{ partial "nav/nested-section" (dict "context" . "currentSection" $.currentSection) }}
+      {{ end }}
+      {{ range $world.RegularPages }}
         <p>{{ partial "utils/link-page" . }}</p>
       {{ end }}
     </div>

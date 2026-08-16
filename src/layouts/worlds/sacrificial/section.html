@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "nav" }}
-  {{ partialCached "worlds/nav" "worlds/sacrificial" "sacrificial" }}
+  {{ partial "worlds/nav" (dict "world" "worlds/sacrificial" "currentSection" .CurrentSection) }}
 {{ end }}
 
 {{ define "pre-body" }}
