@@ -19,16 +19,14 @@ Made with
 [md]: https://img.shields.io/badge/markdown-C9BBF9?logo=markdown&logoColor=20213A&style=for-the-badge
 [nix]: https://img.shields.io/badge/nix-B6AAF5?logo=nixos&logoColor=20213A&style=for-the-badge
 
-This is the source code for my [Neocities website][1].
+This is the source code for my [Neocities website](https://mimvoid.neocities.org).
 
 It includes code for neat little features like:
 
 - Importing fonts
 - Including icons
 
-Further resources can be found on my [credits page][2].
+Further resources can be found on my [credits page](https://mimvoid.neocities.org/credits).
 
-I can't guarantee that the code will be pleasant to read, since this is a casual project with relatively loose standards. But I'll be happy if you still find it helpful!
-
-[1]: https://mimvoid.neocities.org
-[2]: https://mimvoid.neocities.org/credits
+I can't guarantee that the code will be pleasant to read, since this is a casual project with
+relatively loose standards. But I'll be happy if you still find it helpful!
